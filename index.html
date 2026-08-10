@@ -215,14 +215,14 @@ body[data-cols="4"]{--col:98rem;--cols:4}
 }
 /* the looking glass: a frosted slab that lifts over the verse while you steer */
 .minimap:hover .mm-inner,.minimap:focus-within .mm-inner{
-  background:color-mix(in srgb, var(--n-surface) 86%, transparent);
-  -webkit-backdrop-filter:saturate(170%) blur(20px);
-  backdrop-filter:saturate(170%) blur(20px);
+  background:rgba(255,253,248,.38);
+  -webkit-backdrop-filter:saturate(150%) blur(16px);
+  backdrop-filter:saturate(150%) blur(16px);
   border-color:color-mix(in srgb, var(--n-border-strong) 55%, transparent);
   box-shadow:inset 0 1px 0 var(--n-bevel-hi),inset 0 -1px 0 var(--n-bevel-lo),var(--n-elev-3);
 }
 [data-theme="dark"] .minimap:hover .mm-inner,[data-theme="dark"] .minimap:focus-within .mm-inner{
-  background:color-mix(in srgb, var(--n-surface-raised) 90%, transparent);
+  background:rgba(24,29,38,.38);
 }
 .mm-row{
   display:flex;align-items:center;gap:12px;height:21px;padding:0 4px;
@@ -303,6 +303,15 @@ h1 .ar{
 }
 .chip .lab,.chip .big{min-width:0;overflow-wrap:anywhere}
 
+/* where the browser cannot blur a backdrop, the glass falls back to a fill */
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  .dock,.dock-btn,.minimap:hover .mm-inner,.minimap:focus-within .mm-inner{
+    background:var(--n-surface);
+  }
+  [data-theme="dark"] .dock,[data-theme="dark"] .dock-btn,
+  [data-theme="dark"] .minimap:hover .mm-inner{background:var(--n-surface-raised)}
+}
+
 /* ==========================================================================
    READING DOCK  -  the controls leave the page and float in a corner, so the
    poem owns the full column. A glass pill opens a glass panel above it.
@@ -314,14 +323,14 @@ h1 .ar{
   color:var(--n-text-primary);cursor:pointer;
   padding:10px 16px 10px 13px;border-radius:var(--n-r-pill);
   border:1px solid color-mix(in srgb, var(--n-border-strong) 62%, transparent);
-  background:color-mix(in srgb, var(--n-surface) 88%, transparent);
-  -webkit-backdrop-filter:saturate(180%) blur(20px);
-  backdrop-filter:saturate(180%) blur(20px);
+  background:rgba(255,253,248,.44);
+  -webkit-backdrop-filter:saturate(150%) blur(16px);
+  backdrop-filter:saturate(150%) blur(16px);
   box-shadow:inset 0 1px 0 var(--n-bevel-hi),inset 0 -1px 0 var(--n-bevel-lo),var(--n-elev-3);
   transition:transform var(--n-d-fast) var(--n-ease),box-shadow var(--n-d-fast) var(--n-ease),
              background var(--n-d-base) var(--n-ease),color var(--n-d-base) var(--n-ease);
 }
-[data-theme="dark"] .dock-btn{background:color-mix(in srgb, var(--n-surface-raised) 90%, transparent)}
+[data-theme="dark"] .dock-btn{background:rgba(26,31,41,.44)}
 .dock-btn:hover{transform:translateY(-1px);box-shadow:inset 0 1px 0 var(--n-bevel-hi),var(--n-elev-3)}
 .dock-btn:active{transform:translateY(1px)}
 .dock-btn svg{width:16px;height:16px;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}
@@ -337,9 +346,9 @@ h1 .ar{
   max-height:min(74vh,640px);overflow-y:auto;overscroll-behavior:contain;
   padding:15px 18px 18px;border-radius:20px;
   border:1px solid color-mix(in srgb, var(--n-border-strong) 58%, transparent);
-  background:color-mix(in srgb, var(--n-surface) 92%, transparent);
-  -webkit-backdrop-filter:saturate(180%) blur(24px);
-  backdrop-filter:saturate(180%) blur(24px);
+  background:rgba(255,253,248,.38);
+  -webkit-backdrop-filter:saturate(150%) blur(16px);
+  backdrop-filter:saturate(150%) blur(16px);
   box-shadow:inset 0 1px 0 var(--n-bevel-hi),inset 0 -1px 0 var(--n-bevel-lo),var(--n-elev-3);
   font-family:var(--n-font-ui);
   opacity:0;visibility:hidden;transform:translateY(10px) scale(.985);transform-origin:100% 100%;
@@ -348,7 +357,7 @@ h1 .ar{
   transition:opacity var(--n-d-base) var(--n-ease),transform var(--n-d-base) var(--n-ease),
              visibility 0s linear var(--n-d-base);
 }
-[data-theme="dark"] .dock{background:color-mix(in srgb, var(--n-surface-raised) 93%, transparent)}
+[data-theme="dark"] .dock{background:rgba(24,29,38,.38)}
 .dock.on{
   opacity:1;visibility:visible;transform:none;
   transition:opacity var(--n-d-base) var(--n-ease),transform var(--n-d-base) var(--n-ease),visibility 0s;
@@ -543,8 +552,14 @@ footer a:hover{border-bottom-color:var(--n-text-primary)}
   [data-arface="plex"] .pane.ar .line{font-size:18.5px}
   .pane.lat .line{font-size:17.5px}
 
-  /* on a phone the dock becomes a bottom sheet, thumb first */
-  .dock-btn{right:14px;bottom:14px;padding:11px 16px 11px 14px}
+  /* on a phone the dock becomes a bottom sheet, thumb first, and the pill is
+     sized and ringed so it is unmistakably the way in */
+  .dock-btn{
+    right:14px;bottom:14px;padding:13px 20px 13px 16px;font-size:14px;gap:10px;
+    border-color:color-mix(in srgb, var(--n-accent) 55%, var(--n-border-strong));
+    box-shadow:inset 0 1px 0 var(--n-bevel-hi),0 0 0 4px var(--n-accent-subtle),var(--n-elev-3);
+  }
+  .dock-btn svg{width:18px;height:18px}
   .dock{
     right:10px;left:10px;bottom:70px;width:auto;
     max-height:66vh;border-radius:22px;padding:14px 16px 16px;
