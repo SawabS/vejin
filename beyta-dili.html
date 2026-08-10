@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-pref="system">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Bêyta Dilî, Feqiyê Teyran</title>
+<meta name="description" content="Bêyta Dilî by Feqiyê Teyran, in Kurdish (Arabic script), Kurmanji (Latin), Arabic and English.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Amiri:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Vazirmatn:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ==========================================================================
+   TOKENS  -  Noor UI (github.com/SawabS/noor-ui), warmed towards sepia
+   Monochromatic surfaces, tonal hierarchy, colour reserved for state only.
+   ========================================================================== */
+:root{
+  --n-canvas:#F7F4ED;
+  --n-canvas-inset:#F1ECE2;
+  --n-surface:#FFFDF8;
+  --n-surface-raised:#F3EEE4;
+  --n-surface-hover:#EDE7DA;
+  --n-surface-active:#E4DCCC;
+  --n-text-primary:#1D1913;
+  --n-text-secondary:#6A6155;
+  --n-text-muted:#978D7E;
+  --n-border:#E6DFD1;
+  --n-border-strong:#D3CAB8;
+  --n-primary-action:#1D1913;
+  --n-primary-action-text:#FFFDF8;
+  --n-focus-ring:#7A7062;
+  /* one warm hue, used only to mark the original tongue */
+  --n-accent:#8A6A32;
+  --n-accent-subtle:rgba(138,106,50,.11);
+  /* bevel + elevation: lit from above, low-opacity tonal shadows */
+  --n-bevel-hi:rgba(255,255,255,1);
+  --n-bevel-lo:rgba(29,25,19,.055);
+  --n-card-top:#FDFBF6;   --n-card-bot:#F1ECE1;
+  --n-cardin-top:#FFFDF9; --n-cardin-bot:#F7F3EA;
+  --n-elev-1:0 1px 1px rgba(29,25,19,.04),0 3px 8px -4px rgba(29,25,19,.10);
+  --n-elev-2:0 1px 2px rgba(29,25,19,.05),0 10px 24px -12px rgba(29,25,19,.16);
+  --n-elev-3:0 2px 5px rgba(29,25,19,.07),0 20px 44px -18px rgba(29,25,19,.26);
+  --n-well:inset 0 1px 3px rgba(29,25,19,.08),inset 0 0 0 1px rgba(29,25,19,.02);
+
+  /* type */
+  --n-font-body:'Source Serif 4',Charter,Georgia,Cambria,'Times New Roman',serif;
+  --n-font-ui:'IBM Plex Sans',Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --n-font-mono:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;
+  /* Kurdish defaults to IBM Plex Sans Arabic: it carries the Behdini letters, it is
+     built as a sibling of the Plex chrome, and Naskh stays one click away.
+     Noto Naskh backs it up per glyph for anything Plex is missing. */
+  --n-font-ku:'IBM Plex Sans Arabic','Noto Naskh Arabic','Segoe UI',sans-serif;
+  --n-font-ar:'Amiri','Noto Naskh Arabic','Segoe UI',serif;
+
+  /* one line box height for every script, so verse lines sit level across panes */
+  --lh:44px;
+
+  /* geometry + motion (Noor scale) */
+  --n-r-xs:6px; --n-r-sm:8px; --n-r-md:12px; --n-r-lg:16px; --n-r-pill:9999px;
+  --n-d-fast:120ms; --n-d-base:180ms; --n-d-slow:260ms; --n-ease:cubic-bezier(.4,0,.2,1);
+
+  /* layout: the reading column widens with the number of open panes */
+  --col:46rem;
+  --nav-h:57px;
+  --bar-h:0px;
+
+  /* moonlight falls from above; on the warm ground it reads as a clear centre */
+  --moon:
+    radial-gradient(110% 86% at 50% -24%, rgba(255,255,255,1) 0%, rgba(255,255,255,.82) 27%, rgba(255,255,255,.38) 53%, rgba(255,255,255,.10) 76%, rgba(255,255,255,0) 100%),
+    linear-gradient(180deg,rgba(255,255,255,.18) 0%,rgba(255,255,255,.04) 58%,transparent 100%);
+}
+[data-theme="dark"]{
+  --n-canvas:#0C0D10;
+  --n-canvas-inset:#131519;
+  --n-surface:#171A1F;
+  --n-surface-raised:#1E2127;
+  --n-surface-hover:#252932;
+  --n-surface-active:#2D323C;
+  --n-text-primary:#EDF0F5;
+  --n-text-secondary:#A3AAB8;
+  --n-text-muted:#6E7683;
+  --n-border:#292D35;
+  --n-border-strong:#3B414C;
+  --n-primary-action:#EDF0F5;
+  --n-primary-action-text:#0F1115;
+  --n-focus-ring:#A3AAB8;
+  /* the mark on the original tongue turns cool at night, no gold in the dark */
+  --n-accent:#8FB2E8;
+  --n-accent-subtle:rgba(143,178,232,.15);
+  --n-bevel-hi:rgba(255,255,255,.075);
+  --n-bevel-lo:rgba(0,0,0,.45);
+  --n-card-top:#212630;   --n-card-bot:#14161B;
+  --n-cardin-top:#1C2027; --n-cardin-bot:#131519;
+  --n-elev-1:0 1px 1px rgba(0,0,0,.45),0 3px 8px -4px rgba(0,0,0,.55);
+  --n-elev-2:0 1px 2px rgba(0,0,0,.5),0 10px 24px -12px rgba(0,0,0,.7);
+  --n-elev-3:0 2px 5px rgba(0,0,0,.55),0 20px 44px -18px rgba(0,0,0,.8);
+  --n-well:inset 0 1px 4px rgba(0,0,0,.55),inset 0 0 0 1px rgba(0,0,0,.25);
+  /* on dark ground the same light is a soft white glow spilling down from the top */
+  --moon:
+    radial-gradient(110% 86% at 50% -24%, rgba(255,255,255,.235) 0%, rgba(255,255,255,.125) 30%, rgba(255,255,255,.052) 57%, rgba(255,255,255,.016) 78%, rgba(255,255,255,0) 100%),
+    linear-gradient(180deg,rgba(255,255,255,.035) 0%,rgba(255,255,255,.012) 62%,transparent 100%);
+}
+
+/* the Kurdish pane can change face from the control bar. All three carry the
+   Behdini letters (ۆ ێ ڤ ڕ ە), which most Arabic faces quietly do not. */
+[data-face="vazir"]{--n-font-ku:'Vazirmatn','Noto Sans Arabic','Segoe UI',sans-serif}
+[data-face="naskh"]{--n-font-ku:'Noto Naskh Arabic','Amiri','Segoe UI',serif}
+
+/* ==========================================================================
+   BASE
+   ========================================================================== */
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + var(--bar-h) + 20px)}
+body{
+  position:relative;
+  background:var(--n-canvas);color:var(--n-text-primary);
+  font-family:var(--n-font-body);font-size:19px;line-height:1.65;letter-spacing:-.003em;
+  -webkit-font-smoothing:antialiased;
+  transition:background var(--n-d-base) var(--n-ease),color var(--n-d-base) var(--n-ease);
+}
+::selection{background:var(--n-surface-active)}
+:focus-visible{outline:2px solid var(--n-focus-ring);outline-offset:2px;border-radius:4px}
+*::-webkit-scrollbar{width:10px;height:10px}
+*::-webkit-scrollbar-track{background:transparent}
+*::-webkit-scrollbar-thumb{background:var(--n-border-strong);border-radius:var(--n-r-pill);border:3px solid transparent;background-clip:content-box}
+html{scrollbar-width:thin;scrollbar-color:var(--n-border-strong) transparent}
+
+/* ==========================================================================
+   MOONLIGHT  -  a single static light source at the top of the page
+   ========================================================================== */
+.sky{
+  position:fixed;inset:0;height:100vh;
+  z-index:0;pointer-events:none;
+  background:var(--moon);
+  transform:translateZ(0);
+}
+.nav,.page,.minimap,#prog,.bar{position:relative}
+.page{z-index:1}
+
+/* ==========================================================================
+   NAVBAR
+   ========================================================================== */
+.nav{
+  position:sticky;top:0;z-index:1100;height:var(--nav-h);
+  display:flex;align-items:center;gap:14px;
+  padding:0 clamp(16px,4vw,32px);
+  background:rgba(230,224,212,.44);
+  -webkit-backdrop-filter:saturate(118%) blur(8px);
+  backdrop-filter:saturate(118%) blur(8px);
+  border-bottom:1px solid color-mix(in srgb, var(--n-border-strong) 38%, transparent);
+  box-shadow:inset 0 1px 0 color-mix(in srgb, var(--n-bevel-hi) 28%, transparent),0 6px 20px rgba(0,0,0,.035);
+  font-family:var(--n-font-ui);
+}
+[data-theme="dark"] .nav{
+  background:rgba(6,8,12,.46);
+  border-bottom-color:rgba(255,255,255,.09);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.045),0 8px 24px rgba(0,0,0,.16);
+}
+.nav-mark{font-size:14px;font-weight:600;letter-spacing:-.01em;color:var(--n-text-primary);text-decoration:none;white-space:nowrap}
+.nav-mark span{color:var(--n-text-muted);font-weight:400}
+.nav-spacer{flex:1}
+.nav-read{
+  font-size:12.5px;color:var(--n-text-secondary);white-space:nowrap;
+  border-left:1px solid var(--n-border);padding-left:14px;
+}
+.nav-gh{
+  display:flex;align-items:center;gap:7px;flex:none;text-decoration:none;
+  font-size:12.5px;font-weight:500;color:var(--n-text-secondary);
+  border:1px solid var(--n-border-strong);border-radius:var(--n-r-pill);
+  background:linear-gradient(180deg,var(--n-cardin-top),var(--n-cardin-bot));
+  box-shadow:inset 0 1px 0 var(--n-bevel-hi),var(--n-elev-1);
+  padding:5px 12px 5px 10px;
+  transition:transform var(--n-d-fast) var(--n-ease),box-shadow var(--n-d-fast) var(--n-ease),color var(--n-d-fast) var(--n-ease);
+}
+.nav-gh:hover{transform:translateY(-1px);color:var(--n-text-primary);box-shadow:inset 0 1px 0 var(--n-bevel-hi),var(--n-elev-2)}
+.nav-gh svg{width:15px;height:15px;fill:currentColor;flex:none}
+.iconbtn{
+  width:34px;height:34px;display:grid;place-items:center;flex:none;
+  background:transparent;border:1px solid transparent;border-radius:var(--n-r-xs);
+  color:var(--n-text-secondary);cursor:pointer;
+  transition:background var(--n-d-fast) var(--n-ease),color var(--n-d-fast) var(--n-ease);
+}
+.iconbtn:hover{background:var(--n-surface-hover);color:var(--n-text-primary)}
+.iconbtn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+#prog{position:fixed;top:0;left:0;height:2px;width:0;background:var(--n-text-primary);z-index:1200;transition:width .1s linear}
+
+/* ==========================================================================
+   PAGE COLUMN  -  widens as more languages are opened
+   ========================================================================== */
+.page{width:min(100% - 2.5rem, var(--col));margin:0 auto;padding-bottom:120px}
+body[data-cols="1"]{--col:44rem;--cols:1}
+body[data-cols="2"]{--col:62rem;--cols:2}
+body[data-cols="3"]{--col:82rem;--cols:3}
+body[data-cols="4"]{--col:98rem;--cols:4}
+
+/* ==========================================================================
+   NOTION-STYLE HOVER MINIMAP
+   ========================================================================== */
+.minimap{
+  position:fixed;left:0;top:50%;transform:translateY(-50%);z-index:1000;
+  padding:20px 16px 20px 12px;font-family:var(--n-font-ui);
+}
+.mm-inner{display:flex;flex-direction:column;gap:1px;padding:8px}
+.mm-row{
+  display:flex;align-items:center;gap:12px;height:21px;padding:0 4px;
+  text-decoration:none;transform:translateX(0);
+  transition:transform var(--n-d-slow) var(--n-ease),opacity var(--n-d-base) var(--n-ease);
+  transition-delay:calc(var(--i,0) * 9ms);
+}
+.minimap:hover .mm-row,.minimap:focus-within .mm-row{transform:translateX(9px)}
+.mm-row:hover .mm-line{background:var(--n-text-primary);width:24px}
+.mm-row:hover .mm-label{color:var(--n-text-primary)}
+.mm-line{
+  height:2px;width:15px;flex:none;border-radius:2px;
+  background:var(--n-border-strong);
+  transition:width var(--n-d-base) var(--n-ease),background var(--n-d-base) var(--n-ease);
+}
+.mm-row.on .mm-line{background:var(--n-text-primary);width:22px}
+.mm-label{
+  font-size:12.5px;line-height:1.2;white-space:nowrap;color:var(--n-text-secondary);
+  max-width:0;opacity:0;overflow:hidden;text-overflow:ellipsis;
+  transition:max-width var(--n-d-slow) var(--n-ease),opacity var(--n-d-base) var(--n-ease),color var(--n-d-fast) var(--n-ease);
+  transition-delay:calc(var(--i,0) * 9ms);
+}
+.mm-label b{font-family:var(--n-font-mono);font-size:11px;font-weight:600;color:var(--n-text-muted);margin-right:7px}
+.mm-row.on .mm-label{color:var(--n-text-primary);font-weight:600}
+.mm-row.on .mm-label b{color:var(--n-text-primary)}
+.minimap:hover .mm-label,.minimap:focus-within .mm-label{
+  max-width:min(220px, max(0px, calc((100vw - var(--col))/2 - 88px)));opacity:1;
+}
+/* the minimap lives in the gutter, so it leaves when the gutter does */
+@media(max-width:1240px){.minimap{display:none}}
+@media(max-width:1440px){body[data-cols="3"] .minimap{display:none}}
+@media(max-width:1680px){body[data-cols="4"] .minimap{display:none}}
+
+/* ==========================================================================
+   HERO
+   ========================================================================== */
+.hero{padding:64px 0 4px}
+.eyebrow{font-family:var(--n-font-ui);font-size:13px;color:var(--n-text-secondary);display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+.eyebrow b{font-weight:500;color:var(--n-text-primary)}
+.eyebrow span:not(:last-child):after{content:'·';margin-left:9px;color:var(--n-border-strong)}
+h1{
+  font-family:var(--n-font-ui);font-weight:700;
+  font-size:clamp(38px,6vw,58px);line-height:1.06;letter-spacing:-.03em;
+  margin:18px 0 0;text-wrap:balance;
+}
+h1 .ar{
+  display:block;font-family:var(--n-font-ku);font-weight:400;direction:rtl;text-align:left;
+  font-size:clamp(28px,4.2vw,40px);line-height:1.55;letter-spacing:0;
+  color:var(--n-text-secondary);margin-top:6px;
+}
+.byline{
+  font-family:var(--n-font-ui);font-size:15px;color:var(--n-text-secondary);
+  margin-top:16px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+}
+.byline b{color:var(--n-text-primary);font-weight:600}
+.byline .rule{flex:1;height:1px;background:var(--n-border);min-width:24px}
+.standfirst{font-size:20px;line-height:1.6;color:var(--n-text-secondary);margin-top:22px}
+.standfirst strong{color:var(--n-text-primary);font-weight:600}
+.standfirst em{font-style:italic}
+
+/* facts strip, built from the .chip language of the reference */
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:10px;margin:32px 0 6px}
+.chip{
+  border:1px solid var(--n-border);border-radius:var(--n-r-lg);
+  background:linear-gradient(180deg,var(--n-card-top),var(--n-card-bot));
+  box-shadow:inset 0 1px 0 var(--n-bevel-hi),inset 0 -1px 0 var(--n-bevel-lo),var(--n-elev-2);
+  padding:14px 16px;min-width:0;font-family:var(--n-font-ui);
+  display:flex;flex-direction:column;justify-content:center;
+}
+.chip .lab{font-size:10.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--n-text-secondary);display:flex;align-items:center;gap:8px}
+.chip .lab:before{content:'';width:6px;height:6px;border-radius:50%;flex:none;background:var(--n-text-muted);box-shadow:0 0 0 3px var(--n-surface-hover)}
+.chip .big{font-size:19px;font-weight:700;letter-spacing:-.02em;margin-top:4px;color:var(--n-text-primary);line-height:1.25}
+.chip .big.rtl{font-family:var(--n-font-ar);direction:rtl;text-align:left;font-weight:400;font-size:22px;line-height:1.6}
+.chip.accent{background:linear-gradient(180deg,var(--n-accent-subtle),transparent 62%),linear-gradient(180deg,var(--n-card-top),var(--n-card-bot))}
+.chip.accent .lab{color:var(--n-accent)}
+.chip.accent .lab:before{background:var(--n-accent);box-shadow:0 0 0 3px var(--n-accent-subtle)}
+.chip .sub{font-family:var(--n-font-mono);font-size:10.5px;color:var(--n-text-secondary);margin-top:5px}
+
+/* ==========================================================================
+   CONTROL BAR  -  sticky under the navbar, frosted like it
+   ========================================================================== */
+.bar{
+  position:sticky;top:var(--nav-h);z-index:1050;margin:38px 0 0;
+  padding:14px 0 12px;
+  background:color-mix(in srgb, var(--n-canvas) 78%, transparent);
+  -webkit-backdrop-filter:saturate(118%) blur(10px);
+  backdrop-filter:saturate(118%) blur(10px);
+  border-bottom:1px solid var(--n-border);
+  font-family:var(--n-font-ui);
+}
+.bar-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.bar-side{display:flex;align-items:center;gap:9px;margin-left:auto}
+.bar-row + .bar-row{margin-top:10px}
+.bar-lab{
+  font-size:10.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--n-text-muted);flex:none;width:64px;
+}
+.tab{
+  font-family:var(--n-font-ui);font-size:12.5px;font-weight:500;
+  background:linear-gradient(180deg,var(--n-cardin-top),var(--n-cardin-bot));
+  border:1px solid var(--n-border-strong);color:var(--n-text-secondary);
+  border-radius:var(--n-r-pill);padding:6px 14px;cursor:pointer;
+  display:inline-flex;align-items:center;gap:8px;
+  box-shadow:inset 0 1px 0 var(--n-bevel-hi),var(--n-elev-1);
+  transition:transform var(--n-d-fast) var(--n-ease),box-shadow var(--n-d-fast) var(--n-ease),color var(--n-d-fast) var(--n-ease),background var(--n-d-fast) var(--n-ease);
+}
+.tab:hover{transform:translateY(-1px);color:var(--n-text-primary);box-shadow:inset 0 1px 0 var(--n-bevel-hi),var(--n-elev-2)}
+.tab:active{transform:translateY(1px);box-shadow:var(--n-well)}
+.tab.on{background:var(--n-primary-action);border-color:transparent;color:var(--n-primary-action-text);box-shadow:inset 0 1px 0 rgba(255,255,255,.16),var(--n-elev-2)}
+.tab .dot{width:7px;height:7px;border-radius:50%;flex:none;background:var(--n-border-strong);transition:background var(--n-d-fast) var(--n-ease)}
+.tab.on .dot{background:var(--n-primary-action-text)}
+.tab.rtl .name{font-family:var(--n-font-ku);font-size:14px}
+.tab.ghost{border-style:dashed;box-shadow:none;background:transparent}
+.tab.ghost.on{
+  border-style:solid;border-color:transparent;
+  background:var(--n-primary-action);color:var(--n-primary-action-text);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.16),var(--n-elev-2);
+}
+
+.search{
+  display:flex;align-items:center;gap:8px;flex:1;min-width:190px;max-width:340px;
+  background:var(--n-canvas-inset);border:1px solid var(--n-border);border-radius:var(--n-r-pill);
+  box-shadow:var(--n-well);padding:0 12px;height:32px;color:var(--n-text-muted);
+}
+.search svg{width:14px;height:14px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
+.search input{
+  flex:1;min-width:0;border:0;background:transparent;outline:none;
+  font-family:var(--n-font-ui);font-size:13px;color:var(--n-text-primary);
+}
+.search input::placeholder{color:var(--n-text-muted)}
+.count{font-family:var(--n-font-mono);font-size:11px;color:var(--n-text-secondary);white-space:nowrap;margin-left:auto}
+
+/* ==========================================================================
+   STANZAS
+   ========================================================================== */
+.poem{margin-top:26px}
+.st{
+  border:1px solid var(--n-border);border-radius:var(--n-r-lg);
+  background:linear-gradient(180deg,var(--n-card-top),var(--n-card-bot));
+  box-shadow:inset 0 1px 0 var(--n-bevel-hi),inset 0 -1px 0 var(--n-bevel-lo),var(--n-elev-1);
+  margin:0 0 14px;overflow:hidden;
+  scroll-margin-top:calc(var(--nav-h) + var(--bar-h) + 24px);
+  transition:transform var(--n-d-base) var(--n-ease),box-shadow var(--n-d-base) var(--n-ease),border-color var(--n-d-base) var(--n-ease);
+}
+.st:hover{transform:translateY(-1px);box-shadow:inset 0 1px 0 var(--n-bevel-hi),inset 0 -1px 0 var(--n-bevel-lo),var(--n-elev-2)}
+.st:target{border-color:var(--n-accent);box-shadow:inset 0 1px 0 var(--n-bevel-hi),0 0 0 1px var(--n-accent-subtle),var(--n-elev-2)}
+.st-head{
+  display:flex;align-items:center;gap:12px;
+  padding:9px 16px;border-bottom:1px solid var(--n-border);
+  background:linear-gradient(180deg,var(--n-cardin-top),var(--n-cardin-bot));
+  font-family:var(--n-font-ui);
+}
+.snum{
+  font-family:var(--n-font-mono);font-size:11.5px;font-weight:600;letter-spacing:.02em;
+  color:var(--n-text-secondary);text-decoration:none;
+  border:1px solid var(--n-border-strong);border-radius:var(--n-r-pill);
+  background:linear-gradient(180deg,var(--n-card-top),var(--n-card-bot));
+  box-shadow:inset 0 1px 0 var(--n-bevel-hi),var(--n-elev-1);
+  padding:2px 11px;flex:none;
+  transition:color var(--n-d-fast) var(--n-ease),border-color var(--n-d-fast) var(--n-ease)}
+.snum:hover{color:var(--n-text-primary);border-color:var(--n-text-primary)}
+.st-rule{flex:1;height:1px;background:var(--n-border)}
+.st-hint{font-family:var(--n-font-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--n-text-muted)}
+
+/* One grid for the whole stanza. Each pane subgrids the shared rows, so the
+   label sits in row 1 and verse line n sits in row n+1 in every language at
+   once. A line that wraps grows its row for all panes together, which is what
+   keeps the columns honest however many are open. Block padding lives on the
+   container: padding on a subgrid item would shift its rows out of true. */
+.panes{
+  display:grid;
+  grid-template-columns:repeat(var(--cols,2),minmax(0,1fr));
+  grid-template-rows:auto repeat(var(--rows,4),auto);
+  padding-block:17px 20px;
+}
+.pane{
+  display:grid;grid-template-rows:subgrid;grid-row:1 / -1;
+  padding-inline:22px;min-width:0;
+  border-left:1px solid var(--n-border);
+}
+.pane:first-child{border-left:0}
+@supports not (grid-template-rows:subgrid){
+  .pane{display:block}
+}
+.pane-lab{
+  font-family:var(--n-font-ui);font-size:10px;font-weight:600;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--n-text-muted);
+  display:flex;align-items:center;gap:7px;height:15px;line-height:15px;
+  padding-bottom:14px;box-sizing:content-box;white-space:nowrap;overflow:hidden;
+}
+.pane-lab:before{content:'';width:5px;height:5px;border-radius:50%;background:var(--n-border-strong);flex:none}
+.pane.is-src .pane-lab{color:var(--n-accent)}
+.pane.is-src .pane-lab:before{background:var(--n-accent)}
+.line{display:block}
+.line{display:block;line-height:var(--lh);min-height:var(--lh);text-wrap:pretty}
+.pane.lat .line{font-family:var(--n-font-body);font-size:18px;color:var(--n-text-primary)}
+.pane.lat.en .line{font-style:italic;letter-spacing:-.005em}
+.pane.rtl{direction:rtl;text-align:right}
+.pane.rtl .pane-lab{direction:ltr;justify-content:flex-start}
+.pane.ku .line{font-family:var(--n-font-ku);font-size:19.5px;color:var(--n-text-primary)}
+.pane.ar .line{font-family:var(--n-font-ar);font-size:23px;color:var(--n-text-primary)}
+/* each face carries its own optical size: the naskh runs small, the sans runs large */
+[data-face="vazir"] .pane.ku .line{font-size:20.5px}
+[data-face="naskh"] .pane.ku .line{font-size:22px}
+mark{background:var(--n-accent-subtle);color:inherit;border-radius:3px;padding:0 2px;box-shadow:inset 0 -1px 0 var(--n-accent)}
+
+.empty{
+  border:1px dashed var(--n-border-strong);border-radius:var(--n-r-lg);
+  padding:46px 24px;text-align:center;font-family:var(--n-font-ui);
+  color:var(--n-text-secondary);font-size:14.5px;
+}
+.empty b{display:block;color:var(--n-text-primary);font-size:16px;font-weight:600;margin-bottom:6px}
+
+footer{
+  border-top:1px solid var(--n-border);margin-top:56px;padding-top:22px;
+  font-family:var(--n-font-ui);font-size:12.5px;color:var(--n-text-secondary);
+  display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;
+}
+footer a{color:var(--n-text-primary);text-decoration:none;border-bottom:1px solid var(--n-border-strong)}
+footer a:hover{border-bottom-color:var(--n-text-primary)}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+/* When a column would get too narrow to hold a line of verse, the panes stop
+   being columns and become stacked blocks instead. Three panes give up at
+   1150px, four at 1400px, everything at 900px. */
+@media(max-width:1400px){
+  body[data-cols="4"]{--col:46rem}
+  body[data-cols="4"] .panes{grid-template-columns:1fr;grid-template-rows:none;padding-block:0}
+  body[data-cols="4"] .pane{display:block;grid-row:auto;padding:16px 20px 18px;border-left:0;border-top:1px solid var(--n-border)}
+  body[data-cols="4"] .pane:first-child{border-top:0}
+}
+@media(max-width:1150px){
+  body[data-cols="3"]{--col:46rem}
+  body[data-cols="3"] .panes{grid-template-columns:1fr;grid-template-rows:none;padding-block:0}
+  body[data-cols="3"] .pane{display:block;grid-row:auto;padding:16px 20px 18px;border-left:0;border-top:1px solid var(--n-border)}
+  body[data-cols="3"] .pane:first-child{border-top:0}
+}
+@media(max-width:900px){
+  body{--col:46rem}
+  .panes{grid-template-columns:1fr;grid-template-rows:none;padding-block:0}
+  .pane{display:block;grid-row:auto;padding:16px 20px 18px;border-left:0;border-top:1px solid var(--n-border)}
+  .pane:first-child{border-top:0}
+  .bar-lab{width:100%}
+  .bar-side{margin-left:0}
+}
+@media(max-width:640px){
+  body{font-size:18px;--lh:40px}
+  .nav-read{display:none}
+  .hero{padding-top:44px}
+  .pane{padding:16px 18px 18px}
+  .search{max-width:none}
+}
+/* ==========================================================================
+   COMET CURSOR  -  theme-aware luminous core with a continuous tapered trail
+   ========================================================================== */
+:root{
+  --cursor-core:#1D1913;
+  --cursor-rgb:29,25,19;
+  --cursor-glow:rgba(29,25,19,.25);
+  --cursor-halo:rgba(29,25,19,.10);
+}
+[data-theme="dark"]{
+  --cursor-core:#FFFFFF;
+  --cursor-rgb:255,255,255;
+  --cursor-glow:rgba(255,255,255,.52);
+  --cursor-halo:rgba(255,255,255,.18);
+}
+@media (pointer:fine){
+  html.comet-enabled,html.comet-enabled *{cursor:none!important}
+  html.comet-enabled input{caret-color:var(--n-text-primary)}
+  .comet-trail{
+    position:fixed;inset:0;width:100vw;height:100vh;
+    pointer-events:none;z-index:4999;opacity:0;
+    transition:opacity 140ms ease;
+  }
+  .comet-core{
+    position:fixed;left:0;top:0;pointer-events:none;z-index:5000;
+    width:7px;height:7px;border-radius:50%;
+    transform:translate3d(-100px,-100px,0);opacity:0;
+    background:var(--cursor-core);
+    box-shadow:0 0 5px 1.5px var(--cursor-glow),0 0 14px 5px var(--cursor-halo);
+    transition:opacity 120ms ease;will-change:transform,opacity;
+  }
+  .comet-core.is-visible,.comet-trail.is-visible{opacity:1}
+}
+@media (pointer:coarse){.comet-core,.comet-trail{display:none!important}}
+
+@media(prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms!important;transition-duration:.01ms!important;animation-iteration-count:1!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body data-cols="2">
+<canvas class="comet-trail" id="cometTrail" aria-hidden="true"></canvas>
+<div class="comet-core" id="cometCore" aria-hidden="true"></div>
+<div class="sky" aria-hidden="true"></div>
+<div id="prog"></div>
+
+<header class="nav">
+  <a class="nav-mark" href="#top">Bêyta Dilî <span>/ Feqiyê Teyran</span></a>
+  <div class="nav-spacer"></div>
+  <span class="nav-read">84 stanzas · 336 lines</span>
+  <a class="nav-gh" href="https://github.com/SawabS" target="_blank" rel="noopener noreferrer" title="Built by SawabS on GitHub">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+    <span>SawabS</span>
+  </a>
+  <button class="iconbtn" id="themeBtn" aria-label="Switch colour theme" title="Theme: follows system">
+    <svg id="themeIcon" viewBox="0 0 24 24"></svg>
+  </button>
+</header>
+
+<nav class="minimap" id="minimap" aria-label="Stanza navigation"><div class="mm-inner" id="mmInner"></div></nav>
+
+<div class="page" id="top">
+
+<header class="hero">
+  <div class="eyebrow"><span>Dîwana Feqiyê Teyran</span><b>Beyt</b><span>1041 AH / c. 1631 CE</span></div>
+  <h1>Bêyta Dilî<span class="ar" dir="rtl" lang="ku">بەیتا دلی</span></h1>
+  <div class="byline"><span>by <b>Feqiyê Teyran</b> (1590–1660)</span><span class="rule"></span><span>Kurmanji · Behdinî</span></div>
+
+  <p class="standfirst">Eighty-four stanzas addressed to a sleeping heart. Feqiyê Teyran, the earliest Kurdish poet whose name and voice survive intact, spends the whole poem shaking one listener awake: <strong>the world turns, the evening has already come, and the heart is still dozing.</strong> The refrain returns each time on the same open <em>-are</em> rhyme, so the argument advances while the sound stays put.</p>
+
+  <div class="facts">
+    <div class="chip accent">
+      <span class="lab">Original</span>
+      <span class="big">Kurmanji</span>
+      <span class="sub">ARABIC + LATIN SCRIPT</span>
+    </div>
+    <div class="chip">
+      <span class="lab">Form</span>
+      <span class="big">Beyt</span>
+      <span class="sub">4 LINES × 84 STANZAS</span>
+    </div>
+    <div class="chip">
+      <span class="lab">Metre</span>
+      <span class="big rtl" dir="rtl">مفاعیلن ×٤</span>
+      <span class="sub">∪–––/∪–––/∪–––/∪–––</span>
+    </div>
+    <div class="chip">
+      <span class="lab">Translations</span>
+      <span class="big">Arabic · English</span>
+      <span class="sub">LINE FOR LINE</span>
+    </div>
+  </div>
+</header>
+
+<div class="bar" id="bar" role="region" aria-label="Reading controls">
+  <div class="bar-row">
+    <span class="bar-lab">Text</span>
+    <div id="langTabs" role="group" aria-label="Choose which versions to show" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+    <div class="bar-side">
+      <span class="bar-lab" style="width:auto">Kurdish face</span>
+      <div id="faceTabs" role="group" aria-label="Kurdish typeface" style="display:flex;gap:6px"></div>
+    </div>
+  </div>
+  <div class="bar-row">
+    <span class="bar-lab">Pairs</span>
+    <div id="presets" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search any language…" aria-label="Search the poem">
+    </label>
+    <span class="count" id="count" role="status" aria-live="polite"></span>
+  </div>
+</div>
+
+<main class="poem" id="poem"></main>
+
+<footer>
+  <span>Text from <a href="https://books.vejin.net/nk/book/135" target="_blank" rel="noopener noreferrer">Dîwana Feqiyê Teyran</a>, VejînBooks.</span>
+  <span>Arabic and English renderings are working translations.</span>
+</footer>
+
+</div>
+
+<script type="application/json" id="poemData">[{"stanza":1,"kurdish_ar":"دلۆ رابە، دلۆ رابە\nڤەکە چاڤان کو ئێڤارە\nنەزانۆ بەس د خەو دابە\nب نەومێڕا مەبە یارە","kurmanji_lat":"dilo rabe, dilo rabe\nveke çavan ku êvare\nnezano bes di xew dabe\nbi newmêřa mebe yare","arabic":"يَا قَلْبُ انْهَضْ، يَا قَلْبُ انْهَضْ\nافْتَحْ عَيْنَيْكَ فَالْوَقْتُ مَسَاءٌ\nأَيُّهَا الْجَاهِلُ يَكْفِي غَفْوَةً\nلَا تَكُنْ لِلنَّوْمِ خَلِيلًا","english":"O heart, arise; O heart, arise,\nOpen your eyes, for evening falls.\nIgnorant one, enough of sleep,\nDo not make a friend of slumber."},{"stanza":2,"kurdish_ar":"ل خوە شیرین مەکە نەومێ\nژ نەفسا خوە بکە لەومێ\nمەچە نێزکی ڤێ قەومێ\nقەوی ئەو فعلا خەسارە","kurmanji_lat":"li xwe şîrîn meke newmê\nji nefsa xwe bike lewmê\nmeçe nêzkî vê qewmê\nqewî ew fi’la xesare","arabic":"لَا تَسْتَحْلِ النَّوْمَ لِنَفْسِكَ\nوَلُمْ نَفْسَكَ\nلَا تَقْتَرِبْ مِنْ هَذَا الْقَوْمِ\nفَفِعْلُهُمْ هَذَا خَسَارَةٌ عَظِيمَةٌ","english":"Do not make sleep sweet unto yourself,\nReproach your own soul instead.\nDo not draw near to this crowd,\nFor their deeds are a profound loss."},{"stanza":3,"kurdish_ar":"دلۆ نەوما مە ژێ بەحسە\nبەیانا غەفلەتێ نەحسە\nنەهشیاری گەلەک تەحسە\nمەنێڤ خابە کو مردارە","kurmanji_lat":"dilo newma me jê beḧse\nbeyana ẍefletê neḧse\nnehşyarî gelek teḧse\nmenêv xabe ku mirdare","arabic":"يَا قَلْبُ، نَوْمُنَا مَوْضُوعُ حَدِيثٍ\nبَيَانُ الْغَفْلَةِ شُؤْمٌ\nعَدَمُ الصَّحْوِ سَيِّئٌ جِدًّا\nلَا تَنَمْ فِي وَسَطِهِمْ فَهُوَ مَيْتَةٌ","english":"O heart, our sleep is the talk of all,\nThe mark of heedlessness is a bad omen.\nLack of vigilance is truly bitter,\nDo not sleep among them, it is like death."},{"stanza":4,"kurdish_ar":"دلۆ رابە ژ ڤێ خابێ\nوەکی باپیر و وەک بابێ\nئەم ژی دێ چینە تورابێ\nببال باخوی و فەروارە","kurmanji_lat":"dilo rabe ji vê xabê\nwekî bapîr û wek babê\nem jî dê çîne turabê\nbibal baxwî û ferware","arabic":"يَا قَلْبُ انْهَضْ مِنْ هَذَا النَّوْمِ\nكَمَا الْأَجْدَادِ وَالْآبَاءِ\nنَحْنُ أَيْضًا سَنَذْهَبُ إِلَى التُّرَابِ\nإِلَى صَاحِبِ الْبُسْتَانِ وَالْأَمْرِ","english":"O heart, wake from this deep sleep,\nLike our grandfathers and fathers,\nWe too shall turn to dust,\nReturning to the Lord of the garden and decree."},{"stanza":5,"kurdish_ar":"بنێر باخۆی و فەرواری\nبنێڕ چەرخێ د رۆزگاری\nل تە رۆژ هاتە ئێڤاری\nتە نە عەقلە، نە هشیارە","kurmanji_lat":"binêr baxoy û ferwarî\nbinêř çerxê di rozgarî\nli te roj hate êvarî\nte ne ’eqle, ne hişyare","arabic":"انْظُرْ إِلَى صَاحِبِ الْبُسْتَانِ وَالْأَمْرِ\nانْظُرْ إِلَى عَجَلَةِ الزَّمَانِ\nلَقَدْ حَلَّ عَلَيْكَ الْمَسَاءُ\nوَلَيْسَ لَدَيْكَ عَقْلٌ، وَلَا صَحْوٌ","english":"Look at the Lord of the garden and decree,\nLook at the turning wheel of time.\nYour day has turned into evening,\nYet you have neither sense nor vigilance."},{"stanza":6,"kurdish_ar":"ئەگەر عەقلی وەرە جەنگی\nببێژ نەفسێ حەیا کەنگی\nتو غافل بی ب ڤی رەنگی\nئەیا کەهلێ نە گوهدارە","kurmanji_lat":"eger ’eqlî were cengî\nbibêj nefsê ḧeya kengî\ntu ẍafil bî bi vî rengî\neya kehlê ne guhdare","arabic":"إِنْ كُنْتَ عَاقِلًا تَعَالَ لِلْجِهَادِ\nوَقُلْ لِلنَّفْسِ إِلَى مَتَى\nتَبْقَيْنَ غَافِلَةً بِهَذَا الشَّكْلِ\nأَيُّهَا الْكَسُولُ الَّذِي لَا يَسْمَعُ","english":"If you are wise, step into the battle,\nAsk your soul: until when\nWill you remain heedless in this way?\nO lazy one who refuses to listen."},{"stanza":7,"kurdish_ar":"چقا سستی، چقا کەهلی\nتو خۆ یەکجار د خەو نەهلی\nمەبە خەرگۆش د نێڤ دەحلی\nسەیادێ تە کڤاندارە","kurmanji_lat":"çiqa sistî, çiqa kehlî\ntu xo yekcar di xew nehlî\nmebe xergoş di nêv deḧlî\nseyadê te kivandare","arabic":"كَمْ أَنْتَ ضَعِيفٌ، كَمْ أَنْتَ كَسُولٌ\nلَا تَتْرُكْ نَفْسَكَ لِلنَّوْمِ مَرَّةً وَاحِدَةً\nلَا تَكُنْ كَالْأَرْنَبِ فِي وَسَطِ الْأَحْرَاشِ\nفَصَيَّادُكَ حَامِلُ الْقَوْسِ","english":"How sluggish you are, how idle!\nDo not leave yourself entirely to sleep.\nDo not be like a hare in the thicket,\nFor your hunter stands with a drawn bow."},{"stanza":8,"kurdish_ar":"سەیادێ بێت و تە راکە\nمەبێژ، نا، ئو مەبێژ ناکە\nمەجالە ئەو ب غەوغاکە\nبنێر جارەک چ هەوارە","kurmanji_lat":"seyadê bêt û te rake\nmebêj, na, u mebêj nake\nmecale ew bi ẍewẍake\nbinêr carek çi heware","arabic":"سَيَأْتِي الصَّيَّادُ وَيُوقِظُكَ\nلَا تَقُلْ، لَا، وَلَا تَقُلْ لَا تَفْعَلْ\nلَا مَجَالَ لِذَلِكَ بِالضَّجِيجِ\nانْظُرْ مَرَّةً أَيُّ نِدَاءِ اسْتِغَاثَةٍ هَذَا","english":"The hunter will come and wake you,\nDo not say 'no', do not say 'don't'.\nThere is no time to make a fuss,\nLook just once at this outcry."},{"stanza":9,"kurdish_ar":"بنێر جارەک چ بانگینە\nژ نەومێ خوە ب هش بینە\nدنێ قەتلە، دنێ خوینە\nدنێ گەردۆن و رۆژگارە","kurmanji_lat":"binêr carek çi bangîne\nji newmê xwe bi hiş bîne\ndinê qetle, dinê xwîne\ndinê gerdon û rojgare","arabic":"انْظُرْ مَرَّةً أَيُّ نِدَاءٍ هَذَا\nأَيْقِظْ نَفْسَكَ مِنَ النَّوْمِ\nالدُّنْيَا قَتْلٌ، الدُّنْيَا دَمٌ\nالدُّنْيَا فَلَكٌ وَأَيَّامٌ","english":"Look just once at what this call is,\nBring yourself back to your senses from sleep.\nThe world is slaughter, the world is blood,\nThe world is the rolling sky and time."},{"stanza":10,"kurdish_ar":"دبارن تیر ژ گەردوونێ\nژ خەو رابە دەمەک روونێ\nتو نا ترسی ژ ئێتوونێ\nد بندا ئاگر و نارە","kurmanji_lat":"dibarin tîr ji gerdûnê\nji xew rabe demek rûnê\ntu na tirsî ji êtûnê\ndi binda agir û nare","arabic":"تَتَسَاقَطُ السِّهَامُ مِنَ الْفَلَكِ\nانْهَضْ مِنَ النَّوْمِ وَاجْلِسْ لَحْظَةً\nأَلَا تَخَافُ مِنَ الْأَتُونِ\nفِي أَسْفَلِهِ لَهِيبٌ وَنَارٌ","english":"Arrows rain down from the heavens,\nWake from sleep and sit for a moment.\nDo you not fear the furnace,\nBeneath which lies raging fire?"},{"stanza":11,"kurdish_ar":"د نێڤ ئاگر، د نێڤ پێتێ\nل سەر سهلێ خەوا کێ تێ\nئەجەل گوڕیە، یەقین پێتێ\nتە نە فکرە، نە ئەفکارە","kurmanji_lat":"di nêv agir, di nêv pêtê\nli ser sihlê xewa kê tê\necel guřye, yeqîn pêtê\nte ne fikire, ne efkare","arabic":"فِي وَسَطِ النَّارِ، فِي وَسَطِ اللَّهِيبِ\nعَلَى السُّهُولِ مَنْ يَأْتِيهِ النَّوْمُ\nالْأَجَلُ ذِئْبٌ، يَقِينًا سَيَأْتِيكَ\nوَلَيْسَ لَدَيْكَ فِكْرٌ، وَلَا أَفْكَارٌ","english":"In the midst of fire, amid the flames,\nWho can sleep upon the plains?\nDeath is a wolf, it will surely strike you,\nYet you have neither thought nor reflection."},{"stanza":12,"kurdish_ar":"تو ڤان فکران چڕا ناکی\nتە، ناڤێ خوە ژ خەو راکی\nکو ئێڤار هات چ پەیدا کی\nنە ئەوقات ما، نە رۆژگارە","kurmanji_lat":"tu van fikiran çiřa nakî\nte, navê xwe ji xew rakî\nku êvar hat çi peyda kî\nne ewqat ma, ne rojgare","arabic":"لِمَاذَا لَا تُفَكِّرُ فِي هَذِهِ الْأَفْكَارِ\nيَجِبُ عَلَيْكَ، أَنْ تُوقِظَ نَفْسَكَ مِنَ النَّوْمِ\nإِذَا حَلَّ الْمَسَاءُ مَاذَا سَتُوجِدُ\nلَمْ يَبْقَ وَقْتٌ، وَلَا أَيَّامٌ","english":"Why do you not ponder these thoughts?\nYou must wake yourself from this slumber.\nWhen evening comes, what will you have gained?\nNo time is left, the days are gone."},{"stanza":13,"kurdish_ar":"دلۆ رابە وەها نابی\nحەتا کەنگی د خەودابی\nل تە رۆژ هاختە ئاڤابی\nئەیا مەیمەستێ مەیخوارە","kurmanji_lat":"dilo rabe weha nabî\nḧeta kengî di xewdabî\nli te roj haxte avabî\neya meymestê meyxiware","arabic":"يَا قَلْبُ انْهَضْ فَلَا يَصِحُّ هَذَا\nإِلَى مَتَى سَتَبْقَى فِي النَّوْمِ\nلَقَدْ غَرَبَتْ شَمْسُكَ\nأَيُّهَا الثَّمِلُ شَارِبُ الْخَمْرِ","english":"O heart, arise, this cannot be,\nUntil when will you remain asleep?\nYour sun has already set,\nO intoxicated drinker of wine."},{"stanza":14,"kurdish_ar":"خەوا قەلبێ عەمەل بێ جهـ\nگوهێ خەلقێ کەڕ و بێ بهـ\nمەچە پالدە ل سەر بالگهـ\nخەوا بێ جهـ قەوی عارە","kurmanji_lat":"xewa qelbê ’emel bê cih\nguhê xelqê keř û bê bih\nmeçe palde li ser balgih\nxewa bê cih qewî ’are","arabic":"نَوْمُ الْقَلْبِ يَجْعَلُ الْعَمَلَ بِلَا مَكَانٍ\nوَآذَانُ النَّاسِ صَمَّاءُ بِلَا سَمْعٍ\nلَا تَذْهَبْ وَتَتَّكِئْ عَلَى الْوِسَادَةِ\nفَالنَّوْمُ فِي غَيْرِ مَحَلِّهِ عَارٌ عَظِيمٌ","english":"The heart's slumber makes deeds misplaced,\nPeople's ears are deaf, without hearing.\nDo not go and recline on the pillow,\nSleep out of place is a grave shame."},{"stanza":15,"kurdish_ar":"خەوا بێ جهـ قەوی پووسە\nمە نە ناڤە، نە نامووسە\nدکانا مە قەوی رووسە\nدبێژن خواجە قەردارە","kurmanji_lat":"xewa bê cih qewî pûse\nme ne nave, ne namûse\ndikana me qewî rûse\ndibêjin xwace qerdare","arabic":"النَّوْمُ فِي غَيْرِ مَحَلِّهِ فَسَادٌ عَظِيمٌ\nلَيْسَ لَنَا اسْمٌ، وَلَا شَرَفٌ\nدُكَّانُنَا فَارِغٌ جِدًّا\nوَيَقُولُونَ السَّيِّدُ مَدْيُونٌ","english":"Ill-timed sleep brings utter ruin,\nWe have no name, no honor left.\nOur shop is completely bare,\nThey say the master is deep in debt."},{"stanza":16,"kurdish_ar":"دبێژن خواجە بێ دەبرە\nد مەعنێدە دکان قەبرە\nتژی تۆزە، تژی غەبرە\nقەبر تەنگە تژی مارە","kurmanji_lat":"dibêjin xwace bê debre\ndi me’nêde dikan qebre\ntijî toze, tijî ẍebre\nqebir tenge tijî mare","arabic":"يَقُولُونَ السَّيِّدُ بِلَا حِيلَةٍ\nفِي الْمَعْنَى الدُّكَّانُ هُوَ الْقَبْرُ\nمَلِيءٌ بِالْغُبَارِ، مَلِيءٌ بِالتُّرَابِ\nالْقَبْرُ ضَيِّقٌ مَلِيءٌ بِالثَّعَابِينِ","english":"They say the master is helpless,\nIn truth, the shop is a grave.\nFull of dust, full of dirt,\nThe grave is narrow and full of snakes."},{"stanza":17,"kurdish_ar":"تژی مارە، تژی موورە\nقەوی تەنگە، قەوی کوورە\nژ خوە قەبری نەکە دوورە\nل وێ مالە، ل هر، وارە","kurmanji_lat":"tijî mare, tijî mûre\nqewî tenge, qewî kûre\nji xwe qebrî neke dûre\nli wê male, li hir, ware","arabic":"مَلِيءٌ بِالثَّعَابِينِ، مَلِيءٌ بِالنَّمْلِ\nضَيِّقٌ جِدًّا، عَمِيقٌ جِدًّا\nلَا تُبْعِدِ الْقَبْرَ عَنْكَ\nفَهُنَاكَ الْمَنْزِلُ، وَهُنَا الْمُسْتَقَرُّ","english":"Full of snakes, full of ants,\nVery narrow, very deep.\nDo not distance the grave from yourself,\nThere is the house, here is the temporary camp."},{"stanza":18,"kurdish_ar":"بوویە پاییز ل ڤان واران\nخەزام وەشیان ل بن داران\nل بن چ دکن گەلۆ یاران\nل مێرگان بوویە خووسارە","kurmanji_lat":"bûye payîz li van waran\nxezam weşyan li bin daran\nli bin çi dikin gelo yaran\nli mêrgan bûye xûsare","arabic":"لَقَدْ حَلَّ الْخَرِيفُ عَلَى هَذِهِ الدِّيَارِ\nوَتَسَاقَطَتِ الْأَوْرَاقُ تَحْتَ الْأَشْجَارِ\nمَاذَا يَفْعَلُ الْأَحِبَّةُ تَحْتَهَا\nلَقَدْ أَصْبَحَتِ الْمُرُوجُ صَقِيعًا","english":"Autumn has fallen upon these lands,\nLeaves have dropped beneath the trees.\nWhat are the friends doing beneath them?\nThe meadows have turned to frost."},{"stanza":19,"kurdish_ar":"خەزام زەربوون ژ خووساری\nسەفا ناکن ل ڤی واری\nل بەر سەرمێ و هەواساری\nهەوائی زەرکرن دارە","kurmanji_lat":"xezam zerbûn ji xûsarî\nsefa nakin li vî warî\nli ber sermê û hewasarî\nhewa’î zerkirin dare","arabic":"اصْفَرَّتِ الْأَوْرَاقُ مِنَ الصَّقِيعِ\nلَمْ يَعُدْ هُنَاكَ صَفَاءٌ فِي هَذِهِ الدِّيَارِ\nفِي مُوَاجَهَةِ الْبَرْدِ وَالْهَوَاءِ الْبَارِدِ\nالْهَوَاءُ قَدْ صَفَّرَ الْأَشْجَارَ","english":"The leaves have yellowed from the frost,\nThere is no joy left in this land.\nFacing the cold and the bitter wind,\nThe weather has turned the trees yellow."},{"stanza":20,"kurdish_ar":"خەزام زەربوون ژ سەرمائێ\nرەڤی رەونەق ژ دونیائێ\nژ بۆش ئاڤان گوشێن نائێ\nنە شەت مان و نە ئەنهارە","kurmanji_lat":"xezam zerbûn ji serma’ê\nrevî rewneq ji dunya’ê\nji boş avan guşên na’ê\nne şet man û ne enhare","arabic":"اصْفَرَّتِ الْأَوْرَاقُ مِنَ الْبَرْدِ\nوَهَرَبَ الرَّوْنَقُ مِنَ الدُّنْيَا\nمِنَ الْمِيَاهِ الْغَزِيرَةِ لَمْ يَبْقَ صَوْتٌ\nلَمْ تَبْقَ شُطُوطٌ وَلَا أَنْهَارٌ","english":"The leaves have yellowed from the cold,\nSplendor has fled from the world.\nFrom the abundant waters no sound comes,\nNo shores remain, nor rivers."},{"stanza":21,"kurdish_ar":"نەمان ئەنهار د ڤی واری\nدبن کێم بوون شەتێ جاری\nچو نینن بۆ تە غەم خاری\nکو ل وێ بوویە بهارە","kurmanji_lat":"neman enhar di vî warî\ndibin kêm bûn şetê carî\nçu nînin bo te ẍem xarî\nku li wê bûye bihare","arabic":"لَمْ تَبْقَ أَنْهَارٌ فِي هَذِهِ الدِّيَارِ\nشُطُوطُ الْمِيَاهِ الْجَارِيَةِ قَلَّتْ\nلَيْسَ هُنَاكَ مَنْ يَحْمِلُ هَمَّكَ\nأَنَّهُ قَدْ حَلَّ الرَّبِيعُ هُنَاكَ","english":"No rivers are left in this domain,\nThe flowing streams have diminished.\nThere is no one to share your sorrow,\nYet there, it has become spring."},{"stanza":22,"kurdish_ar":"بهار بوری ئو ئاڤ کێم بوون\nهەزاران باغ ل بەر دێم بوون\nپاییز داهات و گول کێم بوون\nوەشاندن بەلگ و مان خارە","kurmanji_lat":"bihar burî u av kêm bûn\nhezaran baẍ li ber dêm bûn\npayîz dahat û gul kêm bûn\nweşandin belg û man xare","arabic":"مَضَى الرَّبِيعُ وَقَلَّتِ الْمِيَاهُ\nآلَافُ الْبَسَاتِينِ كَانَتْ أَمَامَ الْوَجْهِ\nأَقْبَلَ الْخَرِيفُ وَقَلَّتِ الْوُرُودُ\nتَسَاقَطَتِ الْأَوْرَاقُ وَبَقِيَتْ عَارِيَةً","english":"Spring has passed and waters shrunk,\nThousands of gardens were before our faces.\nAutumn arrived and roses grew scarce,\nThe leaves shed, and branches stood bare."},{"stanza":23,"kurdish_ar":"نە بەلچم مان، نە سومبل مان\nنە رەیحان مان، نە سۆرگول مان\nنە هەڤری مان، نە هەڤدل مان\nتورابێ کێم کرن یارە","kurmanji_lat":"ne belçim man, ne sumbil man\nne reyḧan man, ne sorgul man\nne hevrî man, ne hevdil man\nturabê kêm kirin yare","arabic":"لَمْ تَبْقَ أَوْرَاقٌ وَلَا سَنَابِلُ\nلَمْ يَبْقَ رَيْحَانٌ، وَلَا وُرُودٌ حَمْرَاءُ\nلَمْ يَبْقَ رِفَاقٌ، وَلَا أَصْدِقَاءٌ حَمِيمُونَ\nالتُّرَابُ نَقَّصَ الْأَحِبَّةَ","english":"No leaves remain, no hyacinths,\nNo basil remains, no red roses.\nNo comrades left, no kindred spirits,\nThe dust has reduced our loved ones."},{"stanza":24,"kurdish_ar":"نە هەڤری مان، نە هاڤال مان\nنە سووسن مان، نە ئالئال مان\nنە لەئلائێن سیاهـ خال مان\nتنێ من حەیف ل وان خوارە","kurmanji_lat":"ne hevrî man, ne haval man\nne sûsin man, ne al’al man\nne le’la’ên syah xal man\ntinê min ḧeyf li wan xware","arabic":"لَمْ يَبْقَ رِفَاقٌ، وَلَا أَصْدِقَاءٌ\nلَمْ تَبْقَ سَوْسَنٌ، وَلَا شَقَائِقُ نُعْمَانٍ\nلَمْ تَبْقَ الْحِسَانُ ذَوَاتُ الْخَالِ الْأَسْوَدِ\nفَقَطْ تَحَسَّرْتُ أَنَا عَلَيْهِمْ","english":"No comrades remain, no companions,\nNo lilies remain, no anemones.\nNo dark-mole beauties remain,\nI am left alone to mourn them."},{"stanza":25,"kurdish_ar":"تنێ من حەیف ل وان تشتان\nل بەیبوونان ل بامشتان\nخوزی ئەڤ رەنگ نە ئێڤشتان\nد ئسمینێ د نامدارە","kurmanji_lat":"tinê min ḧeyf li wan tiştan\nli beybûnan li bamiştan\nxuzî ev reng ne êvşitan\ndi ismînê di namdare","arabic":"فَقَطْ تَحَسَّرْتُ عَلَى تِلْكَ الْأَشْيَاءِ\nعَلَى الْأُقْحُوَانِ، وَعَلَى أَقْرَانِهَا\nلَيْتَ هَذَا اللَّوْنَ لَمْ يَخْتَلِطْ\nفِي الْيَاسَمِينِ الْمَشْهُورِ","english":"I mourn only for those things,\nFor the daisies and their peers.\nI wish this color had not faded,\nWithin the renowned jasmine."},{"stanza":26,"kurdish_ar":"نە چیچەک مان، نە ئاسمین مان\nنە زۆزانێ د رەنگین مان\nنە گۆیینێ د خوەشخوین مان\nنە نیسان ما، نە ئادارە","kurmanji_lat":"ne çîçek man, ne asmîn man\nne zozanê di rengîn man\nne goyînê di xweşxiwîn man\nne nîsan ma, ne adare","arabic":"لَمْ تَبْقَ أَزْهَارٌ، وَلَا يَاسَمِينُ\nلَمْ تَبْقَ الْمَصَايِفُ الْمُلَوَّنَةُ\nلَمْ تَبْقَ الطُّيُورُ الْحَسَنَةُ الصَّوْتِ\nلَمْ يَبْقَ نِيسَانُ، وَلَا آذَارُ","english":"No flowers remain, no jasmine,\nNo colorful summer pastures.\nNo sweet-singing birds remain,\nNo April is left, nor March."},{"stanza":27,"kurdish_ar":"دلۆ بۆرین ژ نیسانێ\nهەوائێ وان مەهان کانێ\nبوویە ئەیلول ل زۆزانێ\nنە کانی مان، نە جووبارە","kurmanji_lat":"dilo borîn ji nîsanê\nhewa’ê wan mehan kanê\nbûye eylul li zozanê\nne kanî man, ne cûbare","arabic":"يَا قَلْبُ مَضَيْنَا مِنْ نِيسَانَ\nأَيْنَ هَوَاءُ تِلْكَ الشُّهُورِ\nلَقَدْ أَصْبَحَ أَيْلُولُ فِي الْمَصَايِفِ\nلَمْ تَبْقَ يَنَابِيعُ، وَلَا جَدَاوِلُ","english":"O heart, we have moved past April,\nWhere is the breeze of those months?\nSeptember has reached the high pastures,\nNo springs remain, no brooks."},{"stanza":28,"kurdish_ar":"ژ جووباران گیاکەر چوون\nلەتیف و نازک و تەڕ چوون\nوەکی بائێ کەلەمپەڕ چوون\nگەلۆ ئەڤ با چ دژوارە","kurmanji_lat":"ji cûbaran gyaker çûn\nletîf û nazk û teř çûn\nwekî ba’ê kelempeř çûn\ngelo ev ba çi dijware","arabic":"مِنَ الْجَدَاوِلِ ذَهَبَتِ الْأَعْشَابُ الْخَضْرَاءُ\nذَهَبَ اللَّطِيفُ وَالرَّقِيقُ وَالرَّطْبُ\nذَهَبُوا كَأَوْرَاقٍ يَعْصِفُ بِهَا الرِّيحُ\nيَا تُرَى كَمْ هَذِهِ الرِّيحُ قَاسِيَةٌ!","english":"From the brooks the green grass vanished,\nThe gentle, delicate, and fresh have gone.\nThey scattered like leaves in the wind,\nOh, how fierce this wind is!"},{"stanza":29,"kurdish_ar":"ل مە بایی کرە گازی\nخەزام پێچان لبەر ئەڤرازی\n«مقیم» ئەڤ ئاش ل ڤی سازی\nرەشاندن سونبلان ئارە","kurmanji_lat":"li me bayî kire gazî\nxezam pêçan liber evrazî\n«miqîm» ev aş li vî sazî\nreşandin sunbilan are","arabic":"صَرَخَتْ فِينَا الرِّيحُ\nوَلَفَّتِ الْأَوْرَاقَ فِي الْمُرْتَفَعَاتِ\n«مُقِيمٌ» هَذَا الطَّاحُونُ عَلَى هَذَا اللَّحْنِ\nنَثَرَتِ السَّنَابِلُ النَّارَ","english":"The wind howled upon us,\nSweeping the fallen leaves up the slopes.\nThis mill grinds steadily to this tune,\nThe hyacinths have scattered fire."},{"stanza":30,"kurdish_ar":"دبارن ئار ژ ئاسمانی\nژ دۆما چەرخ و دەورانی\nگەرێ ئاڤێتە رەیحانی\nبخوور نائێ ژ بولغارە","kurmanji_lat":"dibarin ar ji asmanî\nji doma çerx û dewranî\ngerê avête reyḧanî\nbixûr na’ê ji bulẍare","arabic":"تَتَسَاقَطُ النِّيرَانُ مِنَ السَّمَاءِ\nمِنْ عَاقِبَةِ الْفَلَكِ وَالدَّوَرَانِ\nأَلْقَى بِالْبَرَدِ عَلَى الرَّيْحَانِ\nلَمْ يَعُدْ يَأْتِي الْبَخُورُ مِنْ بُلْغَارَ","english":"Fire rains down from the sky,\nFrom the spinning wheel of fate.\nHail has battered the sweet basil,\nIncense no longer comes from Bulgar."},{"stanza":31,"kurdish_ar":"ژ بولغارێ د رەنگ دائی\nژ مەخموورێ د پێچائی\nقوماش کەڤنە ب کێر نائی\nروئێ هیمێ کو عەیبدارە","kurmanji_lat":"ji bulẍarê di reng da’î\nji mexmûrê di pêça’î\nqumaş kevne bi kêr na’î\nru’ê hîmê ku ’eybidare","arabic":"مِنْ بُلْغَارَ قَدْ أُعْطِيَ اللَّوْنُ\nمِنَ الْمَخْمَلِ قَدْ لُفَّ\nالْقُمَاشُ قَدِيمٌ لَا يَنْفَعُ\nوَوَجْهُ ... قَدْ أَصَابَهُ الْعَيْبُ","english":"Colored with dyes from Bulgar,\nWrapped in softest velvet,\nThe fabric is old and useless now,\nAnd its surface is flawed and stained."},{"stanza":32,"kurdish_ar":"رۆئێ هیمێ بو چل سالی\nد نێڤ بوخچەئێ رەشکالی\nدەقیق باری ل پەرتالی\nهەمی تێک بوونە جووبارە","kurmanji_lat":"ro’ê hîmê bu çil salî\ndi nêv buxçe’ê reşkalî\ndeqîq barî li pertalî\nhemî têk bûne cûbare","arabic":"وَجْهُ ... صَارَ لَهُ أَرْبَعُونَ عَامًا\nفِي وَسَطِ صُرَّةِ الثِّيَابِ السَّوْدَاءِ\nتَسَاقَطَ الدَّقِيقُ عَلَى الْمَتَاعِ\nوَأَصْبَحَ الْجَمِيعُ جَدَاوِلَ","english":"Its face has turned forty years old,\nInside the bundle of dark clothes.\nFlour (dust) rained upon the garments,\nAnd all have washed away like streams."},{"stanza":33,"kurdish_ar":"ل مە پەرتال کەتە ئاڤێ\nکەفا بەحرێ گەها ناڤێ\nسیا مەخموور ل بەر تاڤێ\nسپیبوو رەنگ و رووکارە","kurmanji_lat":"li me pertal kete avê\nkefa beḧrê geha navê\nsya mexmûr li ber tavê\nsipîbû reng û rûkare","arabic":"مَتَاعُنَا وَقَعَ فِي الْمَاءِ\nوَزَبَدُ الْبَحْرِ وَصَلَ إِلَى وَسَطِهِ\nوَسَوَادُ الْمَخْمَلِ تَحْتَ الشَّمْسِ\nابْيَضَّ لَوْنُهُ وَمَظْهَرُهُ","english":"Our belongings fell into the water,\nThe sea-foam reached their core.\nThe blackness of velvet beneath the sun,\nFaded to white in color and face."},{"stanza":34,"kurdish_ar":"سپی نورە ژ هدایاتە\nرەشی رەنگە ژ زولماتە\nشوکور شەڤ چوو و رۆژ هاتە\nخودا غەسال و قەتتارە","kurmanji_lat":"sipî nure ji hidayate\nreşî renge ji zulmate\nşukur şev çû û roj hate\nxuda ẍesal û qettare","arabic":"الْبَيَاضُ نُورٌ مِنَ الْهِدَايَةِ\nوَالسَّوَادُ لَوْنٌ مِنَ الظُّلُمَاتِ\nالشُّكْرُ لِلَّهِ ذَهَبَ اللَّيْلُ وَجَاءَ النَّهَارُ\nوَاللَّهُ هُوَ الْغَسَّالُ وَالْمُقَطِّرُ","english":"White is the light of guidance,\nBlack is the hue of darkness.\nThank God the night has passed and day has come,\nGod is the Washer and the Purifier."},{"stanza":35,"kurdish_ar":"غەسالی نەرم کرن شوشتن\nل بەر تاڤێ بدۆم هشتن\nژ رەنگێ پیرییێ رشتن\nشکوردارین ژ جەببارە","kurmanji_lat":"ẍesalî nerim kirin şuştin\nli ber tavê bidom hiştin\nji rengê pîrîyê riştin\nşikurdarîn ji cebbare","arabic":"الْغَسَّالُ لَيَّنَهَا وَغَسَلَهَا\nوَتَرَكَهَا تَحْتَ الشَّمْسِ بِاسْتِمْرَارٍ\nوَصَبَغَهَا بِلَوْنِ الشَّيْخُوخَةِ\nنَحْنُ شَاكِرُونَ لِلْجَبَّارِ","english":"The Washer softened and cleansed them,\nLeft them continuously under the sun.\nHe dyed them with the color of old age,\nWe are thankful to the Almighty."},{"stanza":36,"kurdish_ar":"شوکردارین ژ ڤێ حالێ\nهەوائێ لەولەبا سالێ\nوەشاندن بەلگ ژ ئال ئالێ\nنە رەنگ مانە، نە روخسارە","kurmanji_lat":"şukirdarîn ji vê ḧalê\nhewa’ê lewleba salê\nweşandin belg ji al alê\nne reng mane, ne ruxsare","arabic":"شَاكِرُونَ نَحْنُ لِهَذَا الْحَالِ\nلِهَوَاءِ دَوَامَةِ السَّنَةِ\nأَسْقَطَتِ الْأَوْرَاقَ مِنْ شَقَائِقِ النُّعْمَانِ\nلَمْ يَبْقَ لَوْنٌ، وَلَا وَجْهٌ","english":"We are grateful for this state,\nFor the winds of the turning year.\nThey scattered the leaves of the anemone,\nLeaving neither color nor features."},{"stanza":37,"kurdish_ar":"مە نە رەنگ ما، نە قامەت ما\nمە نە خەو ما، نە راحەت ما\nمە نە بێهن ما، نە سیرەت ما\nهەمی بۆرین دنێ سارە","kurmanji_lat":"me ne reng ma, ne qamet ma\nme ne xew ma, ne raḧet ma\nme ne bêhin ma, ne sîret ma\nhemî borîn dinê sare","arabic":"لَمْ يَبْقَ لَنَا لَوْنٌ، وَلَا قَامَةٌ\nلَمْ يَبْقَ لَنَا نَوْمٌ، وَلَا رَاحَةٌ\nلَمْ يَبْقَ لَنَا رَائِحَةٌ، وَلَا سِيرَةٌ\nكُلُّهُمْ مَضَوْا وَالدُّنْيَا بَارِدَةٌ","english":"We have no color left, nor stature,\nWe have no sleep left, nor rest.\nWe have no scent left, nor repute,\nAll have passed, and the world is cold."},{"stanza":38,"kurdish_ar":"دنێ مەهدە ئو مەهلۆکە\nوەکو لەعبە ئو لەیزۆکە\nچ زانن تفل و زاڕۆکە\nفەلەک چەرخە ئو غەددارە","kurmanji_lat":"dinê mehde u mehloke\nweku le’be u leyzoke\nçi zanin tifil û zařoke\nfelek çerxe u ẍeddare","arabic":"الدُّنْيَا مَهْدٌ وَمَهْلَكَةٌ\nمِثْلَ لُعْبَةٍ وَمُلْهِيَةٍ\nمَاذَا يَعْرِفُ الْأَطْفَالُ وَالصِّغَارُ\nالْفَلَكُ عَجَلَةٌ وَغَدَّارَةٌ","english":"The world is a cradle and a place of ruin,\nLike a game and a plaything.\nWhat do infants and children know?\nFate is a wheel, and it is treacherous."},{"stanza":39,"kurdish_ar":"بێ قەرارە، یا شرینە\nوەکو شەکر و هنگڤینە\nدناڤ یێکدا ڤەسترینە\nیا داڤدۆزە، یا مەککارە","kurmanji_lat":"bê qerare, ya şirîne\nweku şekir û hingivîne\ndinav yêkda vestirîne\nya davdoze, ya mekkare","arabic":"هِيَ بِلَا قَرَارٍ، هِيَ حُلْوَةٌ\nمِثْلَ السُّكَّرِ وَالْعَسَلِ\nمُخْتَلِطَةٌ فِي بَعْضِهَا الْبَعْضِ\nهِيَ نَاسِجَةُ الْفِخَاخِ، هِيَ مَكَّارَةٌ","english":"She is restless, yet she is sweet,\nLike sugar and honey.\nInterwoven into one another,\nShe weaves traps, she is a trickster."},{"stanza":40,"kurdish_ar":"فەلەک چەرخە و دەورانە\nمسالێ مەوجێ بەحرانە\nمەعاشێ ئەهلێ شەیتانە\nدنێ دەورە ئو دەووارە","kurmanji_lat":"felek çerxe û dewrane\nmisalê mewcê beḧrane\nme’aşê ehlê şeytane\ndinê dewre u dewware","arabic":"الْفَلَكُ عَجَلَةٌ وَدَوَرَانٌ\nمِثْلَ أَمْوَاجِ الْبِحَارِ\nهِيَ مَعَاشُ أَهْلِ الشَّيْطَانِ\nالدُّنْيَا دَوَرَانٌ وَدَوَّارَةٌ","english":"Fate is a spinning wheel and a cycle,\nLike the waves of the oceans.\nIt is the livelihood of the people of Satan,\nThe world is turning, and constantly revolving."},{"stanza":41,"kurdish_ar":"دنێ قەنجە ژ مێران ڕا\nعەجەب مولکە ژ شێران ڕا\nکو ئاڤاکن ژ خیران ڕا\nعەجەب مەزرەع و عەققارە","kurmanji_lat":"dinê qence ji mêran řa\n’eceb mulke ji şêran řa\nku avakin ji xîran řa\n’eceb mezre’ û ’eqqare","arabic":"الدُّنْيَا جَيِّدَةٌ لِلرِّجَالِ الشُّجْعَانِ\nهِيَ مُلْكٌ عَجِيبٌ لِلْأُسُودِ\nالَّذِينَ يَبْنُونَ بِهَا لِلْخَيْرَاتِ\nهِيَ مَزْرَعَةٌ عَجِيبَةٌ وَعَقَارٌ","english":"The world is good for brave men,\nA wondrous domain for the lions.\nWho build within it for the sake of goodness,\nA wondrous farm and estate."},{"stanza":42,"kurdish_ar":"دنێ قەنجە تەژی شێر بن\nژ خێران ڕا د خوەشمێر بن\nنە مسلێ من د بێ کێر بن\nد بێ کەسپ و د بێ کارە","kurmanji_lat":"dinê qence tejî şêr bin\nji xêran řa di xweşmêr bin\nne mislê min di bê kêr bin\ndi bê kesp û di bê kare","arabic":"الدُّنْيَا جَيِّدَةٌ إِذَا كَانُوا أُسُودًا\nوَكَانُوا فُرْسَانًا لِلْخَيْرَاتِ\nلَا أَنْ يَكُونُوا مِثْلِي عَدِيمِي النَّفْعِ\nبِلَا كَسْبٍ وَبِلَا عَمَلٍ","english":"The world is good if you are lions,\nAnd valiant knights in good deeds.\nNot like me, entirely useless,\nWithout earnings and without work."},{"stanza":43,"kurdish_ar":"ئەیا بێ کەسپێ بێ خیرە\nیەقین عەقلێ تە تەخسیرە\nتە یا جان دا ب یا پیرە\nتو دەست ژێ بەردە سەححارە","kurmanji_lat":"eya bê kespê bê xîre\nyeqîn ’eqlê te texsîre\nte ya can da bi ya pîre\ntu dest jê berde seḧḧare","arabic":"أَيُّهَا الْعَدِيمُ الْكَسْبِ وَالْخَيْرِ\nيَقِينًا أَنَّ عَقْلَكَ نَاقِصٌ\nلَقَدْ أَعْطَيْتَ الْجَمِيلَةَ بِالْعَجُوزِ\nارْفَعْ يَدَكَ عَنْهَا فَهِيَ سَاحِرَةٌ","english":"O you with no gain and no goodness,\nSurely your mind is flawed.\nYou traded the young beauty for the old hag,\nTake your hands off her, she is a sorceress."},{"stanza":44,"kurdish_ar":"دلۆ یا پیر ب کێرنائێ\nئەگەر عاقل و زانائێ\nمەبە یولداشێ دونیائێ\nنە یولداشەک وەفادارە","kurmanji_lat":"dilo ya pîr bi kêrna’ê\neger ’aqil û zana’ê\nmebe yuldaşê dunya’ê\nne yuldaşek wefadare","arabic":"يَا قَلْبُ، الْعَجُوزُ لَا تَنْفَعُ\nإِنْ كُنْتَ عَاقِلًا وَعَالِمًا\nلَا تَكُنْ رَفِيقًا لِلدُّنْيَا\nفَهِيَ لَيْسَتْ رَفِيقَةً وَفِيَّةً","english":"O heart, the old hag is of no use,\nIf you are wise and knowledgeable.\nDo not become a companion of the world,\nShe is not a loyal friend."},{"stanza":45,"kurdish_ar":"دنێ خەلقنۆ ب کێ مایە\nبەلێ قەنجە و مەزرایە\nژ خێران ڕا خودا دایە\nخەباتکاربن کو ئەڤ جارە","kurmanji_lat":"dinê xelqino bi kê maye\nbelê qence û mezraye\nji xêran řa xuda daye\nxebatkarbin ku ev care","arabic":"أَيُّهَا النَّاسُ، لِمَنْ بَقِيَتِ الدُّنْيَا؟\nنَعَمْ، هِيَ جَيِّدَةٌ وَمَزْرَعَةٌ\nلَقَدْ أَعْطَاهَا اللَّهُ لِلْخَيْرَاتِ\nفَكُونُوا عَامِلِينَ فِي هَذِهِ الْمَرَّةِ","english":"O people, for whom has the world remained?\nYes, it is good, and it is a farm.\nGod has given it for good deeds,\nBe diligent workers this time around."},{"stanza":46,"kurdish_ar":"دو جار نا ئێتە دونیائێ\nچەلاپا خوەش هەڕۆ نائێ\nبکێر قوتێ خو زانائێ\nنها ئەو قووت دبت چارە","kurmanji_lat":"du car na ête dunya’ê\nçelapa xweş heřo na’ê\nbikêr qutê xu zana’ê\nniha ew qût dibit çare","arabic":"الْمَرْءُ لَا يَأْتِي إِلَى الدُّنْيَا مَرَّتَيْنِ\nوَالْفُرْصَةُ السَّعِيدَةُ لَا تَأْتِي كُلَّ يَوْمٍ\nاِعْمَلْ لِقُوتِكَ أَيُّهَا الْعَالِمُ\nفَالْآنَ هَذَا الْقُوتُ هُوَ الْعِلَاجُ","english":"One does not come to the world twice,\nAnd a good opportunity doesn't arrive every day.\nWork for your provisions, O wise one,\nFor now, those provisions are the cure."},{"stanza":47,"kurdish_ar":"تو قووتێ خوە نها چارکە\nزەوادێ ئاخرەتێ کارکە\nبلەزینە ئو زوو بارکە\nدنێ سووکە ئو بازارە","kurmanji_lat":"tu qûtê xwe niha çarke\nzewadê axretê karke\nbilezîne u zû barke\ndinê sûke u bazare","arabic":"دَبِّرْ قُوتَكَ الْآنَ\nوَاعْمَلْ لِزَادِ الْآخِرَةِ\nأَسْرِعْ وَارْتَحِلْ سَرِيعًا\nالدُّنْيَا سُوقٌ وَتِجَارَةٌ","english":"Gather your provisions right now,\nWork for the supplies of the Hereafter.\nHurry and pack your bags quickly,\nThe world is a market and a bazaar."},{"stanza":48,"kurdish_ar":"دنێ شەهرە دنێ سووکە\nدنێ پیرە، نە نووبووکە\nهەچی مێرێ کو ئەو شووکە\nگری گرت و نها خارە","kurmanji_lat":"dinê şehre dinê sûke\ndinê pîre, ne nûbûke\nheçî mêrê ku ew şûke\ngirî girt û niha xare","arabic":"الدُّنْيَا مَدِينَةٌ، الدُّنْيَا سُوقٌ\nالدُّنْيَا عَجُوزٌ، وَلَيْسَتْ عَرُوسًا جَدِيدَةً\nكُلُّ رَجُلٍ تَزَوَّجَتْهُ\nأَصَابَهُ الْبُكَاءُ وَصَارَ ذَلِيلًا","english":"The world is a city, the world is a market,\nThe world is an old woman, not a new bride.\nEvery man who takes her in marriage,\nWill end up weeping and humiliated."},{"stanza":49,"kurdish_ar":"دلۆ دونیا کەڕ و پیرە\nنەبێژ جوانە، قەوی پیرە\nتێ دۆم ناکن شاهـ و میرە\nب ئادەم ڕا، نەبوو یارە","kurmanji_lat":"dilo dunya keř û pîre\nnebêj cwane, qewî pîre\ntê dom nakin şah û mîre\nbi adem řa, nebû yare","arabic":"يَا قَلْبُ الدُّنْيَا صَمَّاءُ وَعَجُوزٌ\nلَا تَقُلْ شَابَّةٌ، بَلْ هِيَ هَرِمَةٌ جِدًّا\nلَا يَدُومُ فِيهَا الْمُلُوكُ وَالْأُمَرَاءُ\nمَعَ آدَمَ، لَمْ تَكُنْ صَدِيقَةً","english":"O heart, the world is deaf and old,\nDo not say she is young, she is very old.\nKings and princes do not last within her,\nEven with Adam, she was not a true friend."},{"stanza":50,"kurdish_ar":"تە ئەو خارن هەمی یەکسەر\nنەدا کەس تا نقتەک مەفەر\nژ ئادەم هەتا پێغەمبەر\nڤەشارتی جوملە یەکجارە","kurmanji_lat":"te ew xarin hemî yekser\nneda kes ta niqtek mefer\nji adem heta pêẍember\nveşartî cumle yekcare","arabic":"لَقَدْ أَكَلَتْهُمْ جَمِيعًا عَلَى الْفَوْرِ\nوَلَمْ تُعْطِ لِأَحَدٍ أَدْنَى مَفَرٍّ\nمِنْ آدَمَ حَتَّى النَّبِيِّ\nأَخْفَتْهُمْ جَمِيعًا دَفْعَةً وَاحِدَةً","english":"She devoured them all at once,\nGiving no one a single chance of escape.\nFrom Adam up to the Prophet,\nShe buried them all entirely."},{"stanza":51,"kurdish_ar":"ئەیا خەلقێ کەڕ و گیرە\nنە یا جانە ، نە یا پیرە\nقەبوول ناکم ژ وی میرە\nڤ ئادەم ڕا نەبوو یارە","kurmanji_lat":"eya xelqê keř û gîre\nne ya cane , ne ya pîre\nqebûl nakim ji wî mîre\nv adem řa nebû yare","arabic":"أَيُّهَا النَّاسُ، إِنَّهَا صَمَّاءُ وَعَاصِيَةٌ\nلَيْسَتْ بِشَابَّةٍ، وَلَيْسَتْ بِعَجُوزٍ\nلَا أَقْبَلُ مِنْ ذَلِكَ الْأَمِيرِ\nمَعَ آدَمَ لَمْ تَكُنْ خَلِيلَةً","english":"O people, she is deaf and stubborn,\nShe is neither young nor old.\nI will not accept it from that prince,\nWith Adam, she was never a companion."},{"stanza":52,"kurdish_ar":"نە ئادەم ما ئو نە شیس ما\nنە نوح ما ئو نە ئدریس ما\nنە یوسف ما، نە جەرجیس ما\nنە ئەییوبێ بریندارە","kurmanji_lat":"ne adem ma u ne şîs ma\nne nuḧ ma u ne idrîs ma\nne yusif ma, ne cercîs ma\nne eyîwbê birîndare","arabic":"لَمْ يَبْقَ آدَمُ وَلَا شِيثُ\nلَمْ يَبْقَ نُوحٌ وَلَا إِدْرِيسُ\nلَمْ يَبْقَ يُوسُفُ وَلَا جِرْجِيسُ\nوَلَا أَيُّوبُ الْمُبْتَلَى","english":"Adam did not remain, nor Seth,\nNoah did not remain, nor Enoch.\nJoseph did not remain, nor George,\nNor Job the afflicted."},{"stanza":53,"kurdish_ar":"نە یەحیا ما، نە سالح ما\nنە هارۆن ما، نە مووسا ما\nنە مریەم ما، کو عیسا ما\nنە ئەحمەد ما، نە چار یارە","kurmanji_lat":"ne yeḧya ma, ne salḧ ma\nne haron ma, ne mûsa ma\nne miryem ma, ku ’îsa ma\nne eḧmed ma, ne çar yare","arabic":"لَمْ يَبْقَ يَحْيَى وَلَا صَالِحُ\nلَمْ يَبْقَ هَارُونُ وَلَا مُوسَى\nلَمْ تَبْقَ مَرْيَمُ، بَلْ بَقِيَ عِيسَى (رُفع)\nلَمْ يَبْقَ أَحْمَدُ (مُحَمَّد) وَلَا الصَّحَابَةُ الْأَرْبَعَةُ","english":"John did not remain, nor Salih,\nAaron did not remain, nor Moses.\nMary did not remain, though Jesus was raised,\nAhmed (Muhammad) did not remain, nor the Four Companions."},{"stanza":54,"kurdish_ar":"نە هەڤال مان ، نە چار یار مان\nنە ئەسحابێ د غەمخوار مان\nنە عالمێ د هشیار مان\nنە جالیسێ وەفادارە","kurmanji_lat":"ne heval man , ne çar yar man\nne esḧabê di ẍemxiwar man\nne ’almê di hişyar man\nne calîsê wefadare","arabic":"لَمْ يَبْقَ الرِّفَاقُ وَلَا الْأَصْدِقَاءُ الْأَرْبَعَةُ\nلَمْ يَبْقَ الصَّحَابَةُ الْمُشْفِقُونَ\nلَمْ يَبْقَ الْعُلَمَاءُ الْمُتَيَقِّظُونَ\nوَلَا الْجَلِيسُ الْوَفِيُّ","english":"The friends did not remain, nor the four companions,\nThe caring disciples did not remain.\nThe watchful scholars did not remain,\nNor the loyal companion."},{"stanza":55,"kurdish_ar":"نە جالیس و نە سوقرات مان\nنە تالیس و نە بقرات مان\nنە ذوالقرنين و مرئات مان\nنە جوم جوم ما ، نە ئەخیارە","kurmanji_lat":"ne calîs û ne suqrat man\nne talîs û ne biqrat man\nne «zwalqirnînErebî» û mir’at man\nne cum cum ma , ne exyare","arabic":"لَمْ يَبْقَ الْجَلِيسُ وَلَا سُقْرَاطُ\nلَمْ يَبْقَ طَالِيسُ وَلَا بُقْرَاطُ\nلَمْ يَبْقَ ذُو الْقَرْنَيْنِ وَمِرْآتُهُ\nلَمْ يَبْقَ جُمْجُمُ وَلَا الْأَخْيَارُ","english":"The sitter did not remain, nor Socrates,\nThales did not remain, nor Hippocrates.\nDhul-Qarnayn and his mirror did not remain,\nJumjum did not remain, nor the righteous ones."},{"stanza":56,"kurdish_ar":"نە جەمشید ما، نە جمجم ما\nنە قەیسەر ما، نە حاتم ما\nنە ئاسف ما، نە خاتم ما\nنە هامان ما، نە سەردارە","kurmanji_lat":"ne cemşîd ma, ne cimcim ma\nne qeyser ma, ne ḧatim ma\nne asif ma, ne xatim ma\nne haman ma, ne serdare","arabic":"لَمْ يَبْقَ جَمْشِيدُ وَلَا جُمْجُمُ\nلَمْ يَبْقَ قَيْصَرُ وَلَا حَاتِمُ\nلَمْ يَبْقَ آسِفُ وَلَا خَاتِمُهُ\nلَمْ يَبْقَ هَامَانُ وَلَا الْقَادَةُ","english":"Jamshid did not remain, nor Jumjum,\nCaesar did not remain, nor Hatem.\nAsif did not remain, nor the signet ring,\nHaman did not remain, nor the commanders."},{"stanza":57,"kurdish_ar":"نە ئەفلاتون و لوقمان مان\nنە داود و سولەیمان مان\nنە فرعەون و نە هامان مان\nنە سولتانێدِ کوبارە","kurmanji_lat":"ne eflatun û luqman man\nne dawid û suleyman man\nne fir’ewn û ne haman man\nne sultanêdî kubare","arabic":"لَمْ يَبْقَ أَفْلَاطُونُ وَلَا لُقْمَانُ\nلَمْ يَبْقَ دَاوُدُ وَلَا سُلَيْمَانُ\nلَمْ يَبْقَ فِرْعَوْنُ وَلَا هَامَانُ\nوَلَا السَّلَاطِينُ الْمُتَكَبِّرُونَ","english":"Plato did not remain, nor Luqman,\nDavid did not remain, nor Solomon.\nPharaoh did not remain, nor Haman,\nNor the arrogant sultans."},{"stanza":58,"kurdish_ar":"نە جەمشید ما، نە رۆستەم ما\nنە قەیسەر ما، نە حاتەم ما\nنە ئاسف ما، نە خاتەم ما\nنە مالخو و نە سەرکارە","kurmanji_lat":"ne cemşîd ma, ne rostem ma\nne qeyser ma, ne ḧatem ma\nne asif ma, ne xatem ma\nne malxu û ne serkare","arabic":"لَمْ يَبْقَ جَمْشِيدُ وَلَا رُسْتُمُ\nلَمْ يَبْقَ قَيْصَرُ وَلَا حَاتِمُ\nلَمْ يَبْقَ آسِفُ وَلَا الْخَاتَمُ\nلَمْ يَبْقَ رَبُّ الْمَنْزِلِ وَلَا الْمُشْرِفُ","english":"Jamshid did not remain, nor Rustam,\nCaesar did not remain, nor Hatem.\nAsif did not remain, nor the ring,\nNor the master of the house, nor the overseer."},{"stanza":59,"kurdish_ar":"نە سەرکار ما، نە سەردار ما\nنە یولداش ما، نە هەڤال ما\nنە هارووت ما، نە مارووت ما\nد ئاخێ مانە روخسارە","kurmanji_lat":"ne serkar ma, ne serdar ma\nne yuldaş ma, ne heval ma\nne harût ma, ne marût ma\ndi axê mane ruxsare","arabic":"لَمْ يَبْقَ الْمُشْرِفُ وَلَا الْقَائِدُ\nلَمْ يَبْقَ الرَّفِيقُ وَلَا الصَّدِيقُ\nلَمْ يَبْقَ هَارُوتُ وَلَا مَارُوتُ\nفِي التُّرَابِ بَقِيَتِ الْوُجُوهُ","english":"The overseer did not remain, nor the commander,\nThe comrade did not remain, nor the friend.\nHarut did not remain, nor Marut,\nIn the earth, only faces remain."},{"stanza":60,"kurdish_ar":"نە تالووت و نە جالووت مان\nنە هارووت و نە مارووت مان\nنە ئەولادێ د یەعقووب مان\nئەوێ پیرێ یوسف خارە","kurmanji_lat":"ne talût û ne calût man\nne harût û ne marût man\nne ewladê di ye’qûb man\newê pîrê yusif xare","arabic":"لَمْ يَبْقَ طَالُوتُ وَلَا جَالُوتُ\nلَمْ يَبْقَ هَارُوتُ وَلَا مَارُوتُ\nلَمْ يَبْقَ أَوْلَادُ يَعْقُوبَ\nتِلْكَ الْعَجُوزُ أَكَلَتْ يُوسُفَ","english":"Saul did not remain, nor Goliath,\nHarut did not remain, nor Marut.\nThe sons of Jacob did not remain,\nThat old hag devoured Joseph."},{"stanza":61,"kurdish_ar":"دنێ پیرە نە مەعقوولە\nئەو پێ خۆڕە یا مل خوولە\nئەو پشت قۆڕە سفەت غوولە\nقەوی تەنگە ، دەنگ هەفتارە","kurmanji_lat":"dinê pîre ne me’qûle\new pê xoře ya mil xûle\new pişt qoře sifet ẍûle\nqewî tenge , deng heftare","arabic":"الدُّنْيَا عَجُوزٌ غَيْرُ مَعْقُولَةٍ\nهِيَ أَكُولَةٌ ذَاتُ رَقَبَةٍ عَوْجَاءَ\nهِيَ مَحْدُوبَةُ الظَّهْرِ بِصِفَةِ الْغُولِ\nضَيِّقَةٌ جِدًّا، صَوْتُهَا كَالضَّبُعِ","english":"The world is an unreasonable old hag,\nShe is a glutton with a twisted neck.\nShe is hunchbacked with the traits of a ghoul,\nVery narrow, with the voice of a hyena."},{"stanza":62,"kurdish_ar":"ژ هەفتارێ د لێڤ شۆڕە\nعەجوزە، کەڤنە، دەڤ کووڕە\nهەڤۆ رەنگە، هەشین پۆڕە\nهەچی ڤێ کەت، ئەوێ خوارە","kurmanji_lat":"ji heftarê di lêv şoře\n’ecuze, kevne, dev kûře\nhevo renge, heşîn poře\nheçî vê ket, ewê xware","arabic":"شَفَتَاهَا مُتَدَلِّيَةٌ أَكْثَرَ مِنَ الضَّبُعِ\nعَجُوزٌ، هَرِمَةٌ، عَمِيقَةُ الْفَمِ\nلَوْنُهَا مُرَوِّعٌ، شَعْرُهَا أَزْرَقُ (بَشِعٌ)\nمَنْ يَقَعُ فِيهَا، تَأْكُلُهُ","english":"Her lips droop more than a hyena's,\nOld, ancient, with a deep maw.\nHer color is ghastly, her hair is blue (hideous),\nWhoever falls into her, she devours."},{"stanza":63,"kurdish_ar":"هەچی ڤێ کەت ئەوێ خوارن\nگەر عامینە ، گەر کەسارن\nهەمی ژ بەر تە ب هاوارن\nئەیا غۆلۆ تە خەل خوارە","kurmanji_lat":"heçî vê ket ewê xwarin\nger ’amîne , ger kesarin\nhemî ji ber te bi hawarin\neya ẍolo te xel xware","arabic":"مَنْ يَقَعُ فِيهَا فَقَدْ أُكِلَ\nسَوَاءٌ كَانُوا عَوَامَّ أَوْ فُقَرَاءَ\nالْجَمِيعُ يَسْتَغِيثُونَ مِنْهَا\nأَيَّتُهَا الْغُولُ، لَقَدْ أَكَلْتِ النَّاسَ","english":"Whoever falls to her is eaten,\nWhether commoners or paupers.\nEveryone cries out for help from you,\nO ghoul, you have devoured the people."},{"stanza":64,"kurdish_ar":"ئەیا غۆلا بەیابانێ\nحەشم خەلقێ مە دی کانێ\nتە خوارن پوڕ د ڤێ خانێ\nنە سولتان مان، نە خوونکارە","kurmanji_lat":"eya ẍola beyabanê\nḧeşim xelqê me dî kanê\nte xwarin puř di vê xanê\nne sultan man, ne xûnkare","arabic":"أَيَّتُهَا الْغُولُ فِي الصَّحْرَاءِ\nأَيْنَ جُمُوعُ النَّاسِ الَّذِينَ رَأَيْنَاهُمْ؟\nلَقَدْ أَكَلْتِ الْكَثِيرَ فِي هَذِهِ الدَّارِ\nلَمْ يَبْقَ سَلَاطِينُ، وَلَا مُلُوكٌ","english":"O ghoul of the wasteland!\nWhere are the multitudes of people we saw?\nYou have eaten so many in this house,\nNo sultans remain, nor kings."},{"stanza":65,"kurdish_ar":"نە خوونکارێ خودان تەخت مان\nنە کوبارێ خودان بەخت مان\nنە کوفارێ خودان سەخت مان\nتویی عیسا کو نە یهارە","kurmanji_lat":"ne xûnkarê xudan text man\nne kubarê xudan bext man\nne kufarê xudan sext man\ntuyî ’îsa ku ne yihare","arabic":"لَمْ يَبْقَ الْمُلُوكُ أَصْحَابُ الْعُرُوشِ\nلَمْ يَبْقَ الْعُظَمَاءُ أَصْحَابُ الْحَظِّ\nلَمْ يَبْقَ الْكُفَّارُ أَصْحَابُ الْقَسْوَةِ\nأَنْتِ كَالْعِيسَى الَّذِي لَا يُقْهَرُ","english":"No monarchs with thrones remain,\nNo great men of fortune remain.\nNo infidels of cruelty remain,\nYou are like Jesus, unconquerable."},{"stanza":66,"kurdish_ar":"دنێ پیرە کو عیسا دی\nب شکلێ وێ نەبوو رازی\nتەلاق دابوو ل نک قازی\nژ سەردانی سەرهەڤسارە","kurmanji_lat":"dinê pîre ku ’îsa dî\nbi şiklê wê nebû razî\ntelaq dabû li nik qazî\nji serdanî serhevsare","arabic":"الدُّنْيَا عَجُوزٌ كَمَا رَآهَا عِيسَى\nلَمْ يَرْضَ بِشَكْلِهَا\nطَلَّقَهَا عِنْدَ الْقَاضِي\nمِنْ زِيَارَتِهَا وَتَمَرُّدِهَا","english":"The world is a hag, as Jesus saw,\nHe was not pleased with her form.\nHe divorced her before the judge,\nDue to her visits and her rebelliousness."},{"stanza":67,"kurdish_ar":"ب وێ سوندا مە پێ خاری\nئەسەرناکم سەرهەڤساری\nتو ئەڤ پیسی، تو ئەڤ عاری\nتە نە شکلە و نە دیدارە","kurmanji_lat":"bi wê sunda me pê xarî\nesernakim serhevsarî\ntu ev pîsî, tu ev ’arî\nte ne şikle û ne dîdare","arabic":"بِذَلِكَ الْقَسَمِ الَّذِي أَقْسَمْتُهُ\nلَنْ أَتَأَثَّرَ بِهَذَا التَّمَرُّدِ\nأَنْتِ هَذَا الْقُبْحُ، أَنْتِ هَذَا الْعَارُ\nلَيْسَ لَكِ شَكْلٌ وَلَا وَجْهٌ مَقْبُولٌ","english":"By that oath which I have sworn,\nI will not be moved by this rebellion.\nYou are this filth, you are this shame,\nYou have no shape, nor a pleasant face."},{"stanza":68,"kurdish_ar":"دنێ بووکا ئەبو جەهلە\nل نک مە عاسییان نەحلە\nل عەقلێ عاقلان تەحلە\nل نک عیسا کو مردارە","kurmanji_lat":"dinê bûka ebu cehle\nli nik me ’asîyan neḧle\nli ’eqlê ’aqlan teḧle\nli nik ’îsa ku mirdare","arabic":"الدُّنْيَا عَرُوسُ أَبِي جَهْلٍ\nعِنْدَنَا نَحْنُ الْعُصَاةِ نَحْلَةٌ (حُلْوَةٌ)\nوَفِي عَقْلِ الْعُقَلَاءِ مُرَّةٌ\nوَعِنْدَ عِيسَى هِيَ جِيفَةٌ مَيْتَةٌ","english":"The world is the bride of Abu Jahl,\nTo us sinners, she is sweet as a bee's honey.\nIn the minds of the wise, she is bitter,\nAnd to Jesus, she is a rotting corpse."},{"stanza":69,"kurdish_ar":"دخوم سووندێ ب باب ئادەم\nب ئنجیلێ کەلام دادەم\nئێدی مەیلێ ب تە نادەم\nتە نە عەقلە و نە ئقرارە","kurmanji_lat":"dixum sûndê bi bab adem\nbi incîlê kelam dadem\nêdî meylê bi te nadem\nte ne ’eqle û ne iqrare","arabic":"أُقْسِمُ بِالْأَبِ آدَمَ\nوَأُعْطِي كَلَامًا بِالْإِنْجِيلِ\nلَنْ أُعْطِيَكِ مَيْلِي بَعْدَ الْآنَ\nفَلَيْسَ لَكِ عَقْلٌ وَلَا قَرَارٌ","english":"I swear by father Adam,\nAnd I give my word by the Gospel.\nI will no longer give you my inclination,\nYou have neither sense nor stability."},{"stanza":70,"kurdish_ar":"روحێ عیسا خودێ کەسکر\nدنێ ناسکر و ژێ بەسکر\nموشەررەف بوو، بوێ حەسکر\nدنێڤ خەلقێ خو ڤاڤارە","kurmanji_lat":"ruḧê ’îsa xudê keskir\ndinê naskir û jê beskir\nmuşerref bû, bwê ḧeskir\ndinêv xelqê xu vavare","arabic":"رُوحُ عِيسَى خَلَقَهُ اللَّهُ\nعَرَفَ الدُّنْيَا وَاكْتَفَى مِنْهَا\nشُرِّفَ، وَأَحَبَّ ذَلِكَ\nوَهُوَ مُخْتَارٌ بَيْنَ خَلْقِهِ","english":"God created the spirit of Jesus,\nHe knew the world and had enough of it.\nHe was honored, and he loved that,\nAnd he is chosen among His creation."},{"stanza":71,"kurdish_ar":"کەسێ عەقلە، کەسێ مەردە\nدبەر کو هێژ نەبو عەردە\nژ ڤێ، مەیلا خو ژێ بەردە\nچرا ئاخ ماکە، قەهارە","kurmanji_lat":"kesê ’eqle, kesê merde\ndiber ku hêj nebu ’erde\nji vê, meyla xu jê berde\nçira ax make, qehare","arabic":"مَنْ كَانَ ذَا عَقْلٍ، مَنْ كَانَ رَجُلًا\nقَبْلَ أَنْ يُصْبِحَ تُرَابًا\nمِنْ هَذِهِ الدُّنْيَا فَلْيَتْرُكْ مَيْلَهُ\nلِمَاذَا التُّرَابُ أُمٌّ؟ إِنَّهُ قَهَّارٌ","english":"Whoever has sense, whoever is a man,\nBefore he turns to earth,\nLet him drop his desire for this world.\nWhy is the dust a mother? It is a conqueror."},{"stanza":72,"kurdish_ar":"دنێ مەهدە، دنێ ماکە\nدنێتینە، دنێ خاکە\nب ئەولادان ئەبەد ناکە\nئەوا بێ رەحم و دژوارە","kurmanji_lat":"dinê mehde, dinê make\ndinêtîne, dinê xake\nbi ewladan ebed nake\newa bê reḧim û dijware","arabic":"الدُّنْيَا مَهْدٌ، الدُّنْيَا أُمٌّ\nالدُّنْيَا تَجِيءُ، الدُّنْيَا تُرَابٌ\nلَا تَبْقَى أَبَدًا مَعَ الْأَوْلَادِ\nفَهِيَ عَدِيمَةُ الرَّحْمَةِ وَقَاسِيَةٌ","english":"The world is a cradle, the world is a mother,\nThe world brings forth, the world is dust.\nShe never remains forever with her children,\nFor she is merciless and fierce."},{"stanza":73,"kurdish_ar":"وا بێ رەحم و بێهن تەنگە\nهەڕۆژ قالە، هەڕۆژ جەنگە\nدەما لێخە خوە ئەڤ دەنگە\nنە دل سۆژە، نە غەم خوارە","kurmanji_lat":"wa bê reḧim û bêhin tenge\nheřoj qale, heřoj cenge\ndema lêxe xwe ev denge\nne dil soje, ne ẍem xware","arabic":"هِيَ عَدِيمَةُ الرَّحْمَةِ وَضَيِّقَةُ الصَّدْرِ\nكُلَّ يَوْمٍ شِجَارٌ، كُلَّ يَوْمٍ حَرْبٌ\nعِنْدَمَا يَصْدُرُ مِنْهَا هَذَا الصَّوْتُ\nلَيْسَتْ شَفِيقَةً وَلَا حَامِلَةَ هَمٍّ","english":"She is pitiless and short of breath,\nEvery day is an uproar, every day a war.\nWhen this sound strikes her,\nShe is neither compassionate nor caring."},{"stanza":74,"kurdish_ar":"نە غەمخوارە نە دلسۆژە\nژ وێ بائێ درەنگ رۆژە\nب ڤان حالان کەڕ و گێژە\nبەلا، وا تێ و سەیێ هارە","kurmanji_lat":"ne ẍemxiware ne dilsoje\nji wê ba’ê direng roje\nbi van ḧalan keř û gêje\nbela, wa tê û seyê hare","arabic":"لَا تَحْمِلُ هَمًّا وَلَا تَشْفَقُ عَلَى الْقَلْبِ\nمِنْ تِلْكَ الرِّيحِ يَتَأَخَّرُ النَّهَارُ\nبِهَذِهِ الْأَحْوَالِ هِيَ صَمَّاءُ وَمُشَوَّشَةٌ\nبَلَاءٌ يَأْتِي كَالْكَلْبِ الْمَسْعُورِ","english":"She bears no sorrow and feels no pity,\nFrom that wind, the day grows late.\nIn these states, she is deaf and dizzy,\nA plague, coming like a rabid dog."},{"stanza":75,"kurdish_ar":"بەلا، وا تێ و سەیێ دینە\nدنێ کەڤنە ژ مێژینە\nهەرۆژ دورە، هەرۆژ کینە\nنە وەی مەیلە، نە گوشدارە","kurmanji_lat":"bela, wa tê û seyê dîne\ndinê kevne ji mêjîne\nheroj dure, heroj kîne\nne wey meyle, ne guşdare","arabic":"بَلَاءٌ يَأْتِي كَالْكَلْبِ الْمَجْنُونِ\nالدُّنْيَا قَدِيمَةٌ مُنْذُ الْأَزَلِ\nكُلَّ يَوْمٍ نِفَاقٌ، كُلَّ يَوْمٍ حِقْدٌ\nلَا مَيْلَ لَهَا، وَلَا تَسْتَمِعُ","english":"A plague, coming like a mad dog,\nThe world is ancient, from times of yore.\nEvery day is hypocrisy, every day is spite,\nShe has no inclination, and does not listen."},{"stanza":76,"kurdish_ar":"ژارا گۆتن د غولغولاند\nهەرۆژ هنا مال ئێوراند\nهەمیا تێک دونیا شەممران\nهەرۆژ کۆچ و هەرۆژ بارە","kurmanji_lat":"jara gotin di ẍulẍuland\nheroj hina mal êwrand\nhemya têk dunya şemmiran\nheroj koç û heroj bare","arabic":"قَوْلُ الْمَسَاكِينِ قَدْ أَحْدَثَ ضَجَّةً\nكُلَّ يَوْمٍ أَسْكَنَتْ عِيلَةً (فِي الْقَبْرِ)\nالْجَمِيعُ مَعًا قَدْ لَعَنُوا الدُّنْيَا\nكُلَّ يَوْمٍ رَحِيلٌ، وَكُلَّ يَوْمٍ حِمْلٌ","english":"The words of the poor caused an uproar,\nEvery day she settled someone in a home (the grave).\nTogether, they all cursed the world,\nEvery day is a departure, every day a packing of loads."},{"stanza":77,"kurdish_ar":"هەرۆژ کۆچ و هەرۆژ چوونە\nژ دۆر مە هلکرن کوونە\nد ناڤ قەبراڤە تاژوونە\nل وێ خەرگۆشە ئزهارە","kurmanji_lat":"heroj koç û heroj çûne\nji dor me hilkirin kûne\ndi nav qebrave tajûne\nli wê xergoşe izhare","arabic":"كُلَّ يَوْمٍ رَحِيلٌ، وَكُلَّ يَوْمٍ ذَهَابٌ\nمِنْ حَوْلِنَا اقْتَلَعُوا الْخِيَامَ\nفِي دَاخِلِ الْقُبُورِ يَنْدَفِعُونَ\nهُنَاكَ الْأَرْنَبُ (الإنسان الضعيق) يَظْهَرُ","english":"Every day is moving, every day is leaving,\nThey struck the tents from around us.\nThey are driven into the graves,\nThere the hare (the weak man) is revealed."},{"stanza":78,"kurdish_ar":"د خورشید و د ئاخێدا\nهەڕۆژ جارەک بنێڕ پێدا\nکو رازانە د ئاخێدا\nد خامۆشێ د بێچارە","kurmanji_lat":"di xurşîd û di axêda\nheřoj carek binêř pêda\nku razane di axêda\ndi xamoşê di bêçare","arabic":"فِي الشَّمْسِ وَفِي التُّرَابِ\nكُلَّ يَوْمٍ انْظُرْ إِلَيْهِ مَرَّةً\nالَّذِينَ نَامُوا فِي التُّرَابِ\nفِي صَمْتٍ وَبِلَا حِيلَةٍ","english":"In the sun and in the dust,\nLook at it once every day:\nThose who are asleep in the earth,\nIn silence, completely helpless."},{"stanza":79,"kurdish_ar":"هەمی خامۆشن رازائێ\nئەو مەهجوورن ژ دونیائێ\nتوجار دەنگەک ژ وان نائێ\nژ وان فکران فەقە ژارە","kurmanji_lat":"hemî xamoşin raza’ê\new mehcûrin ji dunya’ê\ntucar dengek ji wan na’ê\nji wan fikiran feqe jare","arabic":"جَمِيعُهُمْ صَامِتُونَ نِيَامٌ\nوَهُمْ مَهْجُورُونَ مِنَ الدُّنْيَا\nلَا يَأْتِي مِنْهُمْ أَيُّ صَوْتٍ أَبَدًا\nمِنْ تِلْكَ الْأَفْكَارِ، الْفَقِيهُ مِسْكِينٌ","english":"All are silent, deeply asleep,\nThey are abandoned by the world.\nNever does a sound come from them,\nFrom these thoughts, the Feqi is wretched."},{"stanza":80,"kurdish_ar":"ژ وان فکران فەقە ژارین\nحەتا کەنگی نەهشیارین\nترسین بمرین گونەهکارین\nدبێ تەوبە و ئیستیغفارە","kurmanji_lat":"ji wan fikiran feqe jarîn\nḧeta kengî nehşyarîn\ntirsîn bimrîn gunehkarîn\ndibê tewbe û îstîẍfare","arabic":"مِنْ تِلْكَ الْأَفْكَارِ، الْفَقِيهُ حَزِينٌ\nإِلَى مَتَى نَحْنُ غَيْرُ مُسْتَيْقِظِينَ؟\nنَخَافُ أَنْ نَمُوتَ وَنَحْنُ مُذْنِبُونَ\nبِلَا تَوْبَةٍ وَلَا اسْتِغْفَارٍ","english":"From these thoughts, we are sorrowful Feqis,\nUntil when will we remain unawakened?\nWe fear we will die as sinners,\nWithout repentance and seeking forgiveness."},{"stanza":81,"kurdish_ar":"هەرۆژ چەند جار ببێ تەوبە\nدبە کو هێژ نەهات نەوبە\nدلۆ هشیارە بێ خەو بە\nنە هەڤال مان، نە سەردارە","kurmanji_lat":"heroj çend car bibê tewbe\ndibe ku hêj nehat newbe\ndilo hişyare bê xew be\nne heval man, ne serdare","arabic":"كُلَّ يَوْمٍ قُلْ عِدَّةَ مَرَّاتٍ تَوْبَةً\nعَسَى أَنْ لَا يَكُونَ قَدْ جَاءَ الدَّوْرُ بَعْدُ\nيَا قَلْبُ، كُنْ مُسْتَيْقِظًا بِلَا نَوْمٍ\nلَمْ يَبْقَ أَصْدِقَاءٌ، وَلَا قَادَةٌ","english":"Every day say 'repentance' several times,\nPerhaps your turn has not yet come.\nO heart, be vigilant, be sleepless,\nNo friends remain, nor commanders."},{"stanza":82,"kurdish_ar":"ئەم هەمی پێ پێ هەڤالان\nدێ لازم چینە وان مالان\nدەمەک رازینە وان چالان\nدێ ل سەر مە بت غوبارە","kurmanji_lat":"em hemî pê pê hevalan\ndê lazim çîne wan malan\ndemek razîne wan çalan\ndê li ser me bit ẍubare","arabic":"نَحْنُ جَمِيعًا عَلَى خُطَى الْأَصْدِقَاءِ\nسَنَذْهَبُ لَازِمًا إِلَى تِلْكَ الْمَنَازِلِ\nلَحْظَةً نَنَامُ فِي تِلْكَ الْحُفَرِ\nوَسَيَكُونُ عَلَيْنَا الْغُبَارُ","english":"We all follow in the footsteps of our friends,\nWe must inevitably go to those homes.\nFor a time we will sleep in those pits,\nAnd the dust will settle upon us."},{"stanza":83,"kurdish_ar":"ئەم بچین هەڤال بمینن\nمیم و حێ بیرا خوە بینن\nفاتحان ژێڕا بخوینن\nحەوجە ئو دەر ئنتزارە","kurmanji_lat":"em biçîn heval bimînin\nmîm û ḧê bîra xwe bînin\nfatḧan jêřa bixiwînin\nḧewce u der intizare","arabic":"سَنَذْهَبُ نَحْنُ وَيَبْقَى الْأَصْدِقَاءُ\nالْمِيمُ وَالْحَاءُ (مُحَمَّد / فَقِي) فَلْيَتَذَكَّرُوا\nوَلْيَقْرَؤُوا الْفَاتِحَةَ لِأَجْلِهِ\nفَهُوَ مُحْتَاجٌ وَفِي حَالَةِ انْتِظَارٍ","english":"We will go, and friends will remain,\nLet them remember Mim and Ha (Muhammad/Feqi).\nLet them recite the Fatiha for him,\nFor he is in need, and in a state of waiting."},{"stanza":84,"kurdish_ar":"ل موحەممەد حەفت فەلەک چوونە\nژ هجرەت دەور گەلەک چوونە\nهزار سال چللو یەک چوونە\nئەڤ غەزەل هاتی دیارە","kurmanji_lat":"li muḧemmed ḧefit felek çûne\nji hicret dewr gelek çûne\nhizar sal çillu yek çûne\nev ẍezel hatî dyare","arabic":"عَلَى مُحَمَّدٍ مَضَتْ سَبْعَةُ أَفْلَاكٍ\nوَمِنَ الْهِجْرَةِ عُصُورٌ كَثِيرَةٌ مَضَتْ\nأَلْفُ سَنَةٍ وَوَاحِدٌ وَأَرْبَعُونَ مَضَتْ (1041 هـ)\nحَتَّى ظَهَرَتْ هَذِهِ الْقَصِيدَةُ","english":"Seven heavens have passed over Muhammad,\nFrom the Migration, many eras have gone.\nOne thousand and forty-one years have passed,\nWhen this Ghazal came to light."}]</script>
+<script>
+/* ============================================================
+   0. DATA
+   ============================================================ */
+const POEM = JSON.parse(document.getElementById('poemData').textContent);
+
+const LANGS = [
+  {k:'kurdish_ar',  name:'کوردی',            en:'Kurdish',  note:'Arabic script', cls:'ku  rtl', rtl:true,  src:true},
+  {k:'kurmanji_lat',name:'Kurmancî',         en:'Kurmanji', note:'Latin script',  cls:'lat ku-lat',rtl:false,src:true},
+  {k:'arabic',      name:'العربية',           en:'Arabic',   note:'translation',   cls:'ar  rtl', rtl:true,  src:false},
+  {k:'english',     name:'English',          en:'English',  note:'translation',   cls:'lat en', rtl:false, src:false}
+];
+const PRESETS = [
+  {id:'lat-en', label:'Kurmancî + English',  on:['kurmanji_lat','english']},
+  {id:'ku-ar',  label:'کوردی + العربية',      on:['kurdish_ar','arabic'], rtl:true},
+  {id:'ku-lat', label:'Both scripts',        on:['kurdish_ar','kurmanji_lat']},
+  {id:'all',    label:'All four',            on:['kurdish_ar','kurmanji_lat','arabic','english']}
+];
+
+const FACES = [
+  {id:'plex',  label:'Plex',  title:'IBM Plex Sans Arabic, sibling of the page chrome'},
+  {id:'vazir', label:'Vazir', title:'Vazirmatn, drawn for Persian and Kurdish'},
+  {id:'naskh', label:'Naskh', title:'Noto Naskh Arabic, the classic manuscript hand'}
+];
+
+const STORE = 'beyta-dili';
+const VALID = LANGS.map(l=>l.k);
+const saved = (load('langs') || []).filter(k=>VALID.includes(k));
+const savedFace = load('face');
+const state = {
+  langs: saved.length ? saved : ['kurmanji_lat','english'],
+  face: FACES.some(f=>f.id===savedFace) ? savedFace : 'plex',
+  q: ''
+};
+function load(k){ try{ return JSON.parse(localStorage.getItem(STORE+':'+k)); }catch(e){ return null; } }
+function save(k,v){ try{ localStorage.setItem(STORE+':'+k, JSON.stringify(v)); }catch(e){} }
+
+/* ============================================================
+   1. CONTROLS  -  language chips and pair presets
+   ============================================================ */
+const tabsEl = document.getElementById('langTabs');
+const presetsEl = document.getElementById('presets');
+
+LANGS.forEach(l=>{
+  const b = document.createElement('button');
+  b.className = 'tab' + (l.rtl?' rtl':'');
+  b.type = 'button';
+  b.dataset.k = l.k;
+  b.setAttribute('aria-pressed','false');
+  b.innerHTML = '<span class="dot"></span><span class="name">'+l.name+'</span>';
+  b.title = l.en + ', ' + l.note;
+  b.onclick = ()=>toggleLang(l.k);
+  tabsEl.appendChild(b);
+});
+
+PRESETS.forEach(p=>{
+  const b = document.createElement('button');
+  b.className = 'tab ghost' + (p.rtl?' rtl':'');
+  b.type = 'button';
+  b.dataset.p = p.id;
+  b.innerHTML = '<span class="name">'+p.label+'</span>';
+  b.onclick = ()=>{ state.langs = p.on.slice(); commit(); };
+  presetsEl.appendChild(b);
+});
+
+const faceEl = document.getElementById('faceTabs');
+FACES.forEach(f=>{
+  const b = document.createElement('button');
+  b.className = 'tab';
+  b.type = 'button';
+  b.dataset.f = f.id;
+  b.title = f.title;
+  b.innerHTML = '<span class="name">'+f.label+'</span>';
+  b.onclick = ()=>{ state.face = f.id; save('face', f.id); syncControls(); };
+  faceEl.appendChild(b);
+});
+
+function toggleLang(k){
+  const i = state.langs.indexOf(k);
+  if(i>-1){ if(state.langs.length===1) return; state.langs.splice(i,1); }
+  else state.langs.push(k);
+  commit();
+}
+
+function commit(){
+  /* keep the canonical order regardless of the order they were picked in */
+  state.langs = LANGS.map(l=>l.k).filter(k=>state.langs.includes(k));
+  save('langs', state.langs);
+  syncControls();
+  render();
+}
+
+function syncControls(){
+  document.querySelectorAll('#langTabs .tab').forEach(b=>{
+    const on = state.langs.includes(b.dataset.k);
+    b.classList.toggle('on', on);
+    b.setAttribute('aria-pressed', on?'true':'false');
+  });
+  const key = state.langs.join(',');
+  document.querySelectorAll('#presets .tab').forEach(b=>{
+    const p = PRESETS.find(x=>x.id===b.dataset.p);
+    b.classList.toggle('on', p.on.slice().sort().join(',') === state.langs.slice().sort().join(','));
+  });
+  document.querySelectorAll('#faceTabs .tab').forEach(b=>{
+    const on = b.dataset.f === state.face;
+    b.classList.toggle('on', on);
+    b.setAttribute('aria-pressed', on?'true':'false');
+  });
+  document.documentElement.dataset.face = state.face;
+  document.body.dataset.cols = String(state.langs.length);
+  document.documentElement.style.setProperty('--cols', state.langs.length);
+}
+
+/* ============================================================
+   2. RENDER  -  stanzas, one pane per selected language
+   ============================================================ */
+const poemEl = document.getElementById('poem');
+const countEl = document.getElementById('count');
+const esc = s => s.replace(/[&<>]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+/* Fold both scripts to a searchable skeleton: Kurmanji diacritics away, so
+   "sirin" finds "sirin" spelled with hats, and Arabic harakat away, so a bare
+   qaf-lam-ba finds the fully vocalised word. A character can fold to nothing,
+   so folding also returns a map back to the original offsets - that map is
+   what keeps <mark> sitting on the right letters. */
+const DROP = /[\u2019\u2018'\u02bc\u0640]/;
+const MARKS = /[\u0300-\u036f\u064b-\u0652\u0670]/g;
+function foldChar(c){
+  if(DROP.test(c)) return '';
+  return c.toLowerCase().normalize('NFD').replace(MARKS,'');
+}
+function fold(s){
+  let o = '';
+  for(const c of s) o += foldChar(c);
+  return o;
+}
+function foldWithMap(s){
+  const chars = [...s], map = [];
+  let o = '';
+  chars.forEach((c,i)=>{
+    const f = foldChar(c);
+    for(let k=0;k<f.length;k++){ o += f[k]; map.push(i); }
+  });
+  return {f:o, map, chars};
+}
+function highlight(text, needle){
+  if(!needle) return esc(text);
+  const n = fold(needle);
+  if(!n) return esc(text);
+  const {f, map, chars} = foldWithMap(text);
+  const cut = (a,b)=>esc(chars.slice(a,b).join(''));
+
+  let out = '', cursor = 0, i = 0, at;
+  while((at = f.indexOf(n, i)) > -1){
+    const s = map[at];
+    let e = map[at + n.length - 1] + 1;
+    /* swallow the vowel marks hanging off the last matched letter */
+    while(e < chars.length && foldChar(chars[e]) === '') e++;
+    if(s >= cursor){
+      out += cut(cursor, s) + '<mark>' + cut(s, e) + '</mark>';
+      cursor = e;
+    }
+    i = at + n.length;
+  }
+  return out + cut(cursor, chars.length);
+}
+
+function matches(st, q){
+  if(!q) return true;
+  const n = fold(q);
+  return LANGS.some(l=>fold(st[l.k]).includes(n)) || String(st.stanza) === q.trim();
+}
+
+function render(){
+  const q = state.q.trim();
+  const rows = POEM.filter(st=>matches(st,q));
+  const frag = document.createDocumentFragment();
+
+  rows.forEach(st=>{
+    const art = document.createElement('article');
+    art.className = 'st';
+    art.id = 's' + st.stanza;
+    art.dataset.n = st.stanza;
+
+    const panes = state.langs.map(k=>{
+      const l = LANGS.find(x=>x.k===k);
+      const lines = st[k].split('\n')
+        .map(t=>'<span class="line">'+highlight(t, q)+'</span>').join('');
+      return '<div class="pane '+l.cls+(l.src?' is-src':'')+'"'+(l.rtl?' dir="rtl"':'')+'>'
+           +   '<div class="pane-lab">'+l.en+' <span style="opacity:.7">· '+l.note+'</span></div>'
+           +   lines
+           + '</div>';
+    }).join('');
+
+    art.innerHTML =
+      '<div class="st-head">'
+    +   '<a class="snum" href="#s'+st.stanza+'">'+String(st.stanza).padStart(2,'0')+'</a>'
+    +   '<span class="st-rule"></span>'
+    +   '<span class="st-hint">'+(st.stanza===84?'colophon':'beyt')+'</span>'
+    + '</div>'
+    + '<div class="panes">'+panes+'</div>';
+
+    frag.appendChild(art);
+  });
+
+  poemEl.innerHTML = '';
+  if(!rows.length){
+    poemEl.innerHTML = '<div class="empty"><b>Nothing found</b>No stanza contains “'+esc(q)+'”. Try a shorter word, or a stanza number.</div>';
+  } else {
+    poemEl.appendChild(frag);
+  }
+  countEl.textContent = q
+    ? rows.length + ' / ' + POEM.length + ' stanzas'
+    : POEM.length + ' stanzas';
+  spy();
+}
+
+/* ============================================================
+   3. SEARCH
+   ============================================================ */
+const qEl = document.getElementById('q');
+let qt;
+qEl.addEventListener('input', ()=>{
+  clearTimeout(qt);
+  qt = setTimeout(()=>{ state.q = qEl.value; render(); }, 110);
+});
+qEl.addEventListener('keydown', e=>{
+  if(e.key === 'Escape'){ qEl.value=''; state.q=''; render(); }
+});
+
+/* ============================================================
+   4. THEME  -  single navbar icon, cycles system -> light -> dark
+   ============================================================ */
+const ICONS = {
+  light:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+  dark:'<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>',
+  system:'<rect x="3" y="4" width="18" height="12.5" rx="2"/><path d="M8.5 20h7M12 16.5V20"/>'
+};
+const LABEL = {system:'Theme: follows system', light:'Theme: light', dark:'Theme: dark'};
+const ORDER = ['system','light','dark'];
+const mq = matchMedia('(prefers-color-scheme: dark)');
+const themeBtn = document.getElementById('themeBtn');
+
+function applyTheme(pref){
+  const resolved = pref === 'system' ? (mq.matches ? 'dark' : 'light') : pref;
+  document.documentElement.dataset.theme = resolved;
+  document.documentElement.dataset.pref = pref;
+  document.getElementById('themeIcon').innerHTML = ICONS[pref];
+  themeBtn.title = LABEL[pref];
+  themeBtn.setAttribute('aria-label', LABEL[pref] + '. Click to change.');
+  save('theme', pref);
+}
+themeBtn.onclick = () =>
+  applyTheme(ORDER[(ORDER.indexOf(document.documentElement.dataset.pref) + 1) % ORDER.length]);
+mq.addEventListener('change', ()=>{
+  if(document.documentElement.dataset.pref === 'system') applyTheme('system');
+});
+applyTheme(ORDER.includes(load('theme')) ? load('theme') : 'system');
+
+/* ============================================================
+   5. MINIMAP  -  one row per group of six stanzas
+   ============================================================ */
+const GROUP = 6;
+const mmInner = document.getElementById('mmInner');
+const mmRows = [];
+for(let i=0; i<POEM.length; i+=GROUP){
+  const first = POEM[i], last = POEM[Math.min(i+GROUP, POEM.length)-1];
+  const a = document.createElement('a');
+  a.className = 'mm-row';
+  a.href = '#s' + first.stanza;
+  a.style.setProperty('--i', mmRows.length);
+  const hint = first.english.split('\n')[0].replace(/[,.;:]$/,'');
+  a.innerHTML = '<span class="mm-line"></span><span class="mm-label"><b>'
+    + first.stanza + '–' + last.stanza + '</b>'
+    + esc(hint.length > 30 ? hint.slice(0,29).trim() + '…' : hint) + '</span>';
+  mmInner.appendChild(a);
+  mmRows.push({from:first.stanza, to:last.stanza, el:a});
+}
+
+/* ============================================================
+   6. SCROLL SPY + PROGRESS
+   ============================================================ */
+function spy(){
+  const h = document.documentElement;
+  const max = h.scrollHeight - h.clientHeight;
+  document.getElementById('prog').style.width = (max > 0 ? h.scrollTop / max * 100 : 0) + '%';
+
+  const cards = poemEl.querySelectorAll('.st');
+  const edge = 220;
+  let n = 0;
+  for(const c of cards){
+    if(c.getBoundingClientRect().top < edge) n = +c.dataset.n; else break;
+  }
+  mmRows.forEach(r=> r.el.classList.toggle('on', n >= r.from && n <= r.to));
+}
+addEventListener('scroll', spy, {passive:true});
+addEventListener('resize', spy);
+
+/* keep scroll-padding honest: the control bar sticks under the navbar */
+const barEl = document.getElementById('bar');
+const measure = ()=> document.documentElement.style
+  .setProperty('--bar-h', barEl.getBoundingClientRect().height + 'px');
+addEventListener('resize', measure);
+
+/* ============================================================
+   15. COMET CURSOR  -  compact shooting-star core and tapered ribbon
+   ============================================================ */
+(() => {
+  const finePointer = matchMedia('(pointer:fine)');
+  const reducedMotion = matchMedia('(prefers-reduced-motion:reduce)');
+  const core = document.getElementById('cometCore');
+  const canvas = document.getElementById('cometTrail');
+  if(!core || !canvas || !finePointer.matches || reducedMotion.matches) return;
+
+  const ctx = canvas.getContext('2d');
+  if(!ctx) return;
+  document.documentElement.classList.add('comet-enabled');
+
+  const mouse = {x:-100, y:-100};
+  const head = {x:-100, y:-100};
+  const trail = []; // ordered from tail to head
+  const maxTrailLength = 42;
+  const minPointDistance = 2.2;
+  let visible = false;
+  let lastMove = performance.now();
+  let dpr = 1;
+
+  function resizeCanvas(){
+    dpr = Math.min(devicePixelRatio || 1, 2);
+    canvas.width = Math.round(innerWidth * dpr);
+    canvas.height = Math.round(innerHeight * dpr);
+    canvas.style.width = innerWidth + 'px';
+    canvas.style.height = innerHeight + 'px';
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  resizeCanvas();
+  addEventListener('resize', resizeCanvas, {passive:true});
+
+  function cursorRGB(){
+    return getComputedStyle(document.documentElement)
+      .getPropertyValue('--cursor-rgb').trim() || '255,255,255';
+  }
+
+  function setVisible(state){
+    visible = state;
+    core.classList.toggle('is-visible', state);
+    canvas.classList.toggle('is-visible', state);
+    if(!state) trail.length = 0;
+  }
+
+  function resetTrail(x, y){
+    trail.length = 0;
+    trail.push({x, y});
+  }
+
+  addEventListener('pointermove', e => {
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
+    lastMove = performance.now();
+    if(!visible){
+      head.x = mouse.x;
+      head.y = mouse.y;
+      resetTrail(mouse.x, mouse.y);
+      setVisible(true);
+    }
+  }, {passive:true});
+
+  addEventListener('pointerleave', () => setVisible(false));
+  addEventListener('pointerenter', e => {
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
+    head.x = mouse.x;
+    head.y = mouse.y;
+    resetTrail(mouse.x, mouse.y);
+    setVisible(true);
+  });
+  addEventListener('blur', () => setVisible(false));
+
+  function trimTrail(){
+    if(trail.length < 2) return;
+    let length = 0;
+    let keepFrom = trail.length - 1;
+
+    for(let i = trail.length - 1; i > 0; i--){
+      length += Math.hypot(
+        trail[i].x - trail[i - 1].x,
+        trail[i].y - trail[i - 1].y
+      );
+      keepFrom = i - 1;
+      if(length >= maxTrailLength) break;
+    }
+
+    if(keepFrom > 0) trail.splice(0, keepFrom);
+  }
+
+  function buildRibbon(points){
+    const left = [];
+    const right = [];
+    const last = points.length - 1;
+
+    for(let i = 0; i <= last; i++){
+      const prev = points[Math.max(0, i - 1)];
+      const next = points[Math.min(last, i + 1)];
+      let dx = next.x - prev.x;
+      let dy = next.y - prev.y;
+      const magnitude = Math.hypot(dx, dy) || 1;
+      dx /= magnitude;
+      dy /= magnitude;
+
+      const progress = last ? i / last : 1;
+      // Match the 7 px head at the join, then taper continuously to a point.
+      const halfWidth = .03 + 3.47 * Math.pow(progress, 1.42);
+      const nx = -dy * halfWidth;
+      const ny = dx * halfWidth;
+
+      left.push({x:points[i].x + nx, y:points[i].y + ny});
+      right.push({x:points[i].x - nx, y:points[i].y - ny});
+    }
+
+    ctx.beginPath();
+    ctx.moveTo(left[0].x, left[0].y);
+    for(let i = 1; i < left.length; i++) ctx.lineTo(left[i].x, left[i].y);
+    for(let i = right.length - 1; i >= 0; i--) ctx.lineTo(right[i].x, right[i].y);
+    ctx.closePath();
+  }
+
+  function drawTrail(now){
+    ctx.clearRect(0, 0, innerWidth, innerHeight);
+    if(!visible || trail.length < 2) return;
+
+    const idleFade = 1 - Math.min(1, Math.max(0, (now - lastMove - 55) / 190));
+    if(idleFade <= .01) return;
+
+    const rgb = cursorRGB();
+    const tail = trail[0];
+    const tip = trail[trail.length - 1];
+    const gradient = ctx.createLinearGradient(tail.x, tail.y, tip.x, tip.y);
+    gradient.addColorStop(0, `rgba(${rgb},0)`);
+    gradient.addColorStop(.36, `rgba(${rgb},${.055 * idleFade})`);
+    gradient.addColorStop(.72, `rgba(${rgb},${.18 * idleFade})`);
+    gradient.addColorStop(1, `rgba(${rgb},${.58 * idleFade})`);
+
+    buildRibbon(trail);
+    ctx.fillStyle = gradient;
+    ctx.shadowColor = `rgba(${rgb},${.24 * idleFade})`;
+    ctx.shadowBlur = 8;
+    ctx.fill();
+    ctx.shadowBlur = 0;
+  }
+
+  function animate(now){
+    head.x += (mouse.x - head.x) * .62;
+    head.y += (mouse.y - head.y) * .62;
+    core.style.transform = `translate3d(${head.x - 3.5}px,${head.y - 3.5}px,0)`;
+
+    if(visible){
+      const prev = trail[trail.length - 1];
+      if(!prev || Math.hypot(head.x - prev.x, head.y - prev.y) >= minPointDistance){
+        trail.push({x:head.x, y:head.y});
+      }
+      trimTrail();
+
+      if(now - lastMove > 65 && trail.length > 1){
+        trail.shift();
+      }
+    }
+
+    drawTrail(now);
+    requestAnimationFrame(animate);
+  }
+  requestAnimationFrame(animate);
+})();
+
+/* ============================================================
+   8. GO
+   ============================================================ */
+document.documentElement.style.setProperty('--rows',
+  Math.max(...POEM.map(st=>Math.max(...LANGS.map(l=>st[l.k].split('\n').length)))));
+syncControls();
+render();
+measure();
+</script>
+</body>
+</html>

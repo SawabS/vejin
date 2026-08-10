@@ -1,0 +1,590 @@
+[
+  {
+    "stanza": 1,
+    "kurdish_ar": "دلۆ رابە، دلۆ رابە\nڤەکە چاڤان کو ئێڤارە\nنەزانۆ بەس د خەو دابە\nب نەومێڕا مەبە یارە",
+    "kurmanji_lat": "dilo rabe, dilo rabe\nveke çavan ku êvare\nnezano bes di xew dabe\nbi newmêřa mebe yare",
+    "arabic": "يَا قَلْبُ انْهَضْ، يَا قَلْبُ انْهَضْ\nافْتَحْ عَيْنَيْكَ فَالْوَقْتُ مَسَاءٌ\nأَيُّهَا الْجَاهِلُ يَكْفِي غَفْوَةً\nلَا تَكُنْ لِلنَّوْمِ خَلِيلًا",
+    "english": "O heart, arise; O heart, arise,\nOpen your eyes, for evening falls.\nIgnorant one, enough of sleep,\nDo not make a friend of slumber."
+  },
+  {
+    "stanza": 2,
+    "kurdish_ar": "ل خوە شیرین مەکە نەومێ\nژ نەفسا خوە بکە لەومێ\nمەچە نێزکی ڤێ قەومێ\nقەوی ئەو فعلا خەسارە",
+    "kurmanji_lat": "li xwe şîrîn meke newmê\nji nefsa xwe bike lewmê\nmeçe nêzkî vê qewmê\nqewî ew fi’la xesare",
+    "arabic": "لَا تَسْتَحْلِ النَّوْمَ لِنَفْسِكَ\nوَلُمْ نَفْسَكَ\nلَا تَقْتَرِبْ مِنْ هَذَا الْقَوْمِ\nفَفِعْلُهُمْ هَذَا خَسَارَةٌ عَظِيمَةٌ",
+    "english": "Do not make sleep sweet unto yourself,\nReproach your own soul instead.\nDo not draw near to this crowd,\nFor their deeds are a profound loss."
+  },
+  {
+    "stanza": 3,
+    "kurdish_ar": "دلۆ نەوما مە ژێ بەحسە\nبەیانا غەفلەتێ نەحسە\nنەهشیاری گەلەک تەحسە\nمەنێڤ خابە کو مردارە",
+    "kurmanji_lat": "dilo newma me jê beḧse\nbeyana ẍefletê neḧse\nnehşyarî gelek teḧse\nmenêv xabe ku mirdare",
+    "arabic": "يَا قَلْبُ، نَوْمُنَا مَوْضُوعُ حَدِيثٍ\nبَيَانُ الْغَفْلَةِ شُؤْمٌ\nعَدَمُ الصَّحْوِ سَيِّئٌ جِدًّا\nلَا تَنَمْ فِي وَسَطِهِمْ فَهُوَ مَيْتَةٌ",
+    "english": "O heart, our sleep is the talk of all,\nThe mark of heedlessness is a bad omen.\nLack of vigilance is truly bitter,\nDo not sleep among them, it is like death."
+  },
+  {
+    "stanza": 4,
+    "kurdish_ar": "دلۆ رابە ژ ڤێ خابێ\nوەکی باپیر و وەک بابێ\nئەم ژی دێ چینە تورابێ\nببال باخوی و فەروارە",
+    "kurmanji_lat": "dilo rabe ji vê xabê\nwekî bapîr û wek babê\nem jî dê çîne turabê\nbibal baxwî û ferware",
+    "arabic": "يَا قَلْبُ انْهَضْ مِنْ هَذَا النَّوْمِ\nكَمَا الْأَجْدَادِ وَالْآبَاءِ\nنَحْنُ أَيْضًا سَنَذْهَبُ إِلَى التُّرَابِ\nإِلَى صَاحِبِ الْبُسْتَانِ وَالْأَمْرِ",
+    "english": "O heart, wake from this deep sleep,\nLike our grandfathers and fathers,\nWe too shall turn to dust,\nReturning to the Lord of the garden and decree."
+  },
+  {
+    "stanza": 5,
+    "kurdish_ar": "بنێر باخۆی و فەرواری\nبنێڕ چەرخێ د رۆزگاری\nل تە رۆژ هاتە ئێڤاری\nتە نە عەقلە، نە هشیارە",
+    "kurmanji_lat": "binêr baxoy û ferwarî\nbinêř çerxê di rozgarî\nli te roj hate êvarî\nte ne ’eqle, ne hişyare",
+    "arabic": "انْظُرْ إِلَى صَاحِبِ الْبُسْتَانِ وَالْأَمْرِ\nانْظُرْ إِلَى عَجَلَةِ الزَّمَانِ\nلَقَدْ حَلَّ عَلَيْكَ الْمَسَاءُ\nوَلَيْسَ لَدَيْكَ عَقْلٌ، وَلَا صَحْوٌ",
+    "english": "Look at the Lord of the garden and decree,\nLook at the turning wheel of time.\nYour day has turned into evening,\nYet you have neither sense nor vigilance."
+  },
+  {
+    "stanza": 6,
+    "kurdish_ar": "ئەگەر عەقلی وەرە جەنگی\nببێژ نەفسێ حەیا کەنگی\nتو غافل بی ب ڤی رەنگی\nئەیا کەهلێ نە گوهدارە",
+    "kurmanji_lat": "eger ’eqlî were cengî\nbibêj nefsê ḧeya kengî\ntu ẍafil bî bi vî rengî\neya kehlê ne guhdare",
+    "arabic": "إِنْ كُنْتَ عَاقِلًا تَعَالَ لِلْجِهَادِ\nوَقُلْ لِلنَّفْسِ إِلَى مَتَى\nتَبْقَيْنَ غَافِلَةً بِهَذَا الشَّكْلِ\nأَيُّهَا الْكَسُولُ الَّذِي لَا يَسْمَعُ",
+    "english": "If you are wise, step into the battle,\nAsk your soul: until when\nWill you remain heedless in this way?\nO lazy one who refuses to listen."
+  },
+  {
+    "stanza": 7,
+    "kurdish_ar": "چقا سستی، چقا کەهلی\nتو خۆ یەکجار د خەو نەهلی\nمەبە خەرگۆش د نێڤ دەحلی\nسەیادێ تە کڤاندارە",
+    "kurmanji_lat": "çiqa sistî, çiqa kehlî\ntu xo yekcar di xew nehlî\nmebe xergoş di nêv deḧlî\nseyadê te kivandare",
+    "arabic": "كَمْ أَنْتَ ضَعِيفٌ، كَمْ أَنْتَ كَسُولٌ\nلَا تَتْرُكْ نَفْسَكَ لِلنَّوْمِ مَرَّةً وَاحِدَةً\nلَا تَكُنْ كَالْأَرْنَبِ فِي وَسَطِ الْأَحْرَاشِ\nفَصَيَّادُكَ حَامِلُ الْقَوْسِ",
+    "english": "How sluggish you are, how idle!\nDo not leave yourself entirely to sleep.\nDo not be like a hare in the thicket,\nFor your hunter stands with a drawn bow."
+  },
+  {
+    "stanza": 8,
+    "kurdish_ar": "سەیادێ بێت و تە راکە\nمەبێژ، نا، ئو مەبێژ ناکە\nمەجالە ئەو ب غەوغاکە\nبنێر جارەک چ هەوارە",
+    "kurmanji_lat": "seyadê bêt û te rake\nmebêj, na, u mebêj nake\nmecale ew bi ẍewẍake\nbinêr carek çi heware",
+    "arabic": "سَيَأْتِي الصَّيَّادُ وَيُوقِظُكَ\nلَا تَقُلْ، لَا، وَلَا تَقُلْ لَا تَفْعَلْ\nلَا مَجَالَ لِذَلِكَ بِالضَّجِيجِ\nانْظُرْ مَرَّةً أَيُّ نِدَاءِ اسْتِغَاثَةٍ هَذَا",
+    "english": "The hunter will come and wake you,\nDo not say 'no', do not say 'don't'.\nThere is no time to make a fuss,\nLook just once at this outcry."
+  },
+  {
+    "stanza": 9,
+    "kurdish_ar": "بنێر جارەک چ بانگینە\nژ نەومێ خوە ب هش بینە\nدنێ قەتلە، دنێ خوینە\nدنێ گەردۆن و رۆژگارە",
+    "kurmanji_lat": "binêr carek çi bangîne\nji newmê xwe bi hiş bîne\ndinê qetle, dinê xwîne\ndinê gerdon û rojgare",
+    "arabic": "انْظُرْ مَرَّةً أَيُّ نِدَاءٍ هَذَا\nأَيْقِظْ نَفْسَكَ مِنَ النَّوْمِ\nالدُّنْيَا قَتْلٌ، الدُّنْيَا دَمٌ\nالدُّنْيَا فَلَكٌ وَأَيَّامٌ",
+    "english": "Look just once at what this call is,\nBring yourself back to your senses from sleep.\nThe world is slaughter, the world is blood,\nThe world is the rolling sky and time."
+  },
+  {
+    "stanza": 10,
+    "kurdish_ar": "دبارن تیر ژ گەردوونێ\nژ خەو رابە دەمەک روونێ\nتو نا ترسی ژ ئێتوونێ\nد بندا ئاگر و نارە",
+    "kurmanji_lat": "dibarin tîr ji gerdûnê\nji xew rabe demek rûnê\ntu na tirsî ji êtûnê\ndi binda agir û nare",
+    "arabic": "تَتَسَاقَطُ السِّهَامُ مِنَ الْفَلَكِ\nانْهَضْ مِنَ النَّوْمِ وَاجْلِسْ لَحْظَةً\nأَلَا تَخَافُ مِنَ الْأَتُونِ\nفِي أَسْفَلِهِ لَهِيبٌ وَنَارٌ",
+    "english": "Arrows rain down from the heavens,\nWake from sleep and sit for a moment.\nDo you not fear the furnace,\nBeneath which lies raging fire?"
+  },
+  {
+    "stanza": 11,
+    "kurdish_ar": "د نێڤ ئاگر، د نێڤ پێتێ\nل سەر سهلێ خەوا کێ تێ\nئەجەل گوڕیە، یەقین پێتێ\nتە نە فکرە، نە ئەفکارە",
+    "kurmanji_lat": "di nêv agir, di nêv pêtê\nli ser sihlê xewa kê tê\necel guřye, yeqîn pêtê\nte ne fikire, ne efkare",
+    "arabic": "فِي وَسَطِ النَّارِ، فِي وَسَطِ اللَّهِيبِ\nعَلَى السُّهُولِ مَنْ يَأْتِيهِ النَّوْمُ\nالْأَجَلُ ذِئْبٌ، يَقِينًا سَيَأْتِيكَ\nوَلَيْسَ لَدَيْكَ فِكْرٌ، وَلَا أَفْكَارٌ",
+    "english": "In the midst of fire, amid the flames,\nWho can sleep upon the plains?\nDeath is a wolf, it will surely strike you,\nYet you have neither thought nor reflection."
+  },
+  {
+    "stanza": 12,
+    "kurdish_ar": "تو ڤان فکران چڕا ناکی\nتە، ناڤێ خوە ژ خەو راکی\nکو ئێڤار هات چ پەیدا کی\nنە ئەوقات ما، نە رۆژگارە",
+    "kurmanji_lat": "tu van fikiran çiřa nakî\nte, navê xwe ji xew rakî\nku êvar hat çi peyda kî\nne ewqat ma, ne rojgare",
+    "arabic": "لِمَاذَا لَا تُفَكِّرُ فِي هَذِهِ الْأَفْكَارِ\nيَجِبُ عَلَيْكَ، أَنْ تُوقِظَ نَفْسَكَ مِنَ النَّوْمِ\nإِذَا حَلَّ الْمَسَاءُ مَاذَا سَتُوجِدُ\nلَمْ يَبْقَ وَقْتٌ، وَلَا أَيَّامٌ",
+    "english": "Why do you not ponder these thoughts?\nYou must wake yourself from this slumber.\nWhen evening comes, what will you have gained?\nNo time is left, the days are gone."
+  },
+  {
+    "stanza": 13,
+    "kurdish_ar": "دلۆ رابە وەها نابی\nحەتا کەنگی د خەودابی\nل تە رۆژ هاختە ئاڤابی\nئەیا مەیمەستێ مەیخوارە",
+    "kurmanji_lat": "dilo rabe weha nabî\nḧeta kengî di xewdabî\nli te roj haxte avabî\neya meymestê meyxiware",
+    "arabic": "يَا قَلْبُ انْهَضْ فَلَا يَصِحُّ هَذَا\nإِلَى مَتَى سَتَبْقَى فِي النَّوْمِ\nلَقَدْ غَرَبَتْ شَمْسُكَ\nأَيُّهَا الثَّمِلُ شَارِبُ الْخَمْرِ",
+    "english": "O heart, arise, this cannot be,\nUntil when will you remain asleep?\nYour sun has already set,\nO intoxicated drinker of wine."
+  },
+  {
+    "stanza": 14,
+    "kurdish_ar": "خەوا قەلبێ عەمەل بێ جهـ\nگوهێ خەلقێ کەڕ و بێ بهـ\nمەچە پالدە ل سەر بالگهـ\nخەوا بێ جهـ قەوی عارە",
+    "kurmanji_lat": "xewa qelbê ’emel bê cih\nguhê xelqê keř û bê bih\nmeçe palde li ser balgih\nxewa bê cih qewî ’are",
+    "arabic": "نَوْمُ الْقَلْبِ يَجْعَلُ الْعَمَلَ بِلَا مَكَانٍ\nوَآذَانُ النَّاسِ صَمَّاءُ بِلَا سَمْعٍ\nلَا تَذْهَبْ وَتَتَّكِئْ عَلَى الْوِسَادَةِ\nفَالنَّوْمُ فِي غَيْرِ مَحَلِّهِ عَارٌ عَظِيمٌ",
+    "english": "The heart's slumber makes deeds misplaced,\nPeople's ears are deaf, without hearing.\nDo not go and recline on the pillow,\nSleep out of place is a grave shame."
+  },
+  {
+    "stanza": 15,
+    "kurdish_ar": "خەوا بێ جهـ قەوی پووسە\nمە نە ناڤە، نە نامووسە\nدکانا مە قەوی رووسە\nدبێژن خواجە قەردارە",
+    "kurmanji_lat": "xewa bê cih qewî pûse\nme ne nave, ne namûse\ndikana me qewî rûse\ndibêjin xwace qerdare",
+    "arabic": "النَّوْمُ فِي غَيْرِ مَحَلِّهِ فَسَادٌ عَظِيمٌ\nلَيْسَ لَنَا اسْمٌ، وَلَا شَرَفٌ\nدُكَّانُنَا فَارِغٌ جِدًّا\nوَيَقُولُونَ السَّيِّدُ مَدْيُونٌ",
+    "english": "Ill-timed sleep brings utter ruin,\nWe have no name, no honor left.\nOur shop is completely bare,\nThey say the master is deep in debt."
+  },
+  {
+    "stanza": 16,
+    "kurdish_ar": "دبێژن خواجە بێ دەبرە\nد مەعنێدە دکان قەبرە\nتژی تۆزە، تژی غەبرە\nقەبر تەنگە تژی مارە",
+    "kurmanji_lat": "dibêjin xwace bê debre\ndi me’nêde dikan qebre\ntijî toze, tijî ẍebre\nqebir tenge tijî mare",
+    "arabic": "يَقُولُونَ السَّيِّدُ بِلَا حِيلَةٍ\nفِي الْمَعْنَى الدُّكَّانُ هُوَ الْقَبْرُ\nمَلِيءٌ بِالْغُبَارِ، مَلِيءٌ بِالتُّرَابِ\nالْقَبْرُ ضَيِّقٌ مَلِيءٌ بِالثَّعَابِينِ",
+    "english": "They say the master is helpless,\nIn truth, the shop is a grave.\nFull of dust, full of dirt,\nThe grave is narrow and full of snakes."
+  },
+  {
+    "stanza": 17,
+    "kurdish_ar": "تژی مارە، تژی موورە\nقەوی تەنگە، قەوی کوورە\nژ خوە قەبری نەکە دوورە\nل وێ مالە، ل هر، وارە",
+    "kurmanji_lat": "tijî mare, tijî mûre\nqewî tenge, qewî kûre\nji xwe qebrî neke dûre\nli wê male, li hir, ware",
+    "arabic": "مَلِيءٌ بِالثَّعَابِينِ، مَلِيءٌ بِالنَّمْلِ\nضَيِّقٌ جِدًّا، عَمِيقٌ جِدًّا\nلَا تُبْعِدِ الْقَبْرَ عَنْكَ\nفَهُنَاكَ الْمَنْزِلُ، وَهُنَا الْمُسْتَقَرُّ",
+    "english": "Full of snakes, full of ants,\nVery narrow, very deep.\nDo not distance the grave from yourself,\nThere is the house, here is the temporary camp."
+  },
+  {
+    "stanza": 18,
+    "kurdish_ar": "بوویە پاییز ل ڤان واران\nخەزام وەشیان ل بن داران\nل بن چ دکن گەلۆ یاران\nل مێرگان بوویە خووسارە",
+    "kurmanji_lat": "bûye payîz li van waran\nxezam weşyan li bin daran\nli bin çi dikin gelo yaran\nli mêrgan bûye xûsare",
+    "arabic": "لَقَدْ حَلَّ الْخَرِيفُ عَلَى هَذِهِ الدِّيَارِ\nوَتَسَاقَطَتِ الْأَوْرَاقُ تَحْتَ الْأَشْجَارِ\nمَاذَا يَفْعَلُ الْأَحِبَّةُ تَحْتَهَا\nلَقَدْ أَصْبَحَتِ الْمُرُوجُ صَقِيعًا",
+    "english": "Autumn has fallen upon these lands,\nLeaves have dropped beneath the trees.\nWhat are the friends doing beneath them?\nThe meadows have turned to frost."
+  },
+  {
+    "stanza": 19,
+    "kurdish_ar": "خەزام زەربوون ژ خووساری\nسەفا ناکن ل ڤی واری\nل بەر سەرمێ و هەواساری\nهەوائی زەرکرن دارە",
+    "kurmanji_lat": "xezam zerbûn ji xûsarî\nsefa nakin li vî warî\nli ber sermê û hewasarî\nhewa’î zerkirin dare",
+    "arabic": "اصْفَرَّتِ الْأَوْرَاقُ مِنَ الصَّقِيعِ\nلَمْ يَعُدْ هُنَاكَ صَفَاءٌ فِي هَذِهِ الدِّيَارِ\nفِي مُوَاجَهَةِ الْبَرْدِ وَالْهَوَاءِ الْبَارِدِ\nالْهَوَاءُ قَدْ صَفَّرَ الْأَشْجَارَ",
+    "english": "The leaves have yellowed from the frost,\nThere is no joy left in this land.\nFacing the cold and the bitter wind,\nThe weather has turned the trees yellow."
+  },
+  {
+    "stanza": 20,
+    "kurdish_ar": "خەزام زەربوون ژ سەرمائێ\nرەڤی رەونەق ژ دونیائێ\nژ بۆش ئاڤان گوشێن نائێ\nنە شەت مان و نە ئەنهارە",
+    "kurmanji_lat": "xezam zerbûn ji serma’ê\nrevî rewneq ji dunya’ê\nji boş avan guşên na’ê\nne şet man û ne enhare",
+    "arabic": "اصْفَرَّتِ الْأَوْرَاقُ مِنَ الْبَرْدِ\nوَهَرَبَ الرَّوْنَقُ مِنَ الدُّنْيَا\nمِنَ الْمِيَاهِ الْغَزِيرَةِ لَمْ يَبْقَ صَوْتٌ\nلَمْ تَبْقَ شُطُوطٌ وَلَا أَنْهَارٌ",
+    "english": "The leaves have yellowed from the cold,\nSplendor has fled from the world.\nFrom the abundant waters no sound comes,\nNo shores remain, nor rivers."
+  },
+  {
+    "stanza": 21,
+    "kurdish_ar": "نەمان ئەنهار د ڤی واری\nدبن کێم بوون شەتێ جاری\nچو نینن بۆ تە غەم خاری\nکو ل وێ بوویە بهارە",
+    "kurmanji_lat": "neman enhar di vî warî\ndibin kêm bûn şetê carî\nçu nînin bo te ẍem xarî\nku li wê bûye bihare",
+    "arabic": "لَمْ تَبْقَ أَنْهَارٌ فِي هَذِهِ الدِّيَارِ\nشُطُوطُ الْمِيَاهِ الْجَارِيَةِ قَلَّتْ\nلَيْسَ هُنَاكَ مَنْ يَحْمِلُ هَمَّكَ\nأَنَّهُ قَدْ حَلَّ الرَّبِيعُ هُنَاكَ",
+    "english": "No rivers are left in this domain,\nThe flowing streams have diminished.\nThere is no one to share your sorrow,\nYet there, it has become spring."
+  },
+  {
+    "stanza": 22,
+    "kurdish_ar": "بهار بوری ئو ئاڤ کێم بوون\nهەزاران باغ ل بەر دێم بوون\nپاییز داهات و گول کێم بوون\nوەشاندن بەلگ و مان خارە",
+    "kurmanji_lat": "bihar burî u av kêm bûn\nhezaran baẍ li ber dêm bûn\npayîz dahat û gul kêm bûn\nweşandin belg û man xare",
+    "arabic": "مَضَى الرَّبِيعُ وَقَلَّتِ الْمِيَاهُ\nآلَافُ الْبَسَاتِينِ كَانَتْ أَمَامَ الْوَجْهِ\nأَقْبَلَ الْخَرِيفُ وَقَلَّتِ الْوُرُودُ\nتَسَاقَطَتِ الْأَوْرَاقُ وَبَقِيَتْ عَارِيَةً",
+    "english": "Spring has passed and waters shrunk,\nThousands of gardens were before our faces.\nAutumn arrived and roses grew scarce,\nThe leaves shed, and branches stood bare."
+  },
+  {
+    "stanza": 23,
+    "kurdish_ar": "نە بەلچم مان، نە سومبل مان\nنە رەیحان مان، نە سۆرگول مان\nنە هەڤری مان، نە هەڤدل مان\nتورابێ کێم کرن یارە",
+    "kurmanji_lat": "ne belçim man, ne sumbil man\nne reyḧan man, ne sorgul man\nne hevrî man, ne hevdil man\nturabê kêm kirin yare",
+    "arabic": "لَمْ تَبْقَ أَوْرَاقٌ وَلَا سَنَابِلُ\nلَمْ يَبْقَ رَيْحَانٌ، وَلَا وُرُودٌ حَمْرَاءُ\nلَمْ يَبْقَ رِفَاقٌ، وَلَا أَصْدِقَاءٌ حَمِيمُونَ\nالتُّرَابُ نَقَّصَ الْأَحِبَّةَ",
+    "english": "No leaves remain, no hyacinths,\nNo basil remains, no red roses.\nNo comrades left, no kindred spirits,\nThe dust has reduced our loved ones."
+  },
+  {
+    "stanza": 24,
+    "kurdish_ar": "نە هەڤری مان، نە هاڤال مان\nنە سووسن مان، نە ئالئال مان\nنە لەئلائێن سیاهـ خال مان\nتنێ من حەیف ل وان خوارە",
+    "kurmanji_lat": "ne hevrî man, ne haval man\nne sûsin man, ne al’al man\nne le’la’ên syah xal man\ntinê min ḧeyf li wan xware",
+    "arabic": "لَمْ يَبْقَ رِفَاقٌ، وَلَا أَصْدِقَاءٌ\nلَمْ تَبْقَ سَوْسَنٌ، وَلَا شَقَائِقُ نُعْمَانٍ\nلَمْ تَبْقَ الْحِسَانُ ذَوَاتُ الْخَالِ الْأَسْوَدِ\nفَقَطْ تَحَسَّرْتُ أَنَا عَلَيْهِمْ",
+    "english": "No comrades remain, no companions,\nNo lilies remain, no anemones.\nNo dark-mole beauties remain,\nI am left alone to mourn them."
+  },
+  {
+    "stanza": 25,
+    "kurdish_ar": "تنێ من حەیف ل وان تشتان\nل بەیبوونان ل بامشتان\nخوزی ئەڤ رەنگ نە ئێڤشتان\nد ئسمینێ د نامدارە",
+    "kurmanji_lat": "tinê min ḧeyf li wan tiştan\nli beybûnan li bamiştan\nxuzî ev reng ne êvşitan\ndi ismînê di namdare",
+    "arabic": "فَقَطْ تَحَسَّرْتُ عَلَى تِلْكَ الْأَشْيَاءِ\nعَلَى الْأُقْحُوَانِ، وَعَلَى أَقْرَانِهَا\nلَيْتَ هَذَا اللَّوْنَ لَمْ يَخْتَلِطْ\nفِي الْيَاسَمِينِ الْمَشْهُورِ",
+    "english": "I mourn only for those things,\nFor the daisies and their peers.\nI wish this color had not faded,\nWithin the renowned jasmine."
+  },
+  {
+    "stanza": 26,
+    "kurdish_ar": "نە چیچەک مان، نە ئاسمین مان\nنە زۆزانێ د رەنگین مان\nنە گۆیینێ د خوەشخوین مان\nنە نیسان ما، نە ئادارە",
+    "kurmanji_lat": "ne çîçek man, ne asmîn man\nne zozanê di rengîn man\nne goyînê di xweşxiwîn man\nne nîsan ma, ne adare",
+    "arabic": "لَمْ تَبْقَ أَزْهَارٌ، وَلَا يَاسَمِينُ\nلَمْ تَبْقَ الْمَصَايِفُ الْمُلَوَّنَةُ\nلَمْ تَبْقَ الطُّيُورُ الْحَسَنَةُ الصَّوْتِ\nلَمْ يَبْقَ نِيسَانُ، وَلَا آذَارُ",
+    "english": "No flowers remain, no jasmine,\nNo colorful summer pastures.\nNo sweet-singing birds remain,\nNo April is left, nor March."
+  },
+  {
+    "stanza": 27,
+    "kurdish_ar": "دلۆ بۆرین ژ نیسانێ\nهەوائێ وان مەهان کانێ\nبوویە ئەیلول ل زۆزانێ\nنە کانی مان، نە جووبارە",
+    "kurmanji_lat": "dilo borîn ji nîsanê\nhewa’ê wan mehan kanê\nbûye eylul li zozanê\nne kanî man, ne cûbare",
+    "arabic": "يَا قَلْبُ مَضَيْنَا مِنْ نِيسَانَ\nأَيْنَ هَوَاءُ تِلْكَ الشُّهُورِ\nلَقَدْ أَصْبَحَ أَيْلُولُ فِي الْمَصَايِفِ\nلَمْ تَبْقَ يَنَابِيعُ، وَلَا جَدَاوِلُ",
+    "english": "O heart, we have moved past April,\nWhere is the breeze of those months?\nSeptember has reached the high pastures,\nNo springs remain, no brooks."
+  },
+  {
+    "stanza": 28,
+    "kurdish_ar": "ژ جووباران گیاکەر چوون\nلەتیف و نازک و تەڕ چوون\nوەکی بائێ کەلەمپەڕ چوون\nگەلۆ ئەڤ با چ دژوارە",
+    "kurmanji_lat": "ji cûbaran gyaker çûn\nletîf û nazk û teř çûn\nwekî ba’ê kelempeř çûn\ngelo ev ba çi dijware",
+    "arabic": "مِنَ الْجَدَاوِلِ ذَهَبَتِ الْأَعْشَابُ الْخَضْرَاءُ\nذَهَبَ اللَّطِيفُ وَالرَّقِيقُ وَالرَّطْبُ\nذَهَبُوا كَأَوْرَاقٍ يَعْصِفُ بِهَا الرِّيحُ\nيَا تُرَى كَمْ هَذِهِ الرِّيحُ قَاسِيَةٌ!",
+    "english": "From the brooks the green grass vanished,\nThe gentle, delicate, and fresh have gone.\nThey scattered like leaves in the wind,\nOh, how fierce this wind is!"
+  },
+  {
+    "stanza": 29,
+    "kurdish_ar": "ل مە بایی کرە گازی\nخەزام پێچان لبەر ئەڤرازی\n«مقیم» ئەڤ ئاش ل ڤی سازی\nرەشاندن سونبلان ئارە",
+    "kurmanji_lat": "li me bayî kire gazî\nxezam pêçan liber evrazî\n«miqîm» ev aş li vî sazî\nreşandin sunbilan are",
+    "arabic": "صَرَخَتْ فِينَا الرِّيحُ\nوَلَفَّتِ الْأَوْرَاقَ فِي الْمُرْتَفَعَاتِ\n«مُقِيمٌ» هَذَا الطَّاحُونُ عَلَى هَذَا اللَّحْنِ\nنَثَرَتِ السَّنَابِلُ النَّارَ",
+    "english": "The wind howled upon us,\nSweeping the fallen leaves up the slopes.\nThis mill grinds steadily to this tune,\nThe hyacinths have scattered fire."
+  },
+  {
+    "stanza": 30,
+    "kurdish_ar": "دبارن ئار ژ ئاسمانی\nژ دۆما چەرخ و دەورانی\nگەرێ ئاڤێتە رەیحانی\nبخوور نائێ ژ بولغارە",
+    "kurmanji_lat": "dibarin ar ji asmanî\nji doma çerx û dewranî\ngerê avête reyḧanî\nbixûr na’ê ji bulẍare",
+    "arabic": "تَتَسَاقَطُ النِّيرَانُ مِنَ السَّمَاءِ\nمِنْ عَاقِبَةِ الْفَلَكِ وَالدَّوَرَانِ\nأَلْقَى بِالْبَرَدِ عَلَى الرَّيْحَانِ\nلَمْ يَعُدْ يَأْتِي الْبَخُورُ مِنْ بُلْغَارَ",
+    "english": "Fire rains down from the sky,\nFrom the spinning wheel of fate.\nHail has battered the sweet basil,\nIncense no longer comes from Bulgar."
+  },
+  {
+    "stanza": 31,
+    "kurdish_ar": "ژ بولغارێ د رەنگ دائی\nژ مەخموورێ د پێچائی\nقوماش کەڤنە ب کێر نائی\nروئێ هیمێ کو عەیبدارە",
+    "kurmanji_lat": "ji bulẍarê di reng da’î\nji mexmûrê di pêça’î\nqumaş kevne bi kêr na’î\nru’ê hîmê ku ’eybidare",
+    "arabic": "مِنْ بُلْغَارَ قَدْ أُعْطِيَ اللَّوْنُ\nمِنَ الْمَخْمَلِ قَدْ لُفَّ\nالْقُمَاشُ قَدِيمٌ لَا يَنْفَعُ\nوَوَجْهُ ... قَدْ أَصَابَهُ الْعَيْبُ",
+    "english": "Colored with dyes from Bulgar,\nWrapped in softest velvet,\nThe fabric is old and useless now,\nAnd its surface is flawed and stained."
+  },
+  {
+    "stanza": 32,
+    "kurdish_ar": "رۆئێ هیمێ بو چل سالی\nد نێڤ بوخچەئێ رەشکالی\nدەقیق باری ل پەرتالی\nهەمی تێک بوونە جووبارە",
+    "kurmanji_lat": "ro’ê hîmê bu çil salî\ndi nêv buxçe’ê reşkalî\ndeqîq barî li pertalî\nhemî têk bûne cûbare",
+    "arabic": "وَجْهُ ... صَارَ لَهُ أَرْبَعُونَ عَامًا\nفِي وَسَطِ صُرَّةِ الثِّيَابِ السَّوْدَاءِ\nتَسَاقَطَ الدَّقِيقُ عَلَى الْمَتَاعِ\nوَأَصْبَحَ الْجَمِيعُ جَدَاوِلَ",
+    "english": "Its face has turned forty years old,\nInside the bundle of dark clothes.\nFlour (dust) rained upon the garments,\nAnd all have washed away like streams."
+  },
+  {
+    "stanza": 33,
+    "kurdish_ar": "ل مە پەرتال کەتە ئاڤێ\nکەفا بەحرێ گەها ناڤێ\nسیا مەخموور ل بەر تاڤێ\nسپیبوو رەنگ و رووکارە",
+    "kurmanji_lat": "li me pertal kete avê\nkefa beḧrê geha navê\nsya mexmûr li ber tavê\nsipîbû reng û rûkare",
+    "arabic": "مَتَاعُنَا وَقَعَ فِي الْمَاءِ\nوَزَبَدُ الْبَحْرِ وَصَلَ إِلَى وَسَطِهِ\nوَسَوَادُ الْمَخْمَلِ تَحْتَ الشَّمْسِ\nابْيَضَّ لَوْنُهُ وَمَظْهَرُهُ",
+    "english": "Our belongings fell into the water,\nThe sea-foam reached their core.\nThe blackness of velvet beneath the sun,\nFaded to white in color and face."
+  },
+  {
+    "stanza": 34,
+    "kurdish_ar": "سپی نورە ژ هدایاتە\nرەشی رەنگە ژ زولماتە\nشوکور شەڤ چوو و رۆژ هاتە\nخودا غەسال و قەتتارە",
+    "kurmanji_lat": "sipî nure ji hidayate\nreşî renge ji zulmate\nşukur şev çû û roj hate\nxuda ẍesal û qettare",
+    "arabic": "الْبَيَاضُ نُورٌ مِنَ الْهِدَايَةِ\nوَالسَّوَادُ لَوْنٌ مِنَ الظُّلُمَاتِ\nالشُّكْرُ لِلَّهِ ذَهَبَ اللَّيْلُ وَجَاءَ النَّهَارُ\nوَاللَّهُ هُوَ الْغَسَّالُ وَالْمُقَطِّرُ",
+    "english": "White is the light of guidance,\nBlack is the hue of darkness.\nThank God the night has passed and day has come,\nGod is the Washer and the Purifier."
+  },
+  {
+    "stanza": 35,
+    "kurdish_ar": "غەسالی نەرم کرن شوشتن\nل بەر تاڤێ بدۆم هشتن\nژ رەنگێ پیرییێ رشتن\nشکوردارین ژ جەببارە",
+    "kurmanji_lat": "ẍesalî nerim kirin şuştin\nli ber tavê bidom hiştin\nji rengê pîrîyê riştin\nşikurdarîn ji cebbare",
+    "arabic": "الْغَسَّالُ لَيَّنَهَا وَغَسَلَهَا\nوَتَرَكَهَا تَحْتَ الشَّمْسِ بِاسْتِمْرَارٍ\nوَصَبَغَهَا بِلَوْنِ الشَّيْخُوخَةِ\nنَحْنُ شَاكِرُونَ لِلْجَبَّارِ",
+    "english": "The Washer softened and cleansed them,\nLeft them continuously under the sun.\nHe dyed them with the color of old age,\nWe are thankful to the Almighty."
+  },
+  {
+    "stanza": 36,
+    "kurdish_ar": "شوکردارین ژ ڤێ حالێ\nهەوائێ لەولەبا سالێ\nوەشاندن بەلگ ژ ئال ئالێ\nنە رەنگ مانە، نە روخسارە",
+    "kurmanji_lat": "şukirdarîn ji vê ḧalê\nhewa’ê lewleba salê\nweşandin belg ji al alê\nne reng mane, ne ruxsare",
+    "arabic": "شَاكِرُونَ نَحْنُ لِهَذَا الْحَالِ\nلِهَوَاءِ دَوَامَةِ السَّنَةِ\nأَسْقَطَتِ الْأَوْرَاقَ مِنْ شَقَائِقِ النُّعْمَانِ\nلَمْ يَبْقَ لَوْنٌ، وَلَا وَجْهٌ",
+    "english": "We are grateful for this state,\nFor the winds of the turning year.\nThey scattered the leaves of the anemone,\nLeaving neither color nor features."
+  },
+  {
+    "stanza": 37,
+    "kurdish_ar": "مە نە رەنگ ما، نە قامەت ما\nمە نە خەو ما، نە راحەت ما\nمە نە بێهن ما، نە سیرەت ما\nهەمی بۆرین دنێ سارە",
+    "kurmanji_lat": "me ne reng ma, ne qamet ma\nme ne xew ma, ne raḧet ma\nme ne bêhin ma, ne sîret ma\nhemî borîn dinê sare",
+    "arabic": "لَمْ يَبْقَ لَنَا لَوْنٌ، وَلَا قَامَةٌ\nلَمْ يَبْقَ لَنَا نَوْمٌ، وَلَا رَاحَةٌ\nلَمْ يَبْقَ لَنَا رَائِحَةٌ، وَلَا سِيرَةٌ\nكُلُّهُمْ مَضَوْا وَالدُّنْيَا بَارِدَةٌ",
+    "english": "We have no color left, nor stature,\nWe have no sleep left, nor rest.\nWe have no scent left, nor repute,\nAll have passed, and the world is cold."
+  },
+  {
+    "stanza": 38,
+    "kurdish_ar": "دنێ مەهدە ئو مەهلۆکە\nوەکو لەعبە ئو لەیزۆکە\nچ زانن تفل و زاڕۆکە\nفەلەک چەرخە ئو غەددارە",
+    "kurmanji_lat": "dinê mehde u mehloke\nweku le’be u leyzoke\nçi zanin tifil û zařoke\nfelek çerxe u ẍeddare",
+    "arabic": "الدُّنْيَا مَهْدٌ وَمَهْلَكَةٌ\nمِثْلَ لُعْبَةٍ وَمُلْهِيَةٍ\nمَاذَا يَعْرِفُ الْأَطْفَالُ وَالصِّغَارُ\nالْفَلَكُ عَجَلَةٌ وَغَدَّارَةٌ",
+    "english": "The world is a cradle and a place of ruin,\nLike a game and a plaything.\nWhat do infants and children know?\nFate is a wheel, and it is treacherous."
+  },
+  {
+    "stanza": 39,
+    "kurdish_ar": "بێ قەرارە، یا شرینە\nوەکو شەکر و هنگڤینە\nدناڤ یێکدا ڤەسترینە\nیا داڤدۆزە، یا مەککارە",
+    "kurmanji_lat": "bê qerare, ya şirîne\nweku şekir û hingivîne\ndinav yêkda vestirîne\nya davdoze, ya mekkare",
+    "arabic": "هِيَ بِلَا قَرَارٍ، هِيَ حُلْوَةٌ\nمِثْلَ السُّكَّرِ وَالْعَسَلِ\nمُخْتَلِطَةٌ فِي بَعْضِهَا الْبَعْضِ\nهِيَ نَاسِجَةُ الْفِخَاخِ، هِيَ مَكَّارَةٌ",
+    "english": "She is restless, yet she is sweet,\nLike sugar and honey.\nInterwoven into one another,\nShe weaves traps, she is a trickster."
+  },
+  {
+    "stanza": 40,
+    "kurdish_ar": "فەلەک چەرخە و دەورانە\nمسالێ مەوجێ بەحرانە\nمەعاشێ ئەهلێ شەیتانە\nدنێ دەورە ئو دەووارە",
+    "kurmanji_lat": "felek çerxe û dewrane\nmisalê mewcê beḧrane\nme’aşê ehlê şeytane\ndinê dewre u dewware",
+    "arabic": "الْفَلَكُ عَجَلَةٌ وَدَوَرَانٌ\nمِثْلَ أَمْوَاجِ الْبِحَارِ\nهِيَ مَعَاشُ أَهْلِ الشَّيْطَانِ\nالدُّنْيَا دَوَرَانٌ وَدَوَّارَةٌ",
+    "english": "Fate is a spinning wheel and a cycle,\nLike the waves of the oceans.\nIt is the livelihood of the people of Satan,\nThe world is turning, and constantly revolving."
+  },
+  {
+    "stanza": 41,
+    "kurdish_ar": "دنێ قەنجە ژ مێران ڕا\nعەجەب مولکە ژ شێران ڕا\nکو ئاڤاکن ژ خیران ڕا\nعەجەب مەزرەع و عەققارە",
+    "kurmanji_lat": "dinê qence ji mêran řa\n’eceb mulke ji şêran řa\nku avakin ji xîran řa\n’eceb mezre’ û ’eqqare",
+    "arabic": "الدُّنْيَا جَيِّدَةٌ لِلرِّجَالِ الشُّجْعَانِ\nهِيَ مُلْكٌ عَجِيبٌ لِلْأُسُودِ\nالَّذِينَ يَبْنُونَ بِهَا لِلْخَيْرَاتِ\nهِيَ مَزْرَعَةٌ عَجِيبَةٌ وَعَقَارٌ",
+    "english": "The world is good for brave men,\nA wondrous domain for the lions.\nWho build within it for the sake of goodness,\nA wondrous farm and estate."
+  },
+  {
+    "stanza": 42,
+    "kurdish_ar": "دنێ قەنجە تەژی شێر بن\nژ خێران ڕا د خوەشمێر بن\nنە مسلێ من د بێ کێر بن\nد بێ کەسپ و د بێ کارە",
+    "kurmanji_lat": "dinê qence tejî şêr bin\nji xêran řa di xweşmêr bin\nne mislê min di bê kêr bin\ndi bê kesp û di bê kare",
+    "arabic": "الدُّنْيَا جَيِّدَةٌ إِذَا كَانُوا أُسُودًا\nوَكَانُوا فُرْسَانًا لِلْخَيْرَاتِ\nلَا أَنْ يَكُونُوا مِثْلِي عَدِيمِي النَّفْعِ\nبِلَا كَسْبٍ وَبِلَا عَمَلٍ",
+    "english": "The world is good if you are lions,\nAnd valiant knights in good deeds.\nNot like me, entirely useless,\nWithout earnings and without work."
+  },
+  {
+    "stanza": 43,
+    "kurdish_ar": "ئەیا بێ کەسپێ بێ خیرە\nیەقین عەقلێ تە تەخسیرە\nتە یا جان دا ب یا پیرە\nتو دەست ژێ بەردە سەححارە",
+    "kurmanji_lat": "eya bê kespê bê xîre\nyeqîn ’eqlê te texsîre\nte ya can da bi ya pîre\ntu dest jê berde seḧḧare",
+    "arabic": "أَيُّهَا الْعَدِيمُ الْكَسْبِ وَالْخَيْرِ\nيَقِينًا أَنَّ عَقْلَكَ نَاقِصٌ\nلَقَدْ أَعْطَيْتَ الْجَمِيلَةَ بِالْعَجُوزِ\nارْفَعْ يَدَكَ عَنْهَا فَهِيَ سَاحِرَةٌ",
+    "english": "O you with no gain and no goodness,\nSurely your mind is flawed.\nYou traded the young beauty for the old hag,\nTake your hands off her, she is a sorceress."
+  },
+  {
+    "stanza": 44,
+    "kurdish_ar": "دلۆ یا پیر ب کێرنائێ\nئەگەر عاقل و زانائێ\nمەبە یولداشێ دونیائێ\nنە یولداشەک وەفادارە",
+    "kurmanji_lat": "dilo ya pîr bi kêrna’ê\neger ’aqil û zana’ê\nmebe yuldaşê dunya’ê\nne yuldaşek wefadare",
+    "arabic": "يَا قَلْبُ، الْعَجُوزُ لَا تَنْفَعُ\nإِنْ كُنْتَ عَاقِلًا وَعَالِمًا\nلَا تَكُنْ رَفِيقًا لِلدُّنْيَا\nفَهِيَ لَيْسَتْ رَفِيقَةً وَفِيَّةً",
+    "english": "O heart, the old hag is of no use,\nIf you are wise and knowledgeable.\nDo not become a companion of the world,\nShe is not a loyal friend."
+  },
+  {
+    "stanza": 45,
+    "kurdish_ar": "دنێ خەلقنۆ ب کێ مایە\nبەلێ قەنجە و مەزرایە\nژ خێران ڕا خودا دایە\nخەباتکاربن کو ئەڤ جارە",
+    "kurmanji_lat": "dinê xelqino bi kê maye\nbelê qence û mezraye\nji xêran řa xuda daye\nxebatkarbin ku ev care",
+    "arabic": "أَيُّهَا النَّاسُ، لِمَنْ بَقِيَتِ الدُّنْيَا؟\nنَعَمْ، هِيَ جَيِّدَةٌ وَمَزْرَعَةٌ\nلَقَدْ أَعْطَاهَا اللَّهُ لِلْخَيْرَاتِ\nفَكُونُوا عَامِلِينَ فِي هَذِهِ الْمَرَّةِ",
+    "english": "O people, for whom has the world remained?\nYes, it is good, and it is a farm.\nGod has given it for good deeds,\nBe diligent workers this time around."
+  },
+  {
+    "stanza": 46,
+    "kurdish_ar": "دو جار نا ئێتە دونیائێ\nچەلاپا خوەش هەڕۆ نائێ\nبکێر قوتێ خو زانائێ\nنها ئەو قووت دبت چارە",
+    "kurmanji_lat": "du car na ête dunya’ê\nçelapa xweş heřo na’ê\nbikêr qutê xu zana’ê\nniha ew qût dibit çare",
+    "arabic": "الْمَرْءُ لَا يَأْتِي إِلَى الدُّنْيَا مَرَّتَيْنِ\nوَالْفُرْصَةُ السَّعِيدَةُ لَا تَأْتِي كُلَّ يَوْمٍ\nاِعْمَلْ لِقُوتِكَ أَيُّهَا الْعَالِمُ\nفَالْآنَ هَذَا الْقُوتُ هُوَ الْعِلَاجُ",
+    "english": "One does not come to the world twice,\nAnd a good opportunity doesn't arrive every day.\nWork for your provisions, O wise one,\nFor now, those provisions are the cure."
+  },
+  {
+    "stanza": 47,
+    "kurdish_ar": "تو قووتێ خوە نها چارکە\nزەوادێ ئاخرەتێ کارکە\nبلەزینە ئو زوو بارکە\nدنێ سووکە ئو بازارە",
+    "kurmanji_lat": "tu qûtê xwe niha çarke\nzewadê axretê karke\nbilezîne u zû barke\ndinê sûke u bazare",
+    "arabic": "دَبِّرْ قُوتَكَ الْآنَ\nوَاعْمَلْ لِزَادِ الْآخِرَةِ\nأَسْرِعْ وَارْتَحِلْ سَرِيعًا\nالدُّنْيَا سُوقٌ وَتِجَارَةٌ",
+    "english": "Gather your provisions right now,\nWork for the supplies of the Hereafter.\nHurry and pack your bags quickly,\nThe world is a market and a bazaar."
+  },
+  {
+    "stanza": 48,
+    "kurdish_ar": "دنێ شەهرە دنێ سووکە\nدنێ پیرە، نە نووبووکە\nهەچی مێرێ کو ئەو شووکە\nگری گرت و نها خارە",
+    "kurmanji_lat": "dinê şehre dinê sûke\ndinê pîre, ne nûbûke\nheçî mêrê ku ew şûke\ngirî girt û niha xare",
+    "arabic": "الدُّنْيَا مَدِينَةٌ، الدُّنْيَا سُوقٌ\nالدُّنْيَا عَجُوزٌ، وَلَيْسَتْ عَرُوسًا جَدِيدَةً\nكُلُّ رَجُلٍ تَزَوَّجَتْهُ\nأَصَابَهُ الْبُكَاءُ وَصَارَ ذَلِيلًا",
+    "english": "The world is a city, the world is a market,\nThe world is an old woman, not a new bride.\nEvery man who takes her in marriage,\nWill end up weeping and humiliated."
+  },
+  {
+    "stanza": 49,
+    "kurdish_ar": "دلۆ دونیا کەڕ و پیرە\nنەبێژ جوانە، قەوی پیرە\nتێ دۆم ناکن شاهـ و میرە\nب ئادەم ڕا، نەبوو یارە",
+    "kurmanji_lat": "dilo dunya keř û pîre\nnebêj cwane, qewî pîre\ntê dom nakin şah û mîre\nbi adem řa, nebû yare",
+    "arabic": "يَا قَلْبُ الدُّنْيَا صَمَّاءُ وَعَجُوزٌ\nلَا تَقُلْ شَابَّةٌ، بَلْ هِيَ هَرِمَةٌ جِدًّا\nلَا يَدُومُ فِيهَا الْمُلُوكُ وَالْأُمَرَاءُ\nمَعَ آدَمَ، لَمْ تَكُنْ صَدِيقَةً",
+    "english": "O heart, the world is deaf and old,\nDo not say she is young, she is very old.\nKings and princes do not last within her,\nEven with Adam, she was not a true friend."
+  },
+  {
+    "stanza": 50,
+    "kurdish_ar": "تە ئەو خارن هەمی یەکسەر\nنەدا کەس تا نقتەک مەفەر\nژ ئادەم هەتا پێغەمبەر\nڤەشارتی جوملە یەکجارە",
+    "kurmanji_lat": "te ew xarin hemî yekser\nneda kes ta niqtek mefer\nji adem heta pêẍember\nveşartî cumle yekcare",
+    "arabic": "لَقَدْ أَكَلَتْهُمْ جَمِيعًا عَلَى الْفَوْرِ\nوَلَمْ تُعْطِ لِأَحَدٍ أَدْنَى مَفَرٍّ\nمِنْ آدَمَ حَتَّى النَّبِيِّ\nأَخْفَتْهُمْ جَمِيعًا دَفْعَةً وَاحِدَةً",
+    "english": "She devoured them all at once,\nGiving no one a single chance of escape.\nFrom Adam up to the Prophet,\nShe buried them all entirely."
+  },
+  {
+    "stanza": 51,
+    "kurdish_ar": "ئەیا خەلقێ کەڕ و گیرە\nنە یا جانە ، نە یا پیرە\nقەبوول ناکم ژ وی میرە\nڤ ئادەم ڕا نەبوو یارە",
+    "kurmanji_lat": "eya xelqê keř û gîre\nne ya cane , ne ya pîre\nqebûl nakim ji wî mîre\nv adem řa nebû yare",
+    "arabic": "أَيُّهَا النَّاسُ، إِنَّهَا صَمَّاءُ وَعَاصِيَةٌ\nلَيْسَتْ بِشَابَّةٍ، وَلَيْسَتْ بِعَجُوزٍ\nلَا أَقْبَلُ مِنْ ذَلِكَ الْأَمِيرِ\nمَعَ آدَمَ لَمْ تَكُنْ خَلِيلَةً",
+    "english": "O people, she is deaf and stubborn,\nShe is neither young nor old.\nI will not accept it from that prince,\nWith Adam, she was never a companion."
+  },
+  {
+    "stanza": 52,
+    "kurdish_ar": "نە ئادەم ما ئو نە شیس ما\nنە نوح ما ئو نە ئدریس ما\nنە یوسف ما، نە جەرجیس ما\nنە ئەییوبێ بریندارە",
+    "kurmanji_lat": "ne adem ma u ne şîs ma\nne nuḧ ma u ne idrîs ma\nne yusif ma, ne cercîs ma\nne eyîwbê birîndare",
+    "arabic": "لَمْ يَبْقَ آدَمُ وَلَا شِيثُ\nلَمْ يَبْقَ نُوحٌ وَلَا إِدْرِيسُ\nلَمْ يَبْقَ يُوسُفُ وَلَا جِرْجِيسُ\nوَلَا أَيُّوبُ الْمُبْتَلَى",
+    "english": "Adam did not remain, nor Seth,\nNoah did not remain, nor Enoch.\nJoseph did not remain, nor George,\nNor Job the afflicted."
+  },
+  {
+    "stanza": 53,
+    "kurdish_ar": "نە یەحیا ما، نە سالح ما\nنە هارۆن ما، نە مووسا ما\nنە مریەم ما، کو عیسا ما\nنە ئەحمەد ما، نە چار یارە",
+    "kurmanji_lat": "ne yeḧya ma, ne salḧ ma\nne haron ma, ne mûsa ma\nne miryem ma, ku ’îsa ma\nne eḧmed ma, ne çar yare",
+    "arabic": "لَمْ يَبْقَ يَحْيَى وَلَا صَالِحُ\nلَمْ يَبْقَ هَارُونُ وَلَا مُوسَى\nلَمْ تَبْقَ مَرْيَمُ، بَلْ بَقِيَ عِيسَى (رُفع)\nلَمْ يَبْقَ أَحْمَدُ (مُحَمَّد) وَلَا الصَّحَابَةُ الْأَرْبَعَةُ",
+    "english": "John did not remain, nor Salih,\nAaron did not remain, nor Moses.\nMary did not remain, though Jesus was raised,\nAhmed (Muhammad) did not remain, nor the Four Companions."
+  },
+  {
+    "stanza": 54,
+    "kurdish_ar": "نە هەڤال مان ، نە چار یار مان\nنە ئەسحابێ د غەمخوار مان\nنە عالمێ د هشیار مان\nنە جالیسێ وەفادارە",
+    "kurmanji_lat": "ne heval man , ne çar yar man\nne esḧabê di ẍemxiwar man\nne ’almê di hişyar man\nne calîsê wefadare",
+    "arabic": "لَمْ يَبْقَ الرِّفَاقُ وَلَا الْأَصْدِقَاءُ الْأَرْبَعَةُ\nلَمْ يَبْقَ الصَّحَابَةُ الْمُشْفِقُونَ\nلَمْ يَبْقَ الْعُلَمَاءُ الْمُتَيَقِّظُونَ\nوَلَا الْجَلِيسُ الْوَفِيُّ",
+    "english": "The friends did not remain, nor the four companions,\nThe caring disciples did not remain.\nThe watchful scholars did not remain,\nNor the loyal companion."
+  },
+  {
+    "stanza": 55,
+    "kurdish_ar": "نە جالیس و نە سوقرات مان\nنە تالیس و نە بقرات مان\nنە ذوالقرنين و مرئات مان\nنە جوم جوم ما ، نە ئەخیارە",
+    "kurmanji_lat": "ne calîs û ne suqrat man\nne talîs û ne biqrat man\nne «zwalqirnînErebî» û mir’at man\nne cum cum ma , ne exyare",
+    "arabic": "لَمْ يَبْقَ الْجَلِيسُ وَلَا سُقْرَاطُ\nلَمْ يَبْقَ طَالِيسُ وَلَا بُقْرَاطُ\nلَمْ يَبْقَ ذُو الْقَرْنَيْنِ وَمِرْآتُهُ\nلَمْ يَبْقَ جُمْجُمُ وَلَا الْأَخْيَارُ",
+    "english": "The sitter did not remain, nor Socrates,\nThales did not remain, nor Hippocrates.\nDhul-Qarnayn and his mirror did not remain,\nJumjum did not remain, nor the righteous ones."
+  },
+  {
+    "stanza": 56,
+    "kurdish_ar": "نە جەمشید ما، نە جمجم ما\nنە قەیسەر ما، نە حاتم ما\nنە ئاسف ما، نە خاتم ما\nنە هامان ما، نە سەردارە",
+    "kurmanji_lat": "ne cemşîd ma, ne cimcim ma\nne qeyser ma, ne ḧatim ma\nne asif ma, ne xatim ma\nne haman ma, ne serdare",
+    "arabic": "لَمْ يَبْقَ جَمْشِيدُ وَلَا جُمْجُمُ\nلَمْ يَبْقَ قَيْصَرُ وَلَا حَاتِمُ\nلَمْ يَبْقَ آسِفُ وَلَا خَاتِمُهُ\nلَمْ يَبْقَ هَامَانُ وَلَا الْقَادَةُ",
+    "english": "Jamshid did not remain, nor Jumjum,\nCaesar did not remain, nor Hatem.\nAsif did not remain, nor the signet ring,\nHaman did not remain, nor the commanders."
+  },
+  {
+    "stanza": 57,
+    "kurdish_ar": "نە ئەفلاتون و لوقمان مان\nنە داود و سولەیمان مان\nنە فرعەون و نە هامان مان\nنە سولتانێدِ کوبارە",
+    "kurmanji_lat": "ne eflatun û luqman man\nne dawid û suleyman man\nne fir’ewn û ne haman man\nne sultanêdî kubare",
+    "arabic": "لَمْ يَبْقَ أَفْلَاطُونُ وَلَا لُقْمَانُ\nلَمْ يَبْقَ دَاوُدُ وَلَا سُلَيْمَانُ\nلَمْ يَبْقَ فِرْعَوْنُ وَلَا هَامَانُ\nوَلَا السَّلَاطِينُ الْمُتَكَبِّرُونَ",
+    "english": "Plato did not remain, nor Luqman,\nDavid did not remain, nor Solomon.\nPharaoh did not remain, nor Haman,\nNor the arrogant sultans."
+  },
+  {
+    "stanza": 58,
+    "kurdish_ar": "نە جەمشید ما، نە رۆستەم ما\nنە قەیسەر ما، نە حاتەم ما\nنە ئاسف ما، نە خاتەم ما\nنە مالخو و نە سەرکارە",
+    "kurmanji_lat": "ne cemşîd ma, ne rostem ma\nne qeyser ma, ne ḧatem ma\nne asif ma, ne xatem ma\nne malxu û ne serkare",
+    "arabic": "لَمْ يَبْقَ جَمْشِيدُ وَلَا رُسْتُمُ\nلَمْ يَبْقَ قَيْصَرُ وَلَا حَاتِمُ\nلَمْ يَبْقَ آسِفُ وَلَا الْخَاتَمُ\nلَمْ يَبْقَ رَبُّ الْمَنْزِلِ وَلَا الْمُشْرِفُ",
+    "english": "Jamshid did not remain, nor Rustam,\nCaesar did not remain, nor Hatem.\nAsif did not remain, nor the ring,\nNor the master of the house, nor the overseer."
+  },
+  {
+    "stanza": 59,
+    "kurdish_ar": "نە سەرکار ما، نە سەردار ما\nنە یولداش ما، نە هەڤال ما\nنە هارووت ما، نە مارووت ما\nد ئاخێ مانە روخسارە",
+    "kurmanji_lat": "ne serkar ma, ne serdar ma\nne yuldaş ma, ne heval ma\nne harût ma, ne marût ma\ndi axê mane ruxsare",
+    "arabic": "لَمْ يَبْقَ الْمُشْرِفُ وَلَا الْقَائِدُ\nلَمْ يَبْقَ الرَّفِيقُ وَلَا الصَّدِيقُ\nلَمْ يَبْقَ هَارُوتُ وَلَا مَارُوتُ\nفِي التُّرَابِ بَقِيَتِ الْوُجُوهُ",
+    "english": "The overseer did not remain, nor the commander,\nThe comrade did not remain, nor the friend.\nHarut did not remain, nor Marut,\nIn the earth, only faces remain."
+  },
+  {
+    "stanza": 60,
+    "kurdish_ar": "نە تالووت و نە جالووت مان\nنە هارووت و نە مارووت مان\nنە ئەولادێ د یەعقووب مان\nئەوێ پیرێ یوسف خارە",
+    "kurmanji_lat": "ne talût û ne calût man\nne harût û ne marût man\nne ewladê di ye’qûb man\newê pîrê yusif xare",
+    "arabic": "لَمْ يَبْقَ طَالُوتُ وَلَا جَالُوتُ\nلَمْ يَبْقَ هَارُوتُ وَلَا مَارُوتُ\nلَمْ يَبْقَ أَوْلَادُ يَعْقُوبَ\nتِلْكَ الْعَجُوزُ أَكَلَتْ يُوسُفَ",
+    "english": "Saul did not remain, nor Goliath,\nHarut did not remain, nor Marut.\nThe sons of Jacob did not remain,\nThat old hag devoured Joseph."
+  },
+  {
+    "stanza": 61,
+    "kurdish_ar": "دنێ پیرە نە مەعقوولە\nئەو پێ خۆڕە یا مل خوولە\nئەو پشت قۆڕە سفەت غوولە\nقەوی تەنگە ، دەنگ هەفتارە",
+    "kurmanji_lat": "dinê pîre ne me’qûle\new pê xoře ya mil xûle\new pişt qoře sifet ẍûle\nqewî tenge , deng heftare",
+    "arabic": "الدُّنْيَا عَجُوزٌ غَيْرُ مَعْقُولَةٍ\nهِيَ أَكُولَةٌ ذَاتُ رَقَبَةٍ عَوْجَاءَ\nهِيَ مَحْدُوبَةُ الظَّهْرِ بِصِفَةِ الْغُولِ\nضَيِّقَةٌ جِدًّا، صَوْتُهَا كَالضَّبُعِ",
+    "english": "The world is an unreasonable old hag,\nShe is a glutton with a twisted neck.\nShe is hunchbacked with the traits of a ghoul,\nVery narrow, with the voice of a hyena."
+  },
+  {
+    "stanza": 62,
+    "kurdish_ar": "ژ هەفتارێ د لێڤ شۆڕە\nعەجوزە، کەڤنە، دەڤ کووڕە\nهەڤۆ رەنگە، هەشین پۆڕە\nهەچی ڤێ کەت، ئەوێ خوارە",
+    "kurmanji_lat": "ji heftarê di lêv şoře\n’ecuze, kevne, dev kûře\nhevo renge, heşîn poře\nheçî vê ket, ewê xware",
+    "arabic": "شَفَتَاهَا مُتَدَلِّيَةٌ أَكْثَرَ مِنَ الضَّبُعِ\nعَجُوزٌ، هَرِمَةٌ، عَمِيقَةُ الْفَمِ\nلَوْنُهَا مُرَوِّعٌ، شَعْرُهَا أَزْرَقُ (بَشِعٌ)\nمَنْ يَقَعُ فِيهَا، تَأْكُلُهُ",
+    "english": "Her lips droop more than a hyena's,\nOld, ancient, with a deep maw.\nHer color is ghastly, her hair is blue (hideous),\nWhoever falls into her, she devours."
+  },
+  {
+    "stanza": 63,
+    "kurdish_ar": "هەچی ڤێ کەت ئەوێ خوارن\nگەر عامینە ، گەر کەسارن\nهەمی ژ بەر تە ب هاوارن\nئەیا غۆلۆ تە خەل خوارە",
+    "kurmanji_lat": "heçî vê ket ewê xwarin\nger ’amîne , ger kesarin\nhemî ji ber te bi hawarin\neya ẍolo te xel xware",
+    "arabic": "مَنْ يَقَعُ فِيهَا فَقَدْ أُكِلَ\nسَوَاءٌ كَانُوا عَوَامَّ أَوْ فُقَرَاءَ\nالْجَمِيعُ يَسْتَغِيثُونَ مِنْهَا\nأَيَّتُهَا الْغُولُ، لَقَدْ أَكَلْتِ النَّاسَ",
+    "english": "Whoever falls to her is eaten,\nWhether commoners or paupers.\nEveryone cries out for help from you,\nO ghoul, you have devoured the people."
+  },
+  {
+    "stanza": 64,
+    "kurdish_ar": "ئەیا غۆلا بەیابانێ\nحەشم خەلقێ مە دی کانێ\nتە خوارن پوڕ د ڤێ خانێ\nنە سولتان مان، نە خوونکارە",
+    "kurmanji_lat": "eya ẍola beyabanê\nḧeşim xelqê me dî kanê\nte xwarin puř di vê xanê\nne sultan man, ne xûnkare",
+    "arabic": "أَيَّتُهَا الْغُولُ فِي الصَّحْرَاءِ\nأَيْنَ جُمُوعُ النَّاسِ الَّذِينَ رَأَيْنَاهُمْ؟\nلَقَدْ أَكَلْتِ الْكَثِيرَ فِي هَذِهِ الدَّارِ\nلَمْ يَبْقَ سَلَاطِينُ، وَلَا مُلُوكٌ",
+    "english": "O ghoul of the wasteland!\nWhere are the multitudes of people we saw?\nYou have eaten so many in this house,\nNo sultans remain, nor kings."
+  },
+  {
+    "stanza": 65,
+    "kurdish_ar": "نە خوونکارێ خودان تەخت مان\nنە کوبارێ خودان بەخت مان\nنە کوفارێ خودان سەخت مان\nتویی عیسا کو نە یهارە",
+    "kurmanji_lat": "ne xûnkarê xudan text man\nne kubarê xudan bext man\nne kufarê xudan sext man\ntuyî ’îsa ku ne yihare",
+    "arabic": "لَمْ يَبْقَ الْمُلُوكُ أَصْحَابُ الْعُرُوشِ\nلَمْ يَبْقَ الْعُظَمَاءُ أَصْحَابُ الْحَظِّ\nلَمْ يَبْقَ الْكُفَّارُ أَصْحَابُ الْقَسْوَةِ\nأَنْتِ كَالْعِيسَى الَّذِي لَا يُقْهَرُ",
+    "english": "No monarchs with thrones remain,\nNo great men of fortune remain.\nNo infidels of cruelty remain,\nYou are like Jesus, unconquerable."
+  },
+  {
+    "stanza": 66,
+    "kurdish_ar": "دنێ پیرە کو عیسا دی\nب شکلێ وێ نەبوو رازی\nتەلاق دابوو ل نک قازی\nژ سەردانی سەرهەڤسارە",
+    "kurmanji_lat": "dinê pîre ku ’îsa dî\nbi şiklê wê nebû razî\ntelaq dabû li nik qazî\nji serdanî serhevsare",
+    "arabic": "الدُّنْيَا عَجُوزٌ كَمَا رَآهَا عِيسَى\nلَمْ يَرْضَ بِشَكْلِهَا\nطَلَّقَهَا عِنْدَ الْقَاضِي\nمِنْ زِيَارَتِهَا وَتَمَرُّدِهَا",
+    "english": "The world is a hag, as Jesus saw,\nHe was not pleased with her form.\nHe divorced her before the judge,\nDue to her visits and her rebelliousness."
+  },
+  {
+    "stanza": 67,
+    "kurdish_ar": "ب وێ سوندا مە پێ خاری\nئەسەرناکم سەرهەڤساری\nتو ئەڤ پیسی، تو ئەڤ عاری\nتە نە شکلە و نە دیدارە",
+    "kurmanji_lat": "bi wê sunda me pê xarî\nesernakim serhevsarî\ntu ev pîsî, tu ev ’arî\nte ne şikle û ne dîdare",
+    "arabic": "بِذَلِكَ الْقَسَمِ الَّذِي أَقْسَمْتُهُ\nلَنْ أَتَأَثَّرَ بِهَذَا التَّمَرُّدِ\nأَنْتِ هَذَا الْقُبْحُ، أَنْتِ هَذَا الْعَارُ\nلَيْسَ لَكِ شَكْلٌ وَلَا وَجْهٌ مَقْبُولٌ",
+    "english": "By that oath which I have sworn,\nI will not be moved by this rebellion.\nYou are this filth, you are this shame,\nYou have no shape, nor a pleasant face."
+  },
+  {
+    "stanza": 68,
+    "kurdish_ar": "دنێ بووکا ئەبو جەهلە\nل نک مە عاسییان نەحلە\nل عەقلێ عاقلان تەحلە\nل نک عیسا کو مردارە",
+    "kurmanji_lat": "dinê bûka ebu cehle\nli nik me ’asîyan neḧle\nli ’eqlê ’aqlan teḧle\nli nik ’îsa ku mirdare",
+    "arabic": "الدُّنْيَا عَرُوسُ أَبِي جَهْلٍ\nعِنْدَنَا نَحْنُ الْعُصَاةِ نَحْلَةٌ (حُلْوَةٌ)\nوَفِي عَقْلِ الْعُقَلَاءِ مُرَّةٌ\nوَعِنْدَ عِيسَى هِيَ جِيفَةٌ مَيْتَةٌ",
+    "english": "The world is the bride of Abu Jahl,\nTo us sinners, she is sweet as a bee's honey.\nIn the minds of the wise, she is bitter,\nAnd to Jesus, she is a rotting corpse."
+  },
+  {
+    "stanza": 69,
+    "kurdish_ar": "دخوم سووندێ ب باب ئادەم\nب ئنجیلێ کەلام دادەم\nئێدی مەیلێ ب تە نادەم\nتە نە عەقلە و نە ئقرارە",
+    "kurmanji_lat": "dixum sûndê bi bab adem\nbi incîlê kelam dadem\nêdî meylê bi te nadem\nte ne ’eqle û ne iqrare",
+    "arabic": "أُقْسِمُ بِالْأَبِ آدَمَ\nوَأُعْطِي كَلَامًا بِالْإِنْجِيلِ\nلَنْ أُعْطِيَكِ مَيْلِي بَعْدَ الْآنَ\nفَلَيْسَ لَكِ عَقْلٌ وَلَا قَرَارٌ",
+    "english": "I swear by father Adam,\nAnd I give my word by the Gospel.\nI will no longer give you my inclination,\nYou have neither sense nor stability."
+  },
+  {
+    "stanza": 70,
+    "kurdish_ar": "روحێ عیسا خودێ کەسکر\nدنێ ناسکر و ژێ بەسکر\nموشەررەف بوو، بوێ حەسکر\nدنێڤ خەلقێ خو ڤاڤارە",
+    "kurmanji_lat": "ruḧê ’îsa xudê keskir\ndinê naskir û jê beskir\nmuşerref bû, bwê ḧeskir\ndinêv xelqê xu vavare",
+    "arabic": "رُوحُ عِيسَى خَلَقَهُ اللَّهُ\nعَرَفَ الدُّنْيَا وَاكْتَفَى مِنْهَا\nشُرِّفَ، وَأَحَبَّ ذَلِكَ\nوَهُوَ مُخْتَارٌ بَيْنَ خَلْقِهِ",
+    "english": "God created the spirit of Jesus,\nHe knew the world and had enough of it.\nHe was honored, and he loved that,\nAnd he is chosen among His creation."
+  },
+  {
+    "stanza": 71,
+    "kurdish_ar": "کەسێ عەقلە، کەسێ مەردە\nدبەر کو هێژ نەبو عەردە\nژ ڤێ، مەیلا خو ژێ بەردە\nچرا ئاخ ماکە، قەهارە",
+    "kurmanji_lat": "kesê ’eqle, kesê merde\ndiber ku hêj nebu ’erde\nji vê, meyla xu jê berde\nçira ax make, qehare",
+    "arabic": "مَنْ كَانَ ذَا عَقْلٍ، مَنْ كَانَ رَجُلًا\nقَبْلَ أَنْ يُصْبِحَ تُرَابًا\nمِنْ هَذِهِ الدُّنْيَا فَلْيَتْرُكْ مَيْلَهُ\nلِمَاذَا التُّرَابُ أُمٌّ؟ إِنَّهُ قَهَّارٌ",
+    "english": "Whoever has sense, whoever is a man,\nBefore he turns to earth,\nLet him drop his desire for this world.\nWhy is the dust a mother? It is a conqueror."
+  },
+  {
+    "stanza": 72,
+    "kurdish_ar": "دنێ مەهدە، دنێ ماکە\nدنێتینە، دنێ خاکە\nب ئەولادان ئەبەد ناکە\nئەوا بێ رەحم و دژوارە",
+    "kurmanji_lat": "dinê mehde, dinê make\ndinêtîne, dinê xake\nbi ewladan ebed nake\newa bê reḧim û dijware",
+    "arabic": "الدُّنْيَا مَهْدٌ، الدُّنْيَا أُمٌّ\nالدُّنْيَا تَجِيءُ، الدُّنْيَا تُرَابٌ\nلَا تَبْقَى أَبَدًا مَعَ الْأَوْلَادِ\nفَهِيَ عَدِيمَةُ الرَّحْمَةِ وَقَاسِيَةٌ",
+    "english": "The world is a cradle, the world is a mother,\nThe world brings forth, the world is dust.\nShe never remains forever with her children,\nFor she is merciless and fierce."
+  },
+  {
+    "stanza": 73,
+    "kurdish_ar": "وا بێ رەحم و بێهن تەنگە\nهەڕۆژ قالە، هەڕۆژ جەنگە\nدەما لێخە خوە ئەڤ دەنگە\nنە دل سۆژە، نە غەم خوارە",
+    "kurmanji_lat": "wa bê reḧim û bêhin tenge\nheřoj qale, heřoj cenge\ndema lêxe xwe ev denge\nne dil soje, ne ẍem xware",
+    "arabic": "هِيَ عَدِيمَةُ الرَّحْمَةِ وَضَيِّقَةُ الصَّدْرِ\nكُلَّ يَوْمٍ شِجَارٌ، كُلَّ يَوْمٍ حَرْبٌ\nعِنْدَمَا يَصْدُرُ مِنْهَا هَذَا الصَّوْتُ\nلَيْسَتْ شَفِيقَةً وَلَا حَامِلَةَ هَمٍّ",
+    "english": "She is pitiless and short of breath,\nEvery day is an uproar, every day a war.\nWhen this sound strikes her,\nShe is neither compassionate nor caring."
+  },
+  {
+    "stanza": 74,
+    "kurdish_ar": "نە غەمخوارە نە دلسۆژە\nژ وێ بائێ درەنگ رۆژە\nب ڤان حالان کەڕ و گێژە\nبەلا، وا تێ و سەیێ هارە",
+    "kurmanji_lat": "ne ẍemxiware ne dilsoje\nji wê ba’ê direng roje\nbi van ḧalan keř û gêje\nbela, wa tê û seyê hare",
+    "arabic": "لَا تَحْمِلُ هَمًّا وَلَا تَشْفَقُ عَلَى الْقَلْبِ\nمِنْ تِلْكَ الرِّيحِ يَتَأَخَّرُ النَّهَارُ\nبِهَذِهِ الْأَحْوَالِ هِيَ صَمَّاءُ وَمُشَوَّشَةٌ\nبَلَاءٌ يَأْتِي كَالْكَلْبِ الْمَسْعُورِ",
+    "english": "She bears no sorrow and feels no pity,\nFrom that wind, the day grows late.\nIn these states, she is deaf and dizzy,\nA plague, coming like a rabid dog."
+  },
+  {
+    "stanza": 75,
+    "kurdish_ar": "بەلا، وا تێ و سەیێ دینە\nدنێ کەڤنە ژ مێژینە\nهەرۆژ دورە، هەرۆژ کینە\nنە وەی مەیلە، نە گوشدارە",
+    "kurmanji_lat": "bela, wa tê û seyê dîne\ndinê kevne ji mêjîne\nheroj dure, heroj kîne\nne wey meyle, ne guşdare",
+    "arabic": "بَلَاءٌ يَأْتِي كَالْكَلْبِ الْمَجْنُونِ\nالدُّنْيَا قَدِيمَةٌ مُنْذُ الْأَزَلِ\nكُلَّ يَوْمٍ نِفَاقٌ، كُلَّ يَوْمٍ حِقْدٌ\nلَا مَيْلَ لَهَا، وَلَا تَسْتَمِعُ",
+    "english": "A plague, coming like a mad dog,\nThe world is ancient, from times of yore.\nEvery day is hypocrisy, every day is spite,\nShe has no inclination, and does not listen."
+  },
+  {
+    "stanza": 76,
+    "kurdish_ar": "ژارا گۆتن د غولغولاند\nهەرۆژ هنا مال ئێوراند\nهەمیا تێک دونیا شەممران\nهەرۆژ کۆچ و هەرۆژ بارە",
+    "kurmanji_lat": "jara gotin di ẍulẍuland\nheroj hina mal êwrand\nhemya têk dunya şemmiran\nheroj koç û heroj bare",
+    "arabic": "قَوْلُ الْمَسَاكِينِ قَدْ أَحْدَثَ ضَجَّةً\nكُلَّ يَوْمٍ أَسْكَنَتْ عِيلَةً (فِي الْقَبْرِ)\nالْجَمِيعُ مَعًا قَدْ لَعَنُوا الدُّنْيَا\nكُلَّ يَوْمٍ رَحِيلٌ، وَكُلَّ يَوْمٍ حِمْلٌ",
+    "english": "The words of the poor caused an uproar,\nEvery day she settled someone in a home (the grave).\nTogether, they all cursed the world,\nEvery day is a departure, every day a packing of loads."
+  },
+  {
+    "stanza": 77,
+    "kurdish_ar": "هەرۆژ کۆچ و هەرۆژ چوونە\nژ دۆر مە هلکرن کوونە\nد ناڤ قەبراڤە تاژوونە\nل وێ خەرگۆشە ئزهارە",
+    "kurmanji_lat": "heroj koç û heroj çûne\nji dor me hilkirin kûne\ndi nav qebrave tajûne\nli wê xergoşe izhare",
+    "arabic": "كُلَّ يَوْمٍ رَحِيلٌ، وَكُلَّ يَوْمٍ ذَهَابٌ\nمِنْ حَوْلِنَا اقْتَلَعُوا الْخِيَامَ\nفِي دَاخِلِ الْقُبُورِ يَنْدَفِعُونَ\nهُنَاكَ الْأَرْنَبُ (الإنسان الضعيق) يَظْهَرُ",
+    "english": "Every day is moving, every day is leaving,\nThey struck the tents from around us.\nThey are driven into the graves,\nThere the hare (the weak man) is revealed."
+  },
+  {
+    "stanza": 78,
+    "kurdish_ar": "د خورشید و د ئاخێدا\nهەڕۆژ جارەک بنێڕ پێدا\nکو رازانە د ئاخێدا\nد خامۆشێ د بێچارە",
+    "kurmanji_lat": "di xurşîd û di axêda\nheřoj carek binêř pêda\nku razane di axêda\ndi xamoşê di bêçare",
+    "arabic": "فِي الشَّمْسِ وَفِي التُّرَابِ\nكُلَّ يَوْمٍ انْظُرْ إِلَيْهِ مَرَّةً\nالَّذِينَ نَامُوا فِي التُّرَابِ\nفِي صَمْتٍ وَبِلَا حِيلَةٍ",
+    "english": "In the sun and in the dust,\nLook at it once every day:\nThose who are asleep in the earth,\nIn silence, completely helpless."
+  },
+  {
+    "stanza": 79,
+    "kurdish_ar": "هەمی خامۆشن رازائێ\nئەو مەهجوورن ژ دونیائێ\nتوجار دەنگەک ژ وان نائێ\nژ وان فکران فەقە ژارە",
+    "kurmanji_lat": "hemî xamoşin raza’ê\new mehcûrin ji dunya’ê\ntucar dengek ji wan na’ê\nji wan fikiran feqe jare",
+    "arabic": "جَمِيعُهُمْ صَامِتُونَ نِيَامٌ\nوَهُمْ مَهْجُورُونَ مِنَ الدُّنْيَا\nلَا يَأْتِي مِنْهُمْ أَيُّ صَوْتٍ أَبَدًا\nمِنْ تِلْكَ الْأَفْكَارِ، الْفَقِيهُ مِسْكِينٌ",
+    "english": "All are silent, deeply asleep,\nThey are abandoned by the world.\nNever does a sound come from them,\nFrom these thoughts, the Feqi is wretched."
+  },
+  {
+    "stanza": 80,
+    "kurdish_ar": "ژ وان فکران فەقە ژارین\nحەتا کەنگی نەهشیارین\nترسین بمرین گونەهکارین\nدبێ تەوبە و ئیستیغفارە",
+    "kurmanji_lat": "ji wan fikiran feqe jarîn\nḧeta kengî nehşyarîn\ntirsîn bimrîn gunehkarîn\ndibê tewbe û îstîẍfare",
+    "arabic": "مِنْ تِلْكَ الْأَفْكَارِ، الْفَقِيهُ حَزِينٌ\nإِلَى مَتَى نَحْنُ غَيْرُ مُسْتَيْقِظِينَ؟\nنَخَافُ أَنْ نَمُوتَ وَنَحْنُ مُذْنِبُونَ\nبِلَا تَوْبَةٍ وَلَا اسْتِغْفَارٍ",
+    "english": "From these thoughts, we are sorrowful Feqis,\nUntil when will we remain unawakened?\nWe fear we will die as sinners,\nWithout repentance and seeking forgiveness."
+  },
+  {
+    "stanza": 81,
+    "kurdish_ar": "هەرۆژ چەند جار ببێ تەوبە\nدبە کو هێژ نەهات نەوبە\nدلۆ هشیارە بێ خەو بە\nنە هەڤال مان، نە سەردارە",
+    "kurmanji_lat": "heroj çend car bibê tewbe\ndibe ku hêj nehat newbe\ndilo hişyare bê xew be\nne heval man, ne serdare",
+    "arabic": "كُلَّ يَوْمٍ قُلْ عِدَّةَ مَرَّاتٍ تَوْبَةً\nعَسَى أَنْ لَا يَكُونَ قَدْ جَاءَ الدَّوْرُ بَعْدُ\nيَا قَلْبُ، كُنْ مُسْتَيْقِظًا بِلَا نَوْمٍ\nلَمْ يَبْقَ أَصْدِقَاءٌ، وَلَا قَادَةٌ",
+    "english": "Every day say 'repentance' several times,\nPerhaps your turn has not yet come.\nO heart, be vigilant, be sleepless,\nNo friends remain, nor commanders."
+  },
+  {
+    "stanza": 82,
+    "kurdish_ar": "ئەم هەمی پێ پێ هەڤالان\nدێ لازم چینە وان مالان\nدەمەک رازینە وان چالان\nدێ ل سەر مە بت غوبارە",
+    "kurmanji_lat": "em hemî pê pê hevalan\ndê lazim çîne wan malan\ndemek razîne wan çalan\ndê li ser me bit ẍubare",
+    "arabic": "نَحْنُ جَمِيعًا عَلَى خُطَى الْأَصْدِقَاءِ\nسَنَذْهَبُ لَازِمًا إِلَى تِلْكَ الْمَنَازِلِ\nلَحْظَةً نَنَامُ فِي تِلْكَ الْحُفَرِ\nوَسَيَكُونُ عَلَيْنَا الْغُبَارُ",
+    "english": "We all follow in the footsteps of our friends,\nWe must inevitably go to those homes.\nFor a time we will sleep in those pits,\nAnd the dust will settle upon us."
+  },
+  {
+    "stanza": 83,
+    "kurdish_ar": "ئەم بچین هەڤال بمینن\nمیم و حێ بیرا خوە بینن\nفاتحان ژێڕا بخوینن\nحەوجە ئو دەر ئنتزارە",
+    "kurmanji_lat": "em biçîn heval bimînin\nmîm û ḧê bîra xwe bînin\nfatḧan jêřa bixiwînin\nḧewce u der intizare",
+    "arabic": "سَنَذْهَبُ نَحْنُ وَيَبْقَى الْأَصْدِقَاءُ\nالْمِيمُ وَالْحَاءُ (مُحَمَّد / فَقِي) فَلْيَتَذَكَّرُوا\nوَلْيَقْرَؤُوا الْفَاتِحَةَ لِأَجْلِهِ\nفَهُوَ مُحْتَاجٌ وَفِي حَالَةِ انْتِظَارٍ",
+    "english": "We will go, and friends will remain,\nLet them remember Mim and Ha (Muhammad/Feqi).\nLet them recite the Fatiha for him,\nFor he is in need, and in a state of waiting."
+  },
+  {
+    "stanza": 84,
+    "kurdish_ar": "ل موحەممەد حەفت فەلەک چوونە\nژ هجرەت دەور گەلەک چوونە\nهزار سال چللو یەک چوونە\nئەڤ غەزەل هاتی دیارە",
+    "kurmanji_lat": "li muḧemmed ḧefit felek çûne\nji hicret dewr gelek çûne\nhizar sal çillu yek çûne\nev ẍezel hatî dyare",
+    "arabic": "عَلَى مُحَمَّدٍ مَضَتْ سَبْعَةُ أَفْلَاكٍ\nوَمِنَ الْهِجْرَةِ عُصُورٌ كَثِيرَةٌ مَضَتْ\nأَلْفُ سَنَةٍ وَوَاحِدٌ وَأَرْبَعُونَ مَضَتْ (1041 هـ)\nحَتَّى ظَهَرَتْ هَذِهِ الْقَصِيدَةُ",
+    "english": "Seven heavens have passed over Muhammad,\nFrom the Migration, many eras have gone.\nOne thousand and forty-one years have passed,\nWhen this Ghazal came to light."
+  }
+]
