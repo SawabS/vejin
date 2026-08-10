@@ -69,17 +69,17 @@
     linear-gradient(180deg,rgba(255,255,255,.18) 0%,rgba(255,255,255,.04) 58%,transparent 100%);
 }
 [data-theme="dark"]{
-  --n-canvas:#0C0D10;
-  --n-canvas-inset:#131519;
-  --n-surface:#171A1F;
-  --n-surface-raised:#1E2127;
-  --n-surface-hover:#252932;
-  --n-surface-active:#2D323C;
+  --n-canvas:#0A0C12;
+  --n-canvas-inset:#11141B;
+  --n-surface:#161A22;
+  --n-surface-raised:#1D212A;
+  --n-surface-hover:#252A35;
+  --n-surface-active:#2D3340;
   --n-text-primary:#EDF0F5;
   --n-text-secondary:#A3AAB8;
   --n-text-muted:#6E7683;
-  --n-border:#292D35;
-  --n-border-strong:#3B414C;
+  --n-border:#282D38;
+  --n-border-strong:#3A4150;
   --n-primary-action:#EDF0F5;
   --n-primary-action-text:#0F1115;
   --n-focus-ring:#A3AAB8;
@@ -88,16 +88,16 @@
   --n-accent-subtle:rgba(143,178,232,.15);
   --n-bevel-hi:rgba(255,255,255,.075);
   --n-bevel-lo:rgba(0,0,0,.45);
-  --n-card-top:#212630;   --n-card-bot:#14161B;
-  --n-cardin-top:#1C2027; --n-cardin-bot:#131519;
+  --n-card-top:#212734;   --n-card-bot:#13161D;
+  --n-cardin-top:#1B2029; --n-cardin-bot:#12151C;
   --n-elev-1:0 1px 1px rgba(0,0,0,.45),0 3px 8px -4px rgba(0,0,0,.55);
   --n-elev-2:0 1px 2px rgba(0,0,0,.5),0 10px 24px -12px rgba(0,0,0,.7);
   --n-elev-3:0 2px 5px rgba(0,0,0,.55),0 20px 44px -18px rgba(0,0,0,.8);
   --n-well:inset 0 1px 4px rgba(0,0,0,.55),inset 0 0 0 1px rgba(0,0,0,.25);
   /* on dark ground the same light is a soft white glow spilling down from the top */
   --moon:
-    radial-gradient(110% 86% at 50% -24%, rgba(255,255,255,.235) 0%, rgba(255,255,255,.125) 30%, rgba(255,255,255,.052) 57%, rgba(255,255,255,.016) 78%, rgba(255,255,255,0) 100%),
-    linear-gradient(180deg,rgba(255,255,255,.035) 0%,rgba(255,255,255,.012) 62%,transparent 100%);
+    radial-gradient(110% 86% at 50% -24%, rgba(186,206,244,.235) 0%, rgba(186,206,244,.125) 30%, rgba(186,206,244,.052) 57%, rgba(186,206,244,.016) 78%, rgba(186,206,244,0) 100%),
+    linear-gradient(180deg,rgba(186,206,244,.04) 0%,rgba(186,206,244,.013) 62%,transparent 100%);
 }
 
 /* Each right-to-left column picks its own face from the dock. Every option
@@ -153,7 +153,7 @@ html{scrollbar-width:thin;scrollbar-color:var(--n-border-strong) transparent}
   font-family:var(--n-font-ui);
 }
 [data-theme="dark"] .nav{
-  background:rgba(6,8,12,.46);
+  background:rgba(6,8,14,.48);
   border-bottom-color:rgba(255,255,255,.09);
   box-shadow:inset 0 1px 0 rgba(255,255,255,.045),0 8px 24px rgba(0,0,0,.16);
 }
@@ -189,6 +189,11 @@ html{scrollbar-width:thin;scrollbar-color:var(--n-border-strong) transparent}
    PAGE COLUMN  -  widens as more languages are opened
    ========================================================================== */
 .page{width:min(100% - 2.5rem, var(--col));margin:0 auto;padding-bottom:120px}
+/* wherever the minimap is on screen, the column leaves it a lane of its own so
+   the resting tick marks never land on the verse */
+@media(min-width:1081px){
+  .page{width:min(100% - 2.5rem, var(--col), calc(100vw - 170px))}
+}
 body[data-cols="1"]{--col:44rem;--cols:1}
 body[data-cols="2"]{--col:62rem;--cols:2}
 body[data-cols="3"]{--col:82rem;--cols:3}
@@ -210,14 +215,14 @@ body[data-cols="4"]{--col:98rem;--cols:4}
 }
 /* the looking glass: a frosted slab that lifts over the verse while you steer */
 .minimap:hover .mm-inner,.minimap:focus-within .mm-inner{
-  background:color-mix(in srgb, var(--n-surface) 68%, transparent);
+  background:color-mix(in srgb, var(--n-surface) 86%, transparent);
   -webkit-backdrop-filter:saturate(170%) blur(20px);
   backdrop-filter:saturate(170%) blur(20px);
   border-color:color-mix(in srgb, var(--n-border-strong) 55%, transparent);
   box-shadow:inset 0 1px 0 var(--n-bevel-hi),inset 0 -1px 0 var(--n-bevel-lo),var(--n-elev-3);
 }
 [data-theme="dark"] .minimap:hover .mm-inner,[data-theme="dark"] .minimap:focus-within .mm-inner{
-  background:color-mix(in srgb, var(--n-surface-raised) 62%, transparent);
+  background:color-mix(in srgb, var(--n-surface-raised) 90%, transparent);
 }
 .mm-row{
   display:flex;align-items:center;gap:12px;height:21px;padding:0 4px;
@@ -309,14 +314,14 @@ h1 .ar{
   color:var(--n-text-primary);cursor:pointer;
   padding:10px 16px 10px 13px;border-radius:var(--n-r-pill);
   border:1px solid color-mix(in srgb, var(--n-border-strong) 62%, transparent);
-  background:color-mix(in srgb, var(--n-surface) 72%, transparent);
+  background:color-mix(in srgb, var(--n-surface) 88%, transparent);
   -webkit-backdrop-filter:saturate(180%) blur(20px);
   backdrop-filter:saturate(180%) blur(20px);
   box-shadow:inset 0 1px 0 var(--n-bevel-hi),inset 0 -1px 0 var(--n-bevel-lo),var(--n-elev-3);
   transition:transform var(--n-d-fast) var(--n-ease),box-shadow var(--n-d-fast) var(--n-ease),
              background var(--n-d-base) var(--n-ease),color var(--n-d-base) var(--n-ease);
 }
-[data-theme="dark"] .dock-btn{background:color-mix(in srgb, var(--n-surface-raised) 66%, transparent)}
+[data-theme="dark"] .dock-btn{background:color-mix(in srgb, var(--n-surface-raised) 90%, transparent)}
 .dock-btn:hover{transform:translateY(-1px);box-shadow:inset 0 1px 0 var(--n-bevel-hi),var(--n-elev-3)}
 .dock-btn:active{transform:translateY(1px)}
 .dock-btn svg{width:16px;height:16px;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}
@@ -332,16 +337,22 @@ h1 .ar{
   max-height:min(74vh,640px);overflow-y:auto;overscroll-behavior:contain;
   padding:15px 18px 18px;border-radius:20px;
   border:1px solid color-mix(in srgb, var(--n-border-strong) 58%, transparent);
-  background:color-mix(in srgb, var(--n-surface) 74%, transparent);
+  background:color-mix(in srgb, var(--n-surface) 92%, transparent);
   -webkit-backdrop-filter:saturate(180%) blur(24px);
   backdrop-filter:saturate(180%) blur(24px);
   box-shadow:inset 0 1px 0 var(--n-bevel-hi),inset 0 -1px 0 var(--n-bevel-lo),var(--n-elev-3);
   font-family:var(--n-font-ui);
   opacity:0;visibility:hidden;transform:translateY(10px) scale(.985);transform-origin:100% 100%;
-  transition:opacity var(--n-d-base) var(--n-ease),transform var(--n-d-base) var(--n-ease),visibility var(--n-d-base);
+  /* visibility flips instantly on the way in, so the panel is focusable at once,
+     and waits for the fade on the way out */
+  transition:opacity var(--n-d-base) var(--n-ease),transform var(--n-d-base) var(--n-ease),
+             visibility 0s linear var(--n-d-base);
 }
-[data-theme="dark"] .dock{background:color-mix(in srgb, var(--n-surface-raised) 70%, transparent)}
-.dock.on{opacity:1;visibility:visible;transform:none}
+[data-theme="dark"] .dock{background:color-mix(in srgb, var(--n-surface-raised) 93%, transparent)}
+.dock.on{
+  opacity:1;visibility:visible;transform:none;
+  transition:opacity var(--n-d-base) var(--n-ease),transform var(--n-d-base) var(--n-ease),visibility 0s;
+}
 .dock-h{
   display:flex;align-items:center;justify-content:space-between;gap:12px;
   padding-bottom:12px;margin-bottom:4px;border-bottom:1px solid var(--n-border);
@@ -540,6 +551,7 @@ footer a:hover{border-bottom-color:var(--n-text-primary)}
   }
   .tab{padding:7px 13px}
   .search{max-width:none;height:34px}
+  .dock-hint{display:none}
 }
 @media(max-width:430px){
   .nav-mark span{display:none}
@@ -1035,7 +1047,8 @@ addEventListener('keydown', e=>{
   if(e.key === 'Escape'){ if(dockOpen()){ setDock(false); dockBtn.focus(); } return; }
   if(typing || e.metaKey || e.ctrlKey || e.altKey) return;
   if(e.key === 'o' || e.key === 'O'){ e.preventDefault(); setDock(!dockOpen()); }
-  if(e.key === '/'){ e.preventDefault(); setDock(true); qEl.focus(); }
+  /* the panel turns visible in the same tick, so the caret can land right away */
+  if(e.key === '/'){ e.preventDefault(); setDock(true); qEl.focus(); qEl.select(); }
 });
 
 /* the pill always reads back what is on screen */
