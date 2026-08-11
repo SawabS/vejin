@@ -448,12 +448,13 @@ h1 .ar{
 .st:hover{transform:translateY(-1px);box-shadow:inset 0 1px 0 var(--n-bevel-hi),inset 0 -1px 0 var(--n-bevel-lo),var(--n-elev-2)}
 .st:target{border-color:var(--n-accent);box-shadow:inset 0 1px 0 var(--n-bevel-hi),0 0 0 1px var(--n-accent-subtle),var(--n-elev-2)}
 .st-head{
-  display:flex;align-items:center;gap:12px;
+  display:flex;align-items:center;gap:10px;
   padding:9px 16px;border-bottom:1px solid var(--n-border);
   background:linear-gradient(180deg,var(--n-cardin-top),var(--n-cardin-bot));
   font-family:var(--n-font-ui);
 }
 .snum{
+  display:inline-flex;align-items:center;justify-content:center;min-width:48px;min-height:26px;
   font-family:var(--n-font-mono);font-size:11.5px;font-weight:600;letter-spacing:.02em;
   color:var(--n-text-secondary);text-decoration:none;
   border:1px solid var(--n-border-strong);border-radius:var(--n-r-pill);
@@ -462,8 +463,7 @@ h1 .ar{
   padding:2px 11px;flex:none;
   transition:color var(--n-d-fast) var(--n-ease),border-color var(--n-d-fast) var(--n-ease)}
 .snum:hover{color:var(--n-text-primary);border-color:var(--n-text-primary)}
-.st-rule{flex:1;height:1px;background:var(--n-border)}
-.st-hint{font-family:var(--n-font-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--n-text-muted)}
+.st-hint{display:inline-flex;align-items:center;min-height:26px;font-family:var(--n-font-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--n-text-muted)}
 
 /* One grid for the whole stanza. Each pane subgrids the shared rows, so the
    label sits in row 1 and verse line n sits in row n+1 in every language at
@@ -759,7 +759,7 @@ const POEMS = [
     author:'Feqiyê Teyran', authorDates:'1590 to 1660',
     collection:'Dîwana Feqiyê Teyran', form:'Beyt', date:'1041 AH / c. 1631 CE',
     dialect:'Kurmanji · Behdinî', languages:['kurdish_ar','kurmanji_lat','arabic','english'],
-    defaults:['kurmanji_lat','english'], itemLabel:'beyt', lastLabel:'colophon',
+    defaults:['kurmanji_lat','english'], itemLabel:'stanza', lastLabel:'colophon',
     data:JSON.parse(document.getElementById('poemData').textContent),
     standfirst:'Eighty-four stanzas addressed to a sleeping heart. Feqiyê Teyran, the earliest Kurdish poet whose name and voice survive intact, spends the whole poem shaking one listener awake: <strong>the world turns, the evening has already come, and the heart is still dozing.</strong> The refrain returns each time on the same open <em>-are</em> rhyme, so the argument advances while the sound stays put.',
     originalValue:'Kurmanji', originalNote:'ARABIC + LATIN SCRIPT',
@@ -774,7 +774,7 @@ const POEMS = [
     author:'Feqiyê Teyran', authorDates:'1590 to 1660',
     collection:'Dîwana Feqiyê Teyran', form:'Qesîde', date:'',
     dialect:'Kurmanji · Behdinî', languages:['kurdish_ar','kurmanji_lat','arabic','english'],
-    defaults:['kurmanji_lat','english'], itemLabel:'qesîde', lastLabel:'colophon',
+    defaults:['kurmanji_lat','english'], itemLabel:'stanza', lastLabel:'colophon',
     data:window.VEJIN_POEMS?.['beyta-shexe-senani'] || [],
     standfirst:'A 362-stanza qesîde presented in parallel Kurdish Arabic and Latin scripts, with line-for-line Arabic and English translations. The text is gathered from its six-part VejînBooks edition.',
     originalValue:'Kurmanji', originalNote:'ARABIC + LATIN SCRIPT',
@@ -1073,7 +1073,6 @@ function render(){
     art.innerHTML =
       '<div class="st-head">'
     +   '<a class="snum" href="#s'+st.stanza+'">'+String(st.stanza).padStart(2,'0')+'</a>'
-    +   '<span class="st-rule"></span>'
     +   '<span class="st-hint">'+(st.stanza===POEM.length?activePoem.lastLabel:activePoem.itemLabel)+'</span>'
     + '</div>'
     + '<div class="panes">'+panes+'</div>';
