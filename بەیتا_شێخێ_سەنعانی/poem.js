@@ -1,0 +1,2537 @@
+window.VEJIN_POEMS = window.VEJIN_POEMS || {};
+window.VEJIN_POEMS["beyta-shexe-senani"] = [
+  {
+    "stanza": 1,
+    "kurdish_ar": "گوهدێرن نوتقا عاشقی؛ دا ئەز بخوونم ڤێ خەتێ\nحەمد و سەنایا خالقی؛ سوبحان ژ شاهێ قودرەتێ",
+    "kurmanji_lat": "guhdêrin nutqa ’aşiqî; da ez bixûnim vê xetê\nḧemd û senaya xalqî; subḧan ji şahê qudretê",
+    "arabic": "اسْتَمِعُوا لِنُطْقِ الْعَاشِقِ؛ لِأَقْرَأَ هَذَا الْخَطَّ\nحَمْدٌ وَثَنَاءٌ لِلْخَالِقِ؛ سُبْحَانَ مَلِكِ الْقُدْرَةِ",
+    "english": "Listen to the speech of the lover, that I may read this line,\nPraise and commendation to the Creator, glory to the King of Power."
+  },
+  {
+    "stanza": 2,
+    "kurdish_ar": "سوبحان ژ شاهێ ذوالجلال؛ فکریمە نەقشێ بێ زەوال\nحال بێ مەجاز نائێتە بال؛ کامل دبت ب ئولفیەتێ",
+    "kurmanji_lat": "subḧan ji şahê zwalcilal; fikirîme neqşê bê zewal\nḧal bê mecaz na’ête bal; kamil dibit bi ulfyetê",
+    "arabic": "سُبْحَانَ الْمَلِكِ ذِي الْجَلَالِ؛ تَفَكَّرْتُ فِي النَّقْشِ الَّذِي لَا يَزُولُ\nلَا تُدْرَكُ الْحَالُ بِلَا مَجَازٍ؛ وَإِنَّمَا تَكْمُلُ بِالْأُلْفَةِ",
+    "english": "Glory to the King of Majesty, I pondered the imperishable design,\nState is not attained without metaphor, it becomes perfect through affinity."
+  },
+  {
+    "stanza": 3,
+    "kurdish_ar": "ئەو دێ ب وێ کامل بتن؛ دەروێش کو ساحب دل بتن\nدێ نوور ژ نوورێ هل بتن؛ ژ مەشعەلا نبووەتێ",
+    "kurmanji_lat": "ew dê bi wê kamil bitin; derwêş ku saḧb dil bitin\ndê nûr ji nûrê hil bitin; ji meş’ela nibuwetê",
+    "arabic": "سَيَكْمُلُ بِهَا حَالُهُ؛ الدَّرْوِيشُ الَّذِي يَمْلِكُ قَلْبًا\nسَيُشْرِقُ نُورٌ مِنْ نُورٍ؛ مِنْ مَشْعَلِ النُّبُوَّةِ",
+    "english": "He shall become perfect through it, the dervish who possesses a heart,\nLight shall rise from light, from the torch of Prophethood."
+  },
+  {
+    "stanza": 4,
+    "kurdish_ar": "قەلبێ کو حال لێ رابتن؛ یان ژ رەسوول پەیدا بتن\nئەو بێ مەجاز قەت نابتن؛ جاری بوویە ل ڤێ عادەتێ",
+    "kurmanji_lat": "qelbê ku ḧal lê rabtin; yan ji resûl peyda bitin\new bê mecaz qet nabtin; carî bûye li vê ’adetê",
+    "arabic": "الْقَلْبُ الَّذِي تَنْهَضُ فِيهِ الْحَالُ؛ أَوْ تَنْبَعُ مِنَ الرَّسُولِ\nلَا يَكُونُ أَبَدًا بِلَا مَجَازٍ؛ فَقَدْ جَرَتْ هَذِهِ الْعَادَةُ",
+    "english": "The heart wherein the state arises, or emerges from the Messenger,\nIt can never be without metaphor, for such has been the custom."
+  },
+  {
+    "stanza": 5,
+    "kurdish_ar": "جاری بوویە ئەڤ رەنگ بەلا؛ سەد مفتییو شەیخ و مەلا\nئەو ل سوڕێ بوون موبتەلا؛ ل نەینکا عەکسیەتێ",
+    "kurmanji_lat": "carî bûye ev reng bela; sed miftîyu şeyx û mela\new li suřê bûn mubtela; li neynka ’eksyetê",
+    "arabic": "قَدْ جَرَى هَذَا النَّوْعُ مِنَ الْبَلَاءِ؛ عَلَى مِائَةِ مُفْتٍ وَشَيْخٍ وَمُلَّا\nلَقَدِ ابْتُلُوا فِي السِّرِّ؛ فِي مِرْآةِ الِانْعِكَاسِ",
+    "english": "This kind of trial has come to pass; for a hundred muftis, sheikhs, and mullahs,\nThey were tested in the secret, within the mirror of reflection."
+  },
+  {
+    "stanza": 6,
+    "kurdish_ar": "دێ مەعنییا عەکسێ کوبی؛ ئەللاهـ ژ جهـ نا قەللبی\nمەعبود یەکە نابی دوبی؛ رۆژ هاتە نیڤا مرئەتێ",
+    "kurmanji_lat": "dê me’nîya ’eksê kubî; ellah ji cih na qellibî\nme’bud yeke nabî dubî; roj hate nîva mir’etê",
+    "arabic": "مَاذَا سَيَكُونُ مَعْنَى الِانْعِكَاسِ؛ اللَّهُ لَا يُقَلَّبُ مِنْ مَكَانِهِ\nالْمَعْبُودُ وَاحِدٌ لَا يَصِيرُ اثْنَيْنِ؛ الشَّمْسُ جَاءَتْ إِلَى وَسَطِ الْمِرْآةِ",
+    "english": "What will the meaning of reflection be? God does not change His place.\nThe Worshipped is one, not two; the sun has come into the center of the mirror."
+  },
+  {
+    "stanza": 7,
+    "kurdish_ar": "قەمەر و شەمس و ستارە؛ رۆژ د ئاڤێدا دیارە\nفند و فانوسێ ڤەشارە؛ ژ بەشەرا خولقیەتێ",
+    "kurmanji_lat": "qemer û şems û sitare; roj di avêda dyare\nfind û fanusê veşare; ji beşera xulqyetê",
+    "arabic": "الْقَمَرُ وَالشَّمْسُ وَالنَّجْمُ؛ الشَّمْسُ ظَاهِرَةٌ فِي الْمَاءِ\nأَخْفِ الشَّمْعَةَ وَالْفَانُوسَ؛ عَنْ بَشَرِ الْخَلِيقَةِ",
+    "english": "The moon, the sun, and the star; the sun is visible in the water,\nHide the candle and the lantern, from the mortals of creation."
+  },
+  {
+    "stanza": 8,
+    "kurdish_ar": "ژ بەشەرا زات و سفاتان؛ پوڕ ژ عشقا پوت و لاتان\nکەتنە غەرقا موشکلاتان؛ چونە حالێ حیرەتێ",
+    "kurmanji_lat": "ji beşera zat û sifatan; puř ji ’işqa put û latan\nketne ẍerqa muşkilatan; çune ḧalê ḧîretê",
+    "arabic": "مِنْ بَشَرِيَّةِ الذَّاتِ وَالصِّفَاتِ؛ وَمِنْ كَثْرَةِ عِشْقِ الْأَصْنَامِ وَاللَّاتِ\nوَقَعُوا فِي غَرَقِ الْمُشْكِلَاتِ؛ وَدَخَلُوا فِي حَالِ الْحَيْرَةِ",
+    "english": "From the mortality of essence and attributes, deep in the love of idols and Lat,\nThey fell into the drowning of troubles, entering the state of bewilderment."
+  },
+  {
+    "stanza": 9,
+    "kurdish_ar": "تو ئلاهێ دین دورستان؛ تو ئمامێ پوت پەرستان\nدلبەرێ هشیار و مەستان؛ عاشقێ پوڕ وەسفەتێ",
+    "kurmanji_lat": "tu ilahê dîn duristan; tu imamê put peristan\ndilberê hişyar û mestan; ’aşiqê puř wesfetê",
+    "arabic": "أَنْتَ إِلَهُ مُسْتَقِيمِي الدِّينِ؛ أَنْتَ إِمَامُ عَبَدَةِ الْأَصْنَامِ\nحَبِيبُ الصَّاحِينَ وَالسَّكَارَى؛ أَيُّهَا الْعَاشِقُ كَثِيرُ الْأَوْصَافِ",
+    "english": "You are the God of the upright in faith, You are the leader of the idol worshippers,\nThe beloved of the sober and the intoxicated, O lover of many attributes."
+  },
+  {
+    "stanza": 10,
+    "kurdish_ar": "عاشق تویی دلبەر تویی؛ نازر تویی مەنزور تویی\nروحێ روحان گەوهەر تویی؛ مسباح و دوررا قیمەتێ",
+    "kurmanji_lat": "’aşiq tuyî dilber tuyî; nazir tuyî menzur tuyî\nruḧê ruḧan gewher tuyî; misbaḧ û durra qîmetê",
+    "arabic": "الْعَاشِقُ أَنْتَ وَالْمَحْبُوبُ أَنْتَ؛ النَّاظِرُ أَنْتَ وَالْمَنْظُورُ أَنْتَ\nرُوحُ الْأَرْوَاحِ وَالْجَوْهَرُ أَنْتَ؛ الْمِصْبَاحُ وَالدُّرَّةُ الثَّمِينَةُ",
+    "english": "The lover is You, the beloved is You; the watcher is You, the watched is You,\nThe soul of souls and the essence is You; the lamp and the precious pearl."
+  },
+  {
+    "stanza": 11,
+    "kurdish_ar": "مسباح و دوررا بەششەری؛ عاشقێ مەعشوقِ بەری\nئەو ل سوڕێ بوو موشتەری؛ ساحب دلی نور ڤێکەتێ",
+    "kurmanji_lat": "misbaḧ û durra beşşerî; ’aşiqê me’şuqî berî\new li suřê bû muşterî; saḧb dilî nur vêketê",
+    "arabic": "مِصْبَاحُ وَدُرَّةُ الْبَشَرِيَّةِ؛ عَاشِقُ الْمَحْبُوبِ الْبَرِيءِ\nقَدِ اشْتَرَى ذَلِكَ السِّرَّ؛ صَاحِبُ الْقَلْبِ الَّذِي أَشْرَقَ فِيهِ النُّورُ",
+    "english": "The lamp and pearl of humanity, the lover of the innocent beloved,\nHe was a buyer of the secret, the possessor of a heart ignited by light."
+  },
+  {
+    "stanza": 12,
+    "kurdish_ar": "دل کەوکەبە مەخلوقەکە؛ لەش قەفەسە ، سندووقەکە\nقەلبان غەرەز مەعشوقەکە؛ حەمیان دڤێ وەحدانەتێ",
+    "kurmanji_lat": "dil kewkebe mexluqeke; leş qefese , sindûqeke\nqelban ẍerez me’şuqeke; ḧemyan divê weḧdanetê",
+    "arabic": "الْقَلْبُ كَوْكَبٌ وَمَخْلُوقٌ؛ وَالْجَسَدُ قَفَصٌ وَصُنْدُوقٌ\nغَايَةُ الْقُلُوبِ هُوَ الْمَحْبُوبُ؛ وَكُلُّهُمْ يَبْتَغُونَ الْوَحْدَانِيَّةَ",
+    "english": "The heart is a star, a creation; the body is a cage, a chest,\nThe hearts' purpose is the Beloved; they all desire oneness."
+  },
+  {
+    "stanza": 13,
+    "kurdish_ar": "حەمیان مراد ئەسلێ خوەیە؛ تەن سەدەفا جانێ مەیە\nروح پەرتەوا نورا تەیە؛ حەول و قووەت ژ بال تەتێ",
+    "kurmanji_lat": "ḧemyan mirad eslê xweye; ten sedefa canê meye\nruḧ pertewa nura teye; ḧewl û quwet ji bal tetê",
+    "arabic": "مُرَادُهُمْ جَمِيعًا هُوَ أَصْلُهُمْ؛ وَالْجَسَدُ صَدَفَةُ أَرْوَاحِنَا\nالرُّوحُ شُعَاعٌ مِنْ نُورِكَ؛ وَالْحَوْلُ وَالْقُوَّةُ مِنْ عِنْدِكَ تَأْتِي",
+    "english": "Their collective desire is their origin, the body is the shell of our soul,\nThe soul is a ray of Your light; might and power come from You."
+  },
+  {
+    "stanza": 14,
+    "kurdish_ar": "قەت بێیی تە روح نا لڤن؛ زولفێد شەنگ لسەر نا جڤن\nئاگر ب قەلبان نا کەڤن؛ نارێ مەجازا حرقەتێ",
+    "kurmanji_lat": "qet bêyî te ruḧ na livin; zulfêd şeng liser na civin\nagir bi qelban na kevin; narê mecaza ḧirqetê",
+    "arabic": "قَطُّ بِلَاكَ الْأَرْوَاحُ لَا تَتَحَرَّكُ؛ وَالْخُصَلُ الْجَمِيلَةُ لَا تَتَجَمَّعُ عَلَيْهَا\nوَالنِّيرَانُ لَا تَقَعُ فِي الْقُلُوبِ؛ نَارُ مَجَازِ الِاحْتِرَاقِ",
+    "english": "Without You, souls never move, the beautiful tresses do not gather upon them,\nFire does not fall into the hearts, the metaphorical fire of burning."
+  },
+  {
+    "stanza": 15,
+    "kurdish_ar": "مەیلا مەجاز بەشەر دڤێ؛ دل دائما دلبەر دڤێ\nروح موحبەتا ئەکبەر دڤێ؛ جارجار دبینن روئیەتێ",
+    "kurmanji_lat": "meyla mecaz beşer divê; dil da’ma dilber divê\nruḧ muḧbeta ekber divê; carcar dibînin ru’yetê",
+    "arabic": "مَيْلُ الْمَجَازِ يَبْتَغِيهِ الْبَشَرُ؛ وَالْقَلْبُ دَائِمًا يَبْتَغِي الْمَحْبُوبَ\nالرُّوحُ تَبْتَغِي الْمَحَبَّةَ الْكُبْرَى؛ وَأَحْيَانًا يَرَوْنَ الرُّؤْيَةَ",
+    "english": "Mortals desire the inclination of metaphor; the heart always desires the beloved,\nThe soul desires the greatest love; from time to time they see the vision."
+  },
+  {
+    "stanza": 16,
+    "kurdish_ar": "چەشمان جەمالا گەش دڤێ؛ ئەنفان رەیحانا رەش دڤێ\nئوذنان کو سەوتا خوەش دڤێ؛ جهـ جهـ دکێشن وەسلەتێ",
+    "kurmanji_lat": "çeşman cemala geş divê; enfan reyḧana reş divê\nuznan ku sewta xweş divê; cih cih dikêşin wesletê",
+    "arabic": "الْعُيُونُ تَبْتَغِي الْجَمَالَ الْمُشْرِقَ؛ وَالْأُنُوفُ تَبْتَغِي الرَّيْحَانَ الْأَسْوَدَ\nوَالْآذَانُ تَبْتَغِي الصَّوْتَ الْحَسَنَ؛ وَفِي كُلِّ مَكَانٍ يَتَمَنَّوْنَ الْوَصْلَ",
+    "english": "The eyes desire the radiant beauty, the noses desire the dark basil,\nThe ears desire the sweet voice, seeking union in every place."
+  },
+  {
+    "stanza": 17,
+    "kurdish_ar": "ئەو ئوذن و ئەنف و بەسەرە؛ حەمیان خیالا ئەکبەرە\nجسمێ مەجازی فەننەرە؛ دێم شووشەیە نوورا تە تێ",
+    "kurmanji_lat": "ew uzin û enf û besere; ḧemyan xyala ekbere\ncismê mecazî fennere; dêm şûşeye nûra te tê",
+    "arabic": "تِلْكَ الْأُذُنُ وَالْأَنْفُ وَالْبَصَرُ؛ لَهُمْ جَمِيعًا الْخَيَالُ الْأَكْبَرُ\nوَالْجِسْمُ الْمَجَازِيُّ فَانُوسٌ؛ وَالْوَجْهُ زُجَاجَةٌ يَأْتِي فِيهَا نُورُكَ",
+    "english": "That ear, nose, and sight, all hold the greatest imagination,\nThe metaphorical body is a lantern, the face is the glass through which Your light comes."
+  },
+  {
+    "stanza": 18,
+    "kurdish_ar": "دێم شووشەیە نوور قەفەسە؛ مەجاز نە عشقە ، هەوەسە\nدل ژ سوڕێ ناکەت بەسە؛ جان ژ مەیا مەوەددەتێ",
+    "kurmanji_lat": "dêm şûşeye nûr qefese; mecaz ne ’işqe , hewese\ndil ji suřê naket bese; can ji meya meweddetê",
+    "arabic": "الْوَجْهُ زُجَاجَةٌ وَالنُّورُ قَفَصٌ؛ الْمَجَازُ لَيْسَ عِشْقًا بَلْ هَوَسٌ\nالْقَلْبُ لَا يَشْبَعُ مِنَ السِّرِّ؛ وَالرُّوحُ مِنْ خَمْرَةِ الْمَوَدَّةِ",
+    "english": "The face is a glass, the light a cage; metaphor is not love, it is infatuation,\nThe heart does not get enough of the secret, nor the soul of the wine of affection."
+  },
+  {
+    "stanza": 19,
+    "kurdish_ar": "جان ژ مەیێ تێر نابتن؛ قەد بێ حوبێ خێر نابتن\nمێر بێ حسێب مێر نابتن؛ دل بێ زکر نور نارەتێ",
+    "kurmanji_lat": "can ji meyê têr nabtin; qed bê ḧubê xêr nabtin\nmêr bê ḧisêb mêr nabtin; dil bê zikir nur naretê",
+    "arabic": "الرُّوحُ لَا تَشْبَعُ مِنَ الْخَمْرِ؛ وَلَا يَكُونُ هُنَاكَ خَيْرٌ بِلَا مَحَبَّةٍ أَبَدًا\nالرَّجُلُ لَا يَكُونُ رَجُلًا بِلَا حِسَابٍ؛ وَالْقَلْبُ لَا يَدْخُلُهُ النُّورُ بِلَا ذِكْرٍ",
+    "english": "The soul is never sated by wine, there is absolutely no good without love,\nA man is not a man without account, the heart receives no light without dhikr."
+  },
+  {
+    "stanza": 20,
+    "kurdish_ar": "زکر واجبە عامی بکەن؛ نێزیکی شەیخ سوفی بکەن\nمورشد مریدان هی بکەن؛ خارج ببن ژ زولمەتێ",
+    "kurmanji_lat": "zikir wacbe ’amî biken; nêzîkî şeyx sufî biken\nmurişd mirîdan hî biken; xarc bibin ji zulmetê",
+    "arabic": "الذِّكْرُ وَاجِبٌ لِيَفْعَلَهُ الْعَامَّةُ؛ لِيَقْتَرِبُوا مِنَ الشَّيْخِ وَيَتَصَوَّفُوا\nلِيُرْشِدَ الْمُرْشِدُ الْمُرِيدِينَ؛ لِيَخْرُجُوا مِنَ الظُّلُمَاتِ",
+    "english": "Dhikr is a duty for commoners to perform, to draw near to the sheikh and the Sufis,\nFor the guide to train the disciples, that they may emerge from the darkness."
+  },
+  {
+    "stanza": 21,
+    "kurdish_ar": "زکرێ جڤاتا بێ مەلەک؛ سەد جار بکن عامی گەلەک\nشوبهێ تەعامێ بێ نەمەک؛ دوورە ژ زەوق و لەززەتێ",
+    "kurmanji_lat": "zikirê civata bê melek; sed car bikin ’amî gelek\nşubhê te’amê bê nemek; dûre ji zewq û lezzetê",
+    "arabic": "ذِكْرُ الْمَجْلِسِ بِلَا مَلَكٍ؛ مَهْمَا فَعَلَهُ الْعَوَامُّ مِائَةَ مَرَّةٍ\nكَطَعَامٍ بِلَا مِلْحٍ؛ بَعِيدٌ عَنِ الذَّوْقِ وَاللَّذَّةِ",
+    "english": "The dhikr of a gathering without an angel, even if done a hundred times by the masses,\nIs like food without salt, far from taste and pleasure."
+  },
+  {
+    "stanza": 22,
+    "kurdish_ar": "عشق بێ عبادەت نابتن؛ حەتتا کو موحبەت نابتن\nحال و حەلاوەت نابتن؛ ئزهار بکەین بەحسیەتێ",
+    "kurmanji_lat": "’işq bê ’ibadet nabtin; ḧetta ku muḧbet nabtin\nḧal û ḧelawet nabtin; izhar bikeyn beḧsyetê",
+    "arabic": "الْعِشْقُ لَا يَكُونُ بِلَا عِبَادَةٍ؛ حَتَّى لَوْ كَانَتْ هُنَاكَ مَحَبَّةٌ\nلَا تَكُونُ هُنَاكَ حَالٌ وَحَلَاوَةٌ؛ فَلْنُظْهِرِ الْحَدِيثَ عَنْهَا",
+    "english": "Love without worship is not possible, even if affection exists,\nThere will be no spiritual state or sweetness; let us reveal the discussion."
+  },
+  {
+    "stanza": 23,
+    "kurdish_ar": "ئەم ژی بەحسان ئزهار بکن؛ قسسان ژ کار و بار بکن\nیار و بران هشیار بکن؛ دا ئەم ژ شەیخ دین قسسەتێ",
+    "kurmanji_lat": "em jî beḧsan izhar bikin; qissan ji kar û bar bikin\nyar û biran hişyar bikin; da em ji şeyx dîn qissetê",
+    "arabic": "وَنَحْنُ أَيْضًا فَلْنُظْهِرِ الْأَحَادِيثَ؛ وَنَرْوِي الْقِصَصَ عَنِ الْأَعْمَالِ\nلِنُنَبِّهَ الْأَصْدِقَاءَ وَالْإِخْوَانَ؛ لِنَسْرُدَ قِصَّةَ الشَّيْخِ",
+    "english": "Let us also bring forth stories, telling tales of deeds and affairs,\nTo awaken the friends and brothers, that we may tell the tale of the Sheikh."
+  },
+  {
+    "stanza": 24,
+    "kurdish_ar": "شەیخەک هەبوو جارا ئەول؛ نورا خودێ هلبوو ددل\nسەد گومرەهـ و ضالعەرەبی و مضلعەرەبی؛ ب دەستێ شەیخ د هاتە تەوبەتێ",
+    "kurmanji_lat": "şeyxek hebû cara ewl; nura xudê hilbû didil\nsed gumreh û zalErebî û mizilErebî; bi destê şeyx di hate tewbetê",
+    "arabic": "كَانَ هُنَاكَ شَيْخٌ فِي سَالِفِ الزَّمَانِ؛ أَشْرَقَ نُورُ اللَّهِ فِي قَلْبِهِ\nمِائَةُ ضَالٍّ وَمُضِلٍّ؛ تَابُوا عَلَى يَدِ هَذَا الشَّيْخِ",
+    "english": "There was a sheikh in times of old, the light of God shone in his heart,\nA hundred lost, straying, and misleading ones, came to repentance by his hand."
+  },
+  {
+    "stanza": 25,
+    "kurdish_ar": "شەیخەک هەبوو سەنعانییان؛ سەردارێ پانسەد سوفییان\nچووبوو مەقامێ ئەولییان؛ دائم د زکر و تاعەتێ",
+    "kurmanji_lat": "şeyxek hebû sen’anîyan; serdarê pansed sufîyan\nçûbû meqamê ewlîyan; da’im di zikir û ta’etê",
+    "arabic": "كَانَ هُنَاكَ شَيْخٌ فِي صَنْعَاءَ؛ سَيِّدٌ لِخَمْسِمِائَةِ صُوفِيٍّ\nقَدْ بَلَغَ مَقَامَ الْأَوْلِيَاءِ؛ دَائِمًا فِي الذِّكْرِ وَالطَّاعَةِ",
+    "english": "There was a sheikh of San'an, the leader of five hundred Sufis,\nHe had reached the station of the saints, constant in dhikr and obedience."
+  },
+  {
+    "stanza": 26,
+    "kurdish_ar": "تاعەت دکر ڤێکرا ب جووش؛ پانسەد مریدێ خەرقەپووش\nب موحبەتا عشقێ خورووش؛ ب شەوق و حال و جەزبەتێ",
+    "kurmanji_lat": "ta’et dikir vêkira bi cûş; pansed mirîdê xerqepûş\nbi muḧbeta ’işqê xurûş; bi şewq û ḧal û cezbetê",
+    "arabic": "كَانُوا يُطِيعُونَ مَعًا بِحَمَاسٍ؛ خَمْسُمِائَةِ مُرِيدٍ يَلْبَسُونَ الْخِرْقَةَ\nبِمَحَبَّةِ عِشْقٍ جَيَّاشٍ؛ بِشَوْقٍ وَحَالٍ وَجَذْبَةٍ",
+    "english": "He worshipped together with fervor, with five hundred cloaked disciples,\nWith the roaring passion of love, with longing, ecstasy, and attraction."
+  },
+  {
+    "stanza": 27,
+    "kurdish_ar": "جەزبە چ رەمزا چاڤییە؛ مەبدەء چ حالێ خافییە\nتێتن ددلدا تاڤییە؛ مەوجەک ژ بەحرا حکمەتێ",
+    "kurmanji_lat": "cezbe çi remza çavîye; mebde’ çi ḧalê xafîye\ntêtin didlida tavîye; mewcek ji beḧra ḧikmetê",
+    "arabic": "الْجَذْبَةُ أَيُّ رَمْزٍ لِلْعَيْنِ هِيَ؛ وَأَيُّ حَالٍ خَفِيٍّ هُوَ الْمَبْدَأُ\nتَأْتِي كَزَخَّةِ مَطَرٍ فِي الْقَلْبِ؛ مَوْجَةٌ مِنْ بَحْرِ الْحِكْمَةِ",
+    "english": "What a symbol of the eye attraction is, what a hidden state is its origin,\nIt comes like a sudden shower in the heart, a wave from the sea of wisdom."
+  },
+  {
+    "stanza": 28,
+    "kurdish_ar": "مەعنێ د مەجزوبان ئەڤن؛ میرێ د باتن د خەفن\nنوو حال دبینن د کەڤن؛ خەلقنۆ ژ چ؟ ژ کێم تاقەتێ",
+    "kurmanji_lat": "me’nê di meczuban evin; mîrê di batin di xefin\nnû ḧal dibînin di kevin; xelqino ji çi? ji kêm taqetê",
+    "arabic": "مَعْنَى الْمَجْذُوبِينَ هُوَ هَذَا؛ أُمَرَاءُ فِي الْبَاطِنِ خَفِيُّونَ\nيَرَوْنَ أَحْوَالًا جَدِيدَةً فِي الْقَدِيمِ؛ أَيُّهَا النَّاسُ مِنْ مَاذَا؟ مِنْ قِلَّةِ الطَّاقَةِ",
+    "english": "The meaning of the enraptured is this: they are hidden princes of the inner world,\nSeeing new states in the old; O people, from what? From lack of endurance."
+  },
+  {
+    "stanza": 29,
+    "kurdish_ar": "جەزبە سڕە سوڕ خاتەمە؛ گرتن ل مێران لازمە\nجگەر قەوی بن قائمە؛ ئزهار بکن ڤێ شوهرەتێ",
+    "kurmanji_lat": "cezbe siře suř xateme; girtin li mêran lazme\nciger qewî bin qa’me; izhar bikin vê şuhretê",
+    "arabic": "الْجَذْبَةُ سِرٌّ وَالسِّرُّ خَاتَمٌ؛ وَالْحِفْظُ لِلرِّجَالِ لَازِمٌ\nيَجِبُ أَنْ تَكُونَ الْأَكْبَادُ قَوِيَّةً ثَابِتَةً؛ لِيُظْهِرُوا هَذِهِ الشُّهْرَةَ",
+    "english": "Attraction is a secret, the secret a seal; guarding it is binding upon men,\nTheir hearts must be strong and steady, to manifest this fame."
+  },
+  {
+    "stanza": 30,
+    "kurdish_ar": "تو ژ بورێ موستەعیدان؛ ژ گەرمییا شعر و قەسیدان\nبێنە سەر بەحسا مریدان؛ دا ژ شەیخ دەن قسسەتێ",
+    "kurmanji_lat": "tu ji burê muste’îdan; ji germîya şi’ir û qesîdan\nbêne ser beḧsa mirîdan; da ji şeyx den qissetê",
+    "arabic": "أَنْتَ مِنْ بُرْجِ الْمُسْتَعِدِّينَ؛ مِنْ حَرَارَةِ الشِّعْرِ وَالْقَصَائِدِ\nتَعَالَ إِلَى سِيرَةِ الْمُرِيدِينَ؛ لِنَحْكِيَ قِصَّةَ الشَّيْخِ",
+    "english": "You, from the constellation of the prepared, from the warmth of poetry and odes,\nCome to the tale of the disciples, that we may tell the Sheikh's story."
+  },
+  {
+    "stanza": 31,
+    "kurdish_ar": "سەنعانییان شەیخەک هەبوو؛ ئەو عاشقێ باخویێ خوەبوو\nقەت مەیل د دونیایێ نەبوو؛ دووربوو ژ ڤێ مەشغەلەتێ",
+    "kurmanji_lat": "sen’anîyan şeyxek hebû; ew ’aşiqê baxuyê xwebû\nqet meyl di dunyayê nebû; dûrbû ji vê meşẍeletê",
+    "arabic": "كَانَ لِصَنْعَاءَ شَيْخٌ؛ كَانَ عَاشِقًا لِمَوْلَاهُ\nلَمْ يَكُنْ لَهُ مَيْلٌ لِلدُّنْيَا قَطُّ؛ كَانَ بَعِيدًا عَنْ هَذَا الِانْشِغَالِ",
+    "english": "San'an had a sheikh, he was a lover of his Lord,\nHe had no inclination towards the world, far removed from its busyness."
+  },
+  {
+    "stanza": 32,
+    "kurdish_ar": "دووربوو ژ ڤێ دونیا دەنی؛ پوڕ دگری کێم د کەنی\nکول بوو ژ بەر سەجدێ ئەنی؛ د کار و زەوادا ئاخرەتێ",
+    "kurmanji_lat": "dûrbû ji vê dunya denî; puř digrî kêm di kenî\nkul bû ji ber secdê enî; di kar û zewada axretê",
+    "arabic": "كَانَ بَعِيدًا عَنْ هَذِهِ الدُّنْيَا الدَّنِيَّةِ؛ كَثِيرَ الْبُكَاءِ قَلِيلَ الضَّحِكِ\nأَصَابَتْ جَبْهَتَهُ الْقُرُوحُ مِنَ السُّجُودِ؛ فِي الْعَمَلِ لِزَادِ الْآخِرَةِ",
+    "english": "He was far from this lowly world, weeping much and smiling little,\nHis forehead was blistered from prostration, in the work and provision for the Hereafter."
+  },
+  {
+    "stanza": 33,
+    "kurdish_ar": "وی هەر زەوادە کار دکر؛ زکرەکێ بێ هژمار دکر\nژ دنیایێ ئستغفار دکر؛ دوور بوو ژ هەرچی شوبهەتێ",
+    "kurmanji_lat": "wî her zewade kar dikir; zikirekê bê hijmar dikir\nji dinyayê istiẍfar dikir; dûr bû ji herçî şubhetê",
+    "arabic": "كَانَ يَعْمَلُ دَائِمًا لِتَزَوُّدِهِ؛ وَيَذْكُرُ ذِكْرًا بِلَا عَدَدٍ\nوَكَانَ يَسْتَغْفِرُ مِنَ الدُّنْيَا؛ بَعِيدًا عَنْ كُلِّ شُبْهَةٍ",
+    "english": "He always worked for his provisions, performing dhikr without count,\nHe sought forgiveness from the world, far away from any suspicion."
+  },
+  {
+    "stanza": 34,
+    "kurdish_ar": "دوور بوو ژ ئەفعالێ بشک؛ ژ ئەمرەد و بوکرێ خوەشک\nما کەس خەبەر داکە ل نک؛ ناکەت قەبوول ڤێ غەیبەتێ",
+    "kurmanji_lat": "dûr bû ji ef’alê bişk; ji emred û bukirê xweşk\nma kes xeber dake li nik; naket qebûl vê ẍeybetê",
+    "arabic": "كَانَ بَعِيدًا عَنِ الْأَفْعَالِ الْمَشْكُوكِ فِيهَا؛ وَعَنِ الْأَمْرَدِ وَالْبِكْرِ الْجَمِيلَةِ\nلَمْ يَكُنْ أَحَدٌ يَتَكَلَّمُ عِنْدَهُ؛ فَلَمْ يَكُنْ يَقْبَلُ هَذِهِ الْغِيبَةَ",
+    "english": "He was far from doubtful deeds, from the beardless boy and beautiful maiden,\nNo one could speak ill in his presence; he did not accept backbiting."
+  },
+  {
+    "stanza": 35,
+    "kurdish_ar": "ناکەت قەبوول ڤان خەبەرا؛ مەدحێ جوان و دلبەرا\nما کەس خەبەر داکەت مەرا؛ بەحس و قسا مەنهیەتێ",
+    "kurmanji_lat": "naket qebûl van xebera; medḧê cwan û dilbera\nma kes xeber daket mera; beḧis û qisa menhyetê",
+    "arabic": "لَمْ يَكُنْ يَقْبَلُ تِلْكَ الْأَحَادِيثَ؛ وَمَدْحَ الشُّبَّانِ وَالْحِسَانِ\nلَمْ يَكُنْ لِأَحَدٍ أَنْ يَرْوِيَ لَنَا؛ أَحَادِيثَ وَقَصَصَ الْمَنْهِيَّاتِ",
+    "english": "He would not accept such talks, the praising of youths and beauties,\nNo one could speak to him, of topics and tales of forbidden things."
+  },
+  {
+    "stanza": 36,
+    "kurdish_ar": "دووربوو ژ بەر مەناهییا؛ نەدهاتە عید و شاهییا\nژ بەر سەلات و چێیییا؛ شیرین دهاتە تاعەتێ",
+    "kurmanji_lat": "dûrbû ji ber menahîya; nedhate ’îd û şahîya\nji ber selat û çêyîya; şîrîn dihate ta’etê",
+    "arabic": "كَانَ بَعِيدًا عَنِ الْمَنَاهِي؛ لَمْ يَكُنْ يَأْتِي الْأَعْيَادَ وَالِاحْتِفَالَاتِ\nمِنْ أَجْلِ الصَّلَاةِ وَالصَّلَاحِ؛ كَانَتِ الطَّاعَةُ تَأْتِيهِ حُلْوَةً",
+    "english": "He was far from forbidden things, he did not attend feasts and celebrations,\nBecause of prayers and righteousness, obedience tasted sweet to him."
+  },
+  {
+    "stanza": 37,
+    "kurdish_ar": "تاعەت دکر دائم مودام؛ گەهـ ژ قعوود گەهـ ژ قیام\nهەفتێ و هەفت سالی تەمام؛ خالی نەبوو ژ ڤێ خدمەتێ",
+    "kurmanji_lat": "ta’et dikir da’im mudam; geh ji qi’ûd geh ji qyam\nheftê û hefit salî temam; xalî nebû ji vê xidmetê",
+    "arabic": "كَانَ يُطِيعُ دَائِمًا وَأَبَدًا؛ تَارَةً بِالْقُعُودِ وَتَارَةً بِالْقِيَامِ\nسَبْعَةً وَسَبْعِينَ عَامًا بِالتَّمَامِ؛ لَمْ يَخْلُ مِنْ هَذِهِ الْخِدْمَةِ",
+    "english": "He worshipped constantly and forever, sometimes sitting, sometimes standing,\nFor full seventy-seven years, he was never empty of this service."
+  },
+  {
+    "stanza": 38,
+    "kurdish_ar": "هەر خدمەتا مەولا دکر؛ زکرێ مەزن ژ پییان دکر\nب چێیییان خەلق چێدکر؛ دانینە سەر هدایەتێ",
+    "kurmanji_lat": "her xidmeta mewla dikir; zikirê mezin ji pîyan dikir\nbi çêyîyan xelq çêdkir; danîne ser hidayetê",
+    "arabic": "كَانَ دَائِمًا يَخْدِمُ الْمَوْلَى؛ وَيَذْكُرُ اللَّهَ كَثِيرًا قِيَامًا\nيُصْلِحُ النَّاسَ بِالْإِحْسَانِ؛ وَيَهْدِيهِمْ إِلَى طَرِيقِ الْهِدَايَةِ",
+    "english": "He always served the Lord; making great remembrance while standing,\nHe reformed the people with goodness; and set them upon the path of guidance."
+  },
+  {
+    "stanza": 39,
+    "kurdish_ar": "هەرچی ل شەیخ گوهدار دبوو؛ دونیا ل چاڤان سار دبوو\nئاخرەت ب وان ڕا یار دبوو؛ ل پەند و وەعز و شیرەتێ",
+    "kurmanji_lat": "herçî li şeyx guhdar dibû; dunya li çavan sar dibû\naxret bi wan řa yar dibû; li pend û we’iz û şîretê",
+    "arabic": "كُلُّ مَنْ كَانَ يَسْتَمِعُ لِلشَّيْخِ؛ كَانَتِ الدُّنْيَا تَبْرُدُ فِي عَيْنَيْهِ\nوَتُصْبِحُ الْآخِرَةُ خَلِيلَةً لَهُمْ؛ بِفَضْلِ النُّصْحِ وَالْوَعْظِ وَالْإِرْشَادِ",
+    "english": "Whoever listened to the sheikh; the world would grow cold in their eyes,\nThe Hereafter became their friend; through his advice, preaching, and counsel."
+  },
+  {
+    "stanza": 40,
+    "kurdish_ar": "شیرەتا پەندێ حەکیمان؛ خەبەرێ پیر و عەزیمان\nد بەلەدێ ئەهل و حەلیمان؛ کەس نەداکەت قیمەتێ",
+    "kurmanji_lat": "şîreta pendê ḧekîman; xeberê pîr û ’ezîman\ndi beledê ehil û ḧelîman; kes nedaket qîmetê",
+    "arabic": "نَصَائِحُ وَمَوَاعِظُ الْحُكَمَاءِ؛ وَكَلَامُ الشُّيُوخِ وَالْعُظَمَاءِ\nفِي بَلَدِ الْأَهْلِ وَالْحُلَمَاءِ؛ لَا أَحَدَ يُقَدِّرُ قِيمَتَهَا",
+    "english": "The counsel and advice of the wise; the words of the elders and the great,\nIn the town of families and the forbearing; no one would lower their value."
+  },
+  {
+    "stanza": 41,
+    "kurdish_ar": "دوڕ لنک ئەهلێ مولووکان؛ گەر ببنە شەهرێ بچووکان\nکەس بوها ناکەت د سووکان؛ یەک لبەک چە پێ نەتێ",
+    "kurmanji_lat": "duř link ehlê mulûkan; ger bibne şehrê biçûkan\nkes buha naket di sûkan; yek libek çe pê netê",
+    "arabic": "الدُّرَرُ عِنْدَ أَهْلِ الْمُلُوكِ؛ إِنْ أُخِذَتْ إِلَى مَدِينَةِ الصِّغَارِ\nلَا أَحَدَ يُثَمِّنُهَا فِي الْأَسْوَاقِ؛ وَلَا يَصِلُ إِلَيْهَا أَيُّ شَيْءٍ",
+    "english": "Pearls belong with the people of kings; if taken to the city of the small,\nNo one values them in the markets; not a single piece will fetch a price."
+  },
+  {
+    "stanza": 42,
+    "kurdish_ar": "ما ب دەڤ تێتە خەبەردان؛ چیهییا وان شێرەمەردان\nخۆش د کەت سەد ژان و دەردان؛ هەرکەسێ شەیخ پوف کەتێ",
+    "kurmanji_lat": "ma bi dev tête xeberdan; çîhîya wan şêremerdan\nxoş di ket sed jan û derdan; herkesê şeyx puf ketê",
+    "arabic": "هَلْ يُمْكِنُ وَصْفُهَا بِالْكَلَامِ؛ مَقَامَاتُ أُولَئِكَ الرِّجَالِ الشُّجْعَانِ\nتَشْفِي مِائَةَ أَلَمٍ وَوَجَعٍ؛ كُلُّ مَنْ يَنْفُثُ عَلَيْهِ الشَّيْخُ",
+    "english": "Can it be spoken by word of mouth; the high stations of those lion-hearted men?\nIt heals a hundred aches and pains; anyone upon whom the sheikh blows."
+  },
+  {
+    "stanza": 43,
+    "kurdish_ar": "هەرکەسێ شەیخ لێ بخوینێ؛ نەخوەشی حال لێ نەمینێ\nب دوعان راکەت ڤەژینێ؛ لێ روجوع کەت سەححەتێ",
+    "kurmanji_lat": "herkesê şeyx lê bixiwînê; nexweşî ḧal lê nemînê\nbi du’an raket vejînê; lê rucu’ ket seḧḧetê",
+    "arabic": "كُلُّ مَنْ يَقْرَأُ عَلَيْهِ الشَّيْخُ؛ لَا يَبْقَى فِيهِ مَرَضٌ وَلَا عِلَّةٌ\nبِالدُّعَاءِ يُعِيدُ إِلَيْهِ الْحَيَاةَ؛ وَتَعُودُ إِلَيْهِ الصِّحَّةُ وَالْعَافِيَةُ",
+    "english": "Whoever the sheikh recites over; illness and bad condition depart from them,\nWith prayers, he revives them; and their health fully returns."
+  },
+  {
+    "stanza": 44,
+    "kurdish_ar": "دینییەک ترسەک هەوایەک؛ عللەتەک ریشەک وەبایەک\nشەیخ ل سەر بکرا دوعایەک؛ خۆش دبوو وێ ساعەتێ",
+    "kurmanji_lat": "dînîyek tirsek hewayek; ’illetek rîşek webayek\nşeyx li ser bikira du’ayek; xoş dibû wê sa’etê",
+    "arabic": "أَيُّ جُنُونٍ أَوْ خَوْفٍ أَوْ هَوًى؛ أَيُّ عِلَّةٍ أَوْ جُرْحٍ أَوْ وَبَاءٍ\nإِنْ دَعَا الشَّيْخُ عَلَيْهِ دَعْوَةً؛ يُشْفَى فِي تِلْكَ السَّاعَةِ حَالًا",
+    "english": "Any madness, fear, or evil wind; any ailment, wound, or plague,\nIf the sheikh prayed over it; it would be healed in that very hour."
+  },
+  {
+    "stanza": 45,
+    "kurdish_ar": "پێ خۆش دبوون سەد لال و شل؛ پێ رۆهن دبوون سەد چەهڤ و دل\nپێ راست دبوون ضالعەرەبی و مضلعەرەبی؛ ب وێ سڕا شەیخ ڤێکەتێ",
+    "kurmanji_lat": "pê xoş dibûn sed lal û şil; pê rohin dibûn sed çehiv û dil\npê rast dibûn zalErebî û mizilErebî; bi wê siřa şeyx vêketê",
+    "arabic": "بِهِ شُفِيَ مِائَةُ أَبْكَمَ وَمَشْلُولٍ؛ بِهِ أَضَاءَتْ مِائَةُ عَيْنٍ وَقَلْبٍ\nبِهِ اسْتَقَامَ الضَّالُّ وَالْمُضِلُّ؛ بِتِلْكَ السِّرِّ الَّذِي أَصَابَهُ الشَّيْخُ",
+    "english": "A hundred mute and paralyzed were healed by him; a hundred eyes and hearts were enlightened by him,\nThe astray and the misleader were set right by him; through that divine secret the sheikh possessed."
+  },
+  {
+    "stanza": 46,
+    "kurdish_ar": "نەزەرا شەیخ کیمیا بوو؛ پاک وجود بوو بێ رییا بوو\nئەهلێ دل بوو ئەولییا بوو؛ شەیلو ئەللاهـ ژ وێ بەرکەتێ",
+    "kurmanji_lat": "nezera şeyx kîmya bû; pak wicud bû bê rîya bû\nehlê dil bû ewlîya bû; şeylu ellah ji wê berketê",
+    "arabic": "نَظْرَةُ الشَّيْخِ كَانَتْ كِيمْيَاءً؛ كَانَ طَاهِرَ الْوُجُودِ بِلَا رِيَاءٍ\nكَانَ مِنْ أَهْلِ الْقَلْبِ وَمِنَ الْأَوْلِيَاءِ؛ شَيْءٌ لِلَّهِ مِنْ تِلْكَ الْبَرَكَةِ",
+    "english": "The sheikh's gaze was alchemy; his existence was pure and without hypocrisy,\nHe was a man of the heart, a saint; something for God from that blessing!"
+  },
+  {
+    "stanza": 47,
+    "kurdish_ar": "شەیلو ئەللاهـ یا شەیخ ئەکابر؛ «قطب اللهعەرەبی» بەرەکەت حازر\nل غائب و خەلقێ موسافر؛ ل مە ئو ڤێ سوحبەتێ",
+    "kurmanji_lat": "şeylu ellah ya şeyx ekabir; «qitib alilhErebî» bereket ḧazir\nli ẍa’ib û xelqê musafir; li me u vê suḧbetê",
+    "arabic": "شَيْءٌ لِلَّهِ يَا أَكْبَرَ الشُّيُوخِ؛ يَا «قُطْبَ اللَّهِ» ذَا الْبَرَكَةِ الْحَاضِرَةِ\nعَلَى الْغَائِبِ وَعَلَى النَّاسِ الْمُسَافِرِينَ؛ وَعَلَيْنَا وَعَلَى هَذِهِ الصُّحْبَةِ",
+    "english": "Something for God, O greatest of sheikhs; \"Pole of God\" whose blessing is ever-present,\nUpon the absent and the traveling folk; upon us and upon this gathering."
+  },
+  {
+    "stanza": 48,
+    "kurdish_ar": "سوحبەتا شەیخێ رەشید تێ؛ مەجلسا پانسەد مرید تێ\nتێک مەلا و موستەعید تێ؛ ژ مەلەک و ملیاکەتێ",
+    "kurmanji_lat": "suḧbeta şeyxê reşîd tê; meclisa pansed mirîd tê\ntêk mela û muste’îd tê; ji melek û milyaketê",
+    "arabic": "صُحْبَةُ الشَّيْخِ الرَّشِيدِ تَحْضُرُ؛ مَجْلِسٌ يَحْضُرُهُ خَمْسُمِائَةِ مُرِيدٍ\nيَجْتَمِعُ فِيهِ الْمُلَّا وَالْمُسْتَعِدُّ؛ مِنَ الْمَلَائِكَةِ وَالْأَرْوَاحِ الطَّاهِرَةِ",
+    "english": "The companionship of the rightly-guided sheikh arrives; a gathering of five hundred disciples comes,\nMullahs and seekers attend together; along with angels and heavenly beings."
+  },
+  {
+    "stanza": 49,
+    "kurdish_ar": "مەلەکێ چەنگ ژ هەوایێ؛ دفڕی شوبهەتێ بایێ\nتێتە نێڤ زکر و سەمایێ؛ د وەقت و حینا دەعوەتێ",
+    "kurmanji_lat": "melekê çeng ji hewayê; difřî şubhetê bayê\ntête nêv zikir û semayê; di weqit û ḧîna de’wetê",
+    "arabic": "مَلَاكٌ ذُو أَجْنِحَةٍ مِنَ الْهَوَاءِ؛ يَطِيرُ مِثْلَ هُبُوبِ الرِّيحِ\nيَأْتِي إِلَى وَسَطِ الذِّكْرِ وَالسَّمَاعِ؛ فِي وَقْتِ وَحِينِ الدَّعْوَةِ",
+    "english": "An angel with wings from the sky; flying just like the wind,\nEnters the midst of the dhikr and whirling; at the very time of the invocation."
+  },
+  {
+    "stanza": 50,
+    "kurdish_ar": "هەر دەما خوتبە د هاتە؛ گەرم دبوو زکر و جڤاتە\nکفش دبوون ژێ موعجزاتە؛ هەر وەکی رۆژ داکەتێ",
+    "kurmanji_lat": "her dema xutbe di hate; germ dibû zikir û civate\nkifiş dibûn jê mu’cizate; her wekî roj daketê",
+    "arabic": "كُلَّمَا حَانَ وَقْتُ الْخُطْبَةِ؛ كَانَ يَحْمَى الذِّكْرُ وَالْمَجْلِسُ\nوَتَظْهَرُ مِنْهُ الْمُعْجِزَاتُ؛ تَمَامًا كَمَا تُشْرِقُ الشَّمْسُ",
+    "english": "Whenever the sermon began; the dhikr and the gathering grew intensely warm,\nMiracles would become manifest from him; just as the sun descending."
+  },
+  {
+    "stanza": 51,
+    "kurdish_ar": "وێ پێلێ دەروێش بجووش بوون؛ سوحبەت و مەجلس د بووش بوون\nب موحبەت و عشق و خورووش بوون؛ ژ شاهیان کەس خەو نەتێ",
+    "kurmanji_lat": "wê pêlê derwêş bicûş bûn; suḧbet û mecils di bûş bûn\nbi muḧbet û ’işq û xurûş bûn; ji şahyan kes xew netê",
+    "arabic": "فِي تِلْكَ اللَّحْظَةِ يَغْلِي الدَّرَاوِيشُ شَوْقًا؛ وَتَمْتَلِئُ الصُّحْبَةُ وَالْمَجَالِسُ كَثَافَةً\nيَمْتَلِئُونَ بِالْمَحَبَّةِ وَالْعِشْقِ وَالْهَيَجَانِ؛ وَمِنَ الْفَرَحِ لَا يَنَامُ أَحَدٌ",
+    "english": "In that wave, the dervishes were boiling with zeal; the companionship and gatherings were overflowing,\nThey were filled with love, passion, and uproar; from the joy, no one could sleep."
+  },
+  {
+    "stanza": 52,
+    "kurdish_ar": "وێ پێلێ دەوران دچێبوون؛ کێ غەما میران دڤێبوون\nحەمیان مەیلا خودێبوون؛ ئەو بجەهدا رێکەتێ",
+    "kurmanji_lat": "wê pêlê dewran diçêbûn; kê ẍema mîran divêbûn\nḧemyan meyla xudêbûn; ew bicehda rêketê",
+    "arabic": "فِي تِلْكَ اللَّحْظَةِ تُعْقَدُ حِلَقُ الذِّكْرِ؛ مَنْ كَانَ يَهْتَمُّ بِهُمُومِ الْأُمَرَاءِ\nكَانَ مَيْلُهُمْ جَمِيعًا نَحْوَ اللَّهِ؛ بِجُهْدٍ صَادِقٍ فِي الطَّرِيقِ",
+    "english": "In that wave, the circles of dhikr were formed; who cared for the sorrows of princes?\nAll their inclination was toward God; striving hard upon the path."
+  },
+  {
+    "stanza": 53,
+    "kurdish_ar": "ئەر غولام بوون ئەر ئەمیر بوون؛ ئەر گەدا بوون ئەر فەقیر بوون\nتێک و ڤێک گوهدارێ پیر بوون؛ ل عەشقا دینێ سوننەنێ",
+    "kurmanji_lat": "er ẍulam bûn er emîr bûn; er geda bûn er feqîr bûn\ntêk û vêk guhdarê pîr bûn; li ’eşqa dînê sunnenê",
+    "arabic": "سَوَاءٌ كَانُوا غِلْمَانًا أَوْ أُمَرَاءَ؛ سَوَاءٌ كَانُوا شَحَّاذِينَ أَوْ فُقَرَاءَ\nجَمِيعُهُمْ كَانُوا مُسْتَمِعِينَ لِلشَّيْخِ؛ فِي عِشْقِ الدِّينِ وَالسُّنَّةِ",
+    "english": "Whether they were servants or princes; whether they were beggars or poor,\nAll together were listeners to the master; in the love of the religion and the Sunnah."
+  },
+  {
+    "stanza": 54,
+    "kurdish_ar": "شەیخێ سەردارێ خەلیفان؛ ژ نازک و جوان و لەتیفان\nژ یاریا قامەت ئەلیفان؛ نەفس دکەت ژێ نەفرەتێ",
+    "kurmanji_lat": "şeyxê serdarê xelîfan; ji nazk û cwan û letîfan\nji yarya qamet elîfan; nefis diket jê nefretê",
+    "arabic": "الشَّيْخُ سَيِّدُ الْخُلَفَاءِ؛ مِنَ الرِّقَّةِ وَالْجَمَالِ وَاللَّطَافَةِ\nمِنْ مُعَاشَرَةِ ذَوِي الْقَامَاتِ كَالْأَلِفِ؛ نَفْسُهُ تَنْفِرُ مِنْهُمْ",
+    "english": "The sheikh, leader of the deputies; regarding the delicate, the young, and the graceful,\nRegarding the companionship of those with alif-like statures; his soul felt revulsion."
+  },
+  {
+    "stanza": 55,
+    "kurdish_ar": "دەفتەرا ساحب جەمالان؛ شەرح و مەتنێ زولف و خالان\nشەیخ توجار ناکەت موتالان؛ تەبعەتێ شەیخ ناڕەتێ",
+    "kurmanji_lat": "deftera saḧb cemalan; şerḧ û metnê zulf û xalan\nşeyx tucar naket mutalan; teb’etê şeyx nařetê",
+    "arabic": "دَفْتَرُ أَصْحَابِ الْجَمَالِ؛ وَشَرْحُ وَمَتْنُ الضَّفَائِرِ وَالْخِيِلَانِ\nالشَّيْخُ لَا يُطَالِعُهَا أَبَدًا؛ فَطَبِيعَةُ الشَّيْخِ لَا تَمِيلُ إِلَيْهَا",
+    "english": "The ledger of the possessors of beauty; the commentary and text of tresses and moles,\nThe sheikh never studies them; the sheikh's nature does not incline to it."
+  },
+  {
+    "stanza": 56,
+    "kurdish_ar": "تەبعەتێ حوسنا جەمالێ؛ شەیخ توجار ناکەت خەیالێ\nیان ژ چییێ یان ژ کالێ؛ یان ژ خەوف و خەشیەتێ",
+    "kurmanji_lat": "teb’etê ḧusna cemalê; şeyx tucar naket xeyalê\nyan ji çîyê yan ji kalê; yan ji xewf û xeşyetê",
+    "arabic": "طَبِيعَةُ الْحُسْنِ وَالْجَمَالِ؛ لَا يَتَخَيَّلُهَا الشَّيْخُ أَبَدًا\nإِمَّا مِنْ طَبِيعَةِ الْجَبَلِ، وَإِمَّا مِنَ الشَّيْخُوخَةِ؛ أَوْ مِنَ الْخَوْفِ وَالْخَشْيَةِ",
+    "english": "The nature of physical beauty; the sheikh never imagines it,\nWhether from his mountain upbringing or old age; or from his fear and awe of God."
+  },
+  {
+    "stanza": 57,
+    "kurdish_ar": "ژ خەشیەتێ دل نالە نال بوو؛ عومرەکێ بێ حەد ل بال بوو\nڕهـ سپیبوو شەیبێ کال بوو؛ گشتی فەنابوو ژ کەسرەتێ",
+    "kurmanji_lat": "ji xeşyetê dil nale nal bû; ’umrekê bê ḧed li bal bû\nřih sipîbû şeybê kal bû; giştî fenabû ji kesretê",
+    "arabic": "مِنَ الْخَشْيَةِ كَانَ قَلْبُهُ يَئِنُّ أَنِينًا؛ وَكَانَ لَهُ عُمُرٌ بِلَا حَدٍّ\nابْيَضَّتْ لِحْيَتُهُ وَشَابَ كَالشَّيْخِ؛ وَفَنِيَ كُلِّيًّا مِنْ كَثْرَةِ الْعِبَادَةِ",
+    "english": "From fear of God, his heart moaned deeply; a boundless age had passed upon him,\nHis beard had turned white, an old man's hoariness; completely annihilated through intense devotion."
+  },
+  {
+    "stanza": 58,
+    "kurdish_ar": "ژ کەسرەتێ دلبەر نمابوو؛ یەک موویەک رەش لێ نەمابوو\nحوورییەک دیبوو تەمابوو؛ ب رۆهنیا فندێ کەتێ",
+    "kurmanji_lat": "ji kesretê dilber nimabû; yek mûyek reş lê nemabû\nḧûrîyek dîbû temabû; bi rohnya findê ketê",
+    "arabic": "مِنْ كَثْرَةِ الْعِبَادَةِ لَمْ يَبْقَ فِيهِ مَيْلٌ لِلْجَمَالِ؛ وَلَمْ تَبْقَ فِيهِ شَعْرَةٌ سَوْدَاءُ وَاحِدَةٌ\nرَأَى حُورِيَّةً كَأَنَّهَا ظُهُورٌ؛ وَقَعَ فِي عِشْقِهَا بِنُورِ الشَّمْعَةِ",
+    "english": "From intense devotion, no worldly love remained; not a single black hair was left on him,\nHe saw a houri, it was an apparition; he was struck by the light of the candle."
+  },
+  {
+    "stanza": 59,
+    "kurdish_ar": "رۆهنیا فندێ گەهشتێ؛ حووریا بوکرا بوهوشتێ\nدی ل سەر بانێ کەنشتێ؛ باتنی کچ بانکەتێ",
+    "kurmanji_lat": "rohnya findê gehşitê; ḧûrya bukira buhuştê\ndî li ser banê keniştê; batnî kiç banketê",
+    "arabic": "وَصَلَهُ نُورُ الشَّمْعَةِ؛ حُورِيَّةٌ عِذْرَاءُ مِنْ حُورِ الْجَنَّةِ\nرَآهَا عَلَى سَطْحِ الْكَنِيسَةِ؛ نَادَتْهُ الْفَتَاةُ بَاطِنِيًّا",
+    "english": "The light of the candle reached him; a virgin houri of paradise,\nHe saw her upon the roof of the church; inwardly the girl called to him."
+  },
+  {
+    "stanza": 60,
+    "kurdish_ar": "باتنی کچ ڤەدخوینێ؛ پەردەئێ ژبەر خوە هلتینێ\nشەیخ د خەونێدا دبینێ؛ جام و تاسەک مەی ددەتێ",
+    "kurmanji_lat": "batnî kiç vedxiwînê; perde’ê jiber xwe hiltînê\nşeyx di xewnêda dibînê; cam û tasek mey didetê",
+    "arabic": "الْفَتَاةُ تُنَادِيهِ بَاطِنِيًّا؛ وَتَرْفَعُ السِّتَارَ عَنْ نَفْسِهَا\nيَرَاهَا الشَّيْخُ فِي مَنَامِهِ؛ تُعْطِيهِ كَأْسًا وَطَاسَةً مِنَ الْخَمْرِ",
+    "english": "Inwardly the girl summons him; removing the veil from herself,\nThe sheikh sees her in a dream; offering him a glass and bowl of wine."
+  },
+  {
+    "stanza": 61,
+    "kurdish_ar": "خەمر و شەرابێ پوڕ دکە؛ شەیخ د خەونێدا فڕ دکە\nنەزەر ل یا دێم دوڕ دکە؛ دین بوو د نێڤا خلوەتێ",
+    "kurmanji_lat": "xemir û şerabê puř dike; şeyx di xewnêda fiř dike\nnezer li ya dêm duř dike; dîn bû di nêva xilwetê",
+    "arabic": "تَمْلَأُ الْخَمْرَ وَالشَّرَابَ؛ وَيَشْرَبُهَا الشَّيْخُ فِي مَنَامِهِ بَعُبٍّ\nوَيَنْظُرُ إِلَى صَاحِبَةِ الْوَجْهِ الدُّرِّيِّ؛ فَجُنَّ جُنُونُهُ فِي وَسَطِ الْخَلْوَةِ",
+    "english": "She fills the wine and the drink; the sheikh drinks it down in his dream,\nHe gazes upon the one with the pearl-like face; he went mad in the midst of his seclusion."
+  },
+  {
+    "stanza": 62,
+    "kurdish_ar": "د خلوێدا ئەو دین دبوو؛ تژی دەماغی خوین دبوو\nشەیبا سپی رەنگین دبوو؛ ئەڤ حال و رەنگ قەت ژێ نەتێ",
+    "kurmanji_lat": "di xilwêda ew dîn dibû; tijî demaẍî xwîn dibû\nşeyba sipî rengîn dibû; ev ḧal û reng qet jê netê",
+    "arabic": "فِي الْخَلْوَةِ جُنَّ جُنُونُهُ؛ وَامْتَلَأَ دِمَاغُهُ بِالدَّمِ\nوَتَلَوَّنَتْ لِحْيَتُهُ الْبَيْضَاءُ؛ هَذَا الْحَالُ وَاللَّوْنُ لَمْ يُفَارِقَاهُ قَطُّ",
+    "english": "In the seclusion he went utterly mad; his brain became filled with blood,\nHis white beard became stained; this state and color never left him."
+  },
+  {
+    "stanza": 63,
+    "kurdish_ar": "نایێت ژ شەیخ ئەڤ حال و رەنگ؛ عەیبە ل وی ئەڤ ناڤ و دەنگ\nپوڕ چوون ژ سەر زولفێ دشەنگ؛ ئەبتەر ب دونیایێ کەتێ",
+    "kurmanji_lat": "nayêt ji şeyx ev ḧal û reng; ’eybe li wî ev nav û deng\npuř çûn ji ser zulfê dişeng; ebter bi dunyayê ketê",
+    "arabic": "لَا يَلِيقُ بِالشَّيْخِ هَذَا الْحَالُ وَاللَّوْنُ؛ عَيْبٌ عَلَيْهِ هَذَا الِاسْمُ وَالصِّيتُ\nذَهَبَ الْكَثِيرُ مِنْ أَجْلِ الضَّفِيرَةِ الْجَمِيلَةِ؛ وَوَقَعَ فِي الدُّنْيَا مَقْطُوعًا خَاسِرًا",
+    "english": "This state and color do not befit the sheikh; this reputation and fame are a shame upon him,\nMany were lost for the sake of a beautiful lock of hair; he fell ruined into the world."
+  },
+  {
+    "stanza": 64,
+    "kurdish_ar": "زولفان گەلەک ئەبتەر کرن؛ جەرگ و هناڤ کەر کەر کرن\nپێچان د شامێ وەرکرن؛ عەبدال د سووکا غوربەتێ",
+    "kurmanji_lat": "zulfan gelek ebter kirin; cerg û hinav ker ker kirin\npêçan di şamê werkirin; ’ebdal di sûka ẍurbetê",
+    "arabic": "الضَّفَائِرُ دَمَّرَتِ الْكَثِيرِينَ؛ وَقَطَّعَتِ الْأَكْبَادَ وَالْأَحْشَاءَ إِرْبًا\nلَفَّتْهُمْ فِي الشَّامِ وَشَرَّدَتْهُمْ؛ كَالدَّرَاوِيشِ فِي سُوقِ الْغُرْبَةِ",
+    "english": "Tresses have ruined many; they have sliced livers and hearts to pieces,\nThey wrapped them in Damascus and scattered them; like wandering dervishes in the market of exile."
+  },
+  {
+    "stanza": 65,
+    "kurdish_ar": "ژ چەشمێ د رەش دین بوون گەلەک؛ گەزما کڤانێ رەش هەلەک\nفریاد ژ شەیخ چوونە فەلەک؛ ئاهـ و فغان بەحس ژێ نەتێ",
+    "kurmanji_lat": "ji çeşmê di reş dîn bûn gelek; gezma kivanê reş helek\nfiryad ji şeyx çûne felek; ah û fiẍan beḧis jê netê",
+    "arabic": "مِنَ الْعُيُونِ السُّودِ جُنَّ الْكَثِيرُونَ؛ وَلَدْغَةُ الْقَوْسِ الْأَسْوَدِ مُهْلِكَةٌ\nصَرَخَاتُ الشَّيْخِ صَعِدَتْ إِلَى الْفَلَكِ؛ آهَاتٌ وَأَنِينٌ لَا يُمْكِنُ وَصْفُهَا",
+    "english": "From black eyes, many went mad; the bite of the black bow is deadly,\nThe sheikh's cries reached the heavens; his sighs and wails cannot be described."
+  },
+  {
+    "stanza": 66,
+    "kurdish_ar": "ئاهـ و فغان دەربوون هزار؛ هنگی هەبوون دەروێش و یار\nحەمیان ل شەیخ دکر پورسیار؛ باژار و ئەهلێ هێشەتێ",
+    "kurmanji_lat": "ah û fiẍan derbûn hizar; hingî hebûn derwêş û yar\nḧemyan li şeyx dikir pursyar; bajar û ehlê hêşetê",
+    "arabic": "خَرَجَتْ آلَافُ الْآهَاتِ وَالْأَنِينِ؛ حِينَهَا كَانَ هُنَاكَ الدَّرَاوِيشُ وَالْأَصْدِقَاءُ\nجَمِيعُهُمْ كَانُوا يَسْأَلُونَ الشَّيْخَ؛ الْمَدِينَةُ وَأَهْلُ الْجُمُوعِ",
+    "english": "A thousand sighs and wails poured forth; back then, there were dervishes and friends,\nThey all asked the sheikh questions; the city and the people of the crowd."
+  },
+  {
+    "stanza": 67,
+    "kurdish_ar": "ئەهلێ تەریق، ئەهلێ سلووک؛ هنگی مەزن، هنگی بچووک\nئاغا و خووجە و ملووک؛ پورسین ل شەیخ ڤێ زەحمەتێ",
+    "kurmanji_lat": "ehlê terîq, ehlê silûk; hingî mezin, hingî biçûk\naẍa û xûce û milûk; pursîn li şeyx vê zeḧmetê",
+    "arabic": "أَهْلُ الطَّرِيقَةِ، أَهْلُ السُّلُوكِ؛ الْكِبَارُ حِينَهَا، وَالصِّغَارُ حِينَهَا\nالْآغَوَاتُ وَالْمَشَايِخُ وَالْمُلُوكُ؛ سَأَلُوا الشَّيْخَ عَنْ هَذَا الْمُصَابِ",
+    "english": "The people of the path, the people of seeking; the great ones then, the small ones then,\nLords, masters, and kings; they asked the sheikh about this affliction."
+  },
+  {
+    "stanza": 68,
+    "kurdish_ar": "هەرچی ژ شەیخ پورسیار دکر؛ زکرەکێ خۆش مادار دکر\nل عادەتێ هەرجار دکر؛ شەیخ ئلتفات قەت ژێ نەتێ",
+    "kurmanji_lat": "herçî ji şeyx pursyar dikir; zikirekê xoş madar dikir\nli ’adetê hercar dikir; şeyx iltifat qet jê netê",
+    "arabic": "كُلُّ مَنْ كَانَ يَسْأَلُ الشَّيْخَ؛ كَانَ يَقُومُ بِذِكْرٍ جَمِيلٍ مُسْتَمِرٍّ\nعَلَى عَادَتِهِ كَمَا يَفْعَلُ كُلَّ مَرَّةٍ؛ وَالشَّيْخُ لَا يَلْتَفِتُ إِلَيْهِمْ أَبَدًا",
+    "english": "Whoever asked the sheikh a question; he would perform a sweet, constant dhikr,\nAccording to his custom, as he always did; the sheikh paid them no attention at all."
+  },
+  {
+    "stanza": 69,
+    "kurdish_ar": "شەیخ گۆتە وان قڕ قڕ مەکن؛ زکرێ خوە ئیرۆ پوڕ مەکن\nکەیفێ ل من بێ سوڕ مەکن؛ خۆش نینە سەوتا ژ وە تێ",
+    "kurmanji_lat": "şeyx gote wan qiř qiř mekin; zikirê xwe îro puř mekin\nkeyfê li min bê suř mekin; xoş nîne sewta ji we tê",
+    "arabic": "قَالَ لَهُمُ الشَّيْخُ لَا تُكْثِرُوا الْكَلَامَ؛ لَا تُكْثِرُوا مِنْ ذِكْرِكُمُ الْيَوْمَ\nلَا تُفْسِدُوا عَلَيَّ مِزَاجِي بِغَيْرِ سِرٍّ؛ فَلَيْسَ جَمِيلًا الصَّوْتُ الَّذِي يَأْتِي مِنْكُمْ",
+    "english": "The sheikh said to them, \"Do not chatter so much; do not do much of your dhikr today,\nDo not ruin my mood senselessly; the sound coming from you is not pleasant."
+  },
+  {
+    "stanza": 70,
+    "kurdish_ar": "خۆش نینە سەوتا زاهدان؛ دەنگێ مرید و عابدان\nچبکم ب زکر و مەسجدان؛ ب ئیعتکافا مزگەتێ",
+    "kurmanji_lat": "xoş nîne sewta zahdan; dengê mirîd û ’abdan\nçibkim bi zikir û mesicdan; bi î’tikafa mizgetê",
+    "arabic": "لَيْسَ جَمِيلًا صَوْتُ الزَّاهِدِينَ؛ صَوْتُ الْمُرِيدِينَ وَالْعَابِدِينَ\nمَاذَا أَفْعَلُ بِالذِّكْرِ وَالْمَسَاجِدِ؛ بِالاعْتِكَافِ فِي الْجَامِعِ",
+    "english": "The voice of ascetics is not pleasant; the sound of disciples and worshippers,\nWhat shall I do with dhikr and mosques; with seclusion in the prayer-hall?"
+  },
+  {
+    "stanza": 71,
+    "kurdish_ar": "دێ مزگەفتێ وێران بکم؛ گاڤەک بچم سەیران بکم\nبەر ب دەرێ دێران بکم؛ بایێ دەمێ کانێ کو تێ",
+    "kurmanji_lat": "dê mizgeftê wêran bikim; gavek biçim seyran bikim\nber bi derê dêran bikim; bayê demê kanê ku tê",
+    "arabic": "سَأُدَمِّرُ الْمَسْجِدَ؛ وَأَذْهَبُ لَحْظَةً لِلتَّنَزُّهِ\nسَأَتَوَجَّهُ نَحْوَ أَبْوَابِ الْأَدْيِرَةِ؛ أَيْنَ هُوَ نَسِيمُ الْوَقْتِ الَّذِي يَهُبُّ؟",
+    "english": "I will ruin the mosque; I will go for a stroll for a moment,\nI will head toward the doors of the monasteries; where is the breeze of the time coming from?"
+  },
+  {
+    "stanza": 72,
+    "kurdish_ar": "کانێ کو تێ بایێ دەمێ؛ دەروێش قەوی کەتنە غەمێ\nپانسەد مورید چەڤیان حەمێ؛ فکرینە شەیخ و تەبعەتێ",
+    "kurmanji_lat": "kanê ku tê bayê demê; derwêş qewî ketne ẍemê\npansed murîd çevyan ḧemê; fikirîne şeyx û teb’etê",
+    "arabic": "أَيْنَ هُوَ نَسِيمُ الْوَقْتِ الَّذِي يَهُبُّ؟ الدَّرَاوِيشُ وَقَعُوا فِي هَمٍّ شَدِيدٍ\nخَمْسُمِائَةِ مُرِيدٍ الْتَفُّوا حَوْلَهُ جَمِيعًا؛ يُفَكِّرُونَ فِي الشَّيْخِ وَطَبِيعَتِهِ",
+    "english": "Where is the breeze of the time coming from? The dervishes fell into deep sorrow,\nFive hundred disciples gathered around him completely; contemplating the sheikh and his state."
+  },
+  {
+    "stanza": 73,
+    "kurdish_ar": "تەبعەتێ خەلقێ و عامێ؛ خۆش دبوو زکر و سیامێ\nغافلین ژ حالێ قیامێ؛ ژ وسال و لەززەتێ",
+    "kurmanji_lat": "teb’etê xelqê û ’amê; xoş dibû zikir û syamê\nẍaflîn ji ḧalê qyamê; ji wisal û lezzetê",
+    "arabic": "طَبِيعَةُ الْخَلْقِ وَالْعَامَّةِ؛ كَانَ يَحْلُو لَهُمُ الذِّكْرُ وَالصِّيَامُ\nغَافِلُونَ عَنْ حَالِ الْقِيَامَةِ؛ عَنِ الْوِصَالِ وَاللَّذَّةِ",
+    "english": "The nature of the people and the commoners; dhikr and fasting were sweet to them,\nThey are heedless of the state of the Resurrection; of union and true delight."
+  },
+  {
+    "stanza": 74,
+    "kurdish_ar": "ناتقێ ل تەبعێ دەواری؛ ئێ موقیم شوورە ڤەخواری\nقەت نەدی ئاڤا بژاری؛ چەشمەیا خزر ڤێکەتێ",
+    "kurmanji_lat": "natqê li teb’ê dewarî; ê muqîm şûre vexwarî\nqet nedî ava bijarî; çeşmeya xizir vêketê",
+    "arabic": "النَّاطِقُ بِطَبِيعَةِ الدَّوَابِّ؛ الْمُقِيمُ الَّذِي يَشْرَبُ الْمَاءَ الْمَالِحَ\nلَمْ يَرَ قَطُّ الْمَاءَ الْعَذْبَ؛ يَنْبُوعَ الْخَضِرِ الَّذِي انْدَلَعَ فِيهِ",
+    "english": "The one speaking with the nature of beasts; the resident drinking brackish water,\nHe has never seen fresh water; the spring of Khidr that has burst forth in it."
+  },
+  {
+    "stanza": 75,
+    "kurdish_ar": "چەشمەیا سافی تەهوورە؛ حال ژ قەلب بێ حەدد دوورە\n«من لەدون» بەحرەکە کوورە؛ بێ علم کەس رێ نابەتێ",
+    "kurmanji_lat": "çeşmeya safî tehûre; ḧal ji qelb bê ḧedid dûre\n«min ledun» beḧreke kûre; bê ’ilim kes rê nabetê",
+    "arabic": "العين الصافية طهور؛ والحال من القلب بعيد بلا حد\n\"من لدنا\" بحر عميق؛ بغير علم لا يهتدي إليه أحد",
+    "english": "The pure spring is cleansing; the state is limitlessly far from the heart.\n\"From Us\" is a deep sea; without knowledge, no one finds the way."
+  },
+  {
+    "stanza": 76,
+    "kurdish_ar": "علم تەریقا عاقلانە؛ حال نە مەوجێ غافلانە\nبابەتێ ئەهلێ دلانە؛ میر دبینی ددەتێ",
+    "kurmanji_lat": "’ilim terîqa ’aqlane; ḧal ne mewcê ẍaflane\nbabetê ehlê dilane; mîr dibînî didetê",
+    "arabic": "العلم طريق العقلاء؛ والحال ليس موج الغافلين\nإنه شأن أهل القلوب؛ والأمير يرى فيعطيه",
+    "english": "Knowledge is the path of the wise; the spiritual state is not for the heedless.\nIt is the affair of the people of the heart; the Master sees and bestows."
+  },
+  {
+    "stanza": 77,
+    "kurdish_ar": "میر حەکیمە پێ دزانی؛ شەیخ تەبات نایێ د خانی\nخەلیفە هاتن د هانی؛ دا ل شەیخ کن نەسحەتێ",
+    "kurmanji_lat": "mîr ḧekîme pê dizanî; şeyx tebat nayê di xanî\nxelîfe hatin di hanî; da li şeyx kin nesḧetê",
+    "arabic": "الأمير حكيم ويعلم به؛ والشيخ لا يستقر في الدار\nجاء الخلفاء مسرعين؛ لكي ينصحوا الشيخ",
+    "english": "The Master is wise and aware; the Sheikh finds no rest in the house.\nThe deputies came forward; in order to counsel the Sheikh."
+  },
+  {
+    "stanza": 78,
+    "kurdish_ar": "یەک نەهن جوزئەک ددەست نە؛ سوڕ نەهن پەردە قەفەس نە\nکەس نەهن حەوجەیێ کەس نە؛ ب قەدر و حال و هوممەتێ",
+    "kurmanji_lat": "yek nehin cuz’ek didest ne; suř nehin perde qefes ne\nkes nehin ḧewceyê kes ne; bi qedir û ḧal û hummetê",
+    "arabic": "لا يملكون جزءا في أيديهم؛ وليسوا سرا ولا حجابا أو قفصا\nلا أحد يحتاج إلى أحد؛ بالقدر والحال والهمة",
+    "english": "They hold no portion in their hands; they are neither secret nor veil nor cage.\nNo one is in need of anyone; through worth, spiritual state, and high resolve."
+  },
+  {
+    "stanza": 79,
+    "kurdish_ar": "سوفییێن ساحب کەمالە؛ بێ تەکەللوف چوونە بالە\nحەمییان ژێ کر سوئالە؛ ئەڤ چ ترسە ب سەر تەتێ",
+    "kurmanji_lat": "sufîyên saḧb kemale; bê tekelluf çûne bale\nḧemîyan jê kir su’ale; ev çi tirse bi ser tetê",
+    "arabic": "الصوفية أصحاب الكمال؛ صعدوا إليه بلا تكلف\nسألوه جميعًا؛ ما هذا الخوف الذي يعتريك",
+    "english": "The Sufis, masters of perfection; approached him without hesitation.\nThey all asked him; what is this fear that has come upon you?"
+  },
+  {
+    "stanza": 80,
+    "kurdish_ar": "ئەڤ چ ترسە ئەڤ چ دەردە؛ مە و تە نینن چو پەردە\nڤێ سوڕێ ژ بۆ مە خەبەردە؛ دا ئەم بزانین هەیئەتێ",
+    "kurmanji_lat": "ev çi tirse ev çi derde; me û te nînin çu perde\nvê suřê ji bo me xeberde; da em bizanîn hey’etê",
+    "arabic": "ما هذا الخوف وما هذا الألم؛ ليس بيننا وبينك حجاب\nأخبرنا بهذا السر؛ لكي نعرف حقيقة الأمر",
+    "english": "What is this fear, what is this pain? There is no veil between us.\nTell us of this secret; so that we may understand the situation."
+  },
+  {
+    "stanza": 81,
+    "kurdish_ar": "سۆفیێ ب ئەرکان و شەرمە؛ شەیخ دەمەک ئاخافت ژ نەرمە\nڤێ سوڕێ کەفشکە ل بەر مە؛ دا دەواکین عللەتێ",
+    "kurmanji_lat": "sofyê bi erkan û şerme; şeyx demek axafit ji nerme\nvê suřê kefşike li ber me; da dewakîn ’illetê",
+    "arabic": "الصوفي ذو أركان وحياء؛ فتحدث الشيخ بلين لبرهة\nاكشف لنا عن هذا السر؛ لكي نداوي هذه العلة",
+    "english": "The Sufi is bound by principles and modesty; the Sheikh spoke softly for a moment.\nReveal this secret to us; so that we may cure the affliction."
+  },
+  {
+    "stanza": 82,
+    "kurdish_ar": "شەیخ گۆ: حەکیم عیسا بتن؛ لوقمان ژ قەبرا رابتن\nداغا من هێدی نابتن؛ دەستێ حەکیمان لێ نەتێ",
+    "kurmanji_lat": "şeyx go: ḧekîm ’îsa bitin; luqman ji qebra rabtin\ndaẍa min hêdî nabtin; destê ḧekîman lê netê",
+    "arabic": "قال الشيخ: لو كان الحكيم عيسى؛ وقام لقمان من القبر\nفإن حرقتي لن تهدأ أبدًا؛ ولا تصلها أيدي الأطباء",
+    "english": "The Sheikh said: Even if the healer were Jesus; and Luqman rose from the grave,\nMy burning pain would not subside; the hands of healers cannot reach it."
+  },
+  {
+    "stanza": 83,
+    "kurdish_ar": "داغا پرنگا سۆر ل سەر؛ حەتتا سپێدە بێتە دەر\nئارام و خەو نائێن ژ بەر؛ سەبر و سکوونا من نەتێ",
+    "kurmanji_lat": "daẍa piringa sor li ser; ḧetta sipêde bête der\naram û xew na’ên ji ber; sebir û sikûna min netê",
+    "arabic": "كي الجمر الأحمر على الرأس؛ حتى يطلع الفجر\nلا راحة ولا نوم يأتيني؛ ولا يأتيني الصبر ولا السكون",
+    "english": "The brand of red embers is on my head; until the dawn breaks.\nNeither rest nor sleep comes to me; my patience and tranquility are gone."
+  },
+  {
+    "stanza": 84,
+    "kurdish_ar": "شەیخ ل خوە ناکەت ستارە؛ ئاشکەرا خەون گۆتە یارە\nئاهـ ژ دەست دۆهتا کوفارە؛ برمە دینێ شرکەتێ",
+    "kurmanji_lat": "şeyx li xwe naket sitare; aşkera xewn gote yare\nah ji dest dohta kufare; birme dînê şirketê",
+    "arabic": "الشيخ لم يستر نفسه؛ وقص رؤياه صراحة للأحبة\nآه من بنت الكفار؛ لقد سلبتني دين الشركة (الجماعة)",
+    "english": "The Sheikh did not hide himself; he openly told the dream to the friends.\nAh, from the hands of the infidels' daughter; she has taken my communal faith."
+  },
+  {
+    "stanza": 85,
+    "kurdish_ar": "بێ مەزهەب و بێ دین کرم؛ بێ خوندن و یاسین کرم\nژ یار و بران شەرمین کرم؛ وردەک د خیالا من نەتێ",
+    "kurmanji_lat": "bê mezheb û bê dîn kirim; bê xundin û yasîn kirim\nji yar û biran şermîn kirim; wirdek di xyala min netê",
+    "arabic": "جعلتني بلا مذهب وبلا دين؛ جعلتني بلا قراءة وبلا يس\nأخجلتني من الأحبة والإخوان؛ ولا يخطر ورد في خيالي",
+    "english": "She left me without sect and without religion; without recitation and without Yasin.\nShe made me ashamed before friends and brothers; no litany enters my thoughts."
+  },
+  {
+    "stanza": 86,
+    "kurdish_ar": "لەو نەشێم وردان بخوینم؛ بەژنەکێ نازک دبینم\nدین دبم سەودا دمینم؛ دل ژ من بر قامەتێ",
+    "kurmanji_lat": "lew neşêm wirdan bixiwînim; bejnekê nazk dibînim\ndîn dibim sewda dimînim; dil ji min bir qametê",
+    "arabic": "لذلك لا أستطيع قراءة الأوراد؛ أرى قامة رقيقة\nأُجن وأبقى في هوس؛ لقد سلبت القامة قلبي مني",
+    "english": "Therefore I cannot recite my litanies; I see a delicate figure.\nI go mad and remain in melancholy; her stature has stolen my heart."
+  },
+  {
+    "stanza": 87,
+    "kurdish_ar": "قامەتا سوکران و مەستە؛ حورییا لوءلوء ددەستە\nبرمە دێرا خاچپەرەستە؛ خەلوەیا خومخانە تێ",
+    "kurmanji_lat": "qameta sukiran û meste; ḧurîya lu’lu’ dideste\nbirme dêra xaçpereste; xelweya xumxane tê",
+    "arabic": "قامة السكارى والثملين؛ حورية وفي يدها لؤلؤ\nأخذتني إلى دير عبدة الصليب؛ وتأتيني خلوة خمارة",
+    "english": "The stature of the intoxicated and drunk; a houri with pearls in her hand.\nShe took me to the church of cross-worshipers; the seclusion of the tavern approaches."
+  },
+  {
+    "stanza": 88,
+    "kurdish_ar": "برمە نێڤ خەمر و شەرابێ؛ نازکێ گەردەن شەبابێ\nب من کر سەد رەنگ خرابێ؛ ژ نووهییو بەد خسلەتێ",
+    "kurmanji_lat": "birme nêv xemir û şerabê; nazkê gerden şebabê\nbi min kir sed reng xirabê; ji nûhyîw bed xisletê",
+    "arabic": "أخذتني إلى وسط الخمر والشراب؛ تلك الرقيقة ذات العنق الشاب\nأفسدتني بمائة طريقة؛ من حداثتها وخصالها السيئة",
+    "english": "She brought me amidst wine and drink; the delicate one with a youthful neck.\nShe ruined me in a hundred ways; through her youth and wicked traits."
+  },
+  {
+    "stanza": 89,
+    "kurdish_ar": "هەم نوو کرم هەم بەد کرم؛ عیسایییێ مورتەد کرم\nژ ڤێ تەریقێ رەد کرم؛ کافر کرم بێ موروەتێ",
+    "kurmanji_lat": "hem nû kirim hem bed kirim; ’îsayîyê murted kirim\nji vê terîqê red kirim; kafir kirim bê murwetê",
+    "arabic": "جددتني وأساءت إلي؛ جعلتني عيسويًا مرتدًا\nطردتني من هذه الطريقة؛ كفرتني بلا مروءة",
+    "english": "She both renewed and ruined me; she made me an apostate Christian.\nShe expelled me from this spiritual path; she made me a disbeliever without mercy."
+  },
+  {
+    "stanza": 90,
+    "kurdish_ar": "کافر کرم مەیخوەر کرم؛ دێوانە و ئەبتەر کرم\nبەلکی ژ پێغەمبەر کرم؛ ئەڤ رەنگ بەلا ب سەر مەتێ",
+    "kurmanji_lat": "kafir kirim meyxiwer kirim; dêwane û ebter kirim\nbelkî ji pêẍember kirim; ev reng bela bi ser metê",
+    "arabic": "كفرتني وجعلتني شارب خمر؛ جعلتني مجنونًا وأبتر\nربما أبعدتني عن النبي؛ مثل هذا البلاء نزل بي",
+    "english": "She made me an infidel and a wine-drinker; she made me insane and destitute.\nPerhaps she severed me from the Prophet; such a calamity has fallen upon me."
+  },
+  {
+    "stanza": 91,
+    "kurdish_ar": "ئەڤ رەنگ بەلا ئەڤ رەنگ برین؛ چدکن ژ من یا حازرین\nحەمیان بهیست، ڤێڕا گرین؛ کالین کەتە جەماعەتێ",
+    "kurmanji_lat": "ev reng bela ev reng birîn; çidkin ji min ya ḧazrîn\nḧemyan bihîst, vêřa girîn; kalîn kete cema’etê",
+    "arabic": "هذا النوع من البلاء وهذا الجرح؛ ماذا تفعلون بي أيها الحاضرون\nسمعوا جميعًا وبكوا معه؛ ووقع النواح في الجماعة",
+    "english": "Such a calamity, such a wound; what can you do for me, O those present?\nThey all heard and wept with him; wailing broke out among the congregation."
+  },
+  {
+    "stanza": 92,
+    "kurdish_ar": "کالین کرن خەلقێ ل نک؛ ئەو پیرەمێر راکر سڤک\nژ ئاگر و وەهجا د زک؛ تابێین هەوایا دەردەتێ",
+    "kurmanji_lat": "kalîn kirin xelqê li nik; ew pîremêr rakir sivk\nji agir û wehca di zik; tabêyn hewaya derdetê",
+    "arabic": "بكى الناس عنده؛ وأنهضوا ذلك الشيخ الطاعن خفيفًا\nمن النار والوهج في البطن؛ لا يطيقون هواء ألمه",
+    "english": "The people wept beside him; they gently lifted that elderly man.\nFrom the fire and heat in his core; they could not bear the heat of his pain."
+  },
+  {
+    "stanza": 93,
+    "kurdish_ar": "پێلەک ژ مال ئانینە دەر؛ بێ تەزبییو شەمل و کەمەر\nدەلق و عەسا چوونە ژ بەر؛ نالین ژ تیرا هجرەتێ",
+    "kurmanji_lat": "pêlek ji mal anîne der; bê tezbîyu şemil û kemer\ndelq û ’esa çûne ji ber; nalîn ji tîra hicretê",
+    "arabic": "أخرجوا فوجًا من الدار؛ بلا مسبحة ولا شملة ولا حزام\nسقطت الخرقة والعصا من أيديهم؛ يئنون من سهم الهجران",
+    "english": "They brought a wave of people from the house; without rosary, turban, or belt.\nThe cloak and staff fell from them; groaning from the arrow of separation."
+  },
+  {
+    "stanza": 94,
+    "kurdish_ar": "نالی ژ دەست دێم خاوەرێ؛ نارێ جەمالا دلبەرێ\nگەرمی گهاندە جەگەرێ؛ دل بوو وەکی پێت ڤێکەتێ",
+    "kurmanji_lat": "nalî ji dest dêm xawerê; narê cemala dilberê\ngermî gihande cegerê; dil bû wekî pêt vêketê",
+    "arabic": "أن من وجهها المشرق؛ ونار جمال تلك الحبيبة\nأوصلت الحرارة إلى كبده؛ فصار القلب كشعلة متقدة",
+    "english": "He groaned from her radiant face; the fire of the beloved's beauty.\nThe heat reached his very core; his heart became like a struck flame."
+  },
+  {
+    "stanza": 95,
+    "kurdish_ar": "نارێ کچێ داکر هناڤ؛ دێما کو تێدا نوور و تاڤ\nعەکسا ئیلاهی هاتە ناڤ؛ موزهر دییە سەبر ژێ نەتێ",
+    "kurmanji_lat": "narê kiçê dakir hinav; dêma ku têda nûr û tav\n’eksa îlahî hate nav; muzhir dîye sebir jê netê",
+    "arabic": "نار الفتاة أنزلت في الأحشاء؛ وجهًا فيه نور وشمس\nانعكس فيه النور الإلهي؛ رأى المظهر فلم يطق صبرًا",
+    "english": "The girl's fire descended into his vitals; a face containing light and sun.\nThe divine reflection entered it; he saw the manifestation and lost all patience."
+  },
+  {
+    "stanza": 96,
+    "kurdish_ar": "حوسنا کچێ بۆ مەزهەرە؛ ئەو حوورییا دێم فەنەرە\nشەیخ ب هەردو وەجهان چوو بەرە؛ شەرم و ئەدەب قەت ژێ نەتێ",
+    "kurmanji_lat": "ḧusna kiçê bo mezhere; ew ḧûrîya dêm fenere\nşeyx bi herdu wechan çû bere; şerim û edeb qet jê netê",
+    "arabic": "حسن الفتاة مظهر له؛ تلك الحورية ذات الوجه المنير\nسار الشيخ نحوها بكلتا الوجهتين؛ ولم يبق منه حياء ولا أدب",
+    "english": "The beauty of the girl is a manifestation; that houri with a face like a lantern.\nThe Sheikh approached her in both realms; leaving all modesty and manners behind."
+  },
+  {
+    "stanza": 97,
+    "kurdish_ar": "شەرم و ئەدەب چوو وێ دەمێ؛ نالی ژ تیرا سەرتەمێ\nبوو پێکەنینێ عالەمێ؛ ئاڤێت کراسێ روومەتێ",
+    "kurmanji_lat": "şerim û edeb çû wê demê; nalî ji tîra sertemê\nbû pêkenînê ’alemê; avêt kirasê rûmetê",
+    "arabic": "ذهب الحياء والأدب في ذلك الحين؛ وهو يئن من سهم الحب\nصار أضحوكة للعالم؛ ورمى بقميص الكرامة",
+    "english": "Modesty and manners vanished then; he groaned from the piercing arrow.\nHe became the laughingstock of the world; and cast away the shirt of dignity."
+  },
+  {
+    "stanza": 98,
+    "kurdish_ar": "روومەت هەبوو شەیخ بێ قیاس؛ بایێ ئەڤینێ بر لباس\nگەهـ گەهـ ژ خوە داڤێت کراس؛ ژ ئاگر و حەرارەتێ",
+    "kurmanji_lat": "rûmet hebû şeyx bê qyas; bayê evînê bir libas\ngeh geh ji xwe davêt kiras; ji agir û ḧeraretê",
+    "arabic": "كان للشيخ كرامة بلا قياس؛ فأخذت ريح العشق لباسه\nوتارة تلو أخرى يرمي قميصه؛ من النار والحرارة",
+    "english": "The Sheikh had immense honor; the wind of love stripped him of his garments.\nFrom time to time he threw off his shirt; from the fire and the burning heat."
+  },
+  {
+    "stanza": 99,
+    "kurdish_ar": "عشقا کچێ گەرم کر ئەڤین؛ پاپەند کرن ئەو هار و دین\nپوڕ دین دبینە پێکەنین؛ کوبکن گەلۆ ژ ڤێ قسسەتێ",
+    "kurmanji_lat": "’işqa kiçê germ kir evîn; papend kirin ew har û dîn\npuř dîn dibîne pêkenîn; kubkin gelo ji vê qissetê",
+    "arabic": "عشق الفتاة ألهب الحب؛ وقيد ذلك الهائج والمجنون\nكثير من الأديان ترى ذلك مدعاة للسخرية؛ ماذا عساهم يفعلون من هذه القصة",
+    "english": "The girl's love inflamed his passion; binding that wild and mad one.\nMany faiths find this a laughing matter; what, I wonder, will they do about this tale?"
+  },
+  {
+    "stanza": 100,
+    "kurdish_ar": "کوبکن ژ کێ پورسیار بکین؛ علاجەکێ ما چار بکین\nعشقا دلێ شەیخ سار بکین؛ پەیدا بکین برودەتێ",
+    "kurmanji_lat": "kubkin ji kê pursyar bikîn; ’ilacekê ma çar bikîn\n’işqa dilê şeyx sar bikîn; peyda bikîn birudetê",
+    "arabic": "ماذا سيفعلون وممن سيسألون؛ هل سنجد علاجًا وندبر أمرًا\nلنبرد عشق قلب الشيخ؛ ونوجد له برودة",
+    "english": "What will they do, whom will they ask? Can we find a cure and a solution?\nLet us cool the love in the Sheikh's heart; and bring about some coldness."
+  },
+  {
+    "stanza": 101,
+    "kurdish_ar": "عشق ئاگرە ما سار دبی؟؛ هنگی دچی دژوار دبی\nشەیخ پێ زەعیف و ژار دبی؛ چل رۆژەکان مای راکەتێ",
+    "kurmanji_lat": "’işq agire ma sar dibî?; hingî diçî dijwar dibî\nşeyx pê ze’îf û jar dibî; çil rojekan may raketê",
+    "arabic": "العشق نار فهل يبرد؟؛ كلما مضى يشتد\nيصبح الشيخ به ضعيفًا ونحيلًا؛ وبقي طريحًا لأربعين يومًا",
+    "english": "Love is fire, can it ever turn cold? The further it goes, the fiercer it gets.\nThe Sheikh grows weak and frail from it; he lay bedridden for forty days."
+  },
+  {
+    "stanza": 102,
+    "kurdish_ar": "چل رۆژەکان ئەڤ حال بوهار؛ روونشتبوون خەلق چار کنار\nشەیخ نە تەبیت بوو نە قرار؛ بوو ماسیێ ب دێمێ کەتێ",
+    "kurmanji_lat": "çil rojekan ev ḧal buhar; rûniştibûn xelq çar kinar\nşeyx ne tebît bû ne qirar; bû masyê bi dêmê ketê",
+    "arabic": "أربعون يومًا وهذا الحال في الربيع؛ والناس جالسون في الجهات الأربع\nلم يهدأ الشيخ ولم يستقر؛ كسمكة ألقيت على الرمال",
+    "english": "Forty days passed with this state in spring; the people sat around on all four sides.\nThe Sheikh found no peace and no rest; like a fish thrown upon the dry land."
+  },
+  {
+    "stanza": 103,
+    "kurdish_ar": "مسلێ سەمەک تێکوەردبوو؛ گەهـ سۆر دبوو، گەهـ زەر دبوو\nهەڕۆ سێ جار خوون دەردبوو؛ عشقێ برە کی حالەتێ",
+    "kurmanji_lat": "mislê semek têkwerdibû; geh sor dibû, geh zer dibû\nheřo sê car xûn derdibû; ’işqê bire kî ḧaletê",
+    "arabic": "كان يتلوى مثل السمكة؛ تارة يحمر وتارة يصفر\nكان يتقيأ الدم ثلاث مرات كل يوم؛ إلى أي حالة أوصله العشق",
+    "english": "He writhed like a fish; at times turning red, at times turning yellow.\nEvery day he vomited blood three times; to what state had love brought him!"
+  },
+  {
+    "stanza": 104,
+    "kurdish_ar": "ئەو پیرەمێرێ کال بوویی؛ نێزیکی هەشتێ سال بوویی\nژ عشقا کچێ بەدحال بوویی؛ دەرحەق بدەین لێ لەومەتێ",
+    "kurmanji_lat": "ew pîremêrê kal bûyî; nêzîkî heştê sal bûyî\nji ’işqa kiçê bedḧal bûyî; derḧeq bideyn lê lewmetê",
+    "arabic": "ذلك الشيخ الذي صار طاعنًا؛ وقارب الثمانين من عمره\nساءت حالته من عشق الفتاة؛ ليتنا نعطيه الحق ونلومه",
+    "english": "That elderly man who had grown so old; approaching eighty years of age.\nHe fell into a wretched state from the girl's love; let us do justice and blame him."
+  },
+  {
+    "stanza": 105,
+    "kurdish_ar": "دەرحەق بدەین چ تێ هەیە؛ ناخۆت ل شەیخ ئەڤ قسسەیە\nکوبکەین بدەست باخوێ مەیە؛ زاهر بکەین چ تێ نەتێ",
+    "kurmanji_lat": "derḧeq bideyn çi tê heye; naxot li şeyx ev qisseye\nkubkeyn bidest baxwê meye; zahir bikeyn çi tê netê",
+    "arabic": "إن أعطينا الحق فماذا فيه؛ لا تليق بالشيخ هذه القصة\nماذا نفعل فالأمر بيد صاحبنا؛ فلنظهر ما يأتيه",
+    "english": "If we seek justice, what does it matter? This tale does not suit the Sheikh.\nWhat can we do, it is in our Lord's hands; let us reveal what happens to him."
+  },
+  {
+    "stanza": 106,
+    "kurdish_ar": "ئزهار بکەین بەدنامییە؛ دەرحەق بدەین بێ تامییە\nئاگەهـ دبن پێ عامییە؛ هلاک دبن ژ غەیبەتێ",
+    "kurmanji_lat": "izhar bikeyn bednamîye; derḧeq bideyn bê tamîye\nageh dibin pê ’amîye; hilak dibin ji ẍeybetê",
+    "arabic": "إن أظهرناه فهو سوء سمعة؛ وإن حكمنا بالحق فلا طعم له\nيعلم به العوام؛ ويهلكون من الغيبة",
+    "english": "If we reveal it, it brings ill fame; if we judge truly, it is distasteful.\nThe commoners will learn of it; and perish through their backbiting."
+  },
+  {
+    "stanza": 107,
+    "kurdish_ar": "یا قەنج ئەوە مەستوور بکین؛ نابت سوڕێ مەشهوور بکین\nدابن ژ عامێ دوور بکین؛ بدەرکەڤین ژ هێشەتێ",
+    "kurmanji_lat": "ya qenc ewe mestûr bikîn; nabit suřê meşhûr bikîn\ndabin ji ’amê dûr bikîn; biderkevîn ji hêşetê",
+    "arabic": "الأفضل أن نستره؛ لا يصح أن نشهر السر\nكي نبعده عن العوام؛ ونخرج من الزحام",
+    "english": "The best thing is to keep it hidden; it is not right to make the secret known.\nSo that we keep him away from the public; and we depart from the crowd."
+  },
+  {
+    "stanza": 108,
+    "kurdish_ar": "ژ هێشەتێ بدەرکەڤین؛ پانسەد مورید ببەرکەڤین\nب پێش کچا دلبەر کەڤین؛ زائل بکین ڤێ حەسرەتێ",
+    "kurmanji_lat": "ji hêşetê biderkevîn; pansed murîd biberkevîn\nbi pêş kiça dilber kevîn; za’il bikîn vê ḧesretê",
+    "arabic": "لنخرج من الزحام؛ ليتقدم خمسمائة مريد\nلنسير أمام الفتاة الحسناء؛ ونزيل هذه الحسرة",
+    "english": "Let us depart from the crowd; let five hundred disciples step forward.\nLet us walk before the beautiful girl; and remove this painful longing."
+  },
+  {
+    "stanza": 109,
+    "kurdish_ar": "یا قەنج ئەوە ئەم ڤێ بکین؛ رابین وە کارێ رێ بکین\nقەسدا دەرێ دێرێ بکین؛ کوبکین ژ ڤێ زەرورەتێ",
+    "kurmanji_lat": "ya qenc ewe em vê bikîn; rabîn we karê rê bikîn\nqesda derê dêrê bikîn; kubkîn ji vê zeruretê",
+    "arabic": "الأفضل أن نفعل هذا؛ وننهض لترتيب أمر الرحلة\nونقصد باب الدير؛ فماذا نفعل من هذه الضرورة",
+    "english": "The best thing is for us to do this; to rise and prepare for the journey.\nTo head towards the door of the church; for what else can we do in this necessity?"
+  },
+  {
+    "stanza": 110,
+    "kurdish_ar": "کوبکین ل مە لازم بوویە؛ گەر چ نەمەشرووع داڕوویە\nدەرمان نەجس بت مەعفوویە؛ د مەرتەبا شەریعەتێ",
+    "kurmanji_lat": "kubkîn li me lazim bûye; ger çi nemeşrû’ dařûye\nderman necis bit me’fûye; di merteba şerî’etê",
+    "arabic": "ما نفعل فقد صار لازمًا علينا؛ وإن كان غير مشروع ظاهريًا\nالدواء إن كان نجسًا فهو معفو عنه؛ في مرتبة الشريعة",
+    "english": "What can we do, it has become necessary for us; even if outwardly unlawful.\nA medicine, even if impure, is pardoned; within the bounds of the sacred law."
+  },
+  {
+    "stanza": 111,
+    "kurdish_ar": "حوسنا کچێ واسل دبی؛ یان عارف و کامل دبی\nیان غافل و جاهل دبی؛ خلاس دبن ژ زەحمەتێ",
+    "kurmanji_lat": "ḧusna kiçê wasil dibî; yan ’arf û kamil dibî\nyan ẍafil û cahil dibî; xilas dibin ji zeḧmetê",
+    "arabic": "حسن الفتاة يجعله واصلًا؛ إما أن يصبح عارفًا وكاملًا\nوإما أن يصبح غافلًا وجاهلًا؛ ويخلصون من التعب",
+    "english": "The girl's beauty will bring him to union; either he will become a complete mystic,\nOr he will become a heedless ignorant one; and they will be free from the trouble."
+  },
+  {
+    "stanza": 112,
+    "kurdish_ar": "شەیخێ مە شەیخەک حاجییە؛ حەمیان کەرامەت ژێ دییە\nمەعلووم دبی نەفسانییە؛ ناکین قەبوول ڤێ عللەتێ",
+    "kurmanji_lat": "şeyxê me şeyxek ḧacîye; ḧemyan keramet jê dîye\nme’lûm dibî nefsanîye; nakîn qebûl vê ’illetê",
+    "arabic": "شَيْخُنَا شَيْخٌ حَاجٌّ؛ الْجَمِيعُ قَدْ رَأَى كَرَامَتَهُ\nوَمَعْلُومٌ أَنَّ ذَلِكَ نَفْسَانِيٌّ؛ وَلَا نَقْبَلُ هَذِهِ الْعِلَّةَ",
+    "english": "Our sheikh is a pilgrim sheikh, from whom all have seen miracles,\nIt becomes clear it is a carnal desire, and we do not accept this affliction."
+  },
+  {
+    "stanza": 113,
+    "kurdish_ar": "حوسنا حەبیبان مەحەکە؛ سافی دبێ زێڕ و سەکە\nلێ کفش دبێ عەیب و لەکە؛ ب کێرا ئرشادێ نەتێ",
+    "kurmanji_lat": "ḧusna ḧebîban meḧeke; safî dibê zêř û seke\nlê kifiş dibê ’eyb û leke; bi kêra irşadê netê",
+    "arabic": "حُسْنُ الْأَحِبَّةِ مِحَكٌّ؛ يَصْفُو بِهِ الذَّهَبُ وَالسِّكَّةُ\nوَلَكِنْ تَظْهَرُ فِيهِ الْعُيُوبُ وَالْبُقَعُ؛ فَلَا يَصْلُحُ لِلْإِرْشَادِ بَعْدَهَا",
+    "english": "The beauty of beloveds is a touchstone, refining gold and coins,\nYet in him flaws and stains appear, making him unfit for guidance."
+  },
+  {
+    "stanza": 114,
+    "kurdish_ar": "ئەم دێ ب ڤێ نییەتێ بچین؛ ب پوشتا ئایەتێ بچین\nنێزیکی دێم پهتێ بچین؛ دا ب بینن حووریا جەننەتێ",
+    "kurmanji_lat": "em dê bi vê nîyetê biçîn; bi puşta ayetê biçîn\nnêzîkî dêm pihtê biçîn; da bi bînin ḧûrya cennetê",
+    "arabic": "نَحْنُ سَنَذْهَبُ بِهَذِهِ النِّيَّةِ؛ وَبِدَعْمِ الْآيَةِ سَنَذْهَبُ\nسَنَقْتَرِبُ مِنْ ذَلِكَ الْوَجْهِ النَّاضِجِ؛ لِكَيْ نَرَى حُورِيَّةَ الْجَنَّةِ",
+    "english": "We shall depart with this intention, guided by the holy verse,\nWe shall approach that radiant face, to behold the houri of paradise."
+  },
+  {
+    "stanza": 115,
+    "kurdish_ar": "نێزیک دبت ئەو دێم دوڕە؛ شەیخێ مە گەر ساحب سوڕە\nتەسلیم دبت کچ ب مڕە؛ زوو تێتە سەر سەلاحەتێ",
+    "kurmanji_lat": "nêzîk dibit ew dêm duře; şeyxê me ger saḧb suře\nteslîm dibit kiç bi miře; zû tête ser selaḧetê",
+    "arabic": "تَقْتَرِبُ تِلْكَ ذَاتُ الْوَجْهِ الدُّرِّيِّ؛ إِنْ كَانَ شَيْخُنَا صَاحِبَ سِرٍّ\nسَتَسْتَسْلِمُ لَهُ الْفَتَاةُ طَوْعًا؛ وَتَعُودُ سَرِيعًا إِلَى الصَّلَاحِ",
+    "english": "That pearl-faced beauty draws near; if our sheikh holds the mystic secret,\nThe maiden will soon surrender, swiftly returning to the path of righteousness."
+  },
+  {
+    "stanza": 116,
+    "kurdish_ar": "وان گۆ: خیالا قەنج ئەڤە؛ حەمیان قەبوول کر ب خەڤە\nسۆفی جەڤیابوون ب شەڤە؛ حەتتا ستێرا سەعادەتێ",
+    "kurmanji_lat": "wan go: xyala qenc eve; ḧemyan qebûl kir bi xeve\nsofî cevyabûn bi şeve; ḧetta sitêra se’adetê",
+    "arabic": "قَالُوا: هَذَا رَأْيٌ سَدِيدٌ؛ وَقَبِلَهُ الْجَمِيعُ فِي الْخَفَاءِ\nتَجَمَّعَ الصُّوفِيَّةُ فِي اللَّيْلِ؛ حَتَّى ظَهَرَ نَجْمُ السَّعَادَةِ",
+    "english": "They said: \"This is a fine idea,\" and all accepted it in secret,\nThe Sufis gathered in the night, waiting for the star of fortune."
+  },
+  {
+    "stanza": 117,
+    "kurdish_ar": "حەتتا بدەرکەت موشتەری؛ جوملە جەمابوون سەفەری\nئەوول ڤەڕێبوون سەححەری؛ شەیخ برنە نێڤا زیارەتێ",
+    "kurmanji_lat": "ḧetta biderket muşterî; cumle cemabûn seferî\newul veřêbûn seḧḧerî; şeyx birne nêva zyaretê",
+    "arabic": "حَتَّى بَزَغَ نَجْمُ الْمُشْتَرِي؛ وَتَجَمَّعَ الْكُلُّ لِلسَّفَرِ\nفِي الْبِدَايَةِ انْطَلَقُوا وَقْتَ السَّحَرِ؛ وَأَخَذُوا الشَّيْخَ لِلزِّيَارَةِ",
+    "english": "Until the planet Jupiter arose, they all had gathered for the journey,\nSetting out at the break of dawn, they brought the sheikh to the shrine."
+  },
+  {
+    "stanza": 118,
+    "kurdish_ar": "ب سەر مەقبەرا بابێ برن؛ هندی مرید و زاکرن\nحەمیان ل وی دوعا کرن؛ وان چار کنارێ گونبەتێ",
+    "kurmanji_lat": "bi ser meqbera babê birin; hindî mirîd û zakirin\nḧemyan li wî du’a kirin; wan çar kinarê gunbetê",
+    "arabic": "أَخَذُوهُ إِلَى قَبْرِ وَالِدِهِ؛ وَكُلُّ الْمُرِيدِينَ وَالذَّاكِرِينَ\nدَعَوْا لَهُ جَمِيعًا هُنَاكَ؛ فِي زَوَايَا الْقُبَّةِ الْأَرْبَعِ",
+    "english": "They led him to his father's tomb, all the disciples and chanting mystics,\nAll of them prayed for him there, standing at the dome's four corners."
+  },
+  {
+    "stanza": 119,
+    "kurdish_ar": "دەستێد خوە پەرواز کرن؛ وەجهێد خوە ئەڤراز کرن\nئیمان ژ حەق داخواز کرن؛ سوار کرن وێ ساعەتێ",
+    "kurmanji_lat": "destêd xwe perwaz kirin; wechêd xwe evraz kirin\nîman ji ḧeq daxwaz kirin; swar kirin wê sa’etê",
+    "arabic": "رَفَعُوا أَيْدِيَهُمْ مُحَلِّقَةً؛ وَوَجَّهُوا وُجُوهَهُمْ نَحْوَ الْأَعْلَى\nطَلَبُوا الْإِيمَانَ مِنَ الْحَقِّ؛ ثُمَّ أَرْكَبُوهُ فِي تِلْكَ السَّاعَةِ",
+    "english": "They opened their hands in supplication, turning their faces upward,\nSeeking faith from the True Lord, they mounted their steeds in that hour."
+  },
+  {
+    "stanza": 120,
+    "kurdish_ar": "وێ ساعەتێ سوار کرن؛ زاد و زەوادە کار کرن\nقەسدا کچا کوففار کرن؛ یا رەب تو خێرکی نییەتێ",
+    "kurmanji_lat": "wê sa’etê swar kirin; zad û zewade kar kirin\nqesda kiça kuffar kirin; ya reb tu xêrkî nîyetê",
+    "arabic": "فِي تِلْكَ السَّاعَةِ رَكِبُوا الْمَطَايَا؛ وَجَهَّزُوا الزَّادَ وَالْمُؤَنَ\nوَقَصَدُوا فَتَاةَ الْكُفَّارِ؛ يَا رَبُّ اجْعَلْ نِيَّتَهُمْ خَيْرًا",
+    "english": "In that very hour they mounted, preparing their food and provisions,\nSetting their sights on the infidel's daughter; O Lord, bless this intention."
+  },
+  {
+    "stanza": 121,
+    "kurdish_ar": "شەیخێ مە ئەسنام نییەتە؛ یا رەب ئەم و ئەڤ قسسەتە\nکوبکین کو دونیا غیرەتە؛ شەرتە تەمام کین خزمەتێ",
+    "kurmanji_lat": "şeyxê me esnam nîyete; ya reb em û ev qissete\nkubkîn ku dunya ẍîrete; şerte temam kîn xizmetê",
+    "arabic": "شَيْخُنَا يَقْصِدُ الْأَصْنَامَ بِنِيَّتِهِ؛ يَا رَبُّ نَحْنُ وَهَذِهِ الْقِصَّةُ\nمَاذَا نَفْعَلُ وَالدُّنْيَا غَيْرَةٌ؛ الشَّرْطُ أَنْ نُتِمَّ الْخِدْمَةَ",
+    "english": "Our sheikh intends the idols; O Lord, we face this unfolding tale,\nWhat must we do, as the world demands effort? Our duty is to complete the service."
+  },
+  {
+    "stanza": 122,
+    "kurdish_ar": "خزمەتا شەرتێ غولامان؛ دەفتەرا عاقل تەمامان\nتەبعەتێ نا ئەهلِ خامان؛ خەیر ژ خەلقێ وان نەتێ",
+    "kurmanji_lat": "xizmeta şertê ẍulaman; deftera ’aqil temaman\nteb’etê na ehlî xaman; xeyr ji xelqê wan netê",
+    "arabic": "الْخِدْمَةُ هِيَ شَرْطُ الْغِلْمَانِ؛ كَمَا دَوَّنَهَا الْعُقَلَاءُ التَّامُّونَ\nأَمَّا طَبِيعَةُ غَيْرِ الْأَهْلِ الْخَامِينَ؛ فَلَا يَأْتِي خَيْرٌ مِنْ طِبَاعِهِمْ",
+    "english": "Service is the sworn condition of servants, the completed ledger of the wise,\nThe nature of raw and unworthy men brings no goodness from their kind."
+  },
+  {
+    "stanza": 123,
+    "kurdish_ar": "خەلقێ نائەهل و بەد شکل؛ کەززاب و خوارن بەد عەمەل\nدوورن ژ توخمێ بێ ئەسل؛ تۆڤێ خراب ب کێرنەتێ",
+    "kurmanji_lat": "xelqê na’ehil û bed şikil; kezzab û xwarin bed ’emel\ndûrin ji tuxmê bê esil; tovê xirab bi kêrnetê",
+    "arabic": "الْقَوْمُ غَيْرُ الْأَهْلِ وَسَيِّئُو الْمَظْهَرِ؛ كَذَّابُونَ وَمُعْوَجُّونَ سَيِّئُو الْعَمَلِ\nنَحْنُ بَعِيدُونَ عَنْ ذَلِكَ الْأَصْلِ الدَّنِيءِ؛ فَالْبَذْرَةُ الْفَاسِدَةُ لَا تَنْفَعُ",
+    "english": "Unworthy men of ugly form, liars of crooked and evil deeds,\nKeep far from those of base lineage; a corrupted seed yields no use."
+  },
+  {
+    "stanza": 124,
+    "kurdish_ar": "تۆڤێ بژارێ بێ غللەت؛ باڤێژە ئەرزێ بێ عللەت\nئەو دەخلەکێ پاقژ ددەت؛ ژ سونبلا زراعەتێ",
+    "kurmanji_lat": "tovê bijarê bê ẍillet; bavêje erzê bê ’illet\new dexlekê paqij didet; ji sunbila zira’etê",
+    "arabic": "الْبَذْرُ الْمُخْتَارُ الْخَالِي مِنَ الْعُيُوبِ؛ ازْرَعْهُ فِي الْأَرْضِ السَّلِيمَةِ\nفَإِنَّهُ يُنْتِجُ مَحْصُولًا نَقِيًّا؛ مِنْ سَنَابِلِ الزِّرَاعَةِ",
+    "english": "Cast the chosen seed without defect into an unblemished soil,\nIt will yield a harvest pure and bright, from the thriving ears of grain."
+  },
+  {
+    "stanza": 125,
+    "kurdish_ar": "راست و دورستە ئەڤ خەبەر؛ شەیخێ کو شەملا رەش ل سەر\nخالس دلێ پاقژ بەشەر؛ ژ نوتفەیا تەهارەتێ",
+    "kurmanji_lat": "rast û duriste ev xeber; şeyxê ku şemla reş li ser\nxals dilê paqij beşer; ji nutfeya teharetê",
+    "arabic": "هَذَا الْخَبَرُ حَقٌّ وَصَحِيحٌ؛ الشَّيْخُ الَّذِي يَعْتَمُّ بِالْعِمَامَةِ السَّوْدَاءِ\nخَالِصُ الْقَلْبِ إِنْسَانٌ طَاهِرٌ؛ مَخْلُوقٌ مِنْ نُطْفَةِ الطَّهَارَةِ",
+    "english": "This news is true and sound; the sheikh who wears the black turban,\nA man of pure heart and stainless soul, born of a drop of purity."
+  },
+  {
+    "stanza": 126,
+    "kurdish_ar": "ئەو مورشدێ تاهر بەدەن؛ پەروانەیا دوڕڕا عەدەن\nسۆفی ژ بەر چەرخان ددەن؛ ژ عشقا عەرووسا داوەتێ",
+    "kurmanji_lat": "ew murişdê tahir beden; perwaneya duřřa ’eden\nsofî ji ber çerxan diden; ji ’işqa ’erûsa dawetê",
+    "arabic": "ذَلِكَ الْمُرْشِدُ طَاهِرُ الْجَسَدِ؛ كَالْفَرَاشَةِ حَوْلَ دُرَّةِ عَدَنَ\nوَالصُّوفِيَّةُ يَدُورُونَ حَوْلَهُ؛ مِنْ عِشْقِ عَرُوسِ الْوَلِيمَةِ",
+    "english": "That pure-bodied guide, circling like a moth around the pearl of Eden,\nBefore whom the Sufis whirl, fueled by love for the festive bride."
+  },
+  {
+    "stanza": 127,
+    "kurdish_ar": "سۆفی ژ عشقان بوونە سەف؛ دەروێش دبەر شەیخ بوونە رەف\nچەرخان ددەن ب زکر و دەف؛ ب دەشت و سەحرایێ کەتێ",
+    "kurmanji_lat": "sofî ji ’işqan bûne sef; derwêş diber şeyx bûne ref\nçerxan diden bi zikir û def; bi deşt û seḧrayê ketê",
+    "arabic": "اِصْطَفَّ الصُّوفِيَّةُ مِنَ الْعِشْقِ؛ وَأَصْبَحَ الدَّرَاوِيشُ سِرْبًا أَمَامَ الشَّيْخِ\nيَدُورُونَ بِالذِّكْرِ وَالدُّفِّ؛ وَقَدِ انْطَلَقُوا فِي السُّهُولِ وَالصَّحَارِي",
+    "english": "The Sufis formed ranks of love, dervishes gathered in flocks before the sheikh,\nWhirling to the dhikr and tambourine, setting out across the open desert plains."
+  },
+  {
+    "stanza": 128,
+    "kurdish_ar": "لدەشت و سەحرایێ دچن؛ ل ڕێ شوبهەتێ بایێ دچن\nل عشقا لەیلایێ دچن؛ ڤێڕا دکێشن غیرەتێ",
+    "kurmanji_lat": "lideşt û seḧrayê diçin; li řê şubhetê bayê diçin\nli ’işqa leylayê diçin; vêřa dikêşin ẍîretê",
+    "arabic": "يَمْضُونَ فِي السُّهُولِ وَالصَّحَارِي؛ وَيَقْطَعُونَ الطَّرِيقَ كَالرِّيحِ\nيَمْضُونَ فِي عِشْقِ لَيْلَى؛ وَيُظْهِرُونَ مَعَهُ الْغَيْرَةَ وَالْهِمَّةَ",
+    "english": "They march across the plains and deserts, moving like the wind along the way,\nDriven by the love of Layla, bringing forth their zeal and passion."
+  },
+  {
+    "stanza": 129,
+    "kurdish_ar": "غیرەت کەشی رەشکاکلی؛ مورشد ل رەنگێ بولبولی\nئاهـ و فغان دانە دلی؛ ژ بائێ فراقا فرقەتێ",
+    "kurmanji_lat": "ẍîret keşî reşkaklî; murişd li rengê bulbulî\nah û fiẍan dane dilî; ji ba’ê firaqa firqetê",
+    "arabic": "يُظْهِرُ ذَوُو الْخُصَلِ السَّوْدَاءِ هِمَّتَهُمْ؛ وَالْمُرْشِدُ يَشْدُو كَالْبُلْبُلِ\nوَقَدْ مَلَؤُوا الْقُلُوبَ بِالْآهَاتِ وَالْأَنِينِ؛ مِنْ رِيحِ فِرَاقِ الْأَحِبَّةِ",
+    "english": "The dark-locked youths display their zeal, the guide sings like a nightingale,\nTheir hearts are filled with sighs and groans, struck by the wind of separation."
+  },
+  {
+    "stanza": 130,
+    "kurdish_ar": "بائێ فراقێ ئاگرە؛ پانسەد مورید و زاکرە\nژعشقا کێلۆیا کافرە؛ وەربوون د بەحرا حیرەتێ",
+    "kurmanji_lat": "ba’ê firaqê agire; pansed murîd û zakire\nji’şiqa kêloya kafre; werbûn di beḧra ḧîretê",
+    "arabic": "رِيحُ الْفِرَاقِ نَارٌ حَارِقَةٌ؛ وَخَمْسُمِائَةِ مُرِيدٍ وَذَاكِرٍ\nمِنْ عِشْقِ تِلْكَ الْفَتَاةِ الْكَافِرَةِ؛ غَرِقُوا فِي بَحْرِ الْحِيرَةِ",
+    "english": "The wind of parting is a burning fire; five hundred disciples and chanters,\nThrough love for the infidel maiden, they plunged into the sea of bewilderment."
+  },
+  {
+    "stanza": 131,
+    "kurdish_ar": "حیرەت و بەحرا بەلائێ؛ مەرکەبا حەول و وەلائێ\nبرنە پێش دێرا کەلائێ؛ ژ رەحتیان بەحس ژێ نەتێ",
+    "kurmanji_lat": "ḧîret û beḧra bela’ê; merkeba ḧewl û wela’ê\nbirne pêş dêra kela’ê; ji reḧtyan beḧis jê netê",
+    "arabic": "الْحِيرَةُ وَبَحْرُ الْبَلَاءِ؛ وَمَرْكَبُ الْحَوْلِ وَالْوَلَاءِ\nأَخَذُوهُ أَمَامَ دَيْرِ الْقَلْعَةِ؛ وَمِنَ التَّعَبِ لَمْ يَقْدِرُوا عَلَى الْكَلَامِ",
+    "english": "Bewilderment and the sea of affliction, the ship of might and devotion,\nThey brought him before the castle monastery, speechless from their deep fatigue."
+  },
+  {
+    "stanza": 132,
+    "kurdish_ar": "ژ رەحتیا جەهدا تەریقێ؛ چەنگەلا وێ لەب عەقیقێ\nزوو گەمی کێشا غەریقێ؛ هاتە بەخت و دەولەتێ",
+    "kurmanji_lat": "ji reḧtya cehda terîqê; çengela wê leb ’eqîqê\nzû gemî kêşa ẍerîqê; hate bext û dewletê",
+    "arabic": "مِنْ تَعَبِ وَمَشَقَّةِ الطَّرِيقِ؛ خُطَّافُ تِلْكَ ذَاتِ الشِّفَاهِ الْعَقِيقِيَّةِ\nسَحَبَ السَّفِينَةَ الْغَارِقَةَ سَرِيعًا؛ وَأَقْبَلَتْ عَلَيْهِ السَّعَادَةُ وَالدَّوْلَةُ",
+    "english": "From the weary toil of the path, the hook of that carnelian-lipped beauty,\nSwiftly rescued the sinking ship, bringing fortune and newly found grace."
+  },
+  {
+    "stanza": 133,
+    "kurdish_ar": "چەنگەلا شرین کەلامێ؛ مەرکەبا شەیخێ سەلامێ\nژ روهنیێ کێشا زەلامێ؛ ناڤ و نوورا زولمەتێ",
+    "kurmanji_lat": "çengela şirîn kelamê; merkeba şeyxê selamê\nji ruhnyê kêşa zelamê; nav û nûra zulmetê",
+    "arabic": "خُطَّافُ تِلْكَ ذَاتِ الْكَلَامِ الْحُلْوِ؛ مَرْكَبُ شَيْخِ السَّلَامِ\nسَحَبَ الرَّجُلَ مِنَ النُّورِ؛ إِلَى وَسَطِ ظُلْمَةِ اللَّيْلِ",
+    "english": "The sweet-spoken maiden's hook, the ship of the peaceful sheikh,\nDrew the man away from the light, into the depths of darkness."
+  },
+  {
+    "stanza": 134,
+    "kurdish_ar": "سەکنی ل نوورا تاریێ؛ ژ بێهن و بوویا ئەنساریێ\nسۆفی دکەن دژواریێ؛ زێدە ژ حەدد و غایەتێ",
+    "kurmanji_lat": "seknî li nûra taryê; ji bêhin û bûya ensaryê\nsofî diken dijwaryê; zêde ji ḧedid û ẍayetê",
+    "arabic": "وَقَفَ فِي نُورِ الظَّلَامِ؛ مِنْ شَمِّ رَائِحَةِ الْأَنْصَارِيِّ\nوَالصُّوفِيَّةُ يُظْهِرُونَ شِدَّةً؛ تَتَجَاوَزُ كُلَّ حَدٍّ وَغَايَةٍ",
+    "english": "He lingered in the light of the dark, breathing the Ansary's fragrant scent,\nWhile the Sufis fell into wild frenzy, surpassing every bound and limit."
+  },
+  {
+    "stanza": 135,
+    "kurdish_ar": "زکر د کەن ب رەمز و راز؛ ژ بێهنا گولا باغێ مەجاز\nئاشێ دلێ وان هاتە ساز؛ ژ چەرخ و گوڕ بەز ڤێکەتێ",
+    "kurmanji_lat": "zikir di ken bi remz û raz; ji bêhna gula baẍê mecaz\naşê dilê wan hate saz; ji çerx û guř bez vêketê",
+    "arabic": "يَذْكُرُونَ اللَّهَ بِالرُّمُوزِ وَالْأَسْرَارِ؛ مِنْ رَائِحَةِ وَرْدَةِ بُسْتَانِ الْمَجَازِ\nفَدَارَتْ طَوَاحِينُ قُلُوبِهِمْ؛ وَمِنَ الدَّوَرَانِ وَالسُّرْعَةِ اشْتَعَلَتْ",
+    "english": "They chant in signs and mystic secrets, from the scent of the metaphoric rose,\nThe mill of their hearts was set in motion, blazing from their whirling dance."
+  },
+  {
+    "stanza": 136,
+    "kurdish_ar": "گەڕیان وەکی دۆلاب و ئاش؛ چەرخین ل بەر شەیخ پێش و پاش\nدا خاچپەرێس بێتە تەماش؛ ژ عەسکەران تەماشەتێ",
+    "kurmanji_lat": "geřyan wekî dolab û aş; çerxîn li ber şeyx pêş û paş\nda xaçperês bête temaş; ji ’eskeran temaşetê",
+    "arabic": "دَارُوا كَالدُّولَابِ وَالطَّاحُونَةِ؛ دَارُوا أَمَامَ الشَّيْخِ جِيئَةً وَذَهَابًا\nلِكَيْ تَأْتِيَ الصَّلِيبِيَّةُ لِلْمُشَاهَدَةِ؛ لِتُشَاهِدَ الْعَسْكَرَ عَنْ كَثَبٍ",
+    "english": "They spun like waterwheels and mills, whirling before the sheikh in every direction,\nSo the cross-worshipper would come to watch, to witness the gathering of troops."
+  },
+  {
+    "stanza": 137,
+    "kurdish_ar": "عەسکەرێ حال دار، دو بوڕ تێ؛ لەشکەرێ میرێ ب سوڕ تێ\nچوو دەرێ دێرا کو دوڕ تێ؛ شەیخ دزانت قیمەتێ",
+    "kurmanji_lat": "’eskerê ḧal dar, du buř tê; leşkerê mîrê bi suř tê\nçû derê dêra ku duř tê; şeyx dizanit qîmetê",
+    "arabic": "الْعَسْكَرُ ذَوُو الْحَالِ يَأْتُونَ فَوْجَيْنِ؛ جَيْشُ الْأَمِيرِ ذِي السِّرِّ يَتَقَدَّمُ\nذَهَبَ إِلَى بَابِ الدَّيْرِ حَيْثُ الدُّرَّةُ؛ فَالشَّيْخُ يَعْرِفُ قِيمَتَهَا",
+    "english": "The ecstatic army approaches in two waves, the prince's mystic soldiers draw near,\nHe stepped to the monastery door where the pearl lay; the sheikh knows her true worth."
+  },
+  {
+    "stanza": 138,
+    "kurdish_ar": "قیمەت شوناسێ موهریێ؛ قەدرێ سپییو سوهریێ\nدوڕدانەئێ شەیخ گوهریێ؛ چەشم ئاهۆیێ حۆر شوبهەتێ",
+    "kurmanji_lat": "qîmet şunasê muhryê; qedrê sipyîw suhryê\nduřdane’ê şeyx guhryê; çeşim ahoyê ḧor şubhetê",
+    "arabic": "عَارِفُ قِيمَةِ الْجَوَاهِرِ؛ يُدْرِكُ قَدْرَ الْبَيَاضِ وَالْحُمْرَةِ\nتِلْكَ الدُّرَّةُ الَّتِي بَاعَ الشَّيْخُ نَفْسَهُ لَهَا؛ ذَاتُ عُيُونِ الْمَهَا الشَّبِيهَةُ بِالْحُورِ",
+    "english": "A true appraiser of radiant gems, knowing the worth of crimson and white,\nThe pearl for which the sheikh traded his soul, the gazelle-eyed houri."
+  },
+  {
+    "stanza": 139,
+    "kurdish_ar": "چەشمێ دوێ حوری پەچێ؛ سۆفی ژ عشقا وێ کەچێ\nچەرخان ددەن ل دێرا نەچێ؛ زاهر بکەن بۆی حوججەتێ",
+    "kurmanji_lat": "çeşmê dwê ḧurî peçê; sofî ji ’işqa wê keçê\nçerxan diden li dêra neçê; zahir biken boy ḧuccetê",
+    "arabic": "عُيُونُ تِلْكَ الْحُورِيَّةِ خَلْفَ النِّقَابِ؛ وَالصُّوفِيَّةُ مِنْ عِشْقِ تِلْكَ الْفَتَاةِ\nيَدُورُونَ عِنْدَ الدَّيْرِ وَلَا يَرْحَلُونَ؛ لِيُظْهِرُوا لَهَا الْحُجَّةَ وَالْبُرْهَانَ",
+    "english": "The eyes of that veiled houri gleam; the Sufis, burning with love for the maid,\nWhirl fiercely round the monastery, unwilling to leave till their truth is proven."
+  },
+  {
+    "stanza": 140,
+    "kurdish_ar": "هەمیان ژ دل بوو ئەڤ فکر؛ ئەم دێ ب جۆش بێنە زکر\nدا بێتە پێش قەنجا بکر؛ دا شەیخ ببینت سۆرەتێ",
+    "kurmanji_lat": "hemyan ji dil bû ev fikir; em dê bi coş bêne zikir\nda bête pêş qenca bikir; da şeyx bibînit soretê",
+    "arabic": "كَانَ هَذَا الْفِكْرُ فِي قُلُوبِهِمْ جَمِيعًا؛ سَنَذْكُرُ اللَّهَ بِحَمَاسٍ وَجَيْشَانٍ\nلِكَيْ تَظْهَرَ الْعَذْرَاءُ الْحَسْنَاءُ أَمَامَنَا؛ وَلِكَيْ يَرَى الشَّيْخُ صُورَتَهَا",
+    "english": "They all held this thought in their hearts: \"We will chant with fervent zeal,\nSo the beautiful virgin may step forward, and the sheikh may behold her face.\""
+  },
+  {
+    "stanza": 141,
+    "kurdish_ar": "ئەو سۆفیێ ب رەقس و سەفا؛ هەمیان ژ عشقا موستەفا\nڤێکڕا هلاڤێتن دەفا؛ وان دەنگ ب ئەسمانان کەتێ",
+    "kurmanji_lat": "ew sofyê bi reqis û sefa; hemyan ji ’işqa mustefa\nvêkřa hilavêtin defa; wan deng bi esmanan ketê",
+    "arabic": "أُولَئِكَ الصُّوفِيَّةُ بِرَقْصٍ وَصَفَاءٍ؛ جَمِيعُهُمْ مِنْ عِشْقِ الْمُصْطَفَى\nضَرَبُوا بِالدُّفُوفِ مَعًا فِي وَقْتٍ وَاحِدٍ؛ فَعَلَا صَوْتُهُمْ حَتَّى بَلَغَ السَّمَاءَ",
+    "english": "Those Sufis in pure and ecstatic dance, all moved by love for the Chosen One,\nStruck their tambourines in perfect unison, their voices soaring to the heavens."
+  },
+  {
+    "stanza": 142,
+    "kurdish_ar": "دەنگێ موریدان چوو فەلەک؛ دێرا کو راهب تێ گەلەک\nوا هاتە پێش یا چاڤ بەلەک؛ هاتە شباکا قبلەتێ",
+    "kurmanji_lat": "dengê murîdan çû felek; dêra ku rahb tê gelek\nwa hate pêş ya çav belek; hate şibaka qibletê",
+    "arabic": "صَوْتُ الْمُرِيدِينَ بَلَغَ الْأَفْلَاكَ؛ فِي الدَّيْرِ الَّذِي يَمْتَلِئُ بِالرُّهْبَانِ\nفَأَقْبَلَتْ تِلْكَ ذَاتُ الْعُيُونِ الْحَوْرَاءِ؛ وَجَاءَتْ إِلَى نَافِذَةِ الْقِبْلَةِ",
+    "english": "The disciples' voices reached the heavens, in the monastery filled with monks,\nThe dark-eyed beauty came forward, stepping up to the qibla's window."
+  },
+  {
+    "stanza": 143,
+    "kurdish_ar": "هاتە شباک و پەنجەرێ؛ کفش بوو ژ سنگ حەتا سەرێ\nژۆردا نەزەر دا عەسکەرێ؛ بووکا دلێ جەماعەتێ",
+    "kurmanji_lat": "hate şibak û pencerê; kifiş bû ji sing ḧeta serê\njorda nezer da ’eskerê; bûka dilê cema’etê",
+    "arabic": "جَاءَتْ إِلَى الشُّبَّاكِ وَالنَّافِذَةِ؛ فَبَدَتْ ظَاهِرَةً مِنَ الصَّدْرِ إِلَى الرَّأْسِ\nوَنَظَرَتْ مِنْ أَعْلَى إِلَى الْعَسْكَرِ؛ عَرُوسُ قَلْبِ هَذَا الْجَمْعِ",
+    "english": "She appeared at the window and the grate, visible from chest to head,\nLooking down upon the army; the beloved bride of the assembly's heart."
+  },
+  {
+    "stanza": 144,
+    "kurdish_ar": "ل زاکران کچ سەییری؛ مورشد ددێمێ فکری\nیا رەب هەنە ئەڤ رەنگ پەری؛ نابن بەشەر ب ڤێ شوبهەتێ",
+    "kurmanji_lat": "li zakiran kiç seyîrî; murişd didêmê fikirî\nya reb hene ev reng perî; nabin beşer bi vê şubhetê",
+    "arabic": "نَظَرَتِ الْفَتَاةُ إِلَى الذَّاكِرِينَ بَعْجَبٍ؛ وَالْمُرْشِدُ تَأَمَّلَ فِي وَجْهِهَا\nيَا رَبِّ هَلْ يُوجَدُ مِثْلُ هَذِهِ الْجِنِّيَّاتِ؟؛ لَا يُمْكِنُ أَنْ يَكُونَ الْبَشَرُ بِهَذِهِ الصُّورَةِ",
+    "english": "The maiden gazed in wonder at the chanters, while the guide marveled at her face,\n\"O Lord, do such fairies exist? No mortal could bear such perfect grace.\""
+  },
+  {
+    "stanza": 145,
+    "kurdish_ar": "حاشا هەبن ئەڤ رەنگ بەشەر؛ رۆژ بوو ژ شەرقێ هاتە دەر\nبوونە قەرین هەردو نەزەر؛ ئەحسەن ژ فەزل و نعمەتێ",
+    "kurmanji_lat": "ḧaşa hebin ev reng beşer; roj bû ji şerqê hate der\nbûne qerîn herdu nezer; eḧsen ji fezil û ni’metê",
+    "arabic": "حَاشَا أَنْ يُوجَدَ بَشَرٌ بِهَذَا الشَّكْلِ؛ كَأَنَّهَا الشَّمْسُ أَشْرَقَتْ مِنَ الْمَشْرِقِ\nوَتَلَاقَتِ النَّظْرَتَانِ وَصَارَتَا قَرِينَتَيْنِ؛ فَيَا لَهَا مِنْ فَضْلٍ وَنِعْمَةٍ عَظِيمَةٍ",
+    "english": "Impossible that a human could look so; she was the sun rising from the east,\nTheir gazes met and locked as one; what wondrous grace and heavenly bounty!"
+  },
+  {
+    "stanza": 146,
+    "kurdish_ar": "کچ سەکنی پالدا شباکێ؛ ساحبێ شەمل و سیواکێ\nبەر بانی ئانی زکاکێ؛ جندیێ ژ هەسپێ کەتێ",
+    "kurmanji_lat": "kiç seknî palda şibakê; saḧbê şemil û sîwakê\nber banî anî zikakê; cindyê ji hespê ketê",
+    "arabic": "وَقَفَتِ الْفَتَاةُ مُسْتَنِدَةً إِلَى الشُّبَّاكِ؛ وَصَاحِبُ الْعِمَامَةِ وَالسِّوَاكِ\nسَقَطَ مَغْشِيًّا عَلَيْهِ فِي الزُّقَاقِ؛ كَفَارِسٍ شُجَاعٍ هَوَى عَنْ فَرَسِهِ",
+    "english": "The maiden stood leaning against the window; while the master of turban and miswak,\nSwooned in the alleyway, like a brave horseman tumbling from his steed."
+  },
+  {
+    "stanza": 147,
+    "kurdish_ar": "عاشق ل مەعشوق فەررجی؛ بەحرا ئەڤینێ مەووجی\nمورشد د خوونێ کەپچی؛ ژ تیرا کڤانێ جەبهەتێ",
+    "kurmanji_lat": "’aşiq li me’şuq ferircî; beḧra evînê mewwicî\nmurişd di xûnê kepçî; ji tîra kivanê cebhetê",
+    "arabic": "نَظَرَ الْعَاشِقُ إِلَى الْمَعْشُوقِ مُتَأَمِّلًا؛ فَمَاجَتْ أَمْوَاجُ بَحْرِ الْعِشْقِ\nوَتَخَضَّبَ الْمُرْشِدُ بِدِمَائِهِ؛ مِنْ سَهْمِ قَوْسِ جَبِينِهَا",
+    "english": "The lover fixed his gaze upon the beloved, and the vast sea of love surged,\nThe guide was bathed in his own blood, struck by the arrow of her arched brow."
+  },
+  {
+    "stanza": 148,
+    "kurdish_ar": "نەسرانیا زەررین گووهار؛ سۆفی کوژا رەشتۆز لبار\nشەیخ دەست ب دەست ئاڤێتە خار؛ بێ هش کر و هش پێ نەتێ",
+    "kurmanji_lat": "nesranya zerrîn gûhar; sofî kuja reştoz libar\nşeyx dest bi dest avête xar; bê hiş kir û hiş pê netê",
+    "arabic": "تِلْكَ النَّصْرَانِيَّةُ ذَاتُ الْأَقْرَاطِ الذَّهَبِيَّةِ؛ قَاتِلَةُ الصُّوفِيَّةِ ذَاتُ الْخُصَلِ السَّوْدَاءِ\nأَسْقَطَتِ الشَّيْخَ أَرْضًا فِي الْحَالِ؛ أَفْقَدَتْهُ صَوَابَهُ فَلَمْ يَعُدْ إِلَيْهِ وَعْيُهُ",
+    "english": "The Christian maiden with golden earrings, the slayer of Sufis with raven locks,\nCast the sheikh instantly to the ground, leaving him utterly senseless and lost."
+  },
+  {
+    "stanza": 149,
+    "kurdish_ar": "هەردو وجوهـ ئانینە پێش؛ هندی هەبوون عەسکەر و جێش\nهەرچی کو دین، دل بوویە ئێش؛ ژ حوسن و جەمال و هەیئەتێ",
+    "kurmanji_lat": "herdu wicuh anîne pêş; hindî hebûn ’esker û cêş\nherçî ku dîn, dil bûye êş; ji ḧusin û cemal û hey’etê",
+    "arabic": "أَحْضَرُوا الْوَجْهَيْنِ إِلَى الْأَمَامِ، كُلُّ مَا كَانَ هُنَاكَ مِنْ عَسْكَرٍ وَجَيْشٍ\nكُلُّ مَنْ رَأَى ذَلِكَ، أَصَابَ قَلْبَهُ الْأَلَمُ مِنْ حُسْنِهِمَا وَجَمَالِهِمَا وَهَيْئَتِهِمَا",
+    "english": "They brought both faces forward, all the soldiers and armies present,\nWhoever saw them, their heart ached from their beauty, charm, and form."
+  },
+  {
+    "stanza": 150,
+    "kurdish_ar": "سۆفی ژ حوسنێ جەههشین؛ هەرچی کو دی پێ شەووشین\nجەرگ و هناڤ لێ هەررشین؛ ژ بەرقا برووسکا روئیەتێ",
+    "kurmanji_lat": "sofî ji ḧusnê cehhişîn; herçî ku dî pê şewwişîn\ncerg û hinav lê herirşîn; ji berqa birûska ru’yetê",
+    "arabic": "تَحَيَّرَ الصُّوفِيُّونَ مِنْ جَمَالِهَا، وَكُلُّ مَنْ رَآهَا اضْطَرَبَ\nوَتَمَزَّقَتْ فِيهِمُ الْأَكْبَادُ وَالْأَحْشَاءُ، مِنْ بَرْقِ صَاعِقَةِ الرُّؤْيَةِ",
+    "english": "The Sufis were bewildered by her beauty, whoever saw her was confounded,\nTheir livers and hearts were torn apart by the lightning flash of her sight."
+  },
+  {
+    "stanza": 151,
+    "kurdish_ar": "بەرقا برووسکا پوڕ وەشە؛ تیرا کڤانێ تۆزڕەشە\nپێتا برووسکا ئاتەشە؛ زێدە ژ حەدد و غایەتێ",
+    "kurmanji_lat": "berqa birûska puř weşe; tîra kivanê tozřeşe\npêta birûska ateşe; zêde ji ḧedid û ẍayetê",
+    "arabic": "بَرْقُ الصَّاعِقَةِ جَمِيلٌ جِدًّا، وَهُوَ سَهْمُ الْقَوْسِ الشَّدِيدِ السَّوَادِ\nلَهِيبُ الصَّاعِقَةِ نَارٌ، تَجَاوَزَتِ الْحَدَّ وَالْغَايَةَ",
+    "english": "The lightning flash is so beautiful; it is the arrow of the dark, dusty bow,\nThe flame of the lightning is a fire, beyond all bounds and limits."
+  },
+  {
+    "stanza": 152,
+    "kurdish_ar": "تیرا ددل ئاتەش بتن؛ گەزما کڤانێ رەش بتن\nهەیهاتە!! کەنگی خوەش بتن؛ جان سوهتیە سوڕ ڤێکەتێ",
+    "kurmanji_lat": "tîra didil ateş bitin; gezma kivanê reş bitin\nheyhate!! kengî xweş bitin; can suhtye suř vêketê",
+    "arabic": "إِذَا كَانَ السَّهْمُ فِي الْقَلْبِ نَارًا، وَعَضَّةُ الْقَوْسِ الْأَسْوَدِ كَذَلِكَ\nهَيْهَاتَ!! مَتَى سَيَشْفَى، فَالرُّوحُ قَدِ احْتَرَقَتْ وَأَصَابَهَا السِّرُّ",
+    "english": "If the arrow in the heart is fire, and the bite of the black bow as well,\nAlas! When will it heal? The soul is burnt, struck by the mystery."
+  },
+  {
+    "stanza": 153,
+    "kurdish_ar": "نارێ سوڕێ پەیدا بتن؛ بایێ مەجاز لێ ڕابتن\nقەت ئەو برین خوەش نابتن؛ تیرا ددل مەیل ناڕەتێ",
+    "kurmanji_lat": "narê suřê peyda bitin; bayê mecaz lê řabtin\nqet ew birîn xweş nabtin; tîra didil meyl nařetê",
+    "arabic": "إِذَا ظَهَرَتْ نَارُ السِّرِّ، وَهَبَّتْ عَلَيْهَا رِيحُ الْمَجَازِ\nفَإِنَّ تِلْكَ الْجِرَاحَ لَا تُشْفَى أَبَدًا، وَالسَّهْمُ فِي الْقَلْبِ لَا يَزُولُ مَيْلُهُ",
+    "english": "When the fire of the mystery appears, and the wind of illusion blows upon it,\nThat wound will never heal, and the arrow in the heart will not lose its sway."
+  },
+  {
+    "stanza": 154,
+    "kurdish_ar": "وێ دلبەرێ دل دەرزاند؛ مورشد د خوونێ گەڤزاند\nپێسیر ژ خوونێ قرمزاند؛ قەت روومەهێ رەحم پێ نەتێ",
+    "kurmanji_lat": "wê dilberê dil derzand; murişd di xûnê gevzand\npêsîr ji xûnê qirimzand; qet rûmehê reḧim pê netê",
+    "arabic": "تِلْكَ الْحَبِيبَةُ صَدَعَتِ الْقَلْبَ، وَمَرَّغَتِ الْمُرْشِدَ فِي الدِّمَاءِ\nوَحَمَّرَتِ الصَّدْرَ بِالدَّمِ، وَلَمْ تَرْحَمْهُ ذَاتُ الْوَجْهِ الْقَمَرِيِّ أَبَدًا",
+    "english": "That beloved shattered the heart, she rolled the guide in blood,\nShe dyed the collar crimson with blood, and the moon-faced one showed him no mercy."
+  },
+  {
+    "stanza": 155,
+    "kurdish_ar": "حەمیان کو دی ئەو ڕوومەهە؛ قۆجە کەتە بەر دەرگەهە\nوان گۆتە هەڤ لەومە نەهە؛ ئیرۆ ل شەیخ کن خلوەتێ",
+    "kurmanji_lat": "ḧemyan ku dî ew řûmehe; qoce kete ber dergehe\nwan gote hev lewme nehe; îro li şeyx kin xilwetê",
+    "arabic": "كُلُّ مَنْ رَأَى تِلْكَ الْقَمَرِيَّةَ الْوَجْهِ، وَسُقُوطَ الشَّيْخِ عِنْدَ الْبَابِ\nقَالُوا لِبَعْضِهِمْ لَا مَلَامَةَ عَلَيْهِ، اِتْرُكُوا الشَّيْخَ الْيَوْمَ فِي خَلْوَتِهِ",
+    "english": "When everyone saw that moon-faced beauty, and the old man fallen at the door,\nThey said to each other: 'Do not blame him, leave the Sheikh in seclusion today.'"
+  },
+  {
+    "stanza": 156,
+    "kurdish_ar": "خەلقنۆ ل شەیخ لەوما مەکن؛ ئەڤ رەنگ پەری خالان ڤەکن\nدێ عاشقان دێوانە کن؛ ژ تەبعێ مەعشوقان وەتێ",
+    "kurmanji_lat": "xelqino li şeyx lewma mekin; ev reng perî xalan vekin\ndê ’aşiqan dêwane kin; ji teb’ê me’şuqan wetê",
+    "arabic": "أَيُّهَا النَّاسُ لَا تَلُومُوا الشَّيْخَ، فَحُورِيَّاتٌ كَهَذِهِ إِذَا كَشَفْنَ عَنِ الْخِيلَانِ\nسَيَجْعَلْنَ الْعُشَّاقَ مَجَانِينَ، فَهَكَذَا هِيَ طَبِيعَةُ الْمَعْشُوقِينَ",
+    "english": "O people, do not blame the Sheikh, if such fairies reveal their beauty spots,\nThey will drive the lovers mad, for such is the nature of the beloveds."
+  },
+  {
+    "stanza": 157,
+    "kurdish_ar": "مەعشوق د سوڕشیرین دبن؛ مەحبوب ددێم نورین دبن\nعاشق ژ پێشڤە دین دبن؛ ژ بایێ وسال و قوربەتێ",
+    "kurmanji_lat": "me’şuq di suřşîrîn dibin; meḧbub didêm nurîn dibin\n’aşiq ji pêşve dîn dibin; ji bayê wisal û qurbetê",
+    "arabic": "الْمَعْشُوقُونَ يَكُونُونَ حُلْوِي السِّرِّ، وَالْمَحْبُوبُونَ يَكُونُونَ مُنِيرِي الْوُجُوهِ\nوَالْعُشَّاقُ أَمَامَهُمْ يُجَنُّونَ، مِنْ نَسِيمِ الْوِصَالِ وَالْقُرْبِ",
+    "english": "The beloveds are sweet in their mystery, the cherished ones are radiant of face,\nAnd the lovers before them go mad, from the breeze of union and closeness."
+  },
+  {
+    "stanza": 158,
+    "kurdish_ar": "سنگ ئەبیەزا غونچە ل سەر؛ نازک ژ پەردا بێتە دەر\nلێ دین دبن ساحب نەزەر؛ سۆفی ژ کەیفا قودرەتێ",
+    "kurmanji_lat": "sing ebyeza ẍunçe li ser; nazk ji perda bête der\nlê dîn dibin saḧb nezer; sofî ji keyfa qudretê",
+    "arabic": "صَدْرٌ أَبْيَضُ عَلَيْهِ بَرَاعِمُ، رَقِيقَةٌ تَخْرُجُ مِنَ السِّتَارِ\nيُجَنُّ لِأَجْلِهَا أَصْحَابُ النَّظَرِ، وَالصُّوفِيَّةُ مِنْ نَشْوَةِ الْقُدْرَةِ",
+    "english": "A white breast with buds upon it, the delicate one steps out from behind the veil,\nThose with insight are driven mad by her, and Sufis marvel at the divine power."
+  },
+  {
+    "stanza": 159,
+    "kurdish_ar": "کەیفا سوڕێ بێ شوبهەیە؛ ئەو نە وەکی بەنک و مەیە\nساقی دبێ سەددەق وەیە؛ دژوارە بهنا حکمەتێ",
+    "kurmanji_lat": "keyfa suřê bê şubheye; ew ne wekî benk û meye\nsaqî dibê seddeq weye; dijware bihna ḧikmetê",
+    "arabic": "نَشْوَةُ السِّرِّ لَا شَكَّ فِيهَا، فَهِيَ لَيْسَتْ كَالْبَنْجِ وَالْخَمْرِ\nيَقُولُ السَّاقِي صَدَّقْتُ أَنَّهَا كَذَلِكَ، فَرَائِحَةُ الْحِكْمَةِ شَدِيدَةٌ",
+    "english": "The joy of the mystery is beyond doubt; it is not like hemp or wine,\nThe cupbearer says, 'Believe it is so,' for the scent of wisdom is overwhelming."
+  },
+  {
+    "stanza": 160,
+    "kurdish_ar": "بهنا سوڕێ باغێ ب گول؛ بێتە دەماغی چیتە دل\nژێ دین دبن ساحب عەقل؛ ژ دیدار و دهنا غەفلەتێ",
+    "kurmanji_lat": "bihna suřê baẍê bi gul; bête demaẍî çîte dil\njê dîn dibin saḧb ’eqil; ji dîdar û dihna ẍefletê",
+    "arabic": "رَائِحَةُ سِرِّ بُسْتَانِ الْوُرُودِ، تَصِلُ إِلَى الدِّمَاغِ وَتَدْخُلُ الْقَلْبَ\nيُجَنُّ مِنْهَا أَصْحَابُ الْعُقُولِ، مِنَ اللِّقَاءِ وَزَيْتِ الْغَفْلَةِ",
+    "english": "The scent of the secret rose garden, enters the mind and penetrates the heart,\nThose of intellect are driven mad by it, from the encounter and the oil of heedlessness."
+  },
+  {
+    "stanza": 161,
+    "kurdish_ar": "نەسرانیا ب زێڕ و ذەهەب؛ زاهر ببی جوزئەک غەبەب\nدێشن ژبەر جەرگ و کەزەب؛ ژ تیرا ب ناڤا دل کەتێ",
+    "kurmanji_lat": "nesranya bi zêř û zeheb; zahir bibî cuz’ek ẍebeb\ndêşin jiber cerg û kezeb; ji tîra bi nava dil ketê",
+    "arabic": "النَّصْرَانِيَّةُ الْمُزَيَّنَةُ بِالذَّهَبِ، إِذَا ظَهَرَ جُزْءٌ مِنْ ذَقْنِهَا\nتَتَأَلَّمُ لِأَجْلِهِ الْأَكْبَادُ وَالْأَحْشَاءُ، مِنَ السَّهْمِ الَّذِي وَقَعَ فِي وَسَطِ الْقَلْبِ",
+    "english": "The Christian girl adorned with gold, if a mere glimpse of her chin is revealed,\nLivers and hearts ache because of it, from the arrow that has struck the heart's core."
+  },
+  {
+    "stanza": 162,
+    "kurdish_ar": "تیرەک ژ قەوسێ مال هلال؛ بێتن ژ بورجا رۆژ هەڤال\nمەجروح دبن ژێ ئەهلِ حال؛ کوبکین ژ ڤێ جەراحەتێ",
+    "kurmanji_lat": "tîrek ji qewsê mal hilal; bêtin ji burca roj heval\nmecruḧ dibin jê ehlî ḧal; kubkîn ji vê ceraḧetê",
+    "arabic": "سَهْمٌ مِنْ قَوْسِ الْهِلَالِ، يَأْتِي مِنْ بُرْجِ رَفِيقِ الشَّمْسِ\nيُجْرَحُ مِنْهُ أَهْلُ الْحَالِ، فَمَاذَا نَفْعَلُ بِهَذِهِ الْجِرَاحِ",
+    "english": "An arrow from the crescent bow, comes from the zodiac of the sun's companion,\nThe people of spiritual states are wounded by it, what are we to do with this injury?"
+  },
+  {
+    "stanza": 163,
+    "kurdish_ar": "جەرحێ ب خەف تیمار بکەین؛ حەتتا کو شەیخ هشیار بکەین\nدیسان ب شوونڤە بار بکەین؛ پوشتێ بدەن کراهەتێ",
+    "kurmanji_lat": "cerḧê bi xef tîmar bikeyn; ḧetta ku şeyx hişyar bikeyn\ndîsan bi şûnve bar bikeyn; puştê biden kirahetê",
+    "arabic": "لِنُدَاوِ الْجُرْحَ فِي الْخَفَاءِ، حَتَّى نُوقِظَ الشَّيْخَ\nوَنَرْتَحِلَ عَائِدِينَ مَرَّةً أُخْرَى، وَنُدِيرَ ظُهُورَنَا لِلْكَرَاهِيَةِ",
+    "english": "Let us treat the wound in secret, until we awaken the Sheikh,\nThen let us pack and return again, turning our backs on the aversion."
+  },
+  {
+    "stanza": 164,
+    "kurdish_ar": "مەکروهیە تەحریم نەزەر؛ ئەو سۆفییێ «یاسین» ژبەر\nوان سێ شەڤان خووندن ل سەر؛ نوتق و کەلامەک ژێ نەتێ",
+    "kurmanji_lat": "mekiruhye teḧrîm nezer; ew sofîyê «yasîn» jiber\nwan sê şevan xûndin li ser; nutiq û kelamek jê netê",
+    "arabic": "إِنَّهَا مَكْرُوهَةٌ بَلْ مُحَرَّمَةٌ هَذِهِ النَّظْرَةُ، وَذَلِكَ الصُّوفِيُّ الَّذِي يَحْفَظُ «يَاسِينَ»\nقَرَأُوا عَلَيْهِ ثَلَاثَ لَيَالٍ، وَلَمْ يَصْدُرْ مِنْهُ نُطْقٌ وَلَا كَلَامٌ",
+    "english": "Such gazing is disapproved, even forbidden; that Sufi who knows 'Yasin' by heart,\nThey recited over him for three nights, yet not a single word or speech came from him."
+  },
+  {
+    "stanza": 165,
+    "kurdish_ar": "نەدهات ژ شەیخ نوتق و کەلام؛ حەتتا ب سێ رۆژان تەمام\nلێ د گرین یار و غولام؛ دل ئێش و خەلقێ رەحمەتێ",
+    "kurmanji_lat": "nedhat ji şeyx nutiq û kelam; ḧetta bi sê rojan temam\nlê di girîn yar û ẍulam; dil êş û xelqê reḧmetê",
+    "arabic": "لَمْ يَصْدُرْ مِنَ الشَّيْخِ نُطْقٌ وَلَا كَلَامٌ، حَتَّى مَرَّتْ ثَلَاثَةُ أَيَّامٍ كَامِلَةٍ\nوَكَانَ يَبْكِي عَلَيْهِ الْأَصْدِقَاءُ وَالْغِلْمَانُ، ذَوُو الْقُلُوبِ الْمُتَأَلِّمَةِ وَأَهْلُ الرَّحْمَةِ",
+    "english": "No word or speech came from the Sheikh, for three whole days complete,\nHis friends and servants wept over him, heartbroken and full of compassion."
+  },
+  {
+    "stanza": 166,
+    "kurdish_ar": "شین و گرین مادار کرن؛ حەمیان ل وی هەوار کرن\nحەتتا کو شەیخ هشیار کرن؛ خەف لێ د خوونن «تەببەتێ»",
+    "kurmanji_lat": "şîn û girîn madar kirin; ḧemyan li wî hewar kirin\nḧetta ku şeyx hişyar kirin; xef lê di xûnin «tebbetê»",
+    "arabic": "أَقَامُوا الْمَآتِمَ وَالْبُكَاءَ، وَكُلُّهُمْ صَرَخُوا لِأَجْلِهِ\nحَتَّى أَيْقَظُوا الشَّيْخَ، وَهُمْ يَقْرَأُونَ عَلَيْهِ «تَبَّتْ» سِرًّا",
+    "english": "They mourned and wept incessantly, all of them crying out for him,\nUntil they awoke the Sheikh, while secretly reciting 'Tabbat' over him."
+  },
+  {
+    "stanza": 167,
+    "kurdish_ar": "هنگی هەبوون ڤێڕا مورید؛ سەد شیرەت و وەعز و وەعید\nوان رهتە گۆهێ شەیخ سەعید؛ شەرح و بەیانا ئایەتێ",
+    "kurmanji_lat": "hingî hebûn vêřa murîd; sed şîret û we’iz û we’îd\nwan rihte gohê şeyx se’îd; şerḧ û beyana ayetê",
+    "arabic": "حِينَئِذٍ كَانَ مَعَهُ مُرِيدُونَ، قَدَّمُوا لَهُ مِائَةَ نَصِيحَةٍ وَوَعْظٍ وَوَعِيدٍ\nوَصَبُّوا فِي أُذُنِ الشَّيْخِ سَعِيدٍ، شَرْحَ وَبَيَانَ الْآيَةِ",
+    "english": "There were disciples with him then, offering a hundred counsels, warnings, and threats,\nThey poured into the ear of Sheikh Saeed, the explanation and meaning of the verse."
+  },
+  {
+    "stanza": 168,
+    "kurdish_ar": "ئایەت دبێ: نەقاش یەکە؛ نەقشێ فەنا بەرپێ مەکە\nلبسێ کو لێ عەیب و لەکە؛ قەت ئەو تەنی ژ داوا تەتێ؟!",
+    "kurmanji_lat": "ayet dibê: neqaş yeke; neqşê fena berpê meke\nlibsê ku lê ’eyb û leke; qet ew tenî ji dawa tetê?!",
+    "arabic": "الْآيَةُ تَقُولُ: النَّقَّاشُ وَاحِدٌ، فَلَا تَتْبَعْ نَقْشَ الْفَنَاءِ\nوَاللِّبَاسُ الَّذِي فِيهِ عَيْبٌ وَبُقْعَةٌ، هَلْ تُزِيلُهُ أَبَدًا عَنْ ثَوْبِكَ؟!",
+    "english": "The verse says: The Creator is One; do not follow the transient form,\nThe garment that has a flaw and a stain, will you ever cleanse it from your skirt?!"
+  },
+  {
+    "stanza": 169,
+    "kurdish_ar": "لبسێ لەکا رەش لێ هەبی؛ نابی د بەر شەیخێ مەبی\nیا قەنج ئەوە شەیخ ژێڤەبی؛ ئەم عاجزین ژ ڤێ شیرەتێ",
+    "kurmanji_lat": "libsê leka reş lê hebî; nabî di ber şeyxê mebî\nya qenc ewe şeyx jêvebî; em ’aczîn ji vê şîretê",
+    "arabic": "اللِّبَاسُ الَّذِي فِيهِ بُقْعَةٌ سَوْدَاءُ، لَا يَصِحُّ أَنْ يَكُونَ عَلَى شَيْخِنَا\nوَالْأَفْضَلُ هُوَ أَنْ يَبْتَعِدَ الشَّيْخُ عَنْهُ، فَنَحْنُ عَاجِزُونَ عَنْ هَذِهِ النَّصِيحَةِ",
+    "english": "A garment that bears a black stain, is not fitting for our Sheikh to wear,\nIt is best that the Sheikh distances himself from it, for we are exhausted by this counsel."
+  },
+  {
+    "stanza": 170,
+    "kurdish_ar": "ل سەر شیرەتا نورینیێ؛ ئەم غیرەتا قەومینیێ\nنادەین ب تەبعێ دینیێ؛ ب جەزبەیا سەفاهەتێ",
+    "kurmanji_lat": "li ser şîreta nurînyê; em ẍîreta qewmînyê\nnadeyn bi teb’ê dînyê; bi cezbeya sefahetê",
+    "arabic": "عَلَى أَسَاسِ النَّصِيحَةِ النُّورَانِيَّةِ، نَحْنُ لَا نَسْتَبْدِلُ غَيْرَةَ الْقَوْمِيَّةِ\nبِالطَّبِيعَةِ الْمَجْنُونَةِ، وَلَا بِجَذْبَةِ السَّفَاهَةِ",
+    "english": "Based on the luminous counsel, we will not trade our communal honor,\nFor a maddened nature, nor for the ecstasy of foolishness."
+  },
+  {
+    "stanza": 171,
+    "kurdish_ar": "شەیخ گۆ: سەفیهێ ئەلڵەهم؛ سوندخوارێ بوکرا روومەهم\nئیرۆ ل تەبعێ وە نەهم؛ قەبوول دکم قەباحەتێ",
+    "kurmanji_lat": "şeyx go: sefîhê elłehim; sundixiwarê bukira rûmehim\nîro li teb’ê we nehim; qebûl dikim qebaḧetê",
+    "arabic": "قَالَ الشَّيْخُ: أَنَا سَفِيهُ اللَّهِ، وَمُقْسِمٌ بِالْبِكْرِ ذَاتِ الْوَجْهِ الْقَمَرِيِّ\nالْيَوْمَ أَنَا لَسْتُ عَلَى طَبِيعَتِكُمْ، بَلْ أَقْبَلُ الْقَبَاحَةَ",
+    "english": "The Sheikh replied: 'I am the fool of God, sworn to the moon-faced virgin,\nToday I am not of your disposition; I accept the disgrace.'"
+  },
+  {
+    "stanza": 172,
+    "kurdish_ar": "شەیخ گۆ: ب ئەزمانێ فەسیح؛ دەنگێ کچا بوکرا مەلیح\nنادم ب بانگا وەی سەحیح؛ دوورم ژ ڤێ سەمعییەتێ",
+    "kurmanji_lat": "şeyx go: bi ezmanê fesîḧ; dengê kiça bukira melîḧ\nnadim bi banga wey seḧîḧ; dûrim ji vê sem’îyetê",
+    "arabic": "قَالَ الشَّيْخُ: بِلِسَانٍ فَصِيحٍ، صَوْتَ الْفَتَاةِ الْبِكْرِ الْمَلِيحَةِ\nلَا أَسْتَبْدِلُهُ بِنِدَائِكُمُ الصَّحِيحِ، فَأَنَا بَعِيدٌ عَنْ هَذَا السَّمَاعِ",
+    "english": "The Sheikh said: 'With an eloquent tongue, the voice of the beautiful virgin girl,\nI will not trade for your orthodox call; I am far from this hearing of yours.'"
+  },
+  {
+    "stanza": 173,
+    "kurdish_ar": "ئەر عاقلن من تێک مەدەن؛ بەس شیرەتان بێهۆدە دەن\nئیرۆ کچا نازک بەدەن؛ نادم ب وە جەمعییەتێ",
+    "kurmanji_lat": "er ’aqiln min têk meden; bes şîretan bêhode den\nîro kiça nazk beden; nadim bi we cem’îyetê",
+    "arabic": "إِنْ كُنْتُمْ عُقَلَاءَ فَلَا تُزْعِجُونِي، وَيَكْفِي نَصَائِحَ بِلَا فَائِدَةٍ\nالْيَوْمَ، الْفَتَاةُ الرَّقِيقَةُ الْبَدَنِ، لَا أَسْتَبْدِلُهَا بِجَمَاعَتِكُمْ",
+    "english": "'If you are wise, do not disturb me; enough of giving useless advice,\nToday, the tender-bodied girl, I will not trade for your congregation.'"
+  },
+  {
+    "stanza": 174,
+    "kurdish_ar": "مەجنون کرم عاج گەردەنێ؛ ئەو ئەفعیا ژ رەنگێ خەنێ\nگەستم ل ئەرزێ یەمەنێ؛ شەهمار و زولفا قامەتێ",
+    "kurmanji_lat": "mecnun kirim ’ac gerdenê; ew ef’ya ji rengê xenê\ngestim li erzê yemenê; şehmar û zulfa qametê",
+    "arabic": "جَعَلَتْنِي الْعَاجِيَّةُ الْعُنُقِ مَجْنُونًا، تِلْكَ الْأَفْعَى بِلَوْنِ الْحِنَّاءِ\nلَدَغَتْنِي فِي أَرْضِ الْيَمَنِ، أَفْعَى الشَّاهْمَارِ وَضَفِيرَةُ الْقَامَةِ",
+    "english": "'The ivory-necked one drove me mad, that viper the color of henna,\nShe bit me in the land of Yemen, the king snake and the braids of her stature.'"
+  },
+  {
+    "stanza": 175,
+    "kurdish_ar": "مارێ ملێ وێ گەستمە؛ ب زولفێ د نازک بەستمە\nسانع ژ سونعان خوەستمە؛ دا تێر ببینم سونعەتێ",
+    "kurmanji_lat": "marê milê wê gestime; bi zulfê di nazk bestime\nsan’ ji sun’an xwestime; da têr bibînim sun’etê",
+    "arabic": "ثُعْبَانُ كَتِفِهَا لَدَغَنِي، وَبِضَفِيرَتِهَا الرَّقِيقَةِ قَيَّدَتْنِي\nطَلَبْتُ الصَّانِعَ مِنْ بَيْنِ الْمَصْنُوعَاتِ، لِأَرَى الصَّنْعَةَ حَتَّى أَشْبَعَ",
+    "english": "'The snake of her shoulder bit me, with her delicate braid I am bound,\nI sought the Creator among creations, to gaze my fill upon His artistry.'"
+  },
+  {
+    "stanza": 176,
+    "kurdish_ar": "سۆفی دبێن یا ئەولیا؛ حوببێ مەدە ب زولفێ سیا\nدائم هشین نابت گیا؛ بهارێ پاییز پێرڤەتێ",
+    "kurmanji_lat": "sofî dibên ya ewlya; ḧubbê mede bi zulfê sya\nda’im hişîn nabit gya; biharê payîz pêrvetê",
+    "arabic": "يَقُولُ الصُّوفِيَّةُ يَا وَلِيَّ اللَّهِ، لَا تُعْطِ الْحُبَّ لِلضَّفِيرَةِ السَّوْدَاءِ\nفَالْعُشْبُ لَا يَبْقَى أَخْضَرَ دَائِمًا، وَالرَّبِيعُ يَتْبَعُهُ الْخَرِيفُ",
+    "english": "The Sufis say, 'O saint of God, do not give your love to the black braid,\nGrass does not remain green forever; spring is always followed by autumn.'"
+  },
+  {
+    "stanza": 177,
+    "kurdish_ar": "بایی گەڕاندن ئاش لکار؛ عەنبەر سیاهـ چوونە دیار\nچەرخی ڕەشاندن تۆز و ئار؛ ئانینە رەنگێ کاغەتێ",
+    "kurmanji_lat": "bayî geřandin aş likar; ’enber syah çûne dyar\nçerxî řeşandin toz û ar; anîne rengê kaẍetê",
+    "arabic": "الرِّيحُ أَشْغَلَتِ الطَّوَاحِينَ، وَاخْتَفَى الْعَنْبَرُ الْأَسْوَدُ\nوَالْفَلَكُ نَثَرَ الْغُبَارَ وَالرَّمَادَ، وَجَعَلَهُمَا بِلَوْنِ الْوَرَقِ",
+    "english": "'The wind set the mills to work, and the black amber disappeared,\nThe wheel of fate scattered dust and ashes, turning them the color of paper.'"
+  },
+  {
+    "stanza": 178,
+    "kurdish_ar": "لەو ئەم دبێن دل ژێ ڤەکە؛ ئەو سونبلا رەنگ ئێپەکە\nدبەر سەرێ شەیبا خوەکە؛ زولفا سیاهـ ژێ لۆمە تێ",
+    "kurmanji_lat": "lew em dibên dil jê veke; ew sunbila reng êpeke\ndiber serê şeyba xweke; zulfa syah jê lome tê",
+    "arabic": "لِذَلِكَ نَحْنُ نَقُولُ انْزِعْ قَلْبَكَ مِنْهَا، تِلْكَ السُّنْبُلَةِ بِلَوْنِ الْحَرِيرِ\nوَانْظُرْ إِلَى رَأْسِكَ الْأَشْيَبِ، فَالضَّفِيرَةُ السَّوْدَاءُ تَجْلِبُ لَكَ الْمَلَامَةَ",
+    "english": "'Therefore we say, detach your heart from her, from that hyacinth the color of silk,\nLook upon your hoary head; the black braid will only bring you blame.'"
+  },
+  {
+    "stanza": 179,
+    "kurdish_ar": "گوستاخییە ئەم شیرەتان؛ ئعلامِ شەیخ کن قسسەتان\nپیرێ ل سەر مەعمەلەتان؛ کەس ئلتفات قەت پێ نەتێ",
+    "kurmanji_lat": "gustaxîye em şîretan; i’lamî şeyx kin qissetan\npîrê li ser me’meletan; kes iltifat qet pê netê",
+    "arabic": "إِنَّهَا جَسَارَةٌ أَنْ نُقَدِّمَ النَّصَائِحَ، وَنُعْلِمَ الشَّيْخَ بِالْقِصَصِ\nفَالشَّيْخُ الْخَبِيرُ بِالْمُعَامَلَاتِ، لَا يَلْتَفِتُ إِلَيْهَا أَحَدٌ أَبَدًا",
+    "english": "'It is bold of us to offer these counsels, and to tell stories to the Sheikh,\nAn elder steeped in such affairs, no one ever pays attention to him.'"
+  },
+  {
+    "stanza": 180,
+    "kurdish_ar": "شەیخێ ل تەکیە و مەسجدان؛ وی گرتی دینێ مولحدان\nبەردا سلوکا زاهدان؛ وان بێ حساب کەرب ژێڤەتێ",
+    "kurmanji_lat": "şeyxê li tekye û mesicdan; wî girtî dînê muliḧdan\nberda siluka zahdan; wan bê ḧisab kerb jêvetê",
+    "arabic": "شَيْخُ التَّكَايَا وَالْمَسَاجِدِ، قَدِ اعْتَنَقَ دِينَ الْمُلْحِدِينَ\nوَتَرَكَ سُلُوكَ الزَّاهِدِينَ، وَأَصَابَهُمْ مِنْهُ غَضَبٌ بِلَا حِسَابٍ",
+    "english": "The Sheikh of the lodges and mosques, has adopted the religion of the heretics,\nHe abandoned the path of the ascetics, and they were filled with boundless anger towards him."
+  },
+  {
+    "stanza": 181,
+    "kurdish_ar": "ئەو تاعەتێ تەی بێ حساب؛ پەنجەهـ حەج و پەنجەهـ سەواب\nمە فرۆش ب ڤێ بەیعا خراب؛ پووشمان ببە ژ ڤێ معاملەتێ",
+    "kurmanji_lat": "ew ta’etê tey bê ḧisab; penceh ḧec û penceh sewab\nme firoş bi vê bey’a xirab; pûşman bibe ji vê mi’amletê",
+    "arabic": "طَاعَتُكَ تِلْكَ الَّتِي بِلَا حِسَابٍ، خَمْسُونَ حَجَّةً وَخَمْسُونَ ثَوَابًا\nلَا تَبِعْهَا بِهَذِهِ الصَّفْقَةِ الْفَاسِدَةِ، وَتُبْ عَنْ هَذِهِ الْمُعَامَلَةِ",
+    "english": "'That countless devotion of yours, fifty Hajj pilgrimages and fifty rewards,\nDo not sell them in this ruined bargain, repent of this transaction.'"
+  },
+  {
+    "stanza": 182,
+    "kurdish_ar": "مە فرۆش دوڕان ب خەرمووریان؛ جاما ددەستێ حووریان\nئیرۆ مەدە ب ئاڤ شووریان؛ ببوهر هەڕە ئاڤا شەتێ",
+    "kurmanji_lat": "me firoş duřan bi xermûryan; cama didestê ḧûryan\nîro mede bi av şûryan; bibuhir heře ava şetê",
+    "arabic": "لَا تَبِعِ الدُّرَرَ بِالْخَرَزِ، وَالْكَأْسَ الَّتِي فِي أَيْدِي الْحُورِيَّاتِ\nلَا تُعْطِهَا الْيَوْمَ بِمِيَاهِ الْغَسِيلِ، اعْبُرْ وَاذْهَبْ إِلَى مِيَاهِ الشَّطِّ",
+    "english": "'Do not trade pearls for glass beads; the cup in the hands of the houris,\nDo not exchange it today for dishwater; cross over and go to the river's water.'"
+  },
+  {
+    "stanza": 183,
+    "kurdish_ar": "شەیخ گۆتە وان ئەڤ رەنگ سوخەن؛ شیرەت ئەسەر ناکەن ل مەن\nپەنجەهـ تەوافێ چار روکەن؛ دەینانە سەر ڤێ خدمەتێ",
+    "kurmanji_lat": "şeyx gote wan ev reng suxen; şîret eser naken li men\npenceh tewafê çar ruken; deynane ser vê xidmetê",
+    "arabic": "قَالَ لَهُمُ الشَّيْخُ مِثْلَ هَذَا الْكَلَامِ: النَّصَائِحُ لَا تُؤَثِّرُ فِيَّ\nخَمْسُونَ طَوَافًا حَوْلَ الْأَرْكَانِ الْأَرْبَعَةِ، قَدْ وَضَعْتُهَا فِي سَبِيلِ هَذِهِ الْخِدْمَةِ",
+    "english": "The Sheikh answered them with these words: 'Counsels have no effect on me,\nFifty circumambulations of the four pillars, I have laid down for this service.'"
+  },
+  {
+    "stanza": 184,
+    "kurdish_ar": "پەنجەهـ حەج و پەنجەهـ تەواف؛ سەوم و سەلات و ئعتکاف\nبەخشیش کرین من بێ خلاف؛ د مزگینیا بەشارەتێ",
+    "kurmanji_lat": "penceh ḧec û penceh tewaf; sewm û selat û i’tikaf\nbexşîş kirîn min bê xilaf; di mizgînya beşaretê",
+    "arabic": "خَمْسُونَ حَجَّةً وَخَمْسُونَ طَوَافًا، وَالصَّوْمُ وَالصَّلَاةُ وَالِاعْتِكَافُ\nوَهَبْتُهَا بِلَا خِلَافٍ، فِي بِشَارَةِ هَذَا الْخَبَرِ السَّارِّ",
+    "english": "'Fifty Hajj pilgrimages and fifty circumambulations, fasting, prayer, and seclusion,\nI gave them all away without dispute, for the good tidings of this news.'"
+  },
+  {
+    "stanza": 185,
+    "kurdish_ar": "پێلا کو من ئحرام دبەست؛ شاهدِ من بوون هەردو دەست\nمن رەهبەرەک ژ باخۆی د خوەست؛ ڤێکڕا بچینە حەزرەتێ",
+    "kurmanji_lat": "pêla ku min iḧram dibest; şahdî min bûn herdu dest\nmin rehberek ji baxoy di xwest; vêkřa biçîne ḧezretê",
+    "arabic": "وَقْتَمَا كُنْتُ أُحْرِمُ، كَانَتْ يَدَايَ هُمَا شَاهِدَيَّ\nطَلَبْتُ مُرْشِدًا مِنَ الْمَوْلَى، لِنَذْهَبَ مَعًا إِلَى الْحَضْرَةِ",
+    "english": "'When I tied the Ihram, both my hands were my witnesses,\nI asked the Lord for a guide, that we might go together to His Presence.'"
+  },
+  {
+    "stanza": 186,
+    "kurdish_ar": "شەیخ گۆتە وان ئەڤ رەهبەرە؛ یان نەینکا ئەسکەندەرە\nیان مەقسەدە یان مەزهەرە؛ ئەو شووشەیا جانێ مەتێ",
+    "kurmanji_lat": "şeyx gote wan ev rehbere; yan neynka eskendere\nyan meqsede yan mezhere; ew şûşeya canê metê",
+    "arabic": "قَالَ الشَّيْخُ لَهُمْ: هَذِهِ دَلِيلٌ؛ أَوْ مِرْآةُ الإِسْكَنْدَرِ\nأَوْ مَقْصِدٌ أَوْ مَظْهَرٌ؛ تِلْكَ الزُّجَاجَةُ لِرُوحِنَا",
+    "english": "The sheikh said to them, \"This is a guide, or the mirror of Alexander,\nOr it is the destination, or a manifestation; that glass of our soul.\""
+  },
+  {
+    "stanza": 187,
+    "kurdish_ar": "شووشەیا نوورا جەسەد لێ؛ دەرگەهێ موهرا ئەحەد لێ\nعەکس و نیشانا سەمەد لێ؛ ل موفتەیا وەحدانەتێ",
+    "kurmanji_lat": "şûşeya nûra cesed lê; dergehê muhra eḧed lê\n’ekis û nîşana semed lê; li mufteya weḧdanetê",
+    "arabic": "زُجَاجَةُ نُورِ الْجَسَدِ فِيهَا؛ بَابُ خَاتَمِ الْوَاحِدِ فِيهَا\nعَكْسُ وَعَلَامَةُ الصَّمَدِ فِيهَا؛ عَلَى مِفْتَاحِ الْوَحْدَانِيَّةِ",
+    "english": "The glass wherein the body's light resides; the door with the seal of the One,\nThe reflection and sign of the Eternal is upon it; on the key to Oneness."
+  },
+  {
+    "stanza": 188,
+    "kurdish_ar": "شەیخ گۆتە وان هوون ذاکرن؛ گوهداڕ علمێ زاهرن\nچڕا ژ مەعبود «ناکر»ن؛ داڤێنە سەر من قسسەتێ",
+    "kurmanji_lat": "şeyx gote wan hûn zakirin; guhdař ’ilmê zahirin\nçiřa ji me’bud «nakir»n; davêne ser min qissetê",
+    "arabic": "قَالَ لَهُمُ الشَّيْخُ: أَنْتُمْ ذَاكِرُونَ؛ وَمُسْتَمِعُونَ لِلْعِلْمِ الظَّاهِرِ\nلِمَاذَا تُنْكِرُونَ الْمَعْبُودَ؛ وَتُلْقُونَ عَلَيَّ الْمَلَامَةَ وَالْقِصَّةَ؟",
+    "english": "The sheikh told them, \"You are rememberers, listeners of outward knowledge,\nWhy do you deny the Worshipped One, and cast the blame of this tale upon me?\""
+  },
+  {
+    "stanza": 189,
+    "kurdish_ar": "خەلقنۆ قسان مەگرن ژ من؛ ب قودرەتا شاهێ مەزن\nمەوجەک ژ بەحرا «لم یکن»؛ نا یێتە دەر بێ مەشیەتێ",
+    "kurmanji_lat": "xelqino qisan megirin ji min; bi qudreta şahê mezin\nmewcek ji beḧra «lim yikin»; na yête der bê meşyetê",
+    "arabic": "أَيُّهَا النَّاسُ لَا تَلُومُونِي بِالْقَوْلِ؛ فَبِقُدْرَةِ الْمَلِكِ الْعَظِيمِ\nمَوْجَةٌ مِنْ بَحْرِ العَدَمِ؛ لَا تَخْرُجُ دُونَ مَشِيئَتِهِ",
+    "english": "O people, do not lay blame upon me; by the power of the Great King,\nNot a wave from the sea of non-existence emerges without His will."
+  },
+  {
+    "stanza": 190,
+    "kurdish_ar": "بێ مەشیەتا میر نابتن؛ حەتتا کو تەقدیر نابتن\nقسمەت بێ تەدبیر نابتن؛ زێدە ژ مقدارێ نەتێ",
+    "kurmanji_lat": "bê meşyeta mîr nabtin; ḧetta ku teqdîr nabtin\nqismet bê tedbîr nabtin; zêde ji miqdarê netê",
+    "arabic": "دُونَ مَشِيئَةِ الْأَمِيرِ لَا يَكُونُ شَيْءٌ؛ حَتَّى يَكُونَ هُنَاكَ تَقْدِيرٌ\nوَالْقِسْمَةُ لَا تَكُونُ بِدُونِ تَدْبِيرٍ؛ وَلَا يَأْتِي أَكْثَرُ مِنَ الْمِقْدَارِ الْمُقَدَّرِ",
+    "english": "Without the Prince's will, nothing occurs, unless it is preordained,\nPortions are not dealt without His design; nothing exceeds its allotted measure."
+  },
+  {
+    "stanza": 191,
+    "kurdish_ar": "هێژ قەت نەبوون دەریا و بەڕ؛ باخۆی نڤیسین خەیر و شەڕ\nموهر و بەرات و نەفع و زەڕ؛ خەلقنۆ ژ وێ ب سەر مە تێ",
+    "kurmanji_lat": "hêj qet nebûn derya û beř; baxoy nivîsîn xeyr û şeř\nmuhir û berat û nefi’ û zeř; xelqino ji wê bi ser me tê",
+    "arabic": "قَبْلَ أَنْ تُوجَدَ الْبِحَارُ وَالْيَابِسَةُ؛ كَتَبَ صَاحِبُ الْأَمْرِ الْخَيْرَ وَالشَّرَّ\nالْخَتْمُ وَالْبَرَاءَةُ وَالنَّفْعُ وَالضَّرَرُ؛ أَيُّهَا النَّاسُ، مِنْ ذَلِكَ يَأْتِي عَلَيْنَا",
+    "english": "Before the seas and lands even existed, the Master inscribed both good and evil,\nThe seal, the decree, the benefit, and the harm; O people, it all descends upon us from there."
+  },
+  {
+    "stanza": 192,
+    "kurdish_ar": "هنگی قسە، هنگی شوغل؛ دەفتەر کرن رۆژا ئەول\nباخۆی بخوە موهر کر سجل؛ ئاڤێت بەراتا حوججەتێ",
+    "kurmanji_lat": "hingî qise, hingî şuẍil; defter kirin roja ewl\nbaxoy bixiwe muhir kir sicil; avêt berata ḧuccetê",
+    "arabic": "كُلُّ الْقَصَصِ، وَكُلُّ الْأَعْمَالِ؛ دُوِّنَتْ فِي الدَّفْتَرِ فِي الْيَوْمِ الْأَوَّلِ\nوَصَاحِبُ الْأَمْرِ بِنَفْسِهِ خَتَمَ السِّجِلَّ؛ وَأَصْدَرَ بَرَاءَةَ الْحُجَّةِ",
+    "english": "Every tale and every deed was recorded in the ledger on the very first day,\nThe Master Himself sealed the register and issued the decree of proof."
+  },
+  {
+    "stanza": 193,
+    "kurdish_ar": "حەمیان قەلەم هنگافت ژ بۆ؛ هەم شاد و غەم، هەم نیک و نوو\nفیلحال قەلەم حشکبوو و چوو؛ هووربوو ل سەر کتابەتێ",
+    "kurmanji_lat": "ḧemyan qelem hingafit ji bo; hem şad û ẍem, hem nîk û nû\nfîlḧal qelem ḧişkibû û çû; hûrbû li ser kitabetê",
+    "arabic": "ضَرَبَ الْقَلَمُ لِلْجَمِيعِ؛ لِلْفَرَحِ وَالْحُزْنِ، لِلْخَيْرِ وَالْجَدِيدِ\nوَفِي الْحَالِ جَفَّ الْقَلَمُ وَمَضَى؛ وَانْكَسَرَ عَلَى الْكِتَابَةِ",
+    "english": "The pen struck for all destinies; for joy and sorrow, for the good and the new,\nInstantly the pen ran dry and passed; it broke upon the writing."
+  },
+  {
+    "stanza": 194,
+    "kurdish_ar": "ژ پاشی ڤان کتابەتان؛ درێژ مەکن عبارەتان\nهوون سەح بکن ئشارەتان؛ دوورین ژ حال و حکمەتێ",
+    "kurmanji_lat": "ji paşî van kitabetan; dirêj mekin ’ibaretan\nhûn seḧ bikin işaretan; dûrîn ji ḧal û ḧikmetê",
+    "arabic": "بَعْدَ هَذِهِ الْكِتَابَاتِ؛ لَا تُطِيلُوا فِي الْعِبَارَاتِ\nتَأَمَّلُوا فِي الْإِشَارَاتِ؛ فَنَحْنُ بَعِيدُونَ عَنِ الْحَالِ وَالْحِكْمَةِ",
+    "english": "After these writings are set, do not prolong your phrases,\nPay attention to the signs; we are far from understanding the state and wisdom."
+  },
+  {
+    "stanza": 195,
+    "kurdish_ar": "ڤێ حالەکێ کوور تێ هەیە؛ دووربینەکێ دوور تێ هەیە\nپوڕ مەتنەکێ هوور تێ هەیە؛ سۆفی نزانن وێ خەتێ",
+    "kurmanji_lat": "vê ḧalekê kûr tê heye; dûrbînekê dûr tê heye\npuř metnekê hûr tê heye; sofî nizanin wê xetê",
+    "arabic": "فِي هَذَا حَالَةٌ عَمِيقَةٌ؛ وَفِيهِ بُعْدُ نَظَرٍ بَعِيدٌ\nوَفِيهِ مَتْنٌ دَقِيقٌ جِدًّا؛ وَالصُّوفِيَّةُ لَا يَعْرِفُونَ ذَلِكَ الْخَطَّ",
+    "english": "There is a deep state within this, a far-reaching vision,\nA very subtle text resides in it; the Sufis cannot read that script."
+  },
+  {
+    "stanza": 196,
+    "kurdish_ar": "کاغەدێ حەرفێ دڕەش تێ؛ موهر و مزگینێ دخوەش تێ\nگەشت و سەیرانێ بوهەشتێ؛ بێ کچێ شەیخ ناڕەتێ",
+    "kurmanji_lat": "kaẍedê ḧerfê diřeş tê; muhir û mizgînê dixiweş tê\ngeşt û seyranê buheştê; bê kiçê şeyx nařetê",
+    "arabic": "وَرَقَةٌ حُرُوفُهَا سَوْدَاءُ فِيهَا؛ خَتْمٌ وَبُشْرَى سَارَّةٌ فِيهَا\nتَنَزُّهٌ وَرِحْلَةٌ فِي الْجَنَّةِ؛ مِنْ دُونِ الْفَتَاةِ، لَا يَذْهَبُ الشَّيْخُ إِلَيْهَا",
+    "english": "A paper bearing black letters, a seal and a joyful tiding within,\nStrolling and wandering in Paradise; without the maiden, the sheikh will not go."
+  },
+  {
+    "stanza": 197,
+    "kurdish_ar": "بێ ئسم و جسمێ دلبەرێ؛ چبکم ب ئاڤا کەوسەرێ\nدێ ئختیار کم سەقەرێ؛ نار خۆشترە ژ ڤێ فرقەتێ",
+    "kurmanji_lat": "bê isim û cismê dilberê; çibkim bi ava kewserê\ndê ixtyar kim seqerê; nar xoştire ji vê firqetê",
+    "arabic": "مِنْ دُونِ اسْمِ وَجَسَدِ الْحَبِيبَةِ؛ مَاذَا أَفْعَلُ بِمَاءِ الْكَوْثَرِ؟\nسَأَخْتَارُ جَهَنَّمَ (سَقَرَ)؛ فَالنَّارُ أَطْيَبُ مِنْ هَذِهِ الْفُرْقَةِ",
+    "english": "Without the name and body of the beloved, what use is the water of Kawthar to me?\nI would rather choose the fires of Hell, for flames are sweeter than this separation."
+  },
+  {
+    "stanza": 198,
+    "kurdish_ar": "نارێ فراقا سەرتەمێ؛ واسل دبی د جەهنەمێ\nئاگر دچیتە عەدەمێ؛ ئەسلا برووسکەک ژێ نەتێ",
+    "kurmanji_lat": "narê firaqa sertemê; wasil dibî di cehnemê\nagir diçîte ’edemê; esla birûskek jê netê",
+    "arabic": "نَارُ الْفُرْقَةِ الشَّدِيدَةِ؛ حِينَ تَصِلُ إِلَى جَهَنَّمَ\nيَذْهَبُ لَهِيبُهَا إِلَى الْعَدَمِ؛ وَلَا تَصْدُرُ مِنْهَا وَلَا شَرَارَةٌ وَاحِدَةٌ",
+    "english": "The supreme fire of separation, when it touches Hell,\nReduces its flames to nothingness; not a single spark would remain."
+  },
+  {
+    "stanza": 199,
+    "kurdish_ar": "خەلقنۆ جهێ ناڤ لێ جەحیم؛ ب بەرەکەتا یارێ حەلیم\nدێ بیتە جەنناتوننەعیم؛ ژ بهن و بخوورا جەننەتێ",
+    "kurmanji_lat": "xelqino cihê nav lê ceḧîm; bi bereketa yarê ḧelîm\ndê bîte cennatunne’îm; ji bihin û bixûra cennetê",
+    "arabic": "أَيُّهَا النَّاسُ، الْمَكَانُ الْمُسَمَّى بِالْجَحِيمِ؛ بِبَرَكَةِ الْحَبِيبِ الْحَلِيمِ\nسَيُصْبِحُ جَنَّاتِ النَّعِيمِ؛ مِنْ عِطْرِ وَبَخُورِ الْجَنَّةِ",
+    "english": "O people, the place called Hell, by the blessing of the gentle beloved,\nWill become the Gardens of Delight, filled with the scent and incense of Paradise."
+  },
+  {
+    "stanza": 200,
+    "kurdish_ar": "شەیخ گۆ: ب فەزلا مەککەهێ؛ ناکم تەسەل بێ روومەهێ\nئەر جەننتێ، ئەر دۆژەهێ؛ هەرچی جیا یار هەڕەتێ",
+    "kurmanji_lat": "şeyx go: bi fezla mekkehê; nakim tesel bê rûmehê\ner cennitê, er dojehê; herçî cya yar heřetê",
+    "arabic": "قَالَ الشَّيْخُ: بِفَضْلِ مَكَّةَ؛ لَا أَتَسَلَّى بِدُونِ ذَاتِ الْوَجْهِ القَمَرِيِّ\nسَوَاءٌ إِلَى الْجَنَّةِ، أَوْ إِلَى النَّارِ؛ سَأَذْهَبُ أَيْنَمَا ذَهَبَتِ الْحَبِيبَةُ",
+    "english": "The sheikh said, \"By the grace of Mecca, I find no comfort without the moon-faced one,\nBe it to Heaven or to Hell, wherever my beloved goes, I shall follow.\""
+  },
+  {
+    "stanza": 201,
+    "kurdish_ar": "سۆفی دبێن یا ئەلڵەهە؛ شەیخ ئختیار کر دۆژەهە\nتابع ببن چ تێ نەهە؛ لاحق ببن د حرقەتێ",
+    "kurmanji_lat": "sofî dibên ya elłehe; şeyx ixtyar kir dojehe\ntabi’ bibin çi tê nehe; laḧq bibin di ḧirqetê",
+    "arabic": "يَقُولُ الصُّوفِيَّةُ: يَا اللَّهُ؛ لَقَدِ اخْتَارَ الشَّيْخُ جَهَنَّمَ\nفَلْنَتْبَعْهُ فَلَا حِيلَةَ؛ فَلْنَلْحَقْ بِهِ فِي هَذِهِ الْحُرْقَةِ",
+    "english": "The Sufis cried, \"O God! The sheikh has chosen Hell!\nLet us follow him, there is no other way, let us join him in the burning.\""
+  },
+  {
+    "stanza": 202,
+    "kurdish_ar": "شەیخێ مە حال لاحق بوویە؛ دێوانە و عاشق بوویە\nگەر چ ژ بال خالق بوویە؛ جەزبا فەقەت بکێر نەتێ",
+    "kurmanji_lat": "şeyxê me ḧal laḧq bûye; dêwane û ’aşiq bûye\nger çi ji bal xalq bûye; cezba feqet bikêr netê",
+    "arabic": "شَيْخُنَا قَدْ لَحِقَ بِهِ الْحَالُ؛ فَأَصْبَحَ مَجْنُونًا وَعَاشِقًا\nوَرَغْمَ أَنَّ هَذَا مِنْ عِنْدِ الْخَالِقِ؛ إِلَّا أَنَّ الْجَذْبَةَ وَحْدَهَا لَا تَكْفِي",
+    "english": "A spiritual state has overtaken our sheikh; he has become mad and in love.\nEven if this comes from the Creator, mere divine attraction is not enough without action."
+  },
+  {
+    "stanza": 203,
+    "kurdish_ar": "جەزبا فەقەت پەیدا بتن؛ هنگی ب شەیخ ڕا مابتن\nبێ مەستە رەهبەر نابتن؛ بێ ئاگەهە ژ تەربییەتێ",
+    "kurmanji_lat": "cezba feqet peyda bitin; hingî bi şeyx řa mabtin\nbê meste rehber nabtin; bê agehe ji terbîyetê",
+    "arabic": "إِذَا حَصَلَتِ الْجَذْبَةُ فَقَطْ؛ وَبَقِيَتْ مَعَ الشَّيْخِ حِينَذَاكٍ\nفَلَا يُمْكِنُ أَنْ يَكُونَ دَلِيلًا وَهُوَ ثَمِلٌ؛ فَهُوَ غَائِبٌ عَنِ التَّرْبِيَةِ وَالْإِرْشَادِ",
+    "english": "If only spiritual ecstasy takes hold, and remains with the sheikh,\nHe cannot be a guide while intoxicated; he is unaware of how to guide others."
+  },
+  {
+    "stanza": 204,
+    "kurdish_ar": "شەیخ عاشقە بێ ئاگەهە؛ قەت های ژ حالێ مە نەهە\nنایێت بکێر شەیخێ وەهە؛ ژێ سەح بکەین تەریقەتێ",
+    "kurmanji_lat": "şeyx ’aşiqe bê agehe; qet hay ji ḧalê me nehe\nnayêt bikêr şeyxê wehe; jê seḧ bikeyn terîqetê",
+    "arabic": "الشَّيْخُ عَاشِقٌ غَائِبٌ عَنِ الْوَعْيِ؛ لَيْسَ لَدَيْهِ أَيُّ عِلْمٍ بِحَالِنَا\nشَيْخٌ كَهَذَا لَا يَنْفَعُ؛ لِنَأْخُذَ مِنْهُ الطَّرِيقَةَ",
+    "english": "The sheikh is a lover, lost in unawareness; he has no notion of our state.\nA sheikh like this is of no use for us to learn the spiritual path from him."
+  },
+  {
+    "stanza": 205,
+    "kurdish_ar": "مەجنون سفەت نایێت بکێر؛ مەجزوب بوویە ئەڤ پیرەمێر\nشەیخێ مە وو ناقۆس و دێر ؟!؛ ژ بۆ حوججەتا تەرکییەتێ",
+    "kurmanji_lat": "mecnun sifet nayêt bikêr; meczub bûye ev pîremêr\nşeyxê me wu naqos û dêr ?!; ji bo ḧucceta terkîyetê",
+    "arabic": "صِفَةُ الْمَجْنُونِ لَا تَنْفَعُ؛ فَهَذَا الشَّيْخُ الْهَرِمُ أَصْبَحَ مَجْذُوبًا\nشَيْخُنَا وَالنَّاقُوسُ وَالدَّيْرُ؟!؛ هَذِهِ حُجَّةٌ لِتَرْكِهِ وَهَجْرِهِ",
+    "english": "The state of a madman is useless; this old man has become purely enraptured.\nOur sheikh, with the church bell and monastery?! It is proof enough to abandon him."
+  },
+  {
+    "stanza": 206,
+    "kurdish_ar": "حەتتا نوها چ تێ هەبوو؛ غیرەت کەشی حەققێ مەبوو\nڤێجار قسە بێ لەومە بوو؛ ئازا بووین ژ لەومەتێ",
+    "kurmanji_lat": "ḧetta nuha çi tê hebû; ẍîret keşî ḧeqqê mebû\nvêcar qise bê lewme bû; aza bûyn ji lewmetê",
+    "arabic": "حَتَّى الْآنَ مَاذَا كَانَ فِيهِ؟؛ كَانَ لَنَا حَقُّ الْغَيْرَةِ عَلَيْهِ\nهَذِهِ الْمَرَّةَ الْكَلَامُ بِلَا مَلَامَةٍ؛ لَقَدْ تَحَرَّرْنَا مِنَ اللَّوْمِ",
+    "english": "Until now, whatever happened, we had the right to feel zeal and defend him.\nBut this time, the matter is beyond excuse; we are free from blame in leaving him."
+  },
+  {
+    "stanza": 207,
+    "kurdish_ar": "غیرەت کەشان نێت غەییراند؛ وان سۆفیان شەیخ هەججراند\nحەمیان ل دێرێ شەممراند؛ مەجروح دلی شاقس کەتێ",
+    "kurmanji_lat": "ẍîret keşan nêt ẍeyîrand; wan sofyan şeyx heccirand\nḧemyan li dêrê şemmirand; mecruḧ dilî şaqis ketê",
+    "arabic": "أَصْحَابُ الْغَيْرَةِ غَيَّرُوا نِيَّتَهُمْ؛ وَهَؤُلَاءِ الصُّوفِيَّةُ هَجَرُوا الشَّيْخَ\nوَجَمِيعُهُمْ نَفَرُوا مِنَ الدَّيْرِ؛ مُجَرَّحِي الْقُلُوبِ، تَرَكُوهُ شَاخِصًا",
+    "english": "The zealous ones changed their minds; those Sufis abandoned the sheikh.\nThey all fled from the monastery; brokenhearted, leaving him bewildered."
+  },
+  {
+    "stanza": 208,
+    "kurdish_ar": "ئەو سۆفیێد دین موحکەما؛ جەمعییەتێ لێ بوون جەما\nیەک هەڤرییەک ڤێڕا نەما؛ رابوونە سەر وداعەتێ",
+    "kurmanji_lat": "ew sofyêd dîn muḧkema; cem’îyetê lê bûn cema\nyek hevrîyek vêřa nema; rabûne ser wida’etê",
+    "arabic": "أُولَئِكَ الصُّوفِيَّةُ ذَوُو الدِّينِ الرَّاسِخِ؛ تَجَمَّعُوا هُنَاكَ كَجَمَاعَةٍ\nوَلَمْ يَبْقَ مَعَهُ رَفِيقٌ وَاحِدٌ؛ وَقَامُوا لِتَوْدِيعِهِ",
+    "english": "Those Sufis of steadfast faith, gathered together as one group,\nNot a single companion remained with him; they arose to bid their farewells."
+  },
+  {
+    "stanza": 209,
+    "kurdish_ar": "سۆفی حەمی رابوون ژ بال؛ هشتن ل وێ ئەو پیرە کال\nحەمیان ل سەر دینێ بەتال؛ وان بێ حساب کەرب ژێڤەتێ",
+    "kurmanji_lat": "sofî ḧemî rabûn ji bal; hiştin li wê ew pîre kal\nḧemyan li ser dînê betal; wan bê ḧisab kerb jêvetê",
+    "arabic": "قَامَ جَمِيعُ الصُّوفِيَّةِ مِنْ جَانِبِهِ؛ وَتَرَكُوا ذَلِكَ الشَّيْخَ الْهَرِمَ هُنَاكَ\nرَأَوْهُ جَمِيعًا عَلَى دِينٍ بَاطِلٍ؛ وَامْتَلَأَتْ قُلُوبُهُمْ بِغَضَبٍ لَا حَصْرَ لَهُ عَلَيْهِ",
+    "english": "All the Sufis rose from his side, leaving that aged old man behind.\nThey all saw him following a false religion, and they felt immeasurable anger towards him."
+  },
+  {
+    "stanza": 210,
+    "kurdish_ar": "هەمیان ڤەبوون ژێ کەرب و کین؛ دەربوون ژ چەهڤان ئاڤ و خوین\nتالان کرن یا خاچ حەبین؛ زەربا غەزالان ڤێکەتێ",
+    "kurmanji_lat": "hemyan vebûn jê kerb û kîn; derbûn ji çehvan av û xwîn\ntalan kirin ya xaç ḧebîn; zerba ẍezalan vêketê",
+    "arabic": "كُلُّهُمْ أَظْهَرُوا لَهُ الْغَضَبَ وَالْحِقْدَ؛ وَذَرَفَتْ عُيُونُهُمُ الدَّمْعَ وَالدَّمَ\nلَقَدْ نَهَبَتْ حَامِلَةُ الصَّلِيبِ كُلَّ شَيْءٍ؛ وَأَصَابَتْهُمْ ضَرْبَةُ الْغِزْلَانِ",
+    "english": "All turned away from him with anger and resentment; tears and blood flowed from their eyes.\nThe cross-wearing maiden had plundered everything; the strike of the gazelles had hit them."
+  },
+  {
+    "stanza": 211,
+    "kurdish_ar": "کێ دی غەزال شێران گرن؛ بەتلان ژ ناڤ مێران گرن\nشەیخان د نێڤ دێران گرن؛ قوتبان ژ خەلقێ ئوممەتێ",
+    "kurmanji_lat": "kê dî ẍezal şêran girin; betlan ji nav mêran girin\nşeyxan di nêv dêran girin; qutban ji xelqê ummetê",
+    "arabic": "مَنْ رَأَى غِزْلَانًا تَصْطَادُ الْأُسُودَ؛ وَتَأْسِرُ الْأَبْطَالَ مِنْ بَيْنِ الرِّجَالِ\nوَتَأْسِرُ الشُّيُوخَ فِي الْأَدْيِرَةِ؛ وَالْأَقْطَابَ مِنْ بَيْنِ أَبْنَاءِ الْأُمَّةِ!",
+    "english": "Who has seen gazelles capture lions, and take champions from among men?\nCapturing sheikhs within monasteries, and taking the poles (Qutbs) from the people of the Ummah!"
+  },
+  {
+    "stanza": 212,
+    "kurdish_ar": "ئەو مورشدێ قەنج موستەعید؛ ئێ دل ژ عشقێ بوو قەدید\nژ هەڤرییان مایی وەحید؛ چوو مەوزعێ سەلامەتێ",
+    "kurmanji_lat": "ew murişdê qenc muste’îd; ê dil ji ’işqê bû qedîd\nji hevrîyan mayî weḧîd; çû mewzi’ê selametê",
+    "arabic": "ذَلِكَ الْمُرْشِدُ الصَّالِحُ وَالْمُسْتَعِدُّ؛ الَّذِي تَمَزَّقَ قَلْبُهُ مِنَ الْعِشْقِ\nبَقِيَ وَحِيدًا بِدُونِ رِفَاقٍ؛ وَذَهَبَ إِلَى مَوْضِعِ السَّلَامَةِ",
+    "english": "That good and ready guide, whose heart was torn apart by love,\nRemained alone without his companions, and retreated to a place of safety."
+  },
+  {
+    "stanza": 213,
+    "kurdish_ar": "حەتتا کو شەیخ هەڤال هەبوون؛ دەعوا ئو قیل و قال هەبوون\nهەڕۆژ هزار خیال هەبوون؛ ژ هەڤرییان ناگەهـ کەتێ",
+    "kurmanji_lat": "ḧetta ku şeyx heval hebûn; de’wa u qîl û qal hebûn\nheřoj hizar xyal hebûn; ji hevrîyan nageh ketê",
+    "arabic": "طَالَمَا كَانَ لِلشَّيْخِ أَصْدِقَاءٌ؛ كَانَتْ هُنَاكَ دَعَاوَى وَقِيلٌ وَقَالٌ\nوَفِي كُلِّ يَوْمٍ كَانَتْ هُنَاكَ أَلْفُ خَيَالٍ؛ فَانْفَصَلَ عَنْ رِفَاقِهِ فَجْأَةً",
+    "english": "As long as the sheikh had companions, there were disputes, and much talk and gossip.\nEvery day brought a thousand thoughts; suddenly, he fell away from his friends."
+  },
+  {
+    "stanza": 214,
+    "kurdish_ar": "بازگیر دڤێ یەک فەر بتن؛ خەفتی ژ عامێ دەربتن\nتەیفون د گوڕیێ وەربتن؛ ب ڤێ مسال و نسبەتێ",
+    "kurmanji_lat": "bazgîr divê yek fer bitin; xeftî ji ’amê derbitin\nteyfun di guřyê werbitin; bi vê misal û nisbetê",
+    "arabic": "صَائِدُ الصُّقُورِ يَجِبُ أَنْ يَكُونَ فَرْدًا؛ لِيَخْرُجَ مُخْتَفِيًا عَنِ الْعَامَّةِ\nوَيَتَقَلَّبَ مِثْلَ الطُّيُورِ فِي الْوُعُورَةِ؛ بِهَذَا الْمِثَالِ وَهَذِهِ النِّسْبَةِ",
+    "english": "The falconer must be solitary, slipping away unnoticed from the crowd,\nTossing like a bird in the steep rocks; with this example and proportion."
+  },
+  {
+    "stanza": 215,
+    "kurdish_ar": "ئەو مورشدێ ناڤ ددنێ؛ حەتتا نەما فکرەک تنێ\nناگهان گەهان دێر مەزنێ؛ بابێ خەزینا حاجەتێ",
+    "kurmanji_lat": "ew murişdê nav didnê; ḧetta nema fikirek tinê\nnaghan gehan dêr meznê; babê xezîna ḧacetê",
+    "arabic": "ذَلِكَ الْمُرْشِدُ الْمَشْهُورُ فِي الدُّنْيَا؛ حَتَّى لَمْ تَبْقَ لَدَيْهِ فِكْرَةٌ وَاحِدَةٌ\nفَجْأَةً وَصَلَ إِلَى الدَّيْرِ الْكَبِيرِ؛ وَإِلَى بَابِ خَزِينَةِ الْحَاجَاتِ",
+    "english": "That guide renowned in the world, until not a single thought remained in him,\nSuddenly arrived at the great monastery, at the door of the treasury of needs."
+  },
+  {
+    "stanza": 216,
+    "kurdish_ar": "بابێ خەزینا موهر ل سەر؛ شەیخ ئەژدها ئاڤێتە بەر\nدێم دوڕ ژ دێرێ هاتە دەر؛ ئکرام کرە کالێ کەتێ",
+    "kurmanji_lat": "babê xezîna muhir li ser; şeyx ejdiha avête ber\ndêm duř ji dêrê hate der; ikiram kire kalê ketê",
+    "arabic": "بَابُ الْخَزِينَةِ الْمَخْتُومَةِ؛ أَلْقَى الشَّيْخُ نَفْسَهُ أَمَامَهَا كَالتِّنِّينِ\nفَخَرَجَتْ ذَاتُ الْوَجْهِ الدُّرِّيِّ مِنَ الدَّيْرِ؛ وَأَكْرَمَتِ الشَّيْخَ الَّذِي سَقَطَ",
+    "english": "The door of the sealed treasury, the sheikh threw himself before it like a dragon.\nThe pearl-faced one emerged from the monastery, and showed honor to the fallen old man."
+  },
+  {
+    "stanza": 217,
+    "kurdish_ar": "ئکرام کر دۆهتا گورجیان؛ شەیخێ نەخۆش رابوو پیان\nژ بەر کچێ و هەڤرییان؛ مەیلێ کشاندە خزمەتێ",
+    "kurmanji_lat": "ikiram kir dohta gurcyan; şeyxê nexoş rabû pyan\nji ber kiçê û hevrîyan; meylê kişande xizmetê",
+    "arabic": "أَكْرَمَتْهُ الْفَتَاةُ الْجُورْجِيَّةُ؛ فَنَهَضَ الشَّيْخُ الْمَرِيضُ عَلَى قَدَمَيْهِ\nوَمِنْ أَجْلِ الْفَتَاةِ وَالرِّفَاقِ؛ مَالَ بِرَغْبَتِهِ نَحْوَ الْخِدْمَةِ",
+    "english": "The Georgian maiden honored him; the sick sheikh rose to his feet.\nFor the sake of the girl and his absent friends, he drew his inclination towards serving."
+  },
+  {
+    "stanza": 218,
+    "kurdish_ar": "مەیلا حەبیبان دلبەرە؛ قامەت نەیا لەب شەکەرە\nپورسین ژ شەیخ چەند خەبەرە؛ دێ ژکووڤە چی، تو ژ کووڤە تێ؟",
+    "kurmanji_lat": "meyla ḧebîban dilbere; qamet neya leb şekere\npursîn ji şeyx çend xebere; dê jikûve çî, tu ji kûve tê?",
+    "arabic": "مَيْلُ الْأَحِبَّةِ هُوَ لِلْحَبِيبَةِ؛ ذَاتِ الْقَامَةِ كَالْقَصَبِ وَالشِّفَاهِ كَالسُّكَّرِ\nفَسَأَلَتِ الشَّيْخَ عِدَّةَ أَسْئِلَةٍ: إِلَى أَيْنَ تَذْهَبُ، وَمِنْ أَيْنَ أَتَيْتَ؟",
+    "english": "The inclination of lovers is for the beloved, she of the reed-like stature and sugar lips.\nShe asked the sheikh some questions: \"Where are you going, and where do you come from?\""
+  },
+  {
+    "stanza": 219,
+    "kurdish_ar": "تو ژ کووڤەتێ یا ڕهـ سپی؛ نەدبوو ژ هاڤالان ڤەبی\nرەنگە تە ژی عشقەک هەبی؛ بهنا بووا مسکا تەتێ",
+    "kurmanji_lat": "tu ji kûvetê ya řih sipî; nedbû ji havalan vebî\nrenge te jî ’işqek hebî; bihna buwa miska tetê",
+    "arabic": "مِنْ أَيْنَ تَأْتِي أَيُّهَا ذُو اللِّحْيَةِ الْبَيْضَاءِ؟؛ لَمْ يَكُنْ يَنْبَغِي لَكَ أَنْ تَنْفَصِلَ عَنْ رِفَاقِكَ\nرُبَّمَا تَكُونُ أَنْتَ أَيْضًا عَاشِقًا؛ فَرَائِحَةُ مِسْكِكَ تَفُوحُ هُنَا",
+    "english": "Where do you come from, O white-bearded one? You should not have parted from your friends.\nPerhaps you too are suffering from love; the scent of your musk reaches here."
+  },
+  {
+    "stanza": 220,
+    "kurdish_ar": "شەیخ گۆتە وێ بێ شک وەبوو؛ نافە بخوە قەلبێ مەبوو\nئەو ئەسەرا مسکا تەبوو؛ لەو زاهری بهن ژ مەتێ",
+    "kurmanji_lat": "şeyx gote wê bê şik webû; nafe bixiwe qelbê mebû\new esera miska tebû; lew zahrî bihin ji metê",
+    "arabic": "قَالَ لَهَا الشَّيْخُ: بِلَا شَكٍّ هَذَا مَا حَدَثَ؛ لَقَدْ كَانَ قَلْبُنَا بِنَفْسِهِ غُدَّةَ الْمِسْكِ\nوَهَذَا مِنْ أَثَرِ مِسْكِكِ أَنْتِ؛ وَلِذَلِكَ ظَهَرَتِ الرَّائِحَةُ مِنَّا",
+    "english": "The sheikh told her, \"Without a doubt, it is so; our heart itself was the musk pod.\nIt was the effect of your musk; that is why this scent emanates from us.\""
+  },
+  {
+    "stanza": 221,
+    "kurdish_ar": "مسکا تە ئەز رەنگ زەر کرم؛ حوببا تە ئەز ئەبتەر کرم\nپێچام ددێرێ وەرکرم؛ ئینامە سەر ڤێ حالەتێ",
+    "kurmanji_lat": "miska te ez reng zer kirim; ḧubba te ez ebter kirim\npêçam didêrê werkirim; îname ser vê ḧaletê",
+    "arabic": "مِسْكُكِ جَعَلَ لَوْنِي أَصْفَرَ؛ وَحُبُّكِ قَطَعَنِي وَأَهْلَكَنِي\nلَفَّنِي فِي الدَّيْرِ وَأَدَارَنِي؛ وَأَوْصَلَنِي إِلَى هَذِهِ الْحَالَةِ",
+    "english": "Your musk has turned my color yellow; your love has left me ruined and bereft.\nIt wrapped me in the monastery and spun me around; it brought me to this state.\""
+  },
+  {
+    "stanza": 222,
+    "kurdish_ar": "شەیخ گۆ: تە ئەز بەدحال کرم؛ بێ هەڤری یۆ هەڤال کرم\nحوببا تە ئێمچی نال کرم؛ ب چاکووچ و گازا موحبەتێ",
+    "kurmanji_lat": "şeyx go: te ez bedḧal kirim; bê hevrî yo heval kirim\nḧubba te êmçî nal kirim; bi çakûç û gaza muḧbetê",
+    "arabic": "قَالَ الشَّيْخُ: لَقَدْ سَاءَتْ حَالَتِي بِسَبَبِكِ؛ وَجَعَلْتِنِي بِلَا رَفِيقٍ وَلَا صَدِيقٍ\nحُبُّكِ سَمَّرَنِي كَحَدْوَةِ الْخَيْلِ؛ بِمِطْرَقَةِ وَكَمَّاشَةِ الْمَحَبَّةِ",
+    "english": "The sheikh said: \"You have put me in a wretched state; you left me without a comrade or a friend.\nYour love has nailed me like a horseshoe, with the hammer and tongs of affection.\""
+  },
+  {
+    "stanza": 223,
+    "kurdish_ar": "گرتم ب گازێ گڤشیم؛ باتن د خوونێ شەووشیم\nزاهر برین لێ هەررشیم؛ پەحتم چرایا حەزرەتێ",
+    "kurmanji_lat": "girtim bi gazê givşîm; batin di xûnê şewwişîm\nzahir birîn lê herirşîm; peḧtim çiraya ḧezretê",
+    "arabic": "أَمْسَكَنِي بِالْكَمَّاشَةِ وَعَصَرَنِي؛ فِي الْبَاطِنِ اخْتَلَطْتُ بِالدِّمَاءِ\nظَاهِرِي جُرُوحٌ تَنْزِفُ عَلَيَّ؛ أَحْرَقَنِي مِصْبَاحُ الْحَضْرَةِ",
+    "english": "He grabbed and squeezed me with pincers; inwardly I was mixed in blood,\nOutwardly my wounds poured upon me; the lamp of His Presence roasted me."
+  },
+  {
+    "stanza": 224,
+    "kurdish_ar": "پەحتم غەزالا چاڤ غوراب؛ حوببا تە ئەز کرمە کەباب\nسۆهتم برشتم بێ حساب؛ بەرقا عیونان ڤێکەتێ",
+    "kurmanji_lat": "peḧtim ẍezala çav ẍurab; ḧubba te ez kirme kebab\nsohtim biriştim bê ḧisab; berqa ’îwnan vêketê",
+    "arabic": "أَحْرَقَتْنِي الْغَزَالَةُ ذَاتُ الْعُيُونِ الْغُرَابِيَّةِ؛ حُبُّكِ جَعَلَنِي كَالْمَشْوِيِّ\nأَحْرَقَتْنِي وَشَوَتْنِي بِلَا حِسَابٍ؛ لَمَّا أَصَابَنِي بَرْقُ الْعُيُونِ",
+    "english": "The gazelle with raven-black eyes roasted me; your love made me a burnt offering,\nI was burned and roasted without measure, as the lightning of her eyes struck."
+  },
+  {
+    "stanza": 225,
+    "kurdish_ar": "هەردو عیونان بەرق ڤەدا؛ ژ بورجا کەڤانێ ئەسوەدا\nتیرەک ل مێلاکا مەدا؛ حەتتا قیام ژێ دەرنەتێ",
+    "kurmanji_lat": "herdu ’îwnan berq veda; ji burca kevanê esweda\ntîrek li mêlaka meda; ḧetta qyam jê dernetê",
+    "arabic": "أَصْدَرَتْ كِلْتَا الْعَيْنَيْنِ بَرْقًا؛ مِنْ بُرْجِ الْقَوْسِ الْأَسْوَدِ\nوَضَرَبَتْ سَهْمًا فِي كَبِدِي؛ لَنْ يَخْرُجَ مِنْهُ حَتَّى الْقِيَامَةِ",
+    "english": "Both her eyes flashed lightning, from the tower of her black brow,\nAn arrow struck deep into my liver, never to come out until the Resurrection."
+  },
+  {
+    "stanza": 226,
+    "kurdish_ar": "تەبعەت کوبارا ئەرمەنی؛ دێم خاوەرا خۆرشید ئەنی\nخۆش خۆش ب حالێ شەیخ کەنی؛ مەجنونەکێ ب دێرێ کەتێ",
+    "kurmanji_lat": "teb’et kubara ermenî; dêm xawera xorşîd enî\nxoş xoş bi ḧalê şeyx kenî; mecnunekê bi dêrê ketê",
+    "arabic": "ذَاتُ الطِّبَاعِ الْأَرْمَنِيَّةِ الْمُتَكَبِّرَةِ؛ وَجْهُهَا كَالْمَشْرِقِ وَجَبِينُهَا كَالشَّمْسِ\nضَحِكَتْ بِحَلَاوَةٍ عَلَى حَالِ الشَّيْخِ؛ هَذَا مَجْنُونٌ وَقَعَ فِي الدَّيْرِ",
+    "english": "With the proud nature of an Armenian; her face the East, her forehead the sun,\nSweetly she laughed at the Sheikh's condition; a madman has stumbled into the monastery!"
+  },
+  {
+    "stanza": 227,
+    "kurdish_ar": "مەجنونەکێ قەلەندەری؛ فەقیرەکێ رەنگ ئەبتەری\nنە ژ لاوەکێ گەردەن زەری؛ نە ژ جندیێ کچ بابەتێ",
+    "kurmanji_lat": "mecnunekê qelenderî; feqîrekê reng ebterî\nne ji lawekê gerden zerî; ne ji cindyê kiç babetê",
+    "arabic": "مَجْنُونٌ قَلَنْدَرِيٌّ مُتَشَرِّدٌ؛ فَقِيرٌ ذُو هَيْئَةٍ بَائِسَةٍ\nلَيْسَ بِشَابٍّ ذِي عُنُقٍ ذَهَبِيٍّ؛ وَلَا بِفَتًى وَسِيمٍ يَلِيقُ بِالْفَتَيَاتِ",
+    "english": "A wandering, dervish-like madman; a poor wretch of miserable appearance,\nNeither a youth with a golden neck, nor a handsome match fitting for a girl."
+  },
+  {
+    "stanza": 228,
+    "kurdish_ar": "نە ژ لاوەکێ بابەت ئەزی؛ نایێت ل تە ترهێ رەزی\nتاقەت نەهن سێڤان ب گەزی؛ ب ئەو فەمێ ژ کارکەتێ",
+    "kurmanji_lat": "ne ji lawekê babet ezî; nayêt li te tirhê rezî\ntaqet nehin sêvan bi gezî; bi ew femê ji karketê",
+    "arabic": "لَسْتَ شَابًّا يَلِيقُ بِي؛ وَلَا يُنَاسِبُكَ عِنَبُ كَرْمِي\nلَيْسَ لَدَيْكَ طَاقَةٌ لِعَضِّ التُّفَّاحِ؛ بِذَلِكَ الْفَمِ الَّذِي تَعَطَّلَ عَنِ الْعَمَلِ",
+    "english": "You are not a youth suitable for me; the grapes of my vineyard do not suit you,\nYou have no strength to bite the apples, with that mouth that has ceased to function."
+  },
+  {
+    "stanza": 229,
+    "kurdish_ar": "ب ئەو فەمێ ژ کاربوویی؛ کەفتارێ رەش رووکار بوویی\nژ بێ تاقەتی بێگار بوویی؛ ژ کوهنیێ بەر ئافەتێ",
+    "kurmanji_lat": "bi ew femê ji karbûyî; keftarê reş rûkar bûyî\nji bê taqetî bêgar bûyî; ji kuhnyê ber afetê",
+    "arabic": "بِذَلِكَ الْفَمِ الَّذِي فَقَدَ قُدْرَتَهُ؛ صِرْتَ كَضَبْعٍ أَسْوَدَ فِي الْمَظْهَرِ\nمِنْ قِلَّةِ حِيلَتِكَ أَصْبَحْتَ عَدِيمَ النَّفْعِ؛ وَمِنَ الشَّيْخُوخَةِ أَنْتَ عُرْضَةٌ لِلْآفَاتِ",
+    "english": "With that mouth no longer working; you have become like a dark-faced hyena,\nFrom lack of strength you are useless, from old age you face disaster."
+  },
+  {
+    "stanza": 230,
+    "kurdish_ar": "ژ کوهنیێ لێڤ شۆڕ بوویی؛ کەفتار و قامەت خوور بوویی\nئیرۆ تو ژی دەڤکوور بوویی؛ بۆری ژ بەحرا لەذذەتێ",
+    "kurmanji_lat": "ji kuhnyê lêv şoř bûyî; keftar û qamet xûr bûyî\nîro tu jî devkûr bûyî; borî ji beḧra lezzetê",
+    "arabic": "مِنَ الشَّيْخُوخَةِ تَدَلَّتْ شِفَاهُكَ؛ صِرْتَ كَالضَّبْعِ وَانْحَنَتْ قَامَتُكَ\nوَالْيَوْمَ أَصْبَحَ فَمُكَ غَائِرًا أَيْضًا؛ لَقَدْ تَجَاوَزْتَ بَحْرَ اللَّذَّاتِ",
+    "english": "From old age your lips are drooping; a hyena with a crooked stature,\nToday your mouth has sunken in; you have long passed the sea of pleasure."
+  },
+  {
+    "stanza": 231,
+    "kurdish_ar": "بۆری و بێ ئوسوول بوویی؛ ژ کوهنیێ مل خوول بوویی\nژ جوانیێ مەعزوول بوویی؛ ژ تاقەتا خۆ داکەتێ",
+    "kurmanji_lat": "borî û bê usûl bûyî; ji kuhnyê mil xûl bûyî\nji cwanyê me’zûl bûyî; ji taqeta xo daketê",
+    "arabic": "لَقَدْ مَضَيْتَ وَفَقَدْتَ قَوَامَكَ؛ وَمِنَ الشَّيْخُوخَةِ انْحَنَتْ أَكْتَافُكَ\nلَقَدْ عُزِلْتَ مِنْ مَنْصِبِ الشَّبَابِ؛ وَسَقَطْتَ مِنْ طَاقَتِكَ وَقُوَّتِكَ",
+    "english": "You have passed and lost your form; from old age your shoulders are hunched,\nYou have been dismissed from youth; you have fallen far from your strength."
+  },
+  {
+    "stanza": 232,
+    "kurdish_ar": "دلبەر دبێ: یا پیرە مێر؛ ژ کوهنیێ نایێ بکێر\nلەو هەڤرییان هشتی ل ئێر؛ بکێری بازاڕان نەتێ",
+    "kurmanji_lat": "dilber dibê: ya pîre mêr; ji kuhnyê nayê bikêr\nlew hevrîyan hiştî li êr; bikêrî bazařan netê",
+    "arabic": "تَقُولُ الْحَسْنَاءُ: أَيُّهَا الرَّجُلُ الْعَجُوزُ؛ مِنْ كِبَرِ سِنِّكَ لَمْ تَعُدْ نَافِعًا\nلِذَلِكَ تَرَكَكَ رِفَاقُكَ هُنَا؛ فَلَسْتَ صَالِحًا لِأَسْوَاقِ الْعِشْقِ",
+    "english": "The beauty says: \"O old man, from old age you are of no use,\nTherefore your companions left you here; you are no longer fit for the markets.\""
+  },
+  {
+    "stanza": 233,
+    "kurdish_ar": "دلبەر دبێ: یا مێر مەزن؛ ئیرۆ ژ تە تێتن کفن\nموحەممەدی ناخۆن ل من؛ ئەز عیسایی، تو سوننەتی",
+    "kurmanji_lat": "dilber dibê: ya mêr mezin; îro ji te têtin kifin\nmuḧemmedî naxon li min; ez ’îsayî, tu sunnetî",
+    "arabic": "تَقُولُ الْحَسْنَاءُ: أَيُّهَا الرَّجُلُ الْكَبِيرُ؛ الْيَوْمَ لَا يَلِيقُ بِكَ إِلَّا الْكَفَنُ\nأَتْبَاعُ مُحَمَّدٍ لَا يُنَاسِبُونَنِي؛ أَنَا عِيسَوِيَّةٌ وَأَنْتَ سُنِّيٌّ",
+    "english": "The beauty says: \"O elderly man, today only a shroud suits you,\nFollowers of Muhammad do not suit me; I am of Jesus, you are of the Sunnah.\""
+  },
+  {
+    "stanza": 234,
+    "kurdish_ar": "ژ ڤێ قسسەیێ ڤێک ناکەڤین؛ نە ژ مەزهەب و دینێ هەڤین\nمەقبولِ من نابت ئەڤین؛ حوببا ب ڤێ جەهالەتێ",
+    "kurmanji_lat": "ji vê qisseyê vêk nakevîn; ne ji mezheb û dînê hevîn\nmeqbulî min nabit evîn; ḧubba bi vê cehaletê",
+    "arabic": "فِي هَذِهِ الْقِصَّةِ نَحْنُ لَا نَتَوَافَقُ؛ لَسْنَا مِنْ نَفْسِ الْمَذْهَبِ وَلَا الدِّينِ\nلَا أَقْبَلُ بِهَذَا الْعِشْقِ؛ حُبٌّ مَبْنِيٌّ عَلَى هَذِهِ الْجَهَالَةِ",
+    "english": "In this matter we do not match; we share neither sect nor religion,\nThis love is not acceptable to me; a love built upon such ignorance."
+  },
+  {
+    "stanza": 235,
+    "kurdish_ar": "سووسن زەبانا چیز سەحیح؛ وێ گۆت ب ئەزمانێ فەسیح\nئەر تێ ب سەر دینێ مەسیح؛ بەلکی بکین رعایەتێ",
+    "kurmanji_lat": "sûsin zebana çîz seḧîḧ; wê got bi ezmanê fesîḧ\ner tê bi ser dînê mesîḧ; belkî bikîn ri’ayetê",
+    "arabic": "ذَاتُ اللِّسَانِ السَّوْسَنِيِّ قَالَتْ قَوْلًا صَحِيحًا؛ نَطَقَتْ بِلِسَانٍ بَلِيغٍ فَصِيحٍ\nإِنْ دَخَلْتَ فِي دِينِ الْمَسِيحِ؛ فَرُبَّمَا نَنْظُرُ إِلَيْكَ بِعَيْنِ الرِّعَايَةِ",
+    "english": "The lily-tongued one spoke the truth; she said with a clear and fluent tongue,\nIf you come to the religion of the Messiah, perhaps I will show you favor."
+  },
+  {
+    "stanza": 236,
+    "kurdish_ar": "رعایەتێ ئەم پوڕ بکین؛ ڤێکڕا شەرابێ فڕ بکین\nماشێ تەژی ڤەبڕ بکین؛ ژ نان و ئاڤ و قسمەتێ",
+    "kurmanji_lat": "ri’ayetê em puř bikîn; vêkřa şerabê fiř bikîn\nmaşê tejî vebiř bikîn; ji nan û av û qismetê",
+    "arabic": "سَنُقَدِّمُ لَكَ رِعَايَةً كَثِيرَةً؛ وَنَشْرَبُ الْخَمْرَ مَعًا\nوَسَنُخَصِّصُ لَكَ رَاتِبَكَ؛ مِنَ الْخُبْزِ وَالْمَاءِ وَالنَّصِيبِ",
+    "english": "We will show you much favor, and together we will sip wine,\nWe will establish your allowance, from bread, water, and destiny."
+  },
+  {
+    "stanza": 237,
+    "kurdish_ar": "ماشێ مەشائخ راست بکین؛ نێزیکی خوە چاڤناس بکین\nراهب سفەت لباس بکین؛ شەیخ بێ زنار بکێر نەتێ",
+    "kurmanji_lat": "maşê meşa’ix rast bikîn; nêzîkî xwe çavnas bikîn\nrahb sifet libas bikîn; şeyx bê zinar bikêr netê",
+    "arabic": "سَنُسَوِّي مَعَاشَ الْمَشَايِخِ؛ وَنَجْعَلُكَ مِنْ مَعَارِفِنَا الْمُقَرَّبِينَ\nسَنُلْبِسُكَ ثِيَابَ الرُّهْبَانِ؛ فَالشَّيْخُ بِلَا زُنَّارٍ لَا يَنْفَعُ شَيْئًا",
+    "english": "We will arrange the Sheikh's allowance, and make him our close acquaintance,\nWe will dress you like a monk; a sheikh without a zunar is of no use."
+  },
+  {
+    "stanza": 238,
+    "kurdish_ar": "ئەر قەبوول دکی زنارەکێ؛ هەڕۆ هەڕۆ ئێڤارەکێ\nئەز تە ڤەخوینم جارەکێ؛ ب هەیجەتا زیافەتێ",
+    "kurmanji_lat": "er qebûl dikî zinarekê; heřo heřo êvarekê\nez te vexwînim carekê; bi heyceta zyafetê",
+    "arabic": "إِنْ قَبِلْتَ بِرَبْطِ الزُّنَّارِ؛ فَفِي كُلِّ يَوْمٍ وَكُلِّ مَسَاءٍ\nسَأَدْعُوكَ لِزِيَارَتِي مَرَّةً؛ بِحُجَّةِ إِقَامَةِ وَلِيمَةٍ",
+    "english": "If you accept to wear the zunar, then every day, every evening,\nI will invite you in once, under the pretext of a banquet."
+  },
+  {
+    "stanza": 239,
+    "kurdish_ar": "زیافەتان ب شەڤ بکین؛ حەریفیان ب دەڤ بکین\nپوڕ یاریان ب هەڤ بکین؛ روونین ل کۆشا سوحبەتێ",
+    "kurmanji_lat": "zyafetan bi şev bikîn; ḧerîfyan bi dev bikîn\npuř yaryan bi hev bikîn; rûnîn li koşa suḧbetê",
+    "arabic": "سَنُقِيمُ الْوَلَائِمَ فِي اللَّيْلِ؛ وَنَتَبَادَلُ الْأَحَادِيثَ كَالْعُشَّاقِ\nسَنَلْهُو كَثِيرًا مَعَ بَعْضِنَا؛ وَنَجْلِسُ فِي زَاوِيَةِ السَّمَرِ",
+    "english": "We will hold banquets by night, and speak closely as companions,\nWe will play together much, sitting in the corner of conversation."
+  },
+  {
+    "stanza": 240,
+    "kurdish_ar": "روونین ل سەر دینا شەڤێ؛ ئەر شەیخ دسۆژی مسحەڤێ\nراستە جەمالا من دڤێ؛ حەقق و یەقین من ب تەتێ",
+    "kurmanji_lat": "rûnîn li ser dîna şevê; er şeyx disojî misḧevê\nraste cemala min divê; ḧeqiq û yeqîn min bi tetê",
+    "arabic": "نَجْلِسُ عَلَى دِينِ اللَّيْلِ؛ إِذَا قَامَ الشَّيْخُ بِحَرْقِ الْمُصْحَفِ\nصَحِيحٌ أَنَّهُ يُرِيدُ جَمَالِي؛ وَبِحَقٍّ وَيَقِينٍ سَأَكُونُ لَهُ",
+    "english": "We will sit upon the faith of the night; if the Sheikh burns the Quran,\nIt is true he desires my beauty; in truth and certainty I will come to him."
+  },
+  {
+    "stanza": 241,
+    "kurdish_ar": "لەب شەکەرا دوڕ د دەڤە؛ گۆ: خەبەرا پاشی ئەڤە\nئەر تێ ب سەر دینێ مەڤە؛ بکێری باقۆڕێ مەتێ",
+    "kurmanji_lat": "leb şekera duř di deve; go: xebera paşî eve\ner tê bi ser dînê meve; bikêrî baqořê metê",
+    "arabic": "ذَاتُ الشِّفَاهِ السُّكَّرِيَّةِ وَالدُّرِّ فِي فَمِهَا؛ قَالَتْ: كَلَامِي الْأَخِيرُ هُوَ هَذَا\nإِنْ دَخَلْتَ فِي دِينِنَا؛ فَأَنْتَ جَدِيرٌ بِأَحْضَانِنَا",
+    "english": "The sugar-lipped one with pearls in her mouth said: \"My final word is this,\nIf you enter into our religion, you will be worthy of our embrace.\""
+  },
+  {
+    "stanza": 242,
+    "kurdish_ar": "ئەز لەو دبێم ڤێ گۆتنێ؛ ئەر عارفێ مەعنێ بنێ\nسەرگەشتەئێ دینا منێ؛ تو من بگرنە ئاخرەتێ",
+    "kurmanji_lat": "ez lew dibêm vê gotnê; er ’arfê me’nê binê\nsergeşte’ê dîna minê; tu min bigirne axretê",
+    "arabic": "أَنَا أَقُولُ هَذَا الْكَلَامَ لِأَنَّكَ؛ إِنْ كُنْتَ عَارِفًا بِمَعْنَى الْأُمُورِ\nيَا مَنْ تَائِهٌ فِي حُبِّي وَدِينِي؛ اتَّخِذْنِي لَكَ حَتَّى الْآخِرَةِ",
+    "english": "I speak these words to you because, if you look as one who knows the meaning,\nO wanderer of my religion, take me as your own for the hereafter."
+  },
+  {
+    "stanza": 243,
+    "kurdish_ar": "دێ عاشقان مەیلەک هەبێ؛ گوهدارێ مەحبووبا خوەبێ\nقەت های ژ پاش رۆژێ نەبێ؛ ل ئنتزارا وەسلەتێ",
+    "kurmanji_lat": "dê ’aşiqan meylek hebê; guhdarê meḧbûba xwebê\nqet hay ji paş rojê nebê; li intizara wesletê",
+    "arabic": "يَجِبُ أَنْ يَكُونَ لِلْعُشَّاقِ مَيْلٌ؛ وَأَنْ يَسْتَمِعُوا لِأَحِبَّائِهِمْ\nوَأَنْ لَا يَهْتَمُّوا بِعَوَاقِبِ الْأَيَّامِ؛ بَلْ يَبْقَوْا فِي انْتِظَارِ الْوِصَالِ",
+    "english": "Lovers must have true inclination, and listen to their beloved,\nPaying no heed to the days to come, waiting only for union."
+  },
+  {
+    "stanza": 244,
+    "kurdish_ar": "لەو عشق و موحبەت ئسمەکن؛ مەعشوق و عاشق جسمەکن\nهەرچار د هەڤدا قسمەکن؛ شەیخەک دڤێ مەعنێ بدەتێ",
+    "kurmanji_lat": "lew ’işq û muḧbet ismekin; me’şuq û ’aşiq cismekin\nherçar di hevda qismekin; şeyxek divê me’nê bidetê",
+    "arabic": "لِذَلِكَ الْعِشْقُ وَالْمَحَبَّةُ اسْمٌ وَاحِدٌ؛ وَالْمَعْشُوقُ وَالْعَاشِقُ جَسَدٌ وَاحِدٌ\nوَالْأَرْبَعَةُ مُنْدَمِجُونَ فِي بَعْضِهِمْ؛ وَيَجِبُ عَلَى الشَّيْخِ أَنْ يُعْطِيَ مَعْنًى لِهَذَا",
+    "english": "Therefore love and affection are but one name, and beloved and lover one body,\nAll four are interwoven portions; a sheikh must give this its true meaning."
+  },
+  {
+    "stanza": 245,
+    "kurdish_ar": "شەیخ گۆ: تو نەجاتا منی؛ ئیحرام و میقاتا منی\nنەینک و مرئاتا منی؛ سەر تا قەدەم تێک روئیەتێ",
+    "kurmanji_lat": "şeyx go: tu necata minî; îḧram û mîqata minî\nneynik û mir’ata minî; ser ta qedem têk ru’yetê",
+    "arabic": "قَالَ الشَّيْخُ: أَنْتِ خَلَاصِي؛ أَنْتِ إِحْرَامِي وَمِيقَاتِي\nأَنْتِ مِرْآتِي وَعَاكِسَتِي؛ مِنْ قِمَّةِ الرَّأْسِ لِلْقَدَمِ أَنْتِ كُلُّ رُؤْيَتِي",
+    "english": "The Sheikh said: \"You are my salvation; my Ihram and my Miqat,\nYou are my mirror and my reflection, from head to toe a complete vision.\""
+  },
+  {
+    "stanza": 246,
+    "kurdish_ar": "سەر تا قەدەم تێک نەینکی؛ مسباح و نوورا بێ شکی\nلەب لەعلی، سیما نازکی؛ توی موهریا لەتافەتێ",
+    "kurmanji_lat": "ser ta qedem têk neynkî; misbaḧ û nûra bê şikî\nleb le’lî, sîma nazkî; twî muhrya letafetê",
+    "arabic": "مِنْ قِمَّةِ الرَّأْسِ لِلْقَدَمِ أَنْتِ مِرْآةٌ؛ أَنْتِ الْمِصْبَاحُ وَالنُّورُ بِلَا شَكٍّ\nشِفَاهُكِ يَاقُوتٌ، وَمَلَامِحُكِ رَقِيقَةٌ؛ أَنْتِ خَاتَمُ اللَّطَافَةِ وَالْجَمَالِ",
+    "english": "From head to toe you are a mirror; a lamp and light without a doubt,\nWith ruby lips and a delicate face, you are the very seal of elegance."
+  },
+  {
+    "stanza": 247,
+    "kurdish_ar": "موهریا رۆهنا شەفیفی؛ نەینکا شەیخێ شەریفی\nموزهرا شاهێ لەتیفی؛ مەعدەنا دوڕدانە تێ",
+    "kurmanji_lat": "muhrya rohna şefîfî; neynka şeyxê şerîfî\nmuzhira şahê letîfî; me’dena duřdane tê",
+    "arabic": "خَاتَمٌ سَاطِعٌ شَفَّافٌ؛ أَنْتِ مِرْآةُ الشَّيْخِ الشَّرِيفِ\nمَظْهَرُ الْمَلِكِ اللَّطِيفِ؛ وَمَعْدِنُ الدُّرِّ وَالْجَوَاهِرِ فِيكِ",
+    "english": "A bright and transparent seal; the mirror of the noble Sheikh,\nThe manifestation of the Gentle King; the mine of pearls resides in you."
+  },
+  {
+    "stanza": 248,
+    "kurdish_ar": "یان مەعدەنی، یان جەوهەری؛ یان سانعی، یان مەزهەری\nیان عەکسێ شاهێ ئەکبەری؛ یان نەقش وە تێتە روئیەتێ",
+    "kurmanji_lat": "yan me’denî, yan cewherî; yan san’î, yan mezherî\nyan ’eksê şahê ekberî; yan neqiş we tête ru’yetê",
+    "arabic": "إِمَّا أَنَّكِ الْمَعْدِنُ، أَوْ أَنَّكِ الْجَوْهَرُ؛ إِمَّا الصَّانِعُ، أَوْ أَنَّكِ الْمَظْهَرُ\nإِمَّا انْعِكَاسُ الْمَلِكِ الْأَكْبَرِ؛ أَوْ أَنَّ النَّقْشَ هَكَذَا يَتَبَدَّى لِلرُّؤْيَةِ",
+    "english": "Either you are the mine, or the jewel; either the Maker, or the manifestation,\nEither the reflection of the Greatest King, or the painted form as it appears to sight."
+  },
+  {
+    "stanza": 249,
+    "kurdish_ar": "کاتبێ نەقشێ ل ئاڤێ؛ سانعێ شووشا گولاڤێ\nنوور ژ بالا رهتە ناڤێ؛ ژ نار و زەیتا حکمەتێ",
+    "kurmanji_lat": "katbê neqşê li avê; san’ê şûşa gulavê\nnûr ji bala rihte navê; ji nar û zeyta ḧikmetê",
+    "arabic": "يَا كَاتِبَ النَّقْشِ عَلَى الْمَاءِ؛ يَا صَانِعَ زُجَاجَةِ مَاءِ الْوَرْدِ\nصُبَّ النُّورُ فِيهَا مِنْ عَلُ؛ مِنْ نَارِ وَزَيْتِ الْحِكْمَةِ",
+    "english": "The Writer of the painting upon the water, the Maker of the rosewater glass,\nLight poured into it from on high, from the fire and oil of wisdom."
+  },
+  {
+    "stanza": 250,
+    "kurdish_ar": "ئاگر و زەیتا فەتیلێ؛ پەرتەوا ئسمێ جەمیلێ\nدا دلێ شەیخێ قەبیلێ؛ رۆهنیا وەحدانەتێ",
+    "kurmanji_lat": "agir û zeyta fetîlê; pertewa ismê cemîlê\nda dilê şeyxê qebîlê; rohnya weḧdanetê",
+    "arabic": "نَارُ وَزَيْتُ الْفَتِيلَةِ؛ مِنْ شُعَاعِ اسْمِهِ الْجَمِيلِ\nأَعْطَتْ لِقَلْبِ شَيْخِ الْقَبِيلَةِ؛ نُورَ الْوَحْدَانِيَّةِ",
+    "english": "The fire and oil of the wick, the radiant ray of the Beautiful Name,\nGranted to the heart of the tribe's Sheikh the illuminating light of Oneness."
+  },
+  {
+    "stanza": 251,
+    "kurdish_ar": "رۆهنیێ دابوو وجودە؛ موحبەتا شاهێ وەدودە\nناگەهان شەیخ چوو سجودە؛ مەی ڤەخوار وێ ساعەتێ",
+    "kurmanji_lat": "rohnyê dabû wicude; muḧbeta şahê wedude\nnagehan şeyx çû sicude; mey vexwar wê sa’etê",
+    "arabic": "أَعْطَى النُّورُ وُجُودًا لِلْجَسَدِ؛ بِمَحَبَّةِ الْمَلِكِ الْوَدُودِ\nفَجْأَةً سَجَدَ الشَّيْخُ لَهَا؛ وَشَرِبَ الْخَمْرَ فِي تِلْكَ السَّاعَةِ",
+    "english": "The light had given form to his being, through the love of the Loving King,\nSuddenly the Sheikh fell into prostration, and drank wine at that very hour."
+  },
+  {
+    "stanza": 252,
+    "kurdish_ar": "ئەو مەیا گولگۆن و ئالە؛ دلبەرێ دایە پەیالە\nنۆشی جان کر پیرەکالە؛ ژ بادەیا عافیەتێ",
+    "kurmanji_lat": "ew meya gulgon û ale; dilberê daye peyale\nnoşî can kir pîrekale; ji badeya ’afyetê",
+    "arabic": "تِلْكَ الْخَمْرَةُ الْوَرْدِيَّةُ وَالْحَمْرَاءُ؛ قَدَّمَتْهَا الْحَسْنَاءُ فِي قَدَحٍ\nشَرِبَهَا الشَّيْخُ الْعَجُوزُ هَنِيئًا؛ مِنْ خَمْرِ الْعَافِيَةِ وَاللَّذَّةِ",
+    "english": "That rose-colored and crimson wine, the beauty offered in a cup,\nThe old man drank it down to his soul, from the wine of well-being."
+  },
+  {
+    "stanza": 253,
+    "kurdish_ar": "دلبەرێ جام دا ب دەستە؛ وان زنار ئانی و بەستە\nزاهری دین چوو ژ دەستە؛ باتنی چوو مەشیەتێ",
+    "kurmanji_lat": "dilberê cam da bi deste; wan zinar anî û beste\nzahrî dîn çû ji deste; batnî çû meşyetê",
+    "arabic": "أَعْطَتْهُ الْحَسْنَاءُ الْكَأْسَ بِيَدِهِ؛ وَأَحْضَرُوا الزُّنَّارَ وَرَبَطُوهُ لَهُ\nفَذَهَبَ الدِّينُ مِنْ يَدِهِ ظَاهِرًا؛ وَفِي الْبَاطِنِ سَلَّمَ لِلْمَشِيئَةِ الْإِلَهِيَّةِ",
+    "english": "The beauty placed the cup in his hand; they brought the zunar and tied it on,\nOutwardly his religion slipped from his grasp; inwardly he surrendered to the Divine Will."
+  },
+  {
+    "stanza": 254,
+    "kurdish_ar": "شەیخ گۆ: ئەز دباتن د فکرم؛ عشقا تە ئەز غارەت کرم\nئیرۆ د گەل تە کافرم؛ حەتتا کو دەورانا مەتێ",
+    "kurmanji_lat": "şeyx go: ez dibatin di fikirim; ’işqa te ez ẍaret kirim\nîro di gel te kafirim; ḧetta ku dewrana metê",
+    "arabic": "قَالَ الشَّيْخُ: أَنَا فِي بَاطِنِي أَتَفَكَّرُ؛ عِشْقُكِ قَدْ سَلَبَنِي وَنَهَبَنِي\nالْيَوْمَ أَنَا كَافِرٌ مَعَكِ؛ حَتَّى يَحِينَ أَجَلُنَا وَتَنْتَهِي دَوْرَتُنَا",
+    "english": "The Sheikh said: \"Inwardly I reflect; your love has completely plundered me,\nToday I am an infidel by your side, until the end of our cycle arrives.\""
+  },
+  {
+    "stanza": 255,
+    "kurdish_ar": "لەولەب و دەوران دبۆرن؛ گەهـ ل ژێرن، گەهـ ل ژۆرن\nمە وو تە نەوبەت ب دۆرن؛ تا زەمانێ فورسەتێ",
+    "kurmanji_lat": "lewleb û dewran diborin; geh li jêrin, geh li jorin\nme wu te newbet bi dorin; ta zemanê fursetê",
+    "arabic": "دَوَالِيبُ الْأَيَّامِ وَالْأَزْمَانِ تَمْضِي؛ تَارَةً نَحْنُ فِي الْأَسْفَلِ، وَتَارَةً فِي الْأَعْلَى\nوَالنَّوْبَةُ بَيْنِي وَبَيْنَكِ تَدُورُ؛ حَتَّى يَحِينَ زَمَانُ الْفُرْصَةِ",
+    "english": "The wheels and cycles of time pass on; sometimes below, sometimes above,\nFor us both the turn comes by rotation, until the time of opportunity arrives."
+  },
+  {
+    "stanza": 256,
+    "kurdish_ar": "فورسەت و تالا و بەختە؛ هوودهود و بەلقیس و تەختە\nشەیخ دزانی هێژ نە وەختە؛ وەقت دپێ سەبرێڤە تێ",
+    "kurmanji_lat": "furset û tala û bexte; hûdhud û belqîs û texte\nşeyx dizanî hêj ne wexte; weqit dipê sebrêve tê",
+    "arabic": "إِنَّهَا الْفُرْصَةُ وَالطَّالِعُ وَالْحَظُّ؛ قِصَّةُ الْهُدْهُدِ وَبِلْقِيسَ وَالْعَرْشِ\nكَانَ الشَّيْخُ يَعْلَمُ أَنَّ الْوَقْتَ لَمْ يَحِنْ؛ فَالْوَقْتُ يُنْتَظَرُ وَيَأْتِي بِالصَّبْرِ",
+    "english": "It is opportunity, fortune, and luck; like the Hoopoe, Bilqis, and the throne,\nThe Sheikh knew it was not yet the time; for time is awaited and comes with patience."
+  },
+  {
+    "stanza": 257,
+    "kurdish_ar": "سەببری بادە ڤەخوارە؛ وان ل پشتێ بەست زنارە\nشەیخ سوحوف ئاڤێتە نارە؛ ژ موسکر و دینان وەتێ",
+    "kurmanji_lat": "sebbirî bade vexware; wan li piştê best zinare\nşeyx suḧuf avête nare; ji muskir û dînan wetê",
+    "arabic": "صَبَرَ وَشَرِبَ كَأْسَ الْخَمْرِ؛ وَهُمْ رَبَطُوا الزُّنَّارَ عَلَى خَصْرِهِ\nأَلْقَى الشَّيْخُ بِالصُّحُفِ فِي النَّارِ؛ بِسَبَبِ الْمُسْكِرَاتِ وَالْأَدْيَانِ الَّتِي تَبْدُو هَكَذَا",
+    "english": "Patiently he drank the cup of wine, as they tied the zunar around his waist,\nThe Sheikh threw the scriptures into the fire, moved by intoxicants and matters of faith."
+  },
+  {
+    "stanza": 258,
+    "kurdish_ar": "ئەو موسکر و هشیار و حەی؛ د سوحبەتا پوڕ چەنگ و نەی\nشەمل و سەجادە دا ب مەی؛ مەعبود دزانی حکمەتێ",
+    "kurmanji_lat": "ew muskir û hişyar û ḧey; di suḧbeta puř çeng û ney\nşemil û secade da bi mey; me’bud dizanî ḧikmetê",
+    "arabic": "كَانَ مُسْكَرًا وَلَكِنَّهُ يَقِظٌ وَحَيٌّ؛ فِي مَجْلِسٍ مَلِيءٍ بِالْقِيثَارَةِ وَالنَّايِ\nأَعْطَى عِمَامَتَهُ وَسَجَّادَتَهُ مُقَابِلَ الْخَمْرِ؛ وَالْمَعْبُودُ وَحْدَهُ يَعْلَمُ الْحِكْمَةَ",
+    "english": "He was intoxicated yet awake and alive, in a gathering filled with the harp and reed,\nHe traded his turban and prayer rug for wine; only the Worshipped One knew the wisdom."
+  },
+  {
+    "stanza": 259,
+    "kurdish_ar": "حکمەتا وان رەمز و رازان؛ مورشدێ ناز و نیازان\nمەی ڤەخوار چوو بەر بەرازان؛ پێخواس ب کەندالان کەتێ",
+    "kurmanji_lat": "ḧikmeta wan remz û razan; murişdê naz û nyazan\nmey vexwar çû ber berazan; pêxwas bi kendalan ketê",
+    "arabic": "حِكْمَةُ تِلْكَ الرُّمُوزِ وَالْأَسْرَارِ؛ كَانَتْ مُرْشِدًا لِلدَّلَالِ وَالتَّضَرُّعِ\nشَرِبَ الْخَمْرَ وَذَهَبَ لِرَعْيِ الْخَنَازِيرِ؛ وَسَقَطَ حَافِيَ الْقَدَمَيْنِ بَيْنَ الْمُنْحَدَرَاتِ",
+    "english": "The wisdom of those symbols and profound secrets; the guide of coquetry and devotion,\nHe drank wine and went to tend the swine, wandering barefoot among the steep ravines."
+  },
+  {
+    "stanza": 260,
+    "kurdish_ar": "مورشدێ پێخواس و تازی؛ جهـ ل سەر پووستێ بەرازی\nسەدەفا دوڕ تێ دخوازی؛ ژ هەردو لێڤان شەربەتێ",
+    "kurmanji_lat": "murişdê pêxwas û tazî; cih li ser pûstê berazî\nsedefa duř tê dixiwazî; ji herdu lêvan şerbetê",
+    "arabic": "المُرشِدُ حافِي القَدَمَينِ عارِياً، وَمَقامُهُ عَلى جِلدِ الخِنزيرِ\nصَدَفَةُ الدُّرِّ مِنهُ تَطلُبُ، مِن كِلا الشَّفَتَينِ شَربَةً",
+    "english": "The guide, barefoot and naked, his place upon a swine's skin\nThe pearl's shell seeks from him, a sweet drink from both lips"
+  },
+  {
+    "stanza": 261,
+    "kurdish_ar": "شەربەتا وان هەردو لێڤان؛ مەخرەجا نارنج و سێڤان\nزەحمەتا وان رۆژ و شێڤان؛ ئەو سەفابوو شەیخ کەتێ",
+    "kurmanji_lat": "şerbeta wan herdu lêvan; mexreca narinc û sêvan\nzeḧmeta wan roj û şêvan; ew sefabû şeyx ketê",
+    "arabic": "شَربَةُ هاتَينِ الشَّفَتَينِ، هِيَ مَخرَجُ النَّارِنجِ وَالتُّفَّاحِ\nعَناءُ تِلكَ الأَيَّامِ وَاللَّيالِي، كانَ صَفاءً وَقَعَ فيهِ الشَّيخُ",
+    "english": "The sweet drink of those two lips, the source of oranges and apples\nThe hardship of those days and nights, was a pure bliss the Sheikh fell into"
+  },
+  {
+    "stanza": 262,
+    "kurdish_ar": "هەر دلێ دۆست لێ قەفایە؛ هوون مەبێن زەحمەت جەفایە\nخزمەتا باخۆی سەفایە؛ ددەفتەرا مەعریفەتێ",
+    "kurmanji_lat": "her dilê dost lê qefaye; hûn mebên zeḧmet cefaye\nxizmeta baxoy sefaye; dideftera me’rîfetê",
+    "arabic": "كُلُّ قَلبِ مُحِبٍّ يَقْتَفي أَثَرَهُ، لا تَقولوا إِنَّ المَشَقَّةَ جَفاءٌ\nفَخِدمَةُ الخَمَّارِ صَفاءٌ، في دَفتَرِ المَعرِفَةِ",
+    "english": "Every lover's heart follows it, do not say hardship is cruelty\nFor serving the tavern keeper is purity, in the book of divine knowledge"
+  },
+  {
+    "stanza": 263,
+    "kurdish_ar": "پانسەد هزار جەور و جەفا؛ نێزیکی دۆستا پوڕ وەفا\nل شەیخ بوون لەذذەت و سەفا؛ پێخواس دپێ وەحشان ڤەتێ",
+    "kurmanji_lat": "pansed hizar cewr û cefa; nêzîkî dosta puř wefa\nli şeyx bûn lezzet û sefa; pêxwas dipê weḧşan vetê",
+    "arabic": "خَمسُمِائَةِ أَلفِ ظُلمٍ وَجَفاءٍ، بِالقُربِ مِنَ الحَبيبَةِ الكَثيرَةِ الوَفاءِ\nكانَت لِلشَّيخِ لَذَّةً وَصَفاءً، حافِياً يَسعى خَلفَ الوُحوشِ",
+    "english": "Five hundred thousand cruelties and hardships, near the most faithful beloved\nWere for the Sheikh pleasure and purity, barefoot he follows the wild beasts"
+  },
+  {
+    "stanza": 264,
+    "kurdish_ar": "ئەو مورشدێ پێخواس قەدەم؛ تێڕا دچن پانسەد کەلەم\nژێ دەردبوو خوون و ئەلەم؛ چەشمێ موبارەک ڤێکەتێ",
+    "kurmanji_lat": "ew murişdê pêxwas qedem; têřa diçin pansed kelem\njê derdibû xûn û elem; çeşmê mubarek vêketê",
+    "arabic": "ذَلِكَ المُرشِدُ حافي القَدَمَينِ، تَدخُلُ فيهِ خَمسُمِائَةِ شَوكَةٍ\nيَخرُجُ مِنهُ الدَّمُ وَالأَلَمُ، وَالعَينُ المُبارَكَةُ تَنظُرُ إِلَيهِ",
+    "english": "That barefoot guide, pierced by five hundred thorns\nBleeding and suffering in pain, as the blessed eye falls upon him"
+  },
+  {
+    "stanza": 265,
+    "kurdish_ar": "چەهڤان ددی دل پێ دسۆت؛ شەیخ رۆژەکێ خووند و هیڤۆت\nعادەت نهن وەحش بنە جۆت؛ چی چی دخۆن مەعیشەتێ",
+    "kurmanji_lat": "çehvan didî dil pê disot; şeyx rojekê xûnd û hîvot\n’adet nihin weḧiş bine cot; çî çî dixon me’îşetê",
+    "arabic": "رَأَتْهُ العُيونُ فَاحتَرَقَ عَلَيهِ القَلبُ، دَعا الشَّيخُ يَوماً وَتَمَنَّى\nلَيسَتِ العادَةُ أَن تَتَزاوَجَ الوُحوشُ، فَماذا يَأكُلونَ لِلمَعيشَةِ؟",
+    "english": "The eyes saw and the heart burned for him, one day the Sheikh called out and hoped\nIt is not customary for wild beasts to pair, what do they eat for their livelihood?"
+  },
+  {
+    "stanza": 266,
+    "kurdish_ar": "وەحش و بەراز ڤێک ناکەڤن؛ چی چی د چێرن رادکەڤن\nنا بی ل دووهەڤ باکەڤن؛ زێدە دبینی زەحمەتێ",
+    "kurmanji_lat": "weḧiş û beraz vêk nakevin; çî çî di çêrin radkevin\nna bî li dûhev bakevin; zêde dibînî zeḧmetê",
+    "arabic": "الوُحوشُ وَالخَنازيرُ لا تَتَآلَفُ، ماذا يَرعَونَ وَأَينَ يَنامونَ؟\nلا تَكُن مُتَتَبِّعاً لَها بِرِفقَةِ بَعضٍ، فَسَتَلقى مَشَقَّةً زائِدَةً",
+    "english": "Wild beasts and swine do not mingle, what do they graze and where do they sleep?\nDo not go after them together, for you will face increased hardship"
+  },
+  {
+    "stanza": 267,
+    "kurdish_ar": "حەبلەک شەدید تو چار بکە؛ وەحشێ مەزن هەڤسار بکە\nدارێ کوتانێ کار بکە؛ حەتا کو پێ ئێڤار ڤەتێ",
+    "kurmanji_lat": "ḧeblek şedîd tu çar bike; weḧşê mezin hevsar bike\ndarê kutanê kar bike; ḧeta ku pê êvar vetê",
+    "arabic": "دَبِّر حَبلاً شَديداً، وَارْبُطِ الوَحشَ الكَبيرَ بِمِقوَدٍ\nوَاستَعمِل عَصا الضَّربِ، حَتَّى يَحِلَّ المَساءُ عَلَيهِم",
+    "english": "Prepare a strong rope, and put a halter on the large beast\nUse the beating stick, until the evening falls upon them"
+  },
+  {
+    "stanza": 268,
+    "kurdish_ar": "ئێڤار کو تێ رابێ بدار؛ هنگی ژ وی تێتن هەوار\nباقۆڕ حەمی تێنە کنار؛ گاڕان د هەوارا تەتێ",
+    "kurmanji_lat": "êvar ku tê rabê bidar; hingî ji wî têtin hewar\nbaqoř ḧemî têne kinar; gařan di hewara tetê",
+    "arabic": "إِذا جاءَ المَساءُ قُمْ بِالعَصا، حِينَها يَصدُرُ مِنهُ الصُّراخُ\nفَتَأتي كُلُّ الخَنازيرِ إِلى الجانِبِ، وَالقَطيعُ يَأتي لِلنَّجدَةِ",
+    "english": "When evening comes, rise with the stick, then a cry will come from it\nAll the swine will gather to the side, and the herd will come to the rescue"
+  },
+  {
+    "stanza": 269,
+    "kurdish_ar": "مەجموع دبێ باقۆڕ لبال؛ ئەو تیرەماشێد بێ فەسال\nراپێچ ب هەڤڕا بینە مال؛ مەیشوومێ پیسێد لەش کەتێ",
+    "kurmanji_lat": "mecmu’ dibê baqoř libal; ew tîremaşêd bê fesal\nrapêç bi hevřa bîne mal; meyşûmê pîsêd leş ketê",
+    "arabic": "تَتَجَمَّعُ الخَنازيرُ بِالقُربِ مِنهُ، تِلكَ القُطعانُ العَظيمَةُ بِلا نِظامٍ\nفَاجمَعها مَعاً وَأَحضِرها إِلى البَيتِ، فَقَد حَلَّ بِها الشُّؤمُ وَالنَّجاسَةُ",
+    "english": "The swine gather around him, those unruly huge herds\nGather them together and bring them home, the cursed and foul bodies have fallen"
+  },
+  {
+    "stanza": 270,
+    "kurdish_ar": "خۆش خۆش مەجالا شیرەتێ؛ بۆ قیل و قالا دەولەتێ\nبووی گەشت کەمالا وەسلەتێ؛ با، کو تێ، بەختێ ب خوە تێ",
+    "kurmanji_lat": "xoş xoş mecala şîretê; bo qîl û qala dewletê\nbûy geşt kemala wesletê; ba, ku tê, bextê bi xwe tê",
+    "arabic": "ما أَطيَبَ مَجالِسَ النَّصيحَةِ، عَن القيلِ وَالقالِ في شُؤونِ الدَّولَةِ\nأَصبَحَتْ نُزهَةً لِكَمالِ الوِصالِ، الرِّيحُ إِذا هَبَّت يَأتي الحَظُّ مَعَها",
+    "english": "How sweet are the moments of counsel, for the talk and chatter of fortune\nIt became a journey to the perfection of union, when the wind comes, luck comes with it"
+  },
+  {
+    "stanza": 271,
+    "kurdish_ar": "شەیخ ما ل وێ دۆزدە مەهان؛ حەتتا رەفیق چوونە جهان\nب ذاتەکێ سادق گهان؛ ب سەروەرێ خلافەتێ",
+    "kurmanji_lat": "şeyx ma li wê dozde mehan; ḧetta refîq çûne cihan\nbi zatekê sadiq gihan; bi serwerê xilafetê",
+    "arabic": "بَقِيَ الشَّيخُ هُناكَ اثنَي عَشَرَ شَهراً، حَتَّى ذَهَبَ الرِّفاقُ إِلى العالَمِ\nوَوَصَلوا إِلى ذاتٍ صادِقَةٍ، إِلى سَيِّدِ الخِلافَةِ",
+    "english": "The Sheikh remained there for twelve months, until his companions went into the world\nThey reached a truthful essence, to the master of the Caliphate"
+  },
+  {
+    "stanza": 272,
+    "kurdish_ar": "خەلیفەیەک مابوو ل مال؛ هەڤریێد شەیخ تێک چوونە بال\nژێڕا کرن حال و حەوال؛ ژ جەزبەیا شەیخ پێکەتێ",
+    "kurmanji_lat": "xelîfeyek mabû li mal; hevryêd şeyx têk çûne bal\njêřa kirin ḧal û ḧewal; ji cezbeya şeyx pêketê",
+    "arabic": "كانَ قَد بَقِيَ خَليفَةٌ واحِدٌ في الدَّارِ، فَذَهَبَ إِلَيهِ أَصحابُ الشَّيخِ جَميعاً\nوَحَكَوا لَهُ الحالَ وَالأَحوالَ، وَما أَصابَهُ مِن جَذبَةِ الشَّيخِ",
+    "english": "One caliph had remained at home, all the Sheikh's companions went to him\nThey told him of the state and condition, of the divine attraction that struck the Sheikh"
+  },
+  {
+    "stanza": 273,
+    "kurdish_ar": "شەیخ جەزبەیەک هاتە نهین؛ چل رۆژەکان کر هار و دین\nلبسێ دبەر تێک بوونە خوین؛ ژ پەردەهان بدەرکەتێ",
+    "kurmanji_lat": "şeyx cezbeyek hate nihîn; çil rojekan kir har û dîn\nlibsê diber têk bûne xwîn; ji perdehan biderketê",
+    "arabic": "جاءَتْ لِلشَّيخِ جَذبَةٌ خَفِيَّةٌ، جَعَلَتْهُ هائِجاً وَمَجنوناً لِأَربَعينَ يَوماً\nالمَلابِسُ الَّتي عَلَيهِ تَخَضَّبَت بِالدِّماءِ، وَخَرَجَ مِنَ الحُجُبِ",
+    "english": "A hidden attraction came to the Sheikh, making him wild and mad for forty days\nThe clothes upon him were all bloodied, and he emerged from the veils"
+  },
+  {
+    "stanza": 274,
+    "kurdish_ar": "پەردە دڕاندن زاهری؛ گەهـ د کەنی، گەهـ د گری\nدین کر کچا سیما پەری؛ مەکسەب گها خوسارەتێ",
+    "kurmanji_lat": "perde diřandin zahrî; geh di kenî, geh di girî\ndîn kir kiça sîma perî; mekseb giha xusaretê",
+    "arabic": "مَزَّقَ الحُجُبَ ظاهِرِياً، تارَةً يَضحَكُ وَتارَةً يَبكي\nأَجَنَّتْهُ الفَتاةُ ذاتُ الوَجهِ المَلائِكِيِّ، وَالمَكسَبُ آلَ إِلى خَسارَةٍ",
+    "english": "He tore the veils outwardly, sometimes laughing, sometimes crying\nThe fairy-faced girl drove him mad, and the gain turned to loss"
+  },
+  {
+    "stanza": 275,
+    "kurdish_ar": "رابوون ب قەسدا خێرەکێ؛ ناگەهـ گهانە دێرەکێ\nکەفتینە پەنجا شێرەکێ؛ لەرزین ژ هەول و هەیبەتێ",
+    "kurmanji_lat": "rabûn bi qesda xêrekê; nageh gihane dêrekê\nkeftîne penca şêrekê; lerzîn ji hewl û heybetê",
+    "arabic": "نَهَضوا بِقَصدِ عَمَلِ خَيرٍ، وَفَجأَةً وَصَلوا إِلى دَيرٍ\nفَوَقَعوا في قَبضَةِ أَسَدٍ، وَارتَجَفوا مِنَ الرُّعبِ وَالهَيبَةِ",
+    "english": "They rose with the intent of doing good, suddenly they reached a monastery\nThey fell into the clutches of a lion, trembling from fear and awe"
+  },
+  {
+    "stanza": 276,
+    "kurdish_ar": "چەهڤێد شێر ئەم دانە هەڤ؛ شەیخێ مە خۆ ئاڤێتە دەڤ\nل سۆفیان بوو هەول و رەڤ؛ قەت یەک نەما ل وێ حالەتێ",
+    "kurmanji_lat": "çehvêd şêr em dane hev; şeyxê me xo avête dev\nli sofyan bû hewl û rev; qet yek nema li wê ḧaletê",
+    "arabic": "تَلاَقَتْ أَعينُنا مَعَ عُيونِ الأَسَدِ، فَأَلقى شَيخُنا بِنَفسِهِ في فَمِهِ\nفَأَصابَ الصُّوفِيَّةَ ذُعرٌ وَفِرارٌ، وَلَم يَبقَ مِنهُم أَحَدٌ في تِلكَ الحالَةِ",
+    "english": "Our eyes met the lion's eyes, our Sheikh threw himself into its mouth\nPanic and flight seized the Sufis, not a single one remained in that state"
+  },
+  {
+    "stanza": 277,
+    "kurdish_ar": "شەیخێ مە بر شێر ئەحمەرێ؛ پانسەد مورید تیژ نەزەرێ\nبەلاڤ کرن ل وێدەرێ؛ ئەسلان سوڕێ، شێر هەیبەتێ",
+    "kurmanji_lat": "şeyxê me bir şêr eḧmerê; pansed murîd tîj nezerê\nbelav kirin li wêderê; eslan suřê, şêr heybetê",
+    "arabic": "شَيخُنا أَخَذَهُ الأَسَدُ الأَحمَرُ، وَخَمسُمِائَةِ مُريدٍ حادِّي البَصَرِ\nتَفَرَّقوا في ذَلِكَ المَكانِ، لِأَنَّ الأَسَدَ سِرٌّ وَالشِّبلَ هَيبَةٌ",
+    "english": "Our Sheikh was taken by the red lion, and five hundred sharp-sighted disciples\nScattered in that place, for the lion is a mystery and a terrifying presence"
+  },
+  {
+    "stanza": 278,
+    "kurdish_ar": "ئەسلان سوڕێ شەیخێ مە بر؛ قەنج تابعێ دینێ خوە کر\nمە قەسدا دەرگاهێ تە کر؛ هاتینە بەر حمایەتێ",
+    "kurmanji_lat": "eslan suřê şeyxê me bir; qenc tab’ê dînê xwe kir\nme qesda dergahê te kir; hatîne ber ḧimayetê",
+    "arabic": "أَخَذَ سِرُّ الأَسَدِ شَيخَنا، وَأَدخَلَهُ جَيِّداً في تابِعِيَّةِ دينِهِ\nلَقَد قَصَدنا بابَكَ، وَجِئنا إِلى حِمايَتِكَ",
+    "english": "The mystery of the lion took our Sheikh, and firmly subjected him to its religion\nWe have sought your threshold, and come for your protection"
+  },
+  {
+    "stanza": 279,
+    "kurdish_ar": "تو شەیخ عەتارێ سادقی؛ راست و دوروستی، خالقی\nئیرۆ وەکیلێ موتلەقی؛ عەونەت ژ فەرمانا تە تێ",
+    "kurmanji_lat": "tu şeyx ’etarê sadqî; rast û durustî, xalqî\nîro wekîlê mutleqî; ’ewnet ji fermana te tê",
+    "arabic": "أَنتَ الشَّيخُ العَطَّارُ الصَّادِقُ، أَنتَ المُستَقيمُ وَالصَّحيحُ، المُخلِصُ لِلخالِقِ\nأَنتَ اليَومَ الوَكيلُ المُطلَقُ، وَالعَونُ يَأتي مِن أَمرِكَ",
+    "english": "You are the truthful Sheikh Attar, you are righteous and upright, devoted to the Creator\nToday you are the absolute deputy, and help comes from your command"
+  },
+  {
+    "stanza": 280,
+    "kurdish_ar": "ئەم جوملە پانسەد مێر هەیین؛ ئیرۆ د فەرمانا تەیین\nوەللاهـ ل سەر عەهدا خوەیین؛ هممەت بکە شەیخێ مە تێ",
+    "kurmanji_lat": "em cumle pansed mêr heyîn; îro di fermana teyîn\nwellah li ser ’ehda xweyîn; himmet bike şeyxê me tê",
+    "arabic": "نَحنُ جَميعاً خَمسُمِائَةِ رَجُلٍ، نَحنُ اليَومَ تَحتَ أَمرِكَ\nوَاللَّهِ إِنَّنا عَلى عَهدِنا، فَابذُلْ هِمَّتَكَ لِيَعودَ إِلَينا شَيخُنا",
+    "english": "We are a total of five hundred men, today we are under your command\nBy God, we are true to our covenant, exert your spiritual power so our Sheikh returns"
+  },
+  {
+    "stanza": 281,
+    "kurdish_ar": "شەیخ گۆتە وان ساحب سوڕا؛ نە ئافەرین ژ عەهدا وەڕا\nقێمیش نەبوون ب شەیخێ خوەڕا؛ ترسان ژ شێر و شەوکەتێ",
+    "kurmanji_lat": "şeyx gote wan saḧb suřa; ne aferîn ji ’ehda weřa\nqêmîş nebûn bi şeyxê xweřa; tirsan ji şêr û şewketê",
+    "arabic": "قالَ لَهُم الشَّيخُ صاحِبُ السِّرِّ، لا مَرحَباً بِعَهدِكُم\nلَم تُخلِصوا لِشَيخِكُم، وَخِفتُم مِنَ الأَسَدِ وَشَوكَتِهِ",
+    "english": "The Sheikh, master of secrets, told them: no praise for your covenant\nYou were not loyal to your Sheikh, you feared the lion and its might"
+  },
+  {
+    "stanza": 282,
+    "kurdish_ar": "شەوکەت نەکر وە پانسەدا؛ پێلا کو شەیخ بر ئەسەدا\nچاکەک نەبوو د کۆما وەدا؛ هەسپێ خوە باژۆت شەوکەتێ",
+    "kurmanji_lat": "şewket nekir we panseda; pêla ku şeyx bir eseda\nçakek nebû di koma weda; hespê xwe bajot şewketê",
+    "arabic": "لَم تُظهِروا أَيَّ قُوَّةٍ أَنتُمُ الخَمسُمِائَة، حِينَما أَخَذَ الأَسَدُ الشَّيخَ\nلَم يَكُن بَينَكُم رَجُلٌ صالِحٌ واحِدٌ، يَدفَعُ جَوادَهُ نَحوَ تِلكَ الشَّوكَةِ",
+    "english": "You five hundred showed no might, when the lion took the Sheikh\nThere wasn't a single good man among you, to spur his horse toward the danger"
+  },
+  {
+    "stanza": 283,
+    "kurdish_ar": "خۆ هوون حەمی بێکێر نەبوون؛ جوملە خۆ پانسەد مێر هەبوون\nلەو پەنجەگیرێ شێر نەبوون؛ ژ قەلسی و بێ جورعەتێ",
+    "kurmanji_lat": "xo hûn ḧemî bêkêr nebûn; cumle xo pansed mêr hebûn\nlew pencegîrê şêr nebûn; ji qelsî û bê cur’etê",
+    "arabic": "لَم تَكونوا جَميعاً عَدِيمي النَّفعِ، فَقَد كُنتُم خَمسَمِائَةِ رَجُلٍ\nلَكِنَّكُم لَم تُمسِكوا بِمَخالِبِ الأَسَدِ، بِسَبَبِ الضَّعفِ وَانعِدامِ الجُرأَةِ",
+    "english": "You were not all useless, for you were in total five hundred men\nYet you did not grapple with the lion, out of weakness and lack of courage"
+  },
+  {
+    "stanza": 284,
+    "kurdish_ar": "سۆفی دبێن یا شەیخ مەدەد؛ بێ حەددِ دژوارن ئەسەد\nڤالا کرن زین بێ عەدەد؛ داڤێت و ئاور نادەتێ",
+    "kurmanji_lat": "sofî dibên ya şeyx meded; bê ḧeddî dijwarin esed\nvala kirin zîn bê ’eded; davêt û awir nadetê",
+    "arabic": "يَقولُ الصُّوفِيَّةُ مَدَدٌ يا شَيخُ، إِنَّ الأُسودَ شَرِسَةٌ بِلا حَدٍّ\nقَد أَخلَوا سُروجاً بِلا عَدَدٍ، تَرمي بِهِم وَلا تَلتَفِتُ",
+    "english": "The Sufis say: Help, O Sheikh! The lions are boundlessly fierce\nThey emptied countless saddles, striking without a glance"
+  },
+  {
+    "stanza": 285,
+    "kurdish_ar": "سۆفی دبێن شێر ئاورن؛ مەخلەب وەکی شوور دبڕن\nڤێکڕا هزاران ددڕن؛ مەجروح د بابل ڕاکەتێ",
+    "kurmanji_lat": "sofî dibên şêr awrin; mexleb wekî şûr dibiřn\nvêkřa hizaran didiřn; mecruḧ di babil řaketê",
+    "arabic": "يَقولُ الصُّوفِيَّةُ إِنَّ الأُسودَ نيرانٌ، مَخالِبُها تَقطَعُ كَالسُّيوفِ\nتُمَزِّقُ الآلافَ مَعاً، فَيَنامُ المَجروحُ في بابِلَ",
+    "english": "The Sufis say the lions are fire, their claws cut like swords\nThey tear thousands apart together, leaving the wounded to rest in Babylon"
+  },
+  {
+    "stanza": 286,
+    "kurdish_ar": "مەجروح کرن شێران گەلەک؛ هارووت و مارووت و مەلەک\nزنجیر کرن یا چاڤ بەلەک؛ ل سەر دۆشەکا سەلتەنەتێ",
+    "kurmanji_lat": "mecruḧ kirin şêran gelek; harût û marût û melek\nzincîr kirin ya çav belek; li ser doşeka seltenetê",
+    "arabic": "لَقَد جَرَحَتِ الأُسودُ الكَثيرَينَ، مِن هاروتَ وَماروتَ وَالمَلائِكَةِ\nقَيَّدَتْ تِلكَ الحَسناءُ ذاتُ العُيونِ السُّودِ، الجَميعَ عَلى فِراشِ السَّلطَنَةِ",
+    "english": "The lions have wounded many, including Harut, Marut, and angels\nThe dark-eyed beauty chained them all, upon the throne of sovereignty"
+  },
+  {
+    "stanza": 287,
+    "kurdish_ar": "پوڕ پەهلەوان و شەهسوار؛ هەڤریێد مەجنوون سەد هزار\nفەرهاد و خسرەو نوو دیار؛ دانین ژ هەسپێ قووەتێ",
+    "kurmanji_lat": "puř pehlewan û şehsiwar; hevryêd mecnûn sed hizar\nferhad û xisrew nû dyar; danîn ji hespê quwetê",
+    "arabic": "الكَثيرُ مِنَ الأَبطالِ وَالفُرسانِ، وَمِئَةُ أَلفٍ مِن نُظَراءِ مَجنونٍ\nوَفَرهادُ وَكِسرَى ظَهَروا مِن جَديدٍ، أَنزَلوهُم عَن صَهوَةِ قُوَّتِهِم",
+    "english": "Many champions and master horsemen, a hundred thousand peers of Majnun\nFarhad and Khosrow newly appeared, were brought down from their mighty steeds"
+  },
+  {
+    "stanza": 288,
+    "kurdish_ar": "شەیخ گۆ: مە فەهم کر ئەڤ خەبەر؛ شەیخێ کو شێران دایە بەر\nهوون زوو ب زوو نەهاتان ژ سەر؛ فەربوو ل وە یەک تەبعەتێ",
+    "kurmanji_lat": "şeyx go: me fehim kir ev xeber; şeyxê ku şêran daye ber\nhûn zû bi zû nehatan ji ser; ferbû li we yek teb’etê",
+    "arabic": "قالَ الشَّيخُ: لَقَد فَهِمنا هَذا الخَبَرَ، الشَّيخُ الَّذي تَصَدَّى لِلأُسودِ\nلَم تَعودوا إِلَيهِ سَريعاً، لَقَد وَجَبَت عَلَيكُم طَبيعَةٌ واحِدَةٌ",
+    "english": "The Sheikh said: We have understood this news, the Sheikh who confronted the lions\nYou did not quickly return to him, a single nature was required of you"
+  },
+  {
+    "stanza": 289,
+    "kurdish_ar": "فەربوو حەمی هەڤال بووان؛ تابعێ شەیخێ کال بووان\nنێزیکی دینێ ضالعەرەبی بووان؛ ل سەر خاترا ئەهلییەتێ",
+    "kurmanji_lat": "ferbû ḧemî heval buwan; tab’ê şeyxê kal buwan\nnêzîkî dînê zalErebî buwan; li ser xatra ehlîyetê",
+    "arabic": "كانَ واجِباً أَن تَكونوا جَميعاً رِفاقَهُ، أَن تَكونوا أَتْباعاً لِلشَّيخِ المُسِنِّ\nأَن تَقتَرِبوا مِن دينِ العَرَبِ، مِن أَجلِ حُرمَةِ الأَهلِيَّةِ",
+    "english": "You all should have been his companions, followers of the old Sheikh\nYou should have drawn near to the Arab religion, for the sake of true worthiness"
+  },
+  {
+    "stanza": 290,
+    "kurdish_ar": "من ئەهلێ دل سابر دڤێن؛ نێزیکی شەیخ قادر دڤێن\nڤێکڕا حەمی کافر دڤێن؛ قەنج بوو قەوی ژ بووی غیرەتێ",
+    "kurmanji_lat": "min ehlê dil sabir divên; nêzîkî şeyx qadir divên\nvêkřa ḧemî kafir divên; qenc bû qewî ji bûy ẍîretê",
+    "arabic": "أُريدُ أَصحابَ قُلوبٍ صابِرينَ، أُريدُهُم مُقَرَّبينَ مِنَ الشَّيخِ القادِرِ\nأُريدُهُم جَميعاً كُفَّاراً مَعاً، كانَ ذَلِكَ خَيراً عَظيماً مِن أَجلِ الغَيرَةِ",
+    "english": "I want patient people of the heart, I want them close to the capable Sheikh\nI want them all infidels together, it was a great good out of zeal"
+  },
+  {
+    "stanza": 291,
+    "kurdish_ar": "قەنج بوو قەوی ئەڤ ژ وەڕا؛ ژ ناڤ و نامووسا وەڕا\nکافر بوونا بشەیخێ خوەڕا؛ لێ ئەو ل مال بیرا وەتێ",
+    "kurmanji_lat": "qenc bû qewî ev ji weřa; ji nav û namûsa weřa\nkafir bûna bişeyxê xweřa; lê ew li mal bîra wetê",
+    "arabic": "كانَ هَذا خَيراً كَبيراً لَكُم، لِسُمعَتِكُم وَشَرَفِكُم\nأَن تَكفُروا مَعَ شَيخِكُم، لَكِنَّ تِلكَ ذِكراكُم في الوَطَنِ",
+    "english": "This was a great good for you, for your name and honor\nTo become infidels along with your Sheikh, but that is your memory at home"
+  },
+  {
+    "stanza": 292,
+    "kurdish_ar": "یا ئەز دبێژم هەر ئەڤە؛ ڤێکڕا حەمی هەودەینەڤە\nچین ب رییا شەیخێ خوەڤە؛ هەرچی قەزا ب سەر مەتێ",
+    "kurmanji_lat": "ya ez dibêjim her eve; vêkřa ḧemî hewdeyneve\nçîn bi rîya şeyxê xweve; herçî qeza bi ser metê",
+    "arabic": "ما أَقولُهُ لَكُم هُوَ هَذا، فَلنَستَعِدَّ جَميعاً مَعاً\nلِنَمضِيَ في طَريقِ شَيخِنا، مَهما كانَ القَضاءُ الَّذي سَيَحِلُّ بِنا",
+    "english": "What I say is just this, let us all prepare together\nTo walk on the path of our Sheikh, whatever fate may befall us"
+  },
+  {
+    "stanza": 293,
+    "kurdish_ar": "ئەو مورشدێ شیرین نەزەر؛ بەرهەڤ کرن ساحب کەمەر\nحەمیان ژ مال هەودانە سەر؛ ژ ذاکران هنگامە تێ",
+    "kurmanji_lat": "ew murişdê şîrîn nezer; berhev kirin saḧb kemer\nḧemyan ji mal hewdane ser; ji zakiran hingame tê",
+    "arabic": "ذَلِكَ المُرشِدُ حُلوُ النَّظرَةِ، جَمَعَ أَصحابَ الهِمَمِ\nفَخَرَجوا جَميعاً مِنَ الدَّيارِ، وَعَلَت جَلَبَةُ الذَّاكِرينَ",
+    "english": "That guide with the sweet glance, gathered the men of resolve\nThey all set forth from their homes, as the tumult of those remembering God arises"
+  },
+  {
+    "stanza": 294,
+    "kurdish_ar": "ب هەیهەی و هنگامە چوون؛ ب شاهییو مەعرەکە چوون\nحەتا ڤەپێش دێرێڤە چوون؛ سوڕڕەگها مەملەکەتێ",
+    "kurmanji_lat": "bi heyhey û hingame çûn; bi şahyîw me’reke çûn\nḧeta vepêş dêrêve çûn; suřřegha memleketê",
+    "arabic": "مَضَوا بِالهُتافِ وَالجَلَبَةِ، مَضَوا بِفَرَحٍ وَصَخَبِ المَعرَكَةِ\nحَتَّى وَصَلوا إِلى أَمامِ الدَّيرِ، السِّرُّ العَظيمُ لِلمَملَكَةِ",
+    "english": "With chants and clamor they went, with joy and battlefield din they went\nUntil they arrived before the monastery, the great mystery of the realm"
+  },
+  {
+    "stanza": 295,
+    "kurdish_ar": "ئەووەل گهانە جایەکێ؛ ئیشەڤ بکین سەمایەکێ\nڤێکڕا بکین دوعایەکێ؛ کانێ نابینن روئیەتێ؟!",
+    "kurmanji_lat": "ewwel gihane cayekê; îşev bikîn semayekê\nvêkřa bikîn du’ayekê; kanê nabînin ru’yetê?!",
+    "arabic": "وَصَلوا أَوَّلاً إِلى مَكانٍ ما، لِنُقِمِ اللَّيلَةَ حَفلَةَ سَماعٍ\nلِنَدعُ اللَّهَ جَميعاً، أَلا يَرَوْنَ الرُّؤيَةَ؟!",
+    "english": "First they reached a certain place, tonight let us perform the Sema\nLet us pray together, do they not see the vision?!"
+  },
+  {
+    "stanza": 296,
+    "kurdish_ar": "کانێ نابینن خەونەکێ؛ ب چوونەکێ، ب کەونەکێ\nب رەنگەکێ، ب لەونەکێ؛ دا بێتە بەر ئیشارەتێ",
+    "kurmanji_lat": "kanê nabînin xewnekê; bi çûnekê, bi kewnekê\nbi rengekê, bi lewnekê; da bête ber îşaretê",
+    "arabic": "أَلا يَرَوْنَ حُلماً؟، بِرَحيلٍ أَو بِوُجودٍ\nبِلَونٍ ما، بِشَكلٍ ما، لَعَلَّهُ يَأتي بِإِشارَةٍ",
+    "english": "Do they not see a dream? Of a departure, of an existence\nIn some color, in some hue, so that a sign may be revealed"
+  },
+  {
+    "stanza": 297,
+    "kurdish_ar": "ئەو سۆفیێ ئەوراد ددەڤ؛ وان مەجلسەک دانی ب شەڤ\nشەیخ سەحەرێ چاڤ چوونە هەڤ؛ زوو دی شەفیعێ ئوممەتێ",
+    "kurmanji_lat": "ew sofyê ewrad didev; wan meclisek danî bi şev\nşeyx seḧerê çav çûne hev; zû dî şefî’ê ummetê",
+    "arabic": "أُولَئِكَ الصُّوفِيَّةُ وَالْأَوْرَادُ فِي أَفْوَاهِهِمْ؛ أَقَامُوا مَجْلِسًا فِي اللَّيْلِ\nأَغْمَضَ الشَّيْخُ عَيْنَيْهِ عِنْدَ السَّحَرِ؛ فَرَأَى سَرِيعًا شَفِيعَ الْأُمَّةِ",
+    "english": "Those Sufis with litanies on their lips; they held a gathering at night,\nThe Sheikh closed his eyes at dawn; and quickly saw the Intercessor of the Ummah."
+  },
+  {
+    "stanza": 298,
+    "kurdish_ar": "رۆحێ وی دی، ذاتێ رەسوول؛ مزگینیا شەیخ بوو قەبوول\nئیرۆ بدە خەلقێ مەلوول؛ دا سەح بکین کرامەتێ",
+    "kurmanji_lat": "roḧê wî dî, zatê resûl; mizgînya şeyx bû qebûl\nîro bide xelqê melûl; da seḧ bikîn kirametê",
+    "arabic": "رَأَى رُوحَهُ، ذَاتَ الرَّسُولِ؛ فَقُبِلَتْ بِشَارَةُ الشَّيْخِ\nأَعْطِهَا الْيَوْمَ لِلنَّاسِ الْمَحْزُونِينَ؛ لِيَرَوْا هَذِهِ الْكَرَامَةَ",
+    "english": "He saw his soul, the essence of the Messenger; the Sheikh's glad tidings were accepted,\nGive them today to the sorrowful people; so they may witness the miracle."
+  },
+  {
+    "stanza": 299,
+    "kurdish_ar": "دا هوون نەبێن شەیخ کافرە؛ زێڕ باتنە، زیڤ زاهرە\nژ هەردو وەجهان تاهرە؛ عشقێ برە تەهورەتێ",
+    "kurmanji_lat": "da hûn nebên şeyx kafre; zêř batne, zîv zahre\nji herdu wechan tahre; ’işqê bire tehuretê",
+    "arabic": "كَيْ لَا تَقُولُوا إِنَّ الشَّيْخَ كَافِرٌ؛ فَالذَّهَبُ بَاطِنٌ وَالْفِضَّةُ ظَاهِرَةٌ\nهُوَ طَاهِرٌ مِنْ كِلَا الْوَجْهَيْنِ؛ لَقَدْ قَادَهُ الْعِشْقُ إِلَى الطَّهَارَةِ",
+    "english": "So you do not say the Sheikh is an infidel; gold is hidden, silver is manifest,\nHe is pure from both faces; love has led him to true purity."
+  },
+  {
+    "stanza": 300,
+    "kurdish_ar": "حالێ ل شەیخ رەحمانیە؛ دا هوون مەبێن نەفسانیە\nوی یەک دییە، یەک زانییە؛ دین کر مەیا وەحدانەتێ",
+    "kurmanji_lat": "ḧalê li şeyx reḧmanye; da hûn mebên nefsanye\nwî yek dîye, yek zanîye; dîn kir meya weḧdanetê",
+    "arabic": "حَالُ الشَّيْخِ حَالٌ رَحْمَانِيَّةٌ؛ كَيْ لَا تَقُولُوا إِنَّهَا نَفْسَانِيَّةٌ\nلَقَدْ رَأَى وَاحِدًا، وَعَرَفَ وَاحِدًا؛ وَجَعَلَ الدِّينَ خَمْرَةَ الْوَحْدَانِيَّةِ",
+    "english": "The Sheikh's condition is divine; so you do not say it is carnal,\nHe saw One, he knew One; religion made him the wine of Oneness."
+  },
+  {
+    "stanza": 301,
+    "kurdish_ar": "ئەڤ رەنگ دبێ پەیغەمبەرە؛ شەیخ مەستێ بادا ئەکبەرە\nخەمرا ڤەخواری کەوسەرە؛ ئەو مەی ژ وێ مێوێ وەتێ",
+    "kurmanji_lat": "ev reng dibê peyẍembere; şeyx mestê bada ekbere\nxemra vexwarî kewsere; ew mey ji wê mêwê wetê",
+    "arabic": "بِهَذَا الشَّكْلِ يَقُولُ النَّبِيُّ؛ الشَّيْخُ مَخْمُورٌ بِالْكَأْسِ الْأَكْبَرِ\nالْخَمْرَةُ الَّتِي شَرِبَهَا هِيَ الْكَوْثَرُ؛ تِلْكَ الْخَمْرَةُ تَأْتِي مِنْ تِلْكَ الْكَرْمَةِ",
+    "english": "In this manner speaks the Prophet; the Sheikh is drunk with the greatest wine,\nThe wine he drank is Kawthar; that wine flows from that vine."
+  },
+  {
+    "stanza": 302,
+    "kurdish_ar": "هەر مێوەکێ خەمرەک هەیە؛ هەر خەمرەکێ تەمرەک هەیە\nڤان لەولەبان ئەمرەک هەیە؛ چەرخەک دچی، چەرخا دِ تێ",
+    "kurmanji_lat": "her mêwekê xemrek heye; her xemrekê temrek heye\nvan lewleban emrek heye; çerxek diçî, çerxa dî tê",
+    "arabic": "لِكُلِّ ثَمَرَةٍ خَمْرَتُهَا؛ وَلِكُلِّ خَمْرَةٍ حَلَاوَتُهَا\nلِهَذِهِ الْأَفْلَاكِ أَمْرٌ؛ تَمْضِي عَجَلَةٌ وَتَأْتِي أُخْرَى",
+    "english": "Every fruit has its wine; every wine has its sweetness,\nThese turning heavens have a decree; one wheel goes, another comes."
+  },
+  {
+    "stanza": 303,
+    "kurdish_ar": "هەر چەرخەکێ دەنگەک هەیە؛ هەر وەقتەکێ رەنگەک هەیە\nهەر شۆخەکێ شەنگەک هەیە؛ بابەت دکێشی بابەتێ",
+    "kurmanji_lat": "her çerxekê dengek heye; her weqtekê rengek heye\nher şoxekê şengek heye; babet dikêşî babetê",
+    "arabic": "لِكُلِّ عَجَلَةٍ صَوْتٌ؛ وَلِكُلِّ زَمَانٍ لَوْنٌ\nلِكُلِّ حَسْنَاءَ سِحْرُهَا؛ وَالشَّبِيهُ يَجْذِبُ شَبِيهَهُ",
+    "english": "Every wheel has a sound; every time has a color,\nEvery beauty has her charm; like attracts like."
+  },
+  {
+    "stanza": 304,
+    "kurdish_ar": "ئەو حۆرییا شەیخ بابەتە؛ ئەبیەز یەدا جهـ جەننەتە\nلەب شەککەرا نەی قامەتە؛ تێک تەییباتا نعمەتێ",
+    "kurmanji_lat": "ew ḧorîya şeyx babete; ebyez yeda cih cennete\nleb şekkera ney qamete; têk teyîbata ni’metê",
+    "arabic": "تِلْكَ الْحُورِيَّةُ مُنَاسِبَةٌ لِلشَّيْخِ؛ بَيْضَاءُ الْيَدَيْنِ مَكَانُهَا الْجَنَّةُ\nسُكَّرِيَّةُ الشِّفَاهِ كَالْغُصْنِ قَامَتُهَا؛ هِيَ مَجْمَعُ طَيِّبَاتِ النِّعَمِ",
+    "english": "That Houri is fitting for the Sheikh; with white hands, her place is Paradise,\nSugar-lipped, with a reed-like stature; altogether the goodness of grace."
+  },
+  {
+    "stanza": 305,
+    "kurdish_ar": "ئەو تەییبات و تەییبین؛ تەرسا بەچا پوڕ هەمنشین\nدێ بێتە دەست شەیخێ ئەمین؛ جاما کو قەرقەف ب خوە تێ",
+    "kurmanji_lat": "ew teyîbat û teyîbîn; tersa beça puř hemnişîn\ndê bête dest şeyxê emîn; cama ku qerqef bi xwe tê",
+    "arabic": "تِلْكَ الطَّيِّبَاتُ وَالطَّاهِرُونَ؛ الْفَتَاةُ الْمَسِيحِيَّةُ الدَّائِمَةُ الْمُجَالَسَةِ\nسَتَأْتِي إِلَى يَدِ الشَّيْخِ الْأَمِينِ؛ كَالْكَأْسِ الَّتِي تَفِيضُ بِالْخَمْرِ الْقَوِيِّ",
+    "english": "Those good things and pure ones; the Christian maiden, a constant companion,\nWill come to the hand of the trustworthy Sheikh; the cup into which strong wine flows."
+  },
+  {
+    "stanza": 306,
+    "kurdish_ar": "جاما خودێ سیقال کری؛ تەژی شەرابا ئال کری\nقسمەتێ شەیخێ کال کری؛ کەلبێ سیاهـ دەڤ نادەتێ",
+    "kurmanji_lat": "cama xudê sîqal kirî; tejî şeraba al kirî\nqismetê şeyxê kal kirî; kelbê syah dev nadetê",
+    "arabic": "الْكَأْسُ الَّتِي صَقَلَهَا اللَّهُ؛ وَالْمَلِيئَةُ بِالْخَمْرِ الْأَحْمَرِ\nالَّتِي قُسِمَتْ لِلشَّيْخِ الْمُسِنِّ؛ لَنْ يَمَسَّهَا الْكَلْبُ الْأَسْوَدُ",
+    "english": "The cup polished by God; filled with crimson wine,\nThe destiny of the old Sheikh; the black dog shall not touch it."
+  },
+  {
+    "stanza": 307,
+    "kurdish_ar": "تاها دبێ نیشان ئەڤە؛ ئەو زاهری ژ رەنگێ مەڤە\nباندێ سوبەح شەیخ تێتەڤە؛ بەلکی کو کچ دپێڤەتێ",
+    "kurmanji_lat": "taha dibê nîşan eve; ew zahrî ji rengê meve\nbandê subeḧ şeyx têteve; belkî ku kiç dipêvetê",
+    "arabic": "طَهَ يَقُولُ هَذِهِ هِيَ الْعَلَامَةُ؛ إِنَّهُ ظَاهِرٌ مِنْ لَوْنِنَا\nمَعَ ضَوْءِ الصَّبَاحِ سَيَعُودُ الشَّيْخُ؛ وَلَعَلَّ الْفَتَاةَ تَتْبَعُهُ",
+    "english": "Taha says this is the sign; it is manifest from our hue,\nAt morning light the Sheikh returns; perhaps the girl will follow him."
+  },
+  {
+    "stanza": 308,
+    "kurdish_ar": "ژ بەرەکەتا وەقتێ سەبایێ؛ شەیخ عەتار مزگین گهایێ\nنوو ڤەکر سازێ سەمایێ؛ سۆفیان جۆش ڤێکەتێ",
+    "kurmanji_lat": "ji bereketa weqtê sebayê; şeyx ’etar mizgîn gihayê\nnû vekir sazê semayê; sofyan coş vêketê",
+    "arabic": "مِنْ بَرَكَةِ وَقْتِ الصَّبَاحِ؛ وَصَلَتِ الْبِشَارَةُ لِلشَّيْخِ الْعَطَّارِ\nفَفَتَحَ مِنْ جَدِيدٍ آلَةَ السَّمَاعِ؛ وَاشْتَعَلَ الصُّوفِيَّةُ بِالْحَمَاسِ",
+    "english": "From the blessing of the morning time; Sheikh Attar received the glad tidings,\nHe tuned the instrument of Sema anew; the Sufis were ignited with fervor."
+  },
+  {
+    "stanza": 309,
+    "kurdish_ar": "سۆفیێ موسحەف حەمائل؛ تێک و ڤێک چوونە موقابل\nوان هلاڤێتن جەلاجل؛ دەنگها شەیخ دغەفلەتێ",
+    "kurmanji_lat": "sofyê musḧef ḧema’il; têk û vêk çûne muqabil\nwan hilavêtin celacil; dengiha şeyx diẍefletê",
+    "arabic": "الصُّوفِيَّةُ حَامِلُو الْمَصَاحِفِ كَالتَّمَائِمِ؛ تَجَمَّعُوا وَتَقَابَلُوا\nوَطَرَحُوا عَنْهُمُ الْأَجْرَاسَ؛ بَيْنَمَا كَانَتْ أَصْوَاتُ الشَّيْخِ فِي غَفْلَةٍ",
+    "english": "The Sufis carrying the Quran as amulets; stepped forth face to face,\nThey cast off the bells; the voices of the Sheikh were in unawareness."
+  },
+  {
+    "stanza": 310,
+    "kurdish_ar": "شەیخِ گاڤانێ بەرازان؛ ئشتها چوو زکر و سازان\nچەڕڕخی دا چەرخ و بازان؛ مەشییا ناڤ داوەتێ",
+    "kurmanji_lat": "şeyxî gavanê berazan; iştiha çû zikir û sazan\nçeřřixî da çerx û bazan; meşîya nav dawetê",
+    "arabic": "الشَّيْخُ رَاعِي الْخَنَازِيرِ؛ تَاقَتْ نَفْسُهُ إِلَى الذِّكْرِ وَالْأَلْحَانِ\nدَارَ وَحَلَّقَ كَالصُّقُورِ؛ وَمَشَى دَاخِلَ الْمَجْلِسِ",
+    "english": "The Sheikh, the swineherd; his desire went to dhikr and music,\nHe spun like rolling wheels and falcons; and walked into the assembly."
+  },
+  {
+    "stanza": 311,
+    "kurdish_ar": "مەشییا ژ دوورڤە دیار بوو؛ گوهـ ل دەنگێ شەیخ عەتار بوو\nهێژ ب کونکۆخ و زنار بوو؛ خۆهـ ژ شەرمان ڤێکەتێ",
+    "kurmanji_lat": "meşîya ji dûrve dyar bû; guh li dengê şeyx ’etar bû\nhêj bi kunkox û zinar bû; xoh ji şerman vêketê",
+    "arabic": "مَشَى وَظَهَرَ مِنْ بَعِيدٍ؛ مُصْغِيًا إِلَى صَوْتِ الشَّيْخِ الْعَطَّارِ\nوَكَانَ لَا يَزَالُ بِالْقُبَّعَةِ وَالزُّنَّارِ؛ فَتَصَبَّبَ عَرَقًا مِنَ الْخَجَلِ",
+    "english": "He walked and appeared from afar; listening to the voice of Sheikh Attar,\nHe still wore the Christian cap and girdle; sweat broke out from shame."
+  },
+  {
+    "stanza": 312,
+    "kurdish_ar": "شەیخ بوویە دۆلاب ل دەشتێ؛ مەلەکێ هادی گەهشتێ\nوی زنار ئاڤێت ژ پوشتێ؛ شوشتی ب ئاڤا رەحمەتێ",
+    "kurmanji_lat": "şeyx bûye dolab li deştê; melekê hadî gehşitê\nwî zinar avêt ji puştê; şuştî bi ava reḧmetê",
+    "arabic": "صَارَ الشَّيْخُ كَالنَّاعُورَةِ فِي السَّهْلِ؛ فَوَصَلَ إِلَيْهِ الْمَلَاكُ الْهَادِي\nرَمَى الزُّنَّارَ عَنْ خَصْرِهِ؛ وَاغْتَسَلَ بِمَاءِ الرَّحْمَةِ",
+    "english": "The Sheikh spun like a waterwheel in the plain; the guiding angel reached him,\nHe threw the girdle off his waist; washed by the water of mercy."
+  },
+  {
+    "stanza": 313,
+    "kurdish_ar": "مەلەکێ هادی بخار هات؛ قسسەتا مورشد بکار هات\nشەیخ بدەستێ شەیخ عەتار هات؛ هەروەکی ژ کەعبێ ڤەتێ",
+    "kurmanji_lat": "melekê hadî bixar hat; qisseta murişd bikar hat\nşeyx bidestê şeyx ’etar hat; herwekî ji ke’bê vetê",
+    "arabic": "نَزَلَ الْمَلَاكُ الْهَادِي إِلَى الْأَسْفَلِ؛ وَنَفَعَتْ قِصَّةُ الْمُرْشِدِ\nجَاءَ الشَّيْخُ إِلَى يَدِ الشَّيْخِ الْعَطَّارِ؛ كَأَنَّهُ عَائِدٌ مِنَ الْكَعْبَةِ",
+    "english": "The guiding angel came down; the story of the master served its purpose,\nThe Sheikh came to the hand of Sheikh Attar; as if returning from the Kaaba."
+  },
+  {
+    "stanza": 314,
+    "kurdish_ar": "دوڕ ژ بەحرا «نوون» و «کاف»ێ؛ شەیخ عەتار ئینا کەشافێ\nسۆفیان بەردا تەوافێ؛ خاچ حەبینێ دل کەتێ",
+    "kurmanji_lat": "duř ji beḧra «nûn» û «kaf»ê; şeyx ’etar îna keşafê\nsofyan berda tewafê; xaç ḧebînê dil ketê",
+    "arabic": "دُرَّةٌ مِنْ بَحْرِ «النُّونِ» وَ«الْكَافِ»؛ أَتَى بِهَا الشَّيْخُ الْعَطَّارُ لِلْكَشْفِ\nبَدَأَ الصُّوفِيَّةُ بِالطَّوَافِ؛ فَوَقَعَ قَلْبُ الْمَحْبُوبَةِ حَامِلَةِ الصَّلِيبِ فِيهِ",
+    "english": "A pearl from the sea of 'Nun' and 'Kaf'; Sheikh Attar brought the revelation,\nThe Sufis began their circumambulation; the cross-wearing beloved's heart fell for him."
+  },
+  {
+    "stanza": 315,
+    "kurdish_ar": "دل کەتە ذکر و سەمایێ؛ گازییا بانگا قەزایێ\nدلبەرێ ل «دێرا کەلایێ»؛ سەکنی، گوهـ ددەتێ",
+    "kurmanji_lat": "dil kete zikir û semayê; gazîya banga qezayê\ndilberê li «dêra kelayê»; seknî, guh didetê",
+    "arabic": "وَقَعَ الْقَلْبُ فِي الذِّكْرِ وَالسَّمَاعِ؛ نَادَى نِدَاءُ الْقَضَاءِ\nوَقَفَتِ الْمَحْبُوبَةُ فِي «دَيْرِ الْقَلْعَةِ»؛ وَأَصْغَتْ إِلَيْهِ",
+    "english": "The heart fell into dhikr and Sema; the call of destiny summoned,\nThe beloved at the 'Monastery of the Castle'; stood and listened to it."
+  },
+  {
+    "stanza": 316,
+    "kurdish_ar": "سەکنی گوهـ دا خورۆشێ؛ سۆفیان دا نۆشە نۆشێ\nباتنی کچ هاتە جۆشێ؛ ئەسەرا وان ڤێکەتێ",
+    "kurmanji_lat": "seknî guh da xuroşê; sofyan da noşe noşê\nbatnî kiç hate coşê; esera wan vêketê",
+    "arabic": "وَقَفَتْ وَأَصْغَتْ لِلضَّجِيجِ؛ وَالصُّوفِيَّةُ يَهْتِفُونَ 'اشْرَبْ، اشْرَبْ'\nفَغَلَتِ الْفَتَاةُ مِنْ دَاخِلِهَا؛ وَتَمَلَّكَهَا تَأْثِيرُهُمْ",
+    "english": "She stood and listened to the clamor; the Sufis crying 'Drink! Drink!',\nInwardly the girl came to a boil; their effect took hold of her."
+  },
+  {
+    "stanza": 317,
+    "kurdish_ar": "ئەسەرا نوورا کەمالێ؛ ئاگرێ شەیخێ شەمالێ\nگرتە فندا چاڤ غەزالێ؛ ئەو فەتیلا شوعلەتێ",
+    "kurmanji_lat": "esera nûra kemalê; agirê şeyxê şemalê\ngirte finda çav ẍezalê; ew fetîla şu’letê",
+    "arabic": "تَأْثِيرُ نُورِ الْكَمَالِ؛ وَنَارُ الشَّيْخِ الْمُضِيءِ\nأَشْعَلَ شَمْعَةَ ذَاتِ عُيُونِ الْغَزَالِ؛ تِلْكَ الْفَتِيلَةَ لِلشُّعْلَةِ",
+    "english": "The effect of the light of perfection; the fire of the luminous Sheikh,\nCaught the candle of the gazelle-eyed girl; that wick of the flame."
+  },
+  {
+    "stanza": 318,
+    "kurdish_ar": "شوعلەیا رۆهنی شەفاف کر؛ عەور ژ بەر رۆژێ بەلاڤ کر\nشەیخ ل مەحبووبێ هەتاڤ کر؛ بر ژ پەردا زولمەتێ",
+    "kurmanji_lat": "şu’leya rohnî şefaf kir; ’ewr ji ber rojê belav kir\nşeyx li meḧbûbê hetav kir; bir ji perda zulmetê",
+    "arabic": "الشُّعْلَةُ الْمُضِيئَةُ جَعَلَتِ الْأَشْيَاءَ شَفَّافَةً؛ وَبَدَّدَتِ الْغُيُومَ مِنْ أَمَامِ الشَّمْسِ\nأَشْرَقَ الشَّيْخُ كَالشَّمْسِ عَلَى الْمَحْبُوبَةِ؛ وَأَخْرَجَهَا مِنْ حِجَابِ الظُّلْمَةِ",
+    "english": "The bright flame made everything clear; it scattered the clouds before the sun,\nThe Sheikh shone like the sun on the beloved; and took her from the veil of darkness."
+  },
+  {
+    "stanza": 319,
+    "kurdish_ar": "تاریە نوور هاتە نێڤە؛ سۆفیان شەیخ بر بڕێڤە\nموبتەلا بوو کچ دپێڤە؛ بێ قرار کر هممەتێ",
+    "kurmanji_lat": "tarye nûr hate nêve; sofyan şeyx bir biřêve\nmubtela bû kiç dipêve; bê qirar kir himmetê",
+    "arabic": "مَضَتِ الظُّلْمَةُ وَحَلَّ النُّورُ دَاخِلَهَا؛ وَأَخَذَ الصُّوفِيَّةُ الشَّيْخَ مَعَهُمْ\nوَأُصِيبَتِ الْفَتَاةُ بِالْوَلَهِ خَلْفَهُ؛ وَجَعَلَتْهَا هِمَّتُهُ بِلَا قَرَارٍ",
+    "english": "Darkness passed, light entered within; the Sufis took the Sheikh away,\nThe girl became infatuated with him; his spiritual power left her restless."
+  },
+  {
+    "stanza": 320,
+    "kurdish_ar": "سۆفیان یارێ کەچێ بر؛ شەیخ ژ سەر دینێ نەچێ بر\nجەگەرا تەرسا پەچێ بر؛ شەهسوارێ غارەتێ",
+    "kurmanji_lat": "sofyan yarê keçê bir; şeyx ji ser dînê neçê bir\ncegera tersa peçê bir; şehsiwarê ẍaretê",
+    "arabic": "أَخَذَ الصُّوفِيَّةُ حَبِيبَ الْفَتَاةِ؛ وَأَخَذَهَا الشَّيْخُ مِنْ دِينِ الصَّيْدِ (الْمَسِيحِيَّةِ)\nأَخَذَ قِطْعَةً مِنْ كَبِدِ الْفَتَاةِ الْمَسِيحِيَّةِ؛ ذَلِكَ الْفَارِسُ الْمُغِيرُ",
+    "english": "The Sufis took the girl's lover away; the Sheikh took her from her religion,\nHe took a piece of the Christian girl's heart; the champion of the raid."
+  },
+  {
+    "stanza": 321,
+    "kurdish_ar": "شەیخ ژ بەر وەحشان سەفەر کر؛ دلبەرێ پێڤە نەزەر کر\nموحبەتێ دل کەر بکەر کر؛ کچ گری وێ ساعەتێ",
+    "kurmanji_lat": "şeyx ji ber weḧşan sefer kir; dilberê pêve nezer kir\nmuḧbetê dil ker biker kir; kiç girî wê sa’etê",
+    "arabic": "سَافَرَ الشَّيْخُ بَعِيدًا عَنِ الْوُحُوشِ؛ فَنَظَرَتِ الْمَحْبُوبَةُ فِي إِثْرِهِ\nوَقَطَّعَتِ الْمَحَبَّةُ قَلْبَهَا أَشْلَاءً؛ فَبَكَتِ الْفَتَاةُ فِي تِلْكَ السَّاعَةِ",
+    "english": "The Sheikh traveled away from the wild beasts; the beloved looked after him,\nLove broke her heart into pieces; the girl wept at that moment."
+  },
+  {
+    "stanza": 322,
+    "kurdish_ar": "دلبەرێ بەردا گرینێ؛ هسترێ وێ نازەنینێ\nبوونە جووبارێدِ خوینێ؛ تێ ژ عەورێ فرقەتێ",
+    "kurmanji_lat": "dilberê berda girînê; histirê wê nazenînê\nbûne cûbarêdî xwînê; tê ji ’ewrê firqetê",
+    "arabic": "أَطْلَقَتِ الْمَحْبُوبَةُ الْعَنَانَ لِبُكَائِهَا؛ وَدُمُوعُ تِلْكَ الرَّقِيقَةِ\nأَصْبَحَتْ جَدَاوِلَ مِنَ الدَّمِ؛ تَهْطِلُ مِنْ سَحَابَةِ الْفِرَاقِ",
+    "english": "The beloved let loose her weeping; the tears of that delicate one,\nBecame streams of blood; pouring from the cloud of separation."
+  },
+  {
+    "stanza": 323,
+    "kurdish_ar": "مەتەرا عەورێ فراقێ؛ تێ ژ رەعدێ ئشتیاقێ\nکچ ژ بەر هاتە رەواقێ؛ گاڤەکێ نا تەبتێ",
+    "kurmanji_lat": "metera ’ewrê firaqê; tê ji re’dê iştyaqê\nkiç ji ber hate rewaqê; gavekê na tebtê",
+    "arabic": "مَطَرُ سَحَابَةِ الْفِرَاقِ؛ يَأْتِي مِنْ رَعْدِ الِاشْتِيَاقِ\nخَرَجَتِ الْفَتَاةُ إِلَى الرِّوَاقِ؛ وَلَا تَهْدَأُ لَحْظَةً",
+    "english": "The rain of the cloud of separation; falls from the thunder of longing,\nThe girl came out to the portico; she cannot be still for a moment."
+  },
+  {
+    "stanza": 324,
+    "kurdish_ar": "کچ گاڤەکێ نا سەبری؛ دائین ل نک تێ فکری\nتەنها دبێ چوا دگری؛ ئیرۆ قەوی بێ راحەتێ",
+    "kurmanji_lat": "kiç gavekê na sebrî; da’în li nik tê fikirî\ntenha dibê çwa digrî; îro qewî bê raḧetê",
+    "arabic": "لَمْ تَصْبِرِ الْفَتَاةُ لَحْظَةً؛ فَتَفَكَّرَتْ مُرَبِّيَتُهَا بِجَانِبِهَا\nفَقَطْ تَسْأَلُ لِمَاذَا تَبْكِينَ؛ أَنْتِ الْيَوْمَ بِلَا رَاحَةٍ جِدًّا",
+    "english": "The girl had no patience for a moment; her nurse beside her pondered,\nAsking simply, 'Why do you cry? Today you are completely restless.'"
+  },
+  {
+    "stanza": 325,
+    "kurdish_ar": "ئیرۆ قەوی بێ رەنگی تو؛ بێ هەڤرییو هەڤڕەنگی تو\nنابێی ژ کێ دل تەنگی تو؛ ژ ماشتان بدوور کەتێ",
+    "kurmanji_lat": "îro qewî bê rengî tu; bê hevrîyu hevřengî tu\nnabêy ji kê dil tengî tu; ji maştan bidûr ketê",
+    "arabic": "أَنْتِ الْيَوْمَ شَاحِبَةُ اللَّوْنِ جِدًّا؛ بِلَا رِفَاقٍ وَلَا أَصْدِقَاءَ\nأَلَا تَقُولِينَ مِمَّنْ ضَاقَ قَلْبُكِ؟؛ وَابْتَعَدْتِ عَنِ الْمُشْطِ وَالْمِرْآةِ",
+    "english": "'Today you are very pale; you are without companions or peers,\nWon't you say for whom your heart aches? Distant from the comb and mirror.'"
+  },
+  {
+    "stanza": 326,
+    "kurdish_ar": "ئەو ماشتا ماوەر ددەست؛ سورمە نەدا چاڤێ د مەست\nتاجا مورەسسەع لێ نەبەست؛ زنجیر و تاجا دەولەتێ",
+    "kurmanji_lat": "ew maşta mawer didest; surme neda çavê di mest\ntaca muresse’ lê nebest; zincîr û taca dewletê",
+    "arabic": "هِيَ الَّتِي بِيَدِهَا الْمُشْطُ وَمَاءُ الْوَرْدِ؛ لَمْ تَضَعِ الْكُحْلَ فِي عَيْنَيْهَا النَّاعِسَتَيْنِ\nوَلَمْ تَرْبِطِ التَّاجَ الْمُرَصَّعَ؛ سِلْسِلَةَ وَتَاجَ الدَّوْلَةِ",
+    "english": "She, holding the comb and rosewater; did not apply kohl to her drunken eyes,\nShe did not wear the jeweled crown; the chain and crown of fortune."
+  },
+  {
+    "stanza": 327,
+    "kurdish_ar": "دۆهتا میرێ گورجیانی؛ سەر ڕەفا قاز و سییانی\nنسبەتا شەهـ توتیانی؛ نازکا حوور تەبعەتێ",
+    "kurmanji_lat": "dohta mîrê gurcyanî; ser řefa qaz û sîyanî\nnisbeta şeh tutyanî; nazka ḧûr teb’etê",
+    "arabic": "ابْنَةُ الْأَمِيرِ الْجُورْجِيِّ؛ قَائِدَةُ سِرْبِ الْأَوَزِّ وَالْبَجَعِ\nتُنْسَبُ لِمَلِكِ الْبَبَّغَاوَاتِ؛ الرَّقِيقَةُ ذَاتُ الطَّبِيعَةِ الْحُورِيَّةِ",
+    "english": "The daughter of the Georgian prince; the leader of the flock of geese and swans,\nLikened to the king of parrots; the delicate one of Houri-like nature."
+  },
+  {
+    "stanza": 328,
+    "kurdish_ar": "حووریا بادە فرۆشی؛ شەڤ و رۆژ خەمرێ دنۆشی\nئەتلەس و کەمخان دپۆشی؛ هەر ب زێڕ و زینەتێ",
+    "kurmanji_lat": "ḧûrya bade firoşî; şev û roj xemrê dinoşî\netles û kemxan dipoşî; her bi zêř û zînetê",
+    "arabic": "الْحُورِيَّةُ بَائِعَةُ الْخَمْرِ؛ الَّتِي تَشْرَبُ الْخَمْرَ لَيْلًا وَنَهَارًا\nالَّتِي تَرْتَدِي الْأَطْلَسَ وَالدِّيبَاجَ؛ دَائِمًا بِالذَّهَبِ وَالزِّينَةِ",
+    "english": "The wine-selling Houri; who drinks wine night and day,\nWho wears satin and brocade; always adorned with gold and jewelry."
+  },
+  {
+    "stanza": 329,
+    "kurdish_ar": "تو زینەتێ دبەر بکە؛ فەخر و تاجا ب سەر بکە\nدێمێ گولین ماوەر بکە؛ پەردێ هەلین ژبەر سۆرەتێ",
+    "kurmanji_lat": "tu zînetê diber bike; fexir û taca bi ser bike\ndêmê gulîn mawer bike; perdê helîn jiber soretê",
+    "arabic": "ارْتَدِي زِينَتَكِ؛ وَضَعِي الْفَخْرَ وَالتَّاجَ عَلَى رَأْسِكِ\nامْسَحِي وَجْهَكِ الْوَرْدِيَّ بِمَاءِ الْوَرْدِ؛ وَارْفَعِي الْحِجَابَ عَنْ وَجْهِكِ",
+    "english": "'Put on your adornments; set the crown and glory upon your head,\nApply rosewater to your rosy cheek; lift the veil from your face.'"
+  },
+  {
+    "stanza": 330,
+    "kurdish_ar": "ژبەر سۆرەتێ پەردێ هەلین؛ ماوەر بکە دێمێ گولین\nزولفا سیاهـ ب کلکلین؛ تاتا بکە ل سەر سۆرەتێ",
+    "kurmanji_lat": "jiber soretê perdê helîn; mawer bike dêmê gulîn\nzulfa syah bi kilkilîn; tata bike li ser soretê",
+    "arabic": "ارْفَعِي الْحِجَابَ عَنْ وَجْهِكِ؛ وَامْسَحِي وَجْهَكِ الْوَرْدِيَّ بِمَاءِ الْوَرْدِ\nوَضَفَائِرَكِ السَّوْدَاءَ الْمُتَمَوِّجَةَ؛ رَتِّبِيهَا عَلَى وَجْهِكِ",
+    "english": "'Lift the veil from your face; apply rosewater to your rosy cheek,\nYour black flowing locks; arrange them over your face.'"
+  },
+  {
+    "stanza": 331,
+    "kurdish_ar": "ل سەر سۆرەتێ تاتا بکە؛ هەمیان شیرین بەربا بکە\nساحب دلان پێ شا بکە؛ تو دینا خەلقێ جەبهەتێ",
+    "kurmanji_lat": "li ser soretê tata bike; hemyan şîrîn berba bike\nsaḧb dilan pê şa bike; tu dîna xelqê cebhetê",
+    "arabic": "رَتِّبِيهَا عَلَى وَجْهِكِ؛ وَانْثُرِي الْحَلَاوَةَ لِلْجَمِيعِ فِي الرِّيحِ\nأَفْرِحِي بِهَا أَصْحَابَ الْقُلُوبِ؛ أَنْتِ دِينُ أَهْلِ الْجَبْهَةِ (أَهْلِ الْحُسْنِ)",
+    "english": "'Arrange them over your face; scatter sweetness to all in the wind,\nMake the masters of the heart rejoice with it; you are the religion of the people of beauty.'"
+  },
+  {
+    "stanza": 332,
+    "kurdish_ar": "دائین دبێ یا نازەنی؛ بێ زێڕ شەفەق نادەت ئەنی\nسنگێ تە و بێ زێڕ و بەنی؛ خەمل تەرکرن قەت ژێ نەتێ",
+    "kurmanji_lat": "da’în dibê ya nazenî; bê zêř şefeq nadet enî\nsingê te û bê zêř û benî; xemil terkirin qet jê netê",
+    "arabic": "تَقُولُ الْمُرَبِّيَةُ يَا حَسْنَاءُ؛ بِلَا ذَهَبٍ لَا يُشْرِقُ الْجَبِينُ\nصَدْرُكِ بِلَا ذَهَبٍ وَقَلَائِدَ؛ وَتَرْكُ الزِّينَةِ لَا يَلِيقُ بِهِ أَبَدًا",
+    "english": "The nurse says, 'O delicate one; without gold the forehead does not glow,\nYour chest without gold and necklaces; leaving aside adornment does not suit you at all.'"
+  },
+  {
+    "stanza": 333,
+    "kurdish_ar": "خەملا خوە دیسان کار بکە؛ حەمیان ل بەژنێ بار بکە\nساحب دلان پێ هار بکە؛ هەرچی دەرا مەیلا تەتێ",
+    "kurmanji_lat": "xemla xwe dîsan kar bike; ḧemyan li bejnê bar bike\nsaḧb dilan pê har bike; herçî dera meyla tetê",
+    "arabic": "جَهِّزِي زِينَتَكِ مَرَّةً أُخْرَى؛ وَاحْمِلِيهَا جَمِيعًا عَلَى قَامَتِكِ\nوَاجْعَلِي أَصْحَابَ الْقُلُوبِ يُجَنُّونَ بِهَا؛ أَيْنَمَا ذَهَبَ مَيْلُكِ",
+    "english": "'Prepare your adornments once again; load them all upon your figure,\nDrive the masters of the heart mad with it; wherever your inclination takes you.'"
+  },
+  {
+    "stanza": 334,
+    "kurdish_ar": "ئەو عەنبەر و وێ بەربەنێ؛ بارکە ل سنگ و گەردەنێ\nپێ دین کە شەیخێ یەمەنێ؛ حەیران ببیت ل قامەتێ",
+    "kurmanji_lat": "ew ’enber û wê berbenê; barke li sing û gerdenê\npê dîn ke şeyxê yemenê; ḧeyran bibît li qametê",
+    "arabic": "ذَاكَ الْعَنْبَرُ وَتِلْكَ الْقِلَادَةُ؛ ضَعِيهَا عَلَى الصَّدْرِ وَالْعُنُقِ\nلِيُجَنَّ بِهَا شَيْخُ الْيَمَنِ؛ وَلِيَبْقَى مَشْدُوهًا بِتِلْكَ الْقَامَةِ",
+    "english": "That amber and that necklace; drape them over your breast and neck,\nDrive the Sheikh of Yemen mad with them; let him be mesmerized by your stature."
+  },
+  {
+    "stanza": 335,
+    "kurdish_ar": "ئەڤ رەنگ دبێ یا چاڤ بەلەک؛ چبکم ب زێڕ، چبکم ب چەک\nلەوڕا کو دۆم ناکەت فەلەک؛ تەحلم ژ ڤێ بێ موروەتێ",
+    "kurmanji_lat": "ev reng dibê ya çav belek; çibkim bi zêř, çibkim bi çek\nlewřa ku dom naket felek; teḧilim ji vê bê murwetê",
+    "arabic": "هَكَذَا تَقُولُ ذَاتُ الْعُيُونِ الدَّعْجَاءِ؛ مَاذَا أَصْنَعُ بِالذَّهَبِ، وَمَاذَا أَصْنَعُ بِالسِّلَاحِ\nلِأَنَّ الْفَلَكَ لَا يَدُومُ؛ أَنَا مُسْتَاءَةٌ مِنْ هَذِهِ الْعَدِيمَةِ الْمُرُوءَةِ",
+    "english": "Thus speaks the dark-eyed beauty: what shall I do with gold, what shall I do with arms?\nBecause the wheel of fate does not endure; I am bitter towards this merciless world."
+  },
+  {
+    "stanza": 336,
+    "kurdish_ar": "تەحلم ژ چەرخا بێ وەفا؛ ئێ بێتە دەست جوزئەک سەفا\nهادر د هنگێڤی جەفا؛ دەوران دەوامێ نادەتێ",
+    "kurmanji_lat": "teḧilim ji çerxa bê wefa; ê bête dest cuz’ek sefa\nhadir di hingêvî cefa; dewran dewamê nadetê",
+    "arabic": "أَنَا مُسْتَاءَةٌ مِنْ عَجَلَةِ الزَّمَانِ الْغَادِرَةِ؛ إِنْ جَاءَ لِلْيَدِ جُزْءٌ مِنَ الصَّفَاءِ\nيَكُونُ الْجَفَاءُ حَاضِرًا فِيهِ؛ فَالزَّمَانُ لَا يُعْطِيهِ دَوَامًا",
+    "english": "I am bitter towards the disloyal wheel; if a fraction of joy falls into one's hand,\nCruelty is present within it; for the turning age grants it no permanence."
+  },
+  {
+    "stanza": 337,
+    "kurdish_ar": "دەوران قەوی دۆم ناکەتە؛ روحا شیرین ئەمانەتە\nنێ ئەجەلێ بێ موهلەتە؛ وێ رەحم ب مەحبووبان نەتێ",
+    "kurmanji_lat": "dewran qewî dom nakete; ruḧa şîrîn emanete\nnê ecelê bê muhlete; wê reḧim bi meḧbûban netê",
+    "arabic": "الزَّمَانُ قَطْعًا لَا يَدُومُ؛ وَالرُّوحُ الْحُلْوَةُ مُجَرَّدُ أَمَانَةٍ\nأَلَا إِنَّ الْأَجَلَ لَا يُمْهِلُ؛ وَلَا يَرْحَمُ الْمَحْبُوبِينَ",
+    "english": "The turning time surely does not endure; and the sweet soul is but a trust,\nBehold, death grants no delay; it shows no mercy to the beloveds."
+  },
+  {
+    "stanza": 338,
+    "kurdish_ar": "مەحبووب و نازک پوڕ هەنە؛ هندی شەپال و توحفەنە\nدائیم ڤبەر خەملا خوەنە؛ ب کەس نادەت مەرگ،موهلەتێ",
+    "kurmanji_lat": "meḧbûb û nazk puř hene; hindî şepal û tuḧfene\nda’îm viber xemla xwene; bi kes nadet merg,muhletê",
+    "arabic": "يُوجَدُ كَثِيرٌ مِنَ الْمَحْبُوبِينَ وَالرِّقَاقِ؛ كُلُّ هَذَا الْبَهَاءِ وَالتُّحَفِ\nدَائِمًا فِي طَيِّ زِينَتِهِمْ؛ وَالْمَوْتُ لَا يُعْطِي أَحَدًا مُهْلَةً",
+    "english": "There are many beloveds and delicate ones; full of beauty and rare charms,\nAlways adorned in their finest; yet death grants no one a reprieve."
+  },
+  {
+    "stanza": 339,
+    "kurdish_ar": "پاش کو مەرگ و مرن هەنە؛ خەمل و زینەت بێ فایدەنە\nمسک و زوباد و سورمەنە؛ چاڤێ د رەش کل ژێ نەتێ",
+    "kurmanji_lat": "paş ku merg û mirin hene; xemil û zînet bê faydene\nmisk û zubad û surmene; çavê di reş kil jê netê",
+    "arabic": "مَادَامَ الْمَوْتُ وَالْفَنَاءُ مَوْجُودَيْنِ؛ فَالزِّينَةُ وَالْحُلِيُّ لَا فَائِدَةَ مِنْهَا\nالْمِسْكُ وَالزَّبَادُ وَالْكُحْلُ؛ لَنْ تُبْقِيَ الْعَيْنَ فِي كُحْلِهَا الْأَسْوَدِ",
+    "english": "Since death and dying exist; adornment and beauty are of no use,\nMusk, civet, and eyeliner; will not keep the eye painted in black."
+  },
+  {
+    "stanza": 340,
+    "kurdish_ar": "چاڤان ژ کێڕا کل بکم؛ دێ پووستەکێ ل مل بکم\nچم جەننەتێ حاسل بکم؛ دارول بەقا بکێر مەتێ",
+    "kurmanji_lat": "çavan ji kêřa kil bikim; dê pûstekê li mil bikim\nçim cennetê ḧasil bikim; darul beqa bikêr metê",
+    "arabic": "لِأَجْلِ مَنْ أُكَحِّلُ الْعَيْنَيْنِ؛ سَأَضَعُ جِلْدًا عَلَى كَتِفِي\nلِأَذْهَبَ وَأَحْصُلَ عَلَى الْجَنَّةِ؛ فَدَارُ الْبَقَاءِ تَنْفَعُ",
+    "english": "For whom should I line my eyes with kohl? I will drape a pelt over my shoulder,\nI will go and attain Paradise; the eternal abode is what serves best."
+  },
+  {
+    "stanza": 341,
+    "kurdish_ar": "من پووستەکێ باقی دڤێ؛ کەوسەر ژ دەست ساقی دڤێ\nقەلبێ خوە موشتاقی دڤێ؛ بۆڕەک دڤێ کچ پێڕە تێ",
+    "kurmanji_lat": "min pûstekê baqî divê; kewser ji dest saqî divê\nqelbê xwe muştaqî divê; bořek divê kiç pêře tê",
+    "arabic": "أُرِيدُ فَرْوَةً بَاقِيَةً؛ وَأُرِيدُ الْكَوْثَرَ مِنْ يَدِ السَّاقِي\nقَلْبِي يُرِيدُ الِاشْتِيَاقَ؛ وَأُرِيدُ حِصَانًا أَشْقَرَ تَأْتِي بِهِ الْفَتَاةُ",
+    "english": "I desire an enduring pelt; I desire Kawthar from the cupbearer's hand,\nMy heart desires true longing; I desire a steed the maiden brings forth."
+  },
+  {
+    "stanza": 342,
+    "kurdish_ar": "من هەسپەکێ چوونخوەش دڤێ؛ کمێتەکێ کاپڕەش دڤێ\nچاپخوونەکێ پوڕ مەش دڤێ؛ خۆشچوون ل تەبعێ من کەتێ",
+    "kurmanji_lat": "min hespekê çûnxiweş divê; kimêtekê kapřeş divê\nçapxûnekê puř meş divê; xoşçûn li teb’ê min ketê",
+    "arabic": "أُرِيدُ حِصَانًا سَرِيعَ الْعَدْوِ؛ أُرِيدُ كُمَيْتًا أَسْوَدَ الرَّأْسِ\nأُرِيدُ جَوَادًا كَثِيرَ الْخَبَبِ؛ يَقَعُ مَشْيُهُ الْجَمِيلُ فِي طَبْعِي",
+    "english": "I desire a swift-running horse; I desire a bay with a black head,\nI desire a galloping steed of great stride; whose sweet gait pleases my nature."
+  },
+  {
+    "stanza": 343,
+    "kurdish_ar": "من بۆڕەکێ مەعنەک دڤێ؛ بەزایەکێ چەلەک دڤێ\nنە ژ یێ ببەر لەڤەک دڤێ؛ من غەمڕەڤینەک ڤێکەتێ",
+    "kurmanji_lat": "min bořekê me’nek divê; bezayekê çelek divê\nne ji yê biber levek divê; min ẍemřevînek vêketê",
+    "arabic": "أُرِيدُ حِصَانًا ذَا مَعْنًى؛ أُرِيدُ عَدَّاءً سَرِيعًا\nلَا أُرِيدُ مِنْ ذَاكَ الَّذِي يَتَرَدَّدُ؛ أُرِيدُ مُزِيلًا لِلْهَمِّ يُلَائِمُنِي",
+    "english": "I desire a steed of true worth; I desire a swift and agile runner,\nNot one that hesitates; I desire a grief-dispeller that suits me."
+  },
+  {
+    "stanza": 344,
+    "kurdish_ar": "دلبەرێ بۆڕ ئختیار کر؛ مهتەران زوو کار و بارکر\nراهبان بر لێ سوار کر؛ ئەو نزانن عللەتێ",
+    "kurmanji_lat": "dilberê boř ixtyar kir; mihteran zû kar û barkir\nrahban bir lê swar kir; ew nizanin ’illetê",
+    "arabic": "اِخْتَارَتِ الْحَبِيبَةُ حِصَانًا؛ وَجَهَّزَ السُّيَّاسُ الْأُمُورَ سَرِيعًا\nأَحْضَرَ الرُّهْبَانُ وَأَرْكَبُوهَا عَلَيْهِ؛ وَهُمْ لَا يَعْرِفُونَ السَّبَبَ",
+    "english": "The beloved chose a fine steed; the grooms quickly made it ready,\nThe monks brought it and helped her mount; unaware of the underlying cause."
+  },
+  {
+    "stanza": 345,
+    "kurdish_ar": "راهبان عللەت نەزانی؛ هەسپەکێ چوونخۆش دەرانی\nدلبەرا شەیخێ یەمانی؛ پێ بسەر پوشتێ کەتێ",
+    "kurmanji_lat": "rahban ’illet nezanî; hespekê çûnxoş deranî\ndilbera şeyxê yemanî; pê biser puştê ketê",
+    "arabic": "الرُّهْبَانُ لَمْ يَعْرِفُوا السَّبَبَ؛ أَخْرَجُوا حِصَانًا حَسَنَ السَّيْرِ\nمَحْبُوبَةُ شَيْخِ الْيَمَنِ؛ صَعِدَتْ سَرِيعًا عَلَى ظَهْرِهِ",
+    "english": "The monks knew not the cause; they brought forth a sweet-gaited horse,\nThe beloved of the Sheikh of Yemen; swiftly climbed upon its back."
+  },
+  {
+    "stanza": 346,
+    "kurdish_ar": "خوە سڤک ئاڤێتە پوشتێ؛ فورسەتا چوونێ گەهشتێ\nڤەلڤاند جارەک ل دەشتێ؛ عوببەیان کی پێڤەتێ",
+    "kurmanji_lat": "xwe sivk avête puştê; furseta çûnê gehşitê\nvelvand carek li deştê; ’ubbeyan kî pêvetê",
+    "arabic": "رَمَتْ نَفْسَهَا بِخِفَّةٍ عَلَى الظَّهْرِ؛ وَحَانَتْ فُرْصَةُ الذَّهَابِ\nحَرَّكَتْهُ مَرَّةً فِي السَّهْلِ؛ بَعْدَهَا مَنْ يَسْتَطِيعُ اللَّحَاقَ بِهَا؟",
+    "english": "She lightly threw herself onto its back; the moment to depart had arrived,\nShe spurred it once across the plain; who could ever keep pace with it then?"
+  },
+  {
+    "stanza": 347,
+    "kurdish_ar": "عوببەیان دا بەر رکێبان؛ بێ حەد و قەول و حسێبان\nبەدەوا موخلس ژ عێبان؛ گاڤەکێ بهن نادەتێ",
+    "kurmanji_lat": "’ubbeyan da ber rikêban; bê ḧed û qewl û ḧisêban\nbedewa muxils ji ’êban; gavekê bihin nadetê",
+    "arabic": "وَضَعَتِ الْأَقْدَامَ فِي الرِّكَابِ؛ بِلَا حَدٍّ وَلَا قَوْلٍ وَلَا حِسَابٍ\nأَصِيلٌ مُخْلِصٌ مِنَ الْعُيُوبِ؛ لَا يُعْطِي فُرْصَةً لِلِتَنَفُّسِ لَحْظَةً",
+    "english": "She thrust her feet into the stirrups; beyond all measure, word, and count,\nA flawless thoroughbred, free of defects; granting no moment even to breathe."
+  },
+  {
+    "stanza": 348,
+    "kurdish_ar": "بێ حساب لێ د لەزینێ؛ دەم دەمان وی د تەزینێ\nژ موحبەتا شەیخ د بەزینێ؛ با ببەر زولفان کەتێ",
+    "kurmanji_lat": "bê ḧisab lê di lezînê; dem deman wî di tezînê\nji muḧbeta şeyx di bezînê; ba biber zulfan ketê",
+    "arabic": "بِلَا حِسَابٍ كَانَتْ تُسْرِعُ بِهِ؛ وَبَيْنَ الْحِينِ وَالْآخَرِ تَحُثُّهُ\nتَرْكُضُ مِنْ مَحَبَّةِ الشَّيْخِ؛ وَالرِّيحُ تَتَخَلَّلُ خُصَلَ الشَّعْرِ",
+    "english": "Boundlessly she spurred it on; from time to time she sent it flying,\nGalloping out of love for the Sheikh; the wind caught in her flowing locks."
+  },
+  {
+    "stanza": 349,
+    "kurdish_ar": "بای هەژاندن زولف و خێلە؛ بەدەوێ دەیباب کحێلە\nلێ درێژ بوون دەشت و هێلە؛ ژ جانبێ دێرێ ڤەتێ",
+    "kurmanji_lat": "bay hejandin zulf û xêle; bedewê deybab kiḧêle\nlê dirêj bûn deşt û hêle; ji canbê dêrê vetê",
+    "arabic": "الرِّيحُ هَزَّتِ الشَّعْرَ وَالْخِمَارَ؛ لِلْحِصَانِ الْأَصِيلِ ابْنِ الْأُصُولِ\nطَالَتْ عَلَيْهِ السُّهُولُ وَالتِّلَالُ؛ مُبْتَعِدًا عَنْ جَانِبِ الدَّيْرِ",
+    "english": "The wind shook her tresses and veil; on that thoroughbred of noble sire,\nThe plains and hills stretched out before it; leaving the monastery far behind."
+  },
+  {
+    "stanza": 350,
+    "kurdish_ar": "شەیخ گۆتی: یا شەیخ عەتارە؛ نازکا من ئختیارە\nخالقی ژ دێرێ هنارە؛ رێ گرتییە پێ پێ مەتێ",
+    "kurmanji_lat": "şeyx gotî: ya şeyx ’etare; nazka min ixtyare\nxalqî ji dêrê hinare; rê girtîye pê pê metê",
+    "arabic": "قَالَ الشَّيْخُ: يَا شَيْخَ الْعَطَّارِ؛ مَحْبُوبَتِي قَدِ اخْتَارَتْ\nالْخَالِقُ أَرْسَلَهَا مِنَ الدَّيْرِ؛ فَقَدْ أَخَذَتِ الطَّرِيقَ لِتَأْتِيَ",
+    "english": "The Sheikh said: O Attar; my delicate beloved has made her choice,\nThe Creator has sent her from the monastery; she has taken the road to come."
+  },
+  {
+    "stanza": 351,
+    "kurdish_ar": "تێ ب لەز شوبهەتێ بایێ؛ ل فەرەسێ چەنگ ژ هەوایێ\nد مەنزلا سانی گهایێ؛ رۆژ د پوشت روکبێ کەتێ",
+    "kurmanji_lat": "tê bi lez şubhetê bayê; li feresê çeng ji hewayê\ndi menzila sanî gihayê; roj di puşt rukbê ketê",
+    "arabic": "إِنَّهَا تَأْتِي بِسُرْعَةٍ تُشْبِهُ الرِّيحَ؛ عَلَى فَرَسٍ يَطِيرُ فِي الْهَوَاءِ\nفِي الْمَنْزِلِ الثَّانِي وَصَلَتْ؛ وَالشَّمْسُ وَقَعَتْ خَلْفَ الرُّكْبَتَيْنِ",
+    "english": "She comes swiftly like the wind; on a steed soaring through the air,\nAt the second waystation she arrived; the sun falling behind the riders."
+  },
+  {
+    "stanza": 352,
+    "kurdish_ar": "ئەو دێم هەییڤا رۆژ نەزیر؛ ساحب جەمالا بێ نەزیر\nشەیخ و مورید چوونە ژبیر؛ هەر گەردشەک د وەقتێ خوەتێ",
+    "kurmanji_lat": "ew dêm heyîva roj nezîr; saḧb cemala bê nezîr\nşeyx û murîd çûne jibîr; her gerdişek di weqtê xwetê",
+    "arabic": "ذَاكَ الْوَجْهُ قَمَرٌ، شَمْسٌ بِلَا نَظِيرٍ؛ صَاحِبَةُ جَمَالٍ لَيْسَ لَهُ مَثِيلٌ\nالشَّيْخُ وَالْمُرِيدُ نُسِيَا؛ كُلُّ دَوْرَةٍ لَهَا وَقْتُهَا",
+    "english": "That face is a moon, a sun without peer; possessor of beauty beyond compare,\nThe Sheikh and the disciple were forgotten; every cycle happens in its time."
+  },
+  {
+    "stanza": 353,
+    "kurdish_ar": "گەردشا وەقتێ وجوودێ؛ شەیخ برە عەینێ شهوودێ\nسۆفیان بەردا سجوودێ؛ ژ حەق د خوازن مننەتێ",
+    "kurmanji_lat": "gerdişa weqtê wicûdê; şeyx bire ’eynê şihûdê\nsofyan berda sicûdê; ji ḧeq di xwazin minnetê",
+    "arabic": "دَوَرَانُ وَقْتِ الْوُجُودِ؛ أَخَذَ الشَّيْخَ إِلَى عَيْنِ الشُّهُودِ\nتَرَكَ الصُّوفِيَّةُ السُّجُودَ؛ وَيَطْلُبُونَ الْمِنَّةَ مِنَ الْحَقِّ",
+    "english": "The turning of the time of existence; brought the Sheikh to the essence of witnessing,\nThe Sufis abandoned their prostrations; seeking grace from the Divine Truth."
+  },
+  {
+    "stanza": 354,
+    "kurdish_ar": "سەجدەیا شوکرێ تەمام کر؛ موعجزا شەیخ دی، وە تام کر\nدلبەرێ ئەوول سەلام کر؛ خۆهـ ژ شەرمان ڤێکەتێ",
+    "kurmanji_lat": "secdeya şukirê temam kir; mu’ciza şeyx dî, we tam kir\ndilberê ewul selam kir; xoh ji şerman vêketê",
+    "arabic": "أَتَمَّتْ سَجْدَةَ الشُّكْرِ؛ رَأَتْ مُعْجِزَةَ الشَّيْخِ وَذَاقَتْهَا\nبَادَرَتِ الْمَحْبُوبَةُ بِالسَّلَامِ؛ وَتَصَبَّبَ الْعَرَقُ مِنْهَا خَجَلًا",
+    "english": "She completed the prostration of thanks; saw the Sheikh's miracle and tasted it,\nThe beloved was first to give greetings; sweat breaking on her brow from modesty."
+  },
+  {
+    "stanza": 355,
+    "kurdish_ar": "وێ خۆهێ دیندار شەفاف کر؛ موحبەتێ دێم سۆر و ساف کر\nهەردووان ڤێکڕا تەواف کر؛ سۆفییەک نێزیک نەتێ",
+    "kurmanji_lat": "wê xohê dîndar şefaf kir; muḧbetê dêm sor û saf kir\nherduwan vêkřa tewaf kir; sofîyek nêzîk netê",
+    "arabic": "تِلْكَ الْمُتَدَيِّنَةُ جَعَلَتِ الْعَرَقَ شَفَّافًا؛ وَالْمَحَبَّةُ جَعَلَتِ الْوَجْهَ أَحْمَرَ صَافِيًا\nطَافَا مَعًا كِلَاهُمَا؛ وَلَمْ يَقْتَرِبْ مِنْهُمَا أَيُّ صُوفِيٍّ",
+    "english": "That faithful one wiped the clear sweat; love made her face pure and red,\nTogether both of them circumambulated; no Sufi dared to draw near."
+  },
+  {
+    "stanza": 356,
+    "kurdish_ar": "سۆفیان شەرما کچێ کر؛ وان ژ دوور ذکرێ خودێ کر\nهوون بنێ قۆجە چ چێکر؛ کچ گەهاندە تەوبەتێ",
+    "kurmanji_lat": "sofyan şerma kiçê kir; wan ji dûr zikirê xudê kir\nhûn binê qoce çi çêkir; kiç gehande tewbetê",
+    "arabic": "خَجِلَ الصُّوفِيَّةُ مِنَ الْفَتَاةِ؛ وَمِنْ بَعِيدٍ كَانُوا يَذْكُرُونَ اللَّهَ\nانْظُرُوا مَاذَا فَعَلَ الشَّيْخُ الْعَجُوزُ؛ أَوْصَلَ الْفَتَاةَ إِلَى التَّوْبَةِ",
+    "english": "The Sufis felt shy before the maiden; from afar they chanted the dhikr of God,\nBehold what the old man has done; he brought the maiden to true repentance."
+  },
+  {
+    "stanza": 357,
+    "kurdish_ar": "خەلقنۆ بنێ، قۆجە چکر؛ ئەو جاهلا جوانا بکر\nکو موبتەلا ئانی ذکر؛ تەعلیم ددە شەهادەتێ",
+    "kurmanji_lat": "xelqino binê, qoce çikir; ew cahla cwana bikir\nku mubtela anî zikir; te’lîm dide şehadetê",
+    "arabic": "أَيُّهَا النَّاسُ انْظُرُوا مَاذَا فَعَلَ الْعَجُوزُ؛ تِلْكَ الْجَاهِلَةُ الشَّابَّةُ الْبِكْرُ\nالَّتِي ابْتُلِيَتْ جَلَبَهَا لِلذِّكْرِ؛ وَيُعَلِّمُهَا الشَّهَادَةَ",
+    "english": "O people, see what the old man did; that ignorant, young maiden,\nWhom he afflicted, he brought to dhikr; and teaches her the testament of faith."
+  },
+  {
+    "stanza": 358,
+    "kurdish_ar": "سەددەق ژ رەمزا مورشدان؛ دێم دوڕ ژ دەستێ مولحدان\nئانی تەریقا زاهدان؛ هەردو گەهانە حەزرەتێ",
+    "kurmanji_lat": "seddeq ji remza murişdan; dêm duř ji destê muliḧdan\nanî terîqa zahdan; herdu gehane ḧezretê",
+    "arabic": "صَدَقَ مِنْ رَمْزِ الْمُرْشِدِينَ؛ وَجْهٌ كَالدُّرِّ مِنْ أَيْدِي الْمُلْحِدِينَ\nجَلَبَهَا إِلَى طَرِيقَةِ الزَّاهِدِينَ؛ وَكِلَاهُمَا وَصَلَا إِلَى الْحَضْرَةِ",
+    "english": "Truthful is the symbol of the guides; a pearl-like face from the hands of the faithless,\nHe brought her to the path of ascetics; and both attained the Divine Presence."
+  },
+  {
+    "stanza": 359,
+    "kurdish_ar": "ل حزرەتا هەڤ ناگرن؛ ل بەر سوڕێ نا سەبرن\nهەردو ب هەڤڕا دمرن؛ ل وێ گهانە وەسلەتێ",
+    "kurmanji_lat": "li ḧizreta hev nagirin; li ber suřê na sebirin\nherdu bi hevřa dimirin; li wê gihane wesletê",
+    "arabic": "فِي الْحَضْرَةِ لَا يَسْتَوْعِبَانِ بَعْضَهُمَا؛ وَأَمَامَ السِّرِّ لَا يَصْبِرَانِ\nكِلَاهُمَا يَمُوتَانِ مَعًا؛ وَهُنَاكَ وَصَلَا إِلَى الْوِصَالِ",
+    "english": "In the Presence they cannot contain one another; before the Secret they cannot endure,\nBoth of them die together; and there they reached true union."
+  },
+  {
+    "stanza": 360,
+    "kurdish_ar": "ژ وەسلەتا حالەک وە دی؛ هەردو ب لبسێ جەسەدی\nچوونە حەیاتا ئەبەدی؛ زاڤا وو بووکێ ئاخرەتێ",
+    "kurmanji_lat": "ji wesleta ḧalek we dî; herdu bi libsê cesedî\nçûne ḧeyata ebedî; zava wu bûkê axretê",
+    "arabic": "مِنَ الْوِصَالِ شُوهِدَ حَالٌ كَهَذَا؛ كِلَاهُمَا بِلِبَاسِ الْجَسَدِ\nذَهَبَا إِلَى الْحَيَاةِ الْأَبَدِيَّةِ؛ عَرِيسُ وَعَرُوسُ الْآخِرَةِ",
+    "english": "From the union such a state was seen; both still in the garment of the body,\nPassed into eternal life; the groom and bride of the Hereafter."
+  },
+  {
+    "stanza": 361,
+    "kurdish_ar": "لەو «میم و حێ» سۆهت عشقهێ؛ د دەهسەد و سالا سهێ\nمکسی ژ وێ مەی مەستەهێ؛ تەویل دکەت حکایەتێ",
+    "kurmanji_lat": "lew «mîm û ḧê» sohit ’işqihê; di dehsed û sala sihê\nmiksî ji wê mey mestehê; tewîl diket ḧikayetê",
+    "arabic": "لِذَا «الْمِيمُ وَالْحَاءُ» احْتَرَقَا بِعِشْقِهَا؛ فِي سَنَةِ أَلْفٍ وَثَلَاثِينَ\nوَ«الْمُكْسِيُّ» مِنْ ذَلِكَ الْخَمْرِ قَدْ سَكِرَ؛ وَيُطِيلُ فِي الْحِكَايَةِ",
+    "english": "Thus \"Mim and Ha\" burned with her love; in the year a thousand and thirty,\n\"Miksi\" is intoxicated by that wine; and he prolongs the tale."
+  },
+  {
+    "stanza": 362,
+    "kurdish_ar": "«مکسی» ژ عشقێ سۆهتییە؛ ئەڤ قەول ب شەیخ ڤە نۆهتییە\nحالێ خوە تێدا گۆهتییە؛ ژ «غەین» و «لام»ێ هجرەتێ",
+    "kurmanji_lat": "«miksî» ji ’işqê sohtîye; ev qewl bi şeyx ve nohtîye\nḧalê xwe têda gohtîye; ji «ẍeyn» û «lam»ê hicretê",
+    "arabic": "«الْمُكْسِيُّ» قَدِ احْتَرَقَ مِنَ الْعِشْقِ؛ وَهَذَا الْقَوْلُ قَدْ نُسِبَ لِلشَّيْخِ\nوَقَدْ ذَكَرَ فِيهِ حَالَهُ؛ مِنَ الْهِجْرَةِ بـ «الْغَيْنِ» وَ«اللَّامِ»",
+    "english": "\"Miksi\" has burned from love; and this word has been attributed to the Sheikh,\nHe has told his own state within it; from the Hijra of \"Ghayn\" and \"Lam\"."
+  }
+];
