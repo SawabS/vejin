@@ -1,0 +1,409 @@
+window.VEJIN_POEMS = window.VEJIN_POEMS || {};
+window.VEJIN_POEMS["muhbete-mihnet-di-zorin"] = [
+  {
+    "stanza": 1,
+    "kurdish_ar": "موحبەتێ محنەت د زۆرن، حوب دبێم بێ شەک بەلایە\nعومر و ژی خوەش پێ دبۆرن، سۆتن و دەرد و جەفایە",
+    "kurmanji_lat": "muḧbetê miḧnet di zorin, ḧub dibêm bê şek belaye\n’umir û jî xweş pê diborin, sotin û derd û cefaye",
+    "arabic": "إن المحن في المحبة كثيرة، وأقول إن الحب بلا شك بلاء\nأليس في عشق ذلك المكان الفسيح، مئة رأس وقائد صاروا كالمساكين",
+    "english": "Tribulations in love are many, and I say love is without doubt an affliction\nIs it not that in the passion of that realm, a hundred leaders and chiefs have become mendicants?"
+  },
+  {
+    "stanza": 2,
+    "kurdish_ar": "سۆتن و دەردێ ئەڤینێ، عللەتێ داغ و برینێ\nخوەش دبن ما ئەو ب دینێ؟ شەربەتا لێڤان مفایە!",
+    "kurmanji_lat": "sotin û derdê evînê, ’illetê daẍ û birînê\nxweş dibin ma ew bi dînê? şerbeta lêvan mifaye!",
+    "arabic": "القلب جريح العشق، بلا سكون وبلا استراحة\nوالمحبة في شغاف القلب، كالماء والهواء لا غنى عنها",
+    "english": "The heart is wounded by passion, restless and without a moment's peace\nLove inside the core of the heart is just like water and air."
+  },
+  {
+    "stanza": 3,
+    "kurdish_ar": "هەر دلێ سوهتی ب ئولفێ، یار نە دەرمان کت ب زولفێ\nتا ئەبەد ئەو بەندێ قولفێ، عشق دەردەک بێ دەوایە",
+    "kurmanji_lat": "her dilê suhtî bi ulfê, yar ne derman kit bi zulfê\nta ebed ew bendê qulfê, ’işq derdek bê dewaye",
+    "arabic": "وكل ما انطبع في غشاء القلب، ومُحِكَ باسم الله الأعظم عليه\nحتى وإن احترق بالنار، فإنه ملتصق به ليلاً ونهاراً",
+    "english": "Whatever is inscribed in the heart's veil, engraved with the Greatest Name\nEven if it burns in fire, remains attached to it day and night."
+  },
+  {
+    "stanza": 4,
+    "kurdish_ar": "عشق دەردەک بێ تەبیبە، لێ موفا وەسلا حەبیبە\nکوشتمە جەورا ڕەقیبە، پوڕ لەعینێ ڕووسیایە",
+    "kurmanji_lat": "’işq derdek bê tebîbe, lê mufa wesla ḧebîbe\nkuştime cewra řeqîbe, puř le’înê řûsyaye",
+    "arabic": "عاشق الاسم الجليل، لا ينفصلان كالساق والذراع\nإنه عشق الروح، لا عشق الخبز والطعام، وقد اقترنت به المعرفة",
+    "english": "The lover of the Magnificent Name—the two are inseparable like shoulder and arm\nIt is the love of the soul, not the love of bread; spiritual gnosis is bound to it."
+  },
+  {
+    "stanza": 5,
+    "kurdish_ar": "داغ و کەی من لێ هەزارن، گول د دەست شەوکێن ب خارن\nسوڕپەری دێو وێ ل کنارن، ئەهرمەن خاتەم ڕەڤایە",
+    "kurmanji_lat": "daẍ û key min lê hezarin, gul di dest şewkên bi xarin\nsuřperî dêw wê li kinarin, ehirmen xatem řevaye",
+    "arabic": "تأتي المعرفة كالنار حيناً، وكالبروق اللامعة في السحاب\nأسطع نوراً بكثير من الشمس، وقد أُشعلت بها مئة شمعة",
+    "english": "Gnosis comes at times like fire, like lightning flashes in the clouds\nFar brighter than the sun, with a hundred lamps lit from it."
+  },
+  {
+    "stanza": 6,
+    "kurdish_ar": "تەبع دێوان دەست گەهشتێ، حوور و ولدانێن بهشتێ\nعاشقێ دلبەندێ قشتێ، جان بدت یەکجار ڕەوایە",
+    "kurmanji_lat": "tebi’ dêwan dest gehşitê, ḧûr û wildanên bihşitê\n’aşiqê dilbendê qiştê, can bidit yekcar řewaye",
+    "arabic": "الشمس مشرقة من ذلك الشُّعاع، والبحر متلاطم من ذلك الشَّوق\nوالشَّوق عذب من ذلك الشُّعاع، إنه نار ونور وبهاء",
+    "english": "The sun shines bright from that radiance, the sea surges dark from that longing\nDesire is sweet from that splendor; it is fire, light, and glory."
+  },
+  {
+    "stanza": 7,
+    "kurdish_ar": "محنەت و جەورا حەبیبی، قەهر و ئازارا ڕەقیبی\nحەق تنێ دا من غەریبی، لێ شوکور باخۆی وە دایە",
+    "kurmanji_lat": "miḧnet û cewra ḧebîbî, qehir û azara řeqîbî\nḧeq tinê da min ẍerîbî, lê şukur baxoy we daye",
+    "arabic": "النور ثَمِينٌ من ذلك الشُّعاع، وهو المصباح المشرق للشمس\nإنه من أصل سماوي، لكنه انفصل بسبَب الضَّفيرة",
+    "english": "Light is precious from that luster, it is the radiant lamp of the sun\nIt is celestial in origin, yet separated by the dark locks of the beloved."
+  },
+  {
+    "stanza": 8,
+    "kurdish_ar": "ڕوهنییا وێ شەوق و تاڤێ، شەربەتا قەند و گولاڤێ\nکەس نەهن مەحرووم ژ ناڤێ، لێ تنێ بۆ من غەلایە",
+    "kurmanji_lat": "řuhnîya wê şewq û tavê, şerbeta qend û gulavê\nkes nehin meḧrûm ji navê, lê tinê bo min ẍelaye",
+    "arabic": "والضَّفائرُ حِجَابٌ في الوسط، كاللَّيالي المظلمة والسَّحاب\nوالعشاق مهما كانوا في خراب، فإن قلوبهم في صفاء",
+    "english": "The tresses act as a veil in between, like dark nights and heavy clouds\nLovers, however ruined they appear, keep their hearts in pure clarity."
+  },
+  {
+    "stanza": 9,
+    "kurdish_ar": "بێ نەسیب من دی ژ جامێ، دوور دوور مەحرووم ژ ڕامێ\nگرتییێ وێ قەید و دامێ، ئەڤ غەریبێ جانفدایە",
+    "kurmanji_lat": "bê nesîb min dî ji camê, dûr dûr meḧrûm ji řamê\ngirtîyê wê qeyd û damê, ev ẍerîbê canifdaye",
+    "arabic": "وإن كان في الصدر مئة جُرْحٍ، فهي لديهم كباقةٍ من بستان الورود الحمراء\nكالمصابيح في الكؤوس، يسطع منها الشُّعاع في كل حين",
+    "english": "Even if the chest bears a hundred scars, they are like a bouquet from a red garden\nLike lamps in goblet cups, constantly radiating her glow."
+  },
+  {
+    "stanza": 10,
+    "kurdish_ar": "دوورەدەستم بێ نەسیبم، دلبەرم خانم حەبیبم\nپوڕ ژ دینا تەی غەریبم، رووح و راحەت من لقایە",
+    "kurmanji_lat": "dûredestim bê nesîbim, dilberim xanim ḧebîbim\npuř ji dîna tey ẍerîbim, rûḧ û raḧet min liqaye",
+    "arabic": "كل من كان من العشاق مقيماً، فلا بد أن يكون مَحْرَماً للحرم\nكانت محبتهم منذ الأزليّة، طالبين نور الكأس",
+    "english": "Whoever among lovers remains steadfast must surely be an initiate of the sanctuary\nTheir love existed from eternity past, seeking the light of the goblet."
+  },
+  {
+    "stanza": 11,
+    "kurdish_ar": "پوڕ مولازم تێم لقایێ، مامە حەتتا مولتەقایێ\nمن ڕحێ شیرین ددایێ، هودهود ئەر مزگین بدایە",
+    "kurmanji_lat": "puř mulazim têm liqayê, mame ḧetta multeqayê\nmin řiḧê şîrîn didayê, hudhud er mizgîn bidaye",
+    "arabic": "يطلبون نور الكأس، وقلوبهم مئة جرح وبستان\nليس شُعاعهم من الفلك، بل ألقى عليهم المَلَكُ الشُّعاع",
+    "english": "They seek the light of the goblet, their hearts a hundred wounds and gardens\nTheir glow is not from the spheres, but angels have cast light upon them."
+  },
+  {
+    "stanza": 12,
+    "kurdish_ar": "هودهودێ رزوانێ غەیبێ، سەد خەبەر شیرین ژ جەیبێ\nدا دلێ من موردە حەی بێ، گوهـ ل ڕێ من وەک سەبایە",
+    "kurmanji_lat": "hudhudê rizwanê ẍeybê, sed xeber şîrîn ji ceybê\nda dilê min murde ḧey bê, guh li řê min wek sebaye",
+    "arabic": "هم من نور الأحد، ولديهم صفاء قلب الدين\nعشاق الحبيبة والبصيرة، لكنهم في فناء من شِدَّة الفَتْق",
+    "english": "They are from the light of the One, possessing the purity of the heart of faith\nLovers of the Beloved who see clearly, yet annihilated by the rending of the veil."
+  },
+  {
+    "stanza": 13,
+    "kurdish_ar": "چەهڤەنێرم گوهـ ل ڕێمە، لێ سەبا ڕوو دایە پێ مە\nعەرزحالا موحبەتێ مە، بەندەیەک سادق مەلایە",
+    "kurmanji_lat": "çehvenêrim guh li řême, lê seba řû daye pê me\n’erziḧala muḧbetê me, bendeyek sadiq melaye",
+    "arabic": "لكنهم فنوا في الداخل، عشاق الحُسْنِ الشامس\nومن الضَفائر المظلمة المسقية، مُنِحُوا البقاء الدائم",
+    "english": "Yet they were annihilated within, lovers of the sunlike beauty\nFrom those dark, moistened tresses, eternal life was bestowed upon them."
+  },
+  {
+    "stanza": 14,
+    "kurdish_ar": "جانفدایێ من د ڕێ دا، فورقەتێ دەربەک وە لێ دا\nقالبەک بێ ڕووحە وێ دا، کوشت دبێم بێ من ڕەوایە",
+    "kurmanji_lat": "canifdayê min di řê da, furqetê derbek we lê da\nqalbek bê řûḧe wê da, kuşt dibêm bê min řewaye",
+    "arabic": "بقاؤهم كان منذ الأزل، لكنه لم يكن من الماء ولا من التُّراب\nكان عشقهم فيها عظيماً، ولذلك تجلّى لهم البقاء",
+    "english": "Their permanence was from eternity, derived neither from water nor clay\nTheir passion within it was boundless, and so everlastingness unfolded for them."
+  },
+  {
+    "stanza": 15,
+    "kurdish_ar": "دەم ب دەم ئەو چەهڤەنێرە، بێتە نیشانەک مە ژێڕە\nدا ببت ئەو زندە ڤێڕە، یارێ سادق بێ بوهایە",
+    "kurmanji_lat": "dem bi dem ew çehvenêre, bête nîşanek me jêře\nda bibit ew zinde vêře, yarê sadiq bê buhaye",
+    "arabic": "ولو لم يكن لهم فيها بقاء، لَفَنُوا فيها من العشق\nكان عشقهم نابعاً من الروح، لكنه انفصل بسبَب الضَفائر",
+    "english": "Were permanence not within them, they would have perished from passion\nTheir love sprang from the core of the soul, yet was separated by her tresses."
+  },
+  {
+    "stanza": 16,
+    "kurdish_ar": "عاشقێن سادق د کێمن، یار دبێ: سەد جان فدێ من\nزانم ئەو ناژیتە بێ من، عاشق و پوڕ موبتەلایە",
+    "kurmanji_lat": "’aşiqên sadiq di kêmin, yar dibê: sed can fidê min\nzanim ew najîte bê min, ’aşiq û puř mubtelaye",
+    "arabic": "الضَفيرةُ والوَجْهُ والجَمالُ، كلها رِفَاقُ الروحِ والحَالِ\nوكلما تَجَلَّتْ بالجَلالِ، كان الحَرْقُ والكَيُّ والبَلاءُ",
+    "english": "Tresses, face, and splendor—all are companions of spirit and ecstasy\nWhenever Majesty reveals itself, there is burning, searing, and trial."
+  },
+  {
+    "stanza": 17,
+    "kurdish_ar": "عالمین ئەم ڤێ دزانین، جسمە ئەو، ئەم ڕووح و جانین\nقەت ژ هەڤ باتن خویانین، گەر چ زاهر ئەو جودایە",
+    "kurmanji_lat": "’almîn em vê dizanîn, cisme ew, em řûḧ û canîn\nqet ji hev batin xuyanîn, ger çi zahir ew cudaye",
+    "arabic": "العشقُ يُضْرِمُ النَّارَ في القلبِ، لِيَحْرِقَ كُلَّ ما فِي القلبِ\nولكيلا يَتَسَاقَطَ التُّرَابُ والغُبَارُ، فالْعِشْقُ أُعْطِيَ لِلرُّوحِ",
+    "english": "Love sets fire to the heart, to consume whatever lingers inside\nSo that dust and grime do not settle; love was granted for the soul."
+  },
+  {
+    "stanza": 18,
+    "kurdish_ar": "هودهودێ وێ ڕەمز و ڕازێ، با بوو ئەو چوو گوفت و سازێ\nقسسە بر بەحسا مەجازێ، قاسدێ خوەش تەبع بایە",
+    "kurmanji_lat": "hudhudê wê řemz û řazê, ba bû ew çû gufit û sazê\nqisse bir beḧsa mecazê, qasdê xweş tebi’ baye",
+    "arabic": "العشقُ مِنْ رُوحِ الجَانِ، والحَرْقُ مَكَانُهُ فِيهِ\nوالعِشْقُ لِلْقَلْبِ الشَّابِّ، والرُّوحُ حَيَّةٌ بِهِ",
+    "english": "Passion belongs to the spirit within the soul; burning is its dwelling place\nLove is for the youthful heart, and by it the spirit is kept alive."
+  },
+  {
+    "stanza": 19,
+    "kurdish_ar": "با دەمێ وەقتێ مەجال دا، چوو کو ئەو یارە بپالدا\nقسسەیا حالی ب حال دا، گوهـ ددێرت یارێ بایە",
+    "kurmanji_lat": "ba demê weqtê mecal da, çû ku ew yare bipalda\nqisseya ḧalî bi ḧal da, guh didêrit yarê baye",
+    "arabic": "العشقُ يُحْيِي الرُّوحَ، وَيَجْعَلُ الرُّوحَ جَارِيَةً وَصَافِيَةً\nويَجْعَلُ الضَّفِيرَةَ لَيْلاً لِلرُّوحِ، والشَّمْسُ طَالِعَةٌ أَمَامَ الشُّعَاعِ",
+    "english": "Love quickens the spirit, making it fluid and pristine\nIt turns the tresses into night for the spirit, while the sun rises before its light."
+  },
+  {
+    "stanza": 20,
+    "kurdish_ar": "موحبەتا مەحبووب و لاتان، پوڕ ڤەکر زیوەر سفاتان\nدایە قەلب و ڕووح و زاتان، ڕۆژ د مرئاتێ خویایە",
+    "kurmanji_lat": "muḧbeta meḧbûb û latan, puř vekir zîwer sifatan\ndaye qelb û řûḧ û zatan, řoj di mir’atê xuyaye",
+    "arabic": "كانت الشمسُ مُشْرِقَةً أمامَ الضَفِيرَةِ، وكان العِشْقُ فيها مُظْلِماً جِدّاً\nكان العِشْقُ فيها أَحْمَرَ وَأَسْوَدَ، لكنَّهُ على الوَجْهِ أَرْجُوَانٌ",
+    "english": "The sun shone brightly against the locks, yet love within it grew deep and dark\nLove was red and black within it, but upon the cheek it bloomed like purple flora."
+  },
+  {
+    "stanza": 21,
+    "kurdish_ar": "موحبەتا سووری دو قسمە، قوفل و مفتاح و تلسمە\nهن ژ ڕووحن هن ژ جسمە، نار و نوورە هن هەوایە",
+    "kurmanji_lat": "muḧbeta sûrî du qisme, qufil û miftaḧ û tilsime\nhin ji řûḧin hin ji cisme, nar û nûre hin hewaye",
+    "arabic": "إنَّهُ مِنْ لَوْنِ الأَرْجُوَانِ، لكنَّهُ جَارٍ مِنْ حُسْنِ الحَبِيبَةِ\nعشّاقُ الحَبِيبَةِ والـرُّوحِ، كُلُّهُمْ فِي صَفَاءٍ مِنْ حُسْنِهَا",
+    "english": "It bears the color of purple blossoms, flowing from the Beloved's beauty\nLovers of the fair lady and soul derive total clarity from her grace."
+  },
+  {
+    "stanza": 22,
+    "kurdish_ar": "حوببێ جسمانی دو ڕۆژن، گەر چ دل پوڕ پێ دسۆژن\nخەف جەگەر پەیکان د نۆژن، مسلێ نەقشێ بێ بەقایە",
+    "kurmanji_lat": "ḧubbê cismanî du řojin, ger çi dil puř pê disojin\nxef ceger peykan di nojin, mislê neqşê bê beqaye",
+    "arabic": "كُلُّهُمْ يَسْطَعُ الشَّفَقُ مِنْ حُسْنِهَا، ويَنْبَثِقُ الشُّعَاعُ مِنْ ضَفَائِرِهَا\nوالعشّاقُ الَّذِينَ سَبَقُوا فِي العِرْفَانِ، ذلك مَشْرُوعٌ مِنْ قُلُوبِهِمْ",
+    "english": "Twilight radiates from her beauty, light bursts from her flowing tresses\nLovers who advanced in mystical wisdom find it justified within their hearts."
+  },
+  {
+    "stanza": 23,
+    "kurdish_ar": "گول حەتا سوهرن ب تێ ڤە، بێن تەبەسسوم پێڤە پێڤە\nبولبولێ سەرخوەش د نێڤە، نەغمە و نال و نەوایە",
+    "kurmanji_lat": "gul ḧeta suhirin bi tê ve, bên tebessum pêve pêve\nbulbulê serxiweş di nêve, neẍme û nal û newaye",
+    "arabic": "كَانَ لَهُمْ مِنْ حُسْنِهَا قَبَسٌ، وكانَ لِعُشَّاقِ الـرُّوحِ نَفَسٌ\nكَانَ لَهُمْ نُورُ الحَبِيبَةِ مُنْذُ الأَزَلِ، ولِذَلِكَ تَجَلَّى لَهُمْ البَقَاءُ",
+    "english": "They gathered a ember from her beauty; it was life-breath for lovers of the spirit\nThe light of the Beloved was theirs from eternity, and thus permanence shone for them."
+  },
+  {
+    "stanza": 24,
+    "kurdish_ar": "هەر چ جلوا بوو ژ ناڤێ، نوو گولەک دی گرت خوناڤێ\nوی ژ دل چوو موحبەتا ڤێ، ئەو ب یا دی ڕا تەبایە",
+    "kurmanji_lat": "her çi cilwa bû ji navê, nû gulek dî girt xunavê\nwî ji dil çû muḧbeta vê, ew bi ya dî řa tebaye",
+    "arabic": "كانَ العِشْقُ فِيهَا أَحْمَرَ وَأَصْفَرَ، وكانَ عُشَّاقُهَا كَثِيرِينَ أَمَامَهَا\nكانَ العِشْقُ فِيهَا بِلاَ خَبَرٍ، ولمْ يَعْرِفْ أَحَدٌ مَا هُوَ ذَلِكَ الجَبَلُ",
+    "english": "Passion within it turned red and gold; many were the lovers standing before her\nLove within it was beyond reporting; no one knew how vast that mountain was."
+  },
+  {
+    "stanza": 25,
+    "kurdish_ar": "هەر کەسێ موحبەت ژ ڕووحە، موبتەلای نوورا سوبووحە\nوی د دل دا سەد جورووحە، جەزبە و لەرزین و تایە",
+    "kurmanji_lat": "her kesê muḧbet ji řûḧe, mubtelay nûra subûḧe\nwî di dil da sed curûḧe, cezbe û lerzîn û taye",
+    "arabic": "ذلك الجَبَلُ لِعُشَّاقِ القَلْبِ، لِكَيْ لاَ يَأْتِيَ الخَطَأُ أَمَامَهُ\nولكيلا يَتَسَاقَطَ التُّرَابُ والغُبَارُ، فالْعِشْقُ أُعْطِيَ لِلرُّوحِ",
+    "english": "That mountain is for heart-bound lovers, so that error may not overcome them\nSo that dust and grime do not fall; love was bestowed upon the soul."
+  },
+  {
+    "stanza": 26,
+    "kurdish_ar": "هەردو ڕووح یەک نوورێ تاڤن، چەرخەک و دو ستێر ل ناڤن\nهەردو دانە مورغ و داڤن، ئسمێ حەی دام لێ ڤەدایە",
+    "kurmanji_lat": "herdu řûḧ yek nûrê tavin, çerxek û du sitêr li navin\nherdu dane murẍ û davin, ismê ḧey dam lê vedaye",
+    "arabic": "أَعْطَتِ الحَبِيبَةُ حُسْنَ الخَدِّ الأَحْمَرِ، والضَّفَائِرُ والشَّامَاتُ فِيهَا جَلاَلٌ كَثِيرٌ\nوأَلْقَى العِشْقُ بالنَّارِ في الـرُّوحِ والحَالِ، ولِذَلِكَ احْتَرَقَ المَلاَّ بِالبَلاَءِ",
+    "english": "The Beloved displayed the beauty of her rosy cheek, her tresses and moles full of majesty\nLove cast fire into spirit and ecstasy, and so Melê was consumed by trial."
+  },
+  {
+    "stanza": 27,
+    "kurdish_ar": "نوورە پوڕ نادر ووجوودە، گەر چ ئەووەل نار و دوودە\nبەرقێ لامع دێ ل کوو دە؟ حوب د قەلبان کیمیایە",
+    "kurmanji_lat": "nûre puř nadir wucûde, ger çi ewwel nar û dûde\nberqê lam’ dê li kû de? ḧub di qelban kîmyaye",
+    "arabic": "ولِذَلِكَ احْتَرَقَ المَلاَّ مِنَ العِشْقِ، ووَقَعَ أَمَامَ سَهْمِ التَّدْرِيبِ\nوانْفَتَحَتْ حُجُبُ العِشْقِ، وتَجَدَّدَ حُسْنُ الحَبِيبَةِ",
+    "english": "And so Melê burned with passion, target to the practiced arrows of love\nThe veils of love parted, and the Beloved's beauty shone anew."
+  },
+  {
+    "stanza": 28,
+    "kurdish_ar": "عارفێ جەوهەرشناسی، ئێ ب ڤی وەسف و لباسی\nدێ قەدر بهتر بناسی، مەقعەدێ سدقێ جەزایە",
+    "kurmanji_lat": "’arfê cewherşinasî, ê bi vî wesif û libasî\ndê qedir bihtir binasî, meq’edê sidqê cezaye",
+    "arabic": "تَجَدَّدَ حُسْنُ الحَبِيبَةِ، وتَجَلَّى الشُّعَاعُ مِنْ وَجْهِهَا\nوطَلَعَ كَوْكَبُ الشَّمْسِ، وأَضَاءَتْ كُلُّ الأَعْلاَمِ بالـشُّعَاعِ",
+    "english": "The Beloved's beauty renewed itself; radiance manifested from her countenance\nThe star of the sun ascended, illuminating every standard with its glow."
+  },
+  {
+    "stanza": 29,
+    "kurdish_ar": "دوور نەکی دا وی ژ دەرێ خوە، وەرنەگێری وی ژ بەرێ خوە\nبۆرییە ئەو د سەرێ خوە، سەر د ناڤا ڕێ نهایە",
+    "kurmanji_lat": "dûr nekî da wî ji derê xwe, wernegêrî wî ji berê xwe\nborîye ew di serê xwe, ser di nava řê nihaye",
+    "arabic": "أضاءت كل الأعلام بالشعاع، وأشرقت الشمس على قصر الملك\nوالشاه على عرش البقاء، والعشاق قد سطع عليهم الشعاع",
+    "english": "Every banner caught the beam, the sun rose over the King's palace\nThe Sovereign sits on the throne of eternity, and light shines upon the lovers."
+  },
+  {
+    "stanza": 30,
+    "kurdish_ar": "ما دبت ئەو دوورەدەست بت، وێ ژ فنجانا تە مەست بت\nجام ژ شەهکاسێ ب دەست بت، ئەبتەران ئەو مەی دەوایە",
+    "kurmanji_lat": "ma dibit ew dûredest bit, wê ji fincana te mest bit\ncam ji şehkasê bi dest bit, ebteran ew mey dewaye",
+    "arabic": "والعشاق قد سطع عليهم الشعاع، عشاق الحُسْنِ الجَلِيِّ\nولهم من العرفان صفاء، والقلب متفق في هذا الفكر",
+    "english": "Light shines upon the lovers, devotion to manifest splendor\nThrough gnosis they possess clarity, and the heart finds peace in this thought."
+  },
+  {
+    "stanza": 31,
+    "kurdish_ar": "یار پوڕ حوسنەک ل بال بوو، دلبەرەک غایەت جەمال بوو\nئەو ژ حال ئاگەهـ ب حال بوو، شوبهی وێ شەفقە و عەتایە",
+    "kurmanji_lat": "yar puř ḧusnek li bal bû, dilberek ẍayet cemal bû\new ji ḧal ageh bi ḧal bû, şubhî wê şefqe û ’etaye",
+    "arabic": "والقلب في هذا الفكر صفا، وظهرت فيه مئة لؤلؤة\nولعشاق العرفان حياء، وذلك مشروع من قلوبهم",
+    "english": "The heart grew pure in this reflection; a hundred pearls appeared within it\nLovers of spiritual wisdom possess modesty, justified from their inner core."
+  },
+  {
+    "stanza": 32,
+    "kurdish_ar": "مەهدەرا وێ خێرخوازێ، نوکتەیەک وێ ڕەمز و ڕازێ\nوێ ب دل سەح کر ژ سازێ، موغنی و قانوون و نایە",
+    "kurmanji_lat": "mehdera wê xêrxiwazê, nukteyek wê řemz û řazê\nwê bi dil seḧ kir ji sazê, muẍnî û qanûn û naye",
+    "arabic": "وهم يروْن ذلك مشروعاً من قلوبهم، كلما انبثق الشعاع\nولعشاق الحُسْنِ الأحمد، مُنِحُوا البقاء الدائم",
+    "english": "They deem it right within their hearts whenever the light bursts forth\nTo the lovers of rosy beauty, everlasting existence was granted."
+  },
+  {
+    "stanza": 33,
+    "kurdish_ar": "یووسفێ دەورێ زەمانی، گۆ نەسیم: هان ڤی نشانی\nلێ ژ بۆ نەکهێ دەهانی، نەخوەشان ئەو لێ شفایە",
+    "kurmanji_lat": "yûsfê dewrê zemanî, go nesîm: han vî nişanî\nlê ji bo nekhê dehanî, nexweşan ew lê şifaye",
+    "arabic": "بقاؤهم كان منذ الأزل، لكنه لم يكن من الماء ولا من التُّراب\nكان عشقهم فيها عظيماً، ولذلك تجلّى لهم البقاء",
+    "english": "Their permanence was from eternity, derived neither from water nor clay\nTheir passion within it was boundless, and so everlastingness unfolded for them."
+  },
+  {
+    "stanza": 34,
+    "kurdish_ar": "ماوەرا بەلگێن گولێ بوو، بهن و بوویا کاکولێ بوو\nداروویێ قەلبێ مەلێ بوو، لەو ب چەهڤێن من جەلایە",
+    "kurmanji_lat": "mawera belgên gulê bû, bihin û bûya kakulê bû\ndarûyê qelbê melê bû, lew bi çehvên min celaye",
+    "arabic": "ما خلف أوراق الورد، كان عبير الضَفيرة وشذاها\nكان دواءً لقلب المَلاَّ، ولذلك انجَلتْ بهِ عينايَ",
+    "english": "Beyond the rose petals lay the fragrance of her dark locks\nIt was medicine for Melê's heart, polishing the vision of my eyes."
+  },
+  {
+    "stanza": 35,
+    "kurdish_ar": "با نەسیم دێ چی لەزینی، ساغ و سالم ما تو بینی\nڤی کومەیدی لێ گەهینی، دا سوار بت لێ پەیایە",
+    "kurmanji_lat": "ba nesîm dê çî lezînî, saẍ û salim ma tu bînî\nvî kumeydî lê gehînî, da swar bit lê peyaye",
+    "arabic": "يا نسيم الصَّبا إلى أين تسرع؟ أتراني أراك سالماً معافى؟\nبلّغ هذا المهر الأشقر (الفرس)، ليركبه الرّاجل",
+    "english": "O breeze of dawn, whither do you hurry? Will I see you safe and sound?\nBring this bay steed to him, so the foot-traveler may mount."
+  },
+  {
+    "stanza": 36,
+    "kurdish_ar": "غەفلەتێ بایێ نەسیم هات، خەف ژ بال یارێ کەریم هات\nپوڕ ب ئحسانەک عەزیم هات، قاسدێ شاهێ گەدایە",
+    "kurmanji_lat": "ẍefletê bayê nesîm hat, xef ji bal yarê kerîm hat\npuř bi iḧsanek ’ezîm hat, qasdê şahê gedaye",
+    "arabic": "بغتةً جاء نسيم الصَّبا، سرّاً من عند الحبيب الكريم\nجاء مفعماً بإحسان عظيم، رسول شاه الملوك إلى المفلِس",
+    "english": "Suddenly the morning breeze arrived, secretly from the noble Beloved\nIt came filled with grand grace, a messenger from the King to the beggar."
+  },
+  {
+    "stanza": 37,
+    "kurdish_ar": "دل نەفەس دیسا ب بەر هات، لەو حەکیم لوقمان ب سەر هات\nنافعێ دەردێ جەگەر هات، تالعێ کەوکەب نومایە",
+    "kurmanji_lat": "dil nefes dîsa bi ber hat, lew ḧekîm luqman bi ser hat\nnaf’ê derdê ceger hat, tal’ê kewkeb numaye",
+    "arabic": "وعادت الرُّوح إلى القلب بالأنفاس، وأقبل عليه الحكيم لقمان\nوجاء ما ينفع داء الكبد، وظهر طالع الكوكب",
+    "english": "Breath returned to the heart once more, as the wise Luqman arrived\nThe cure for the liver's pain appeared, as the guiding star ascended."
+  },
+  {
+    "stanza": 38,
+    "kurdish_ar": "من کو ئەو نیشان گهەشتێ، ئەڤ دلێ سەد داغێ ڕەش تێ\nزەررەیەک خوەش لێ نەهەشت تێ، ئسمێ ئەعزەم پێ گەهایە",
+    "kurmanji_lat": "min ku ew nîşan giheştê, ev dilê sed daẍê řeş tê\nzerreyek xweş lê neheşt tê, ismê e’zem pê gehaye",
+    "arabic": "فلما وصلتني تلك العلامة، وهذا القلب فيه مئة جرح أسود\nلم تترك فيه ذرة إلا وشفتها، لما وصله الاسم الأعظم",
+    "english": "When that sign reached me, inside this heart bearing a hundred dark scars\nNot a trace of pain remained; the Supreme Name had touched it."
+  },
+  {
+    "stanza": 39,
+    "kurdish_ar": "چوومە سەر پشتا کومەیدی، من ژێ پوڕ ئەو ژان و کەی دی\nبەحر و بەڕ مە ل بەر خوە تەی دی، دەشت و چۆل و کەربەلایە",
+    "kurmanji_lat": "çûme ser pişta kumeydî, min jê puř ew jan û key dî\nbeḧir û beř me li ber xwe tey dî, deşt û çol û kerbelaye",
+    "arabic": "امتطيت ظهر المهر الأشقر، ورأيت منه ذلك الأذى والفرح العظيم\nوططينا البحر والبر أمَامَنا، والدشت والصحراء وكربلاء",
+    "english": "I mounted the back of the bay steed, experiencing both great agony and delight\nWe traversed sea and land before us, plains, deserts, and Karbala."
+  },
+  {
+    "stanza": 40,
+    "kurdish_ar": "مە و نەسیم خوەش پەنجە تێکڕا، وێ دچین وەک تەیر ڤێکڕا\nبەحسێ زولفا یارێ پێکڕا، بۆرێ عشقێ پوڕ فڕایە",
+    "kurmanji_lat": "me û nesîm xweş pence têkřa, wê diçîn wek teyr vêkřa\nbeḧsê zulfa yarê pêkřa, borê ’işqê puř fiřaye",
+    "arabic": "أنا والنسيم نحسن السير معاً، ونطير هناك كالأطيار سوية\nنتجاذب الحديث عن ضفائر الحبيبة، وجواد العشق يطير مسرعاً",
+    "english": "The breeze and I rode hand in hand, soaring like birds together\nDiscussing the Beloved's tresses while the charger of love flew swift."
+  },
+  {
+    "stanza": 41,
+    "kurdish_ar": "گونبەدا نوورین خویا بوو، سپێدەیا سادق نوما بوو\nیەک ب یەک شەوقێ ڤەدا بوو، قەسر و ئەیوان و سەرایە",
+    "kurmanji_lat": "gunbeda nûrîn xuya bû, sipêdeya sadiq numa bû\nyek bi yek şewqê veda bû, qesir û eywan û seraye",
+    "arabic": "وظهرت القبة النورانية، وتبدّى الفجر الصادق\nوانعكس الشعاع واحداً فواحداً، على القصر والإيوان والسراي",
+    "english": "The radiant dome came into view; true dawn broke across the sky\nOne by one, the light reflected upon palace, hall, and court."
+  },
+  {
+    "stanza": 42,
+    "kurdish_ar": "قومری و بولبول دخوینن، لێ عەجەب ئەو خوەش دمینن\nهەر سەحەر مەحبووب دبینن، عەندەلیب ڤێڕا تەبایە",
+    "kurmanji_lat": "qumrî û bulbul dixiwînin, lê ’eceb ew xweş dimînin\nher seḧer meḧbûb dibînin, ’endelîb vêřa tebaye",
+    "arabic": "القمري والبلبل يغردان، والعجب أنهما في سعادة دائمِة\nيريان المحبوب كل صباح، والعندليب متفق معهما",
+    "english": "Turtle-doves and nightingales sing, so wondrously joyful in their state\nEvery dawn they behold the Beloved; the nightingale shares their harmony."
+  },
+  {
+    "stanza": 43,
+    "kurdish_ar": "بوغچەیا سۆرگول د گەش تێ، چیچەک و رەیحانێ ڕەش تێ\nدلبەرێ سەیران و گەشت تێ، سونبولان تا تا سەمایە",
+    "kurmanji_lat": "buẍçeya sorgul di geş tê, çîçek û reyḧanê řeş tê\ndilberê seyran û geşt tê, sunbulan ta ta semaye",
+    "arabic": "بااقة الورد الأحمر تزهو، والأزهار والريحان الأسود يفومان\nوالحبيبة تقبل في نزهة وجولة، وسنابل السنبل ترقص طاقاً طاقاً",
+    "english": "The bouquet of red roses blooms brightly, flowers and dark basil waft their scent\nThe Beloved strolls in graceful promenade, while hyacinths sway strand by strand."
+  },
+  {
+    "stanza": 44,
+    "kurdish_ar": "سەبزەیان شەبنەم گولاڤ لێ، سۆر عەقیقان دوڕ خوناڤ لێ\nدلبەران سەیران و ڕاڤ لێ، عەرعەران سیتاب دایە",
+    "kurmanji_lat": "sebzeyan şebnem gulav lê, sor ’eqîqan duř xunav lê\ndilberan seyran û řav lê, ’er’eran sîtab daye",
+    "arabic": "العشب عليه الندى كأنه ماء ورد، والعقيق الأحمر عليه اللؤلؤ كأنه ندى\nوللحسان نزهة وصيد هناك، والأرعر يرفرف بجماله",
+    "english": "Dew upon the grass shines like rosewater, red carnelians glistening with pearl-like dew\nThe fair ones stroll and hunt, while cypress trees sway in majesty."
+  },
+  {
+    "stanza": 45,
+    "kurdish_ar": "بووم شەریف ئەز ب ئاستانێ، شاهدێن وێ گولستانێ\nساقییان جام جام ددانێ، کەوکەبان سەیوان ڤەدایە",
+    "kurmanji_lat": "bûm şerîf ez bi astanê, şahdên wê gulistanê\nsaqîyan cam cam didanê, kewkeban seywan vedaye",
+    "arabic": "تشرفت بتلك العتبة، وشاهَدْتُ شهود ذلك البستان\nوالسقاة يصبون الكؤوس تلو الكؤوس، والكواكب قد ضربت قبابها",
+    "english": "I was honored at that threshold, witnessing the beauties of that rose garden\nCupbearers passed goblet after goblet, while stars pitched their luminous tents."
+  },
+  {
+    "stanza": 46,
+    "kurdish_ar": "چەندەکی چەمەن حەرەم بوو، لێ مەدام وەک سوبحدەم بوو\nمن بهشت باغێ ئرەم بوو، لێ سەبا گۆ من سەبایە",
+    "kurmanji_lat": "çendekî çemen ḧerem bû, lê medam wek subḧidem bû\nmin bihişt baẍê irem bû, lê seba go min sebaye",
+    "arabic": "كان الروض لي حَرَماً لحين، وكانت الخمرة كأنها الفجر\nوكان البستان لي جنة إرم، لكن نسيم الصبا قال لي: أنا الصبا",
+    "english": "The meadow was a sanctuary for a time, with wine flowing like break of day\nFor me, it was the Paradise Garden of Iram, as the zephyr whispered: \"I am the morning breeze.\""
+  },
+  {
+    "stanza": 47,
+    "kurdish_ar": "سەف ب سەف ولدان پەری بوون، بەندێ زولفا عەنبەری بوون\nتێک ل دێمی موشتەری بوون، ڕەقس و گۆڤەند و سەفایە",
+    "kurmanji_lat": "sef bi sef wildan perî bûn, bendê zulfa ’enberî bûn\ntêk li dêmî muşterî bûn, řeqis û govend û sefaye",
+    "arabic": "صفاً فصفاً كان الغلمان كالحور، أسرى الضَفيرة العنبرية\nكلهم يطلبون رؤية وجهها، وفي رقص وحلقة وطرب",
+    "english": "Row upon row of youths like fair spirits stood bound by her amber-scented locks\nAll seeking a glimpse of her face amid dance, ring-dancing, and joy."
+  },
+  {
+    "stanza": 48,
+    "kurdish_ar": "پوڕ عومر من چوو ب سەختی، لێ شوکورخوازم ژ بەختی\nزوهرەیەک بوو ئەو ل تەختی، بەلکوو بێم «شمس الضحی»یە",
+    "kurmanji_lat": "puř ’umir min çû bi sextî, lê şukurxiwazim ji bextî\nzuhreyek bû ew li textî, belkû bêm «şims alziḧî»ye",
+    "arabic": "مضى كثير من عمري في مشقة، لكني شاكر لجمالي وبختي\nكانت كأنها الزهرة على العرش، بل أقول إنها شمس الضحى",
+    "english": "Much of my life passed in hardship, yet I give thanks for my destiny\nShe sat upon the throne like Venus, nay, I should say the morning sun."
+  },
+  {
+    "stanza": 49,
+    "kurdish_ar": "پەردەیا خەلوێ کو هلدا، یەنگییەک من دی د مل دا\nگەزمەیا ژەهرێ ل دل دا، قەت نەگۆ قەتل و خەتایە",
+    "kurmanji_lat": "perdeya xelwê ku hilda, yengîyek min dî di mil da\ngezmeya jehrê li dil da, qet nego qetil û xetaye",
+    "arabic": "لما رفعت حجاب الخلوة، رأيت سيفاً جديداً في عاتقها\nطعنت القلب بضربة مسمومة، ولم تقل أبداً إنه قتل أو خطأ",
+    "english": "When she raised the veil of solitude, I saw a brand-new blade at her shoulder\nShe struck my heart with a poisoned dart, never deeming it murder or crime."
+  },
+  {
+    "stanza": 50,
+    "kurdish_ar": "هادری چووم سەجدە ژێڕا، لێ نیەت ئحرام نە ڤێڕا\nعاشقێ ئەڤ گەزمە تێڕا، هەر چ تاعەت کت ڕەوایە",
+    "kurmanji_lat": "hadrî çûm secde jêřa, lê nyet iḧram ne vêřa\n’aşiqê ev gezme têřa, her çi ta’et kit řewaye",
+    "arabic": "خررتُ لها ساجداً على الفور، لكن نية الإحرام لم تكن معها\nوالعاشق الذي أصابته هذه الضربَة، كل طاعة يفعلها فهي مقبولة",
+    "english": "Instantly I fell in prostration before her, though without the mantle of pilgrim vows\nFor the lover struck by such a wound, any act of devotion is lawful."
+  },
+  {
+    "stanza": 51,
+    "kurdish_ar": "چووم زیارەت پێ و دەستی، لێ نەهشت ئەووەل ب قەستی\nدا بسۆژت ڕووح و هەستی، عاشقان سۆتن جەزایە",
+    "kurmanji_lat": "çûm zyaret pê û destî, lê nehişt ewwel bi qestî\nda bisojit řûḧ û hestî, ’aşiqan sotin cezaye",
+    "arabic": "ذهبت لألثم قدميها ويديها، لكنها لم تدعني في البداية قاصدةً\nلكي تحترق الروح والعظام، فجَزَاءُ العشاق هو الحَرَق",
+    "english": "I went to kiss her feet and hands, but she intentionally withheld permission at first\nSo that soul and bones might burn; for burning is the true reward of lovers."
+  },
+  {
+    "stanza": 52,
+    "kurdish_ar": "شەربەتا وەسلا خوە نادەت، یار هەنن عاشق جەزا دەت\nدلبەران ئەڤ ڕەنگە عادەت، مەهڕووان کەمتر وەفایە",
+    "kurmanji_lat": "şerbeta wesla xwe nadet, yar henin ’aşiq ceza det\ndilberan ev řenge ’adet, mehřuwan kemtir wefaye",
+    "arabic": "لا تعطي شربة وصالها، وهناك أحبة يعاقبون العشاق\nهذا هو دأب الغواني، وذوات الوجوه كالقمر قلمات يوفين",
+    "english": "She gives not the elixir of union; such beloveds inflict penance on their lovers\nSuch is the custom of beauties; moon-faced ones rarely show fidelity."
+  },
+  {
+    "stanza": 53,
+    "kurdish_ar": "پیشە مەحبووب غەنج و نازە، وەسفەتێ عاشق نیازە\nیار ل بەر زازان ئجازە، شەربەتا شیرین مفایە",
+    "kurmanji_lat": "pîşe meḧbûb ẍenc û naze, wesfetê ’aşiq nyaze\nyar li ber zazan icaze, şerbeta şîrîn mifaye",
+    "arabic": "صنيع المحبوب الغنج والدلال، وصفة العاشق التضرع والرجاء\nوالحبيب يعطي الإجازة أمام العشاق، والشربة الحلوة نافعة",
+    "english": "The Beloved's craft is charm and coquetry; the lover's quality is supplication\nThe Beloved grants leave before the lovers, and the sweet drink brings healing."
+  },
+  {
+    "stanza": 54,
+    "kurdish_ar": "چووم تەوافا پێ و دەستان، شوبهەتی سەکران و مەستان\nئەهلێ حال و خووب پەرەستان، وان ژ عومر ئەڤ موددەعایە",
+    "kurmanji_lat": "çûm tewafa pê û destan, şubhetî sekiran û mestan\nehlê ḧal û xûb perestan, wan ji ’umir ev mudde’aye",
+    "arabic": "طفت حول قدميها ويديها، كالثمل السكران\nولأهل الحال وعبّاد الجمال، هذا هو المطلب من العمر",
+    "english": "I circumambulated her feet and hands, like a drunken, ecstatic soul\nFor people of spiritual state and lovers of beauty, this is the sole purpose of life."
+  },
+  {
+    "stanza": 55,
+    "kurdish_ar": "تللییێن نازک شەمالین، من ل سەر چەهڤێن خوە مالین\nتالبێ وەردێن ب خالین، دل د ڤێ فکرێ تەبایە",
+    "kurmanji_lat": "tillîyên nazk şemalîn, min li ser çehvên xwe malîn\ntalbê werdên bi xalîn, dil di vê fikirê tebaye",
+    "arabic": "أصابعها الرقيقة كالشّموع، مسحتُ بها على عينيَّ\nوطالب ورود الشامات، القلب متفق في هذا الفكر",
+    "english": "Her delicate, candle-like fingers I rubbed gently across my eyes\nSeeking the roses of her beauty marks, my heart finds rest in this desire."
+  },
+  {
+    "stanza": 56,
+    "kurdish_ar": "چوو عومر مە د ڤێ خەیالێ، ما شەڤەک عیدان د سالێ\nبێم زیارەت زولف و خالێ، ڕۆژ و شەڤ من ئەڤ دوعایە",
+    "kurmanji_lat": "çû ’umir me di vê xeyalê, ma şevek ’îdan di salê\nbêm zyaret zulf û xalê, řoj û şev min ev du’aye",
+    "arabic": "مضى عمرنا في هذا الخيال، أفتبقى ليلة عيد في السنة؟\nلآتي وأزور ضفائرها وشامتها، فهذا دعائي ليلاً ونهاراً",
+    "english": "Our life passed away in this reverie; is there not a night of festival left in the year?\nThat I may come to revere her tresses and mole—this is my prayer day and night."
+  },
+  {
+    "stanza": 57,
+    "kurdish_ar": "چەرخ دترسم کت شتابێ، زوو ئەجەل پێ دت رکابێ\nجان برت مە د ڤێ عەزابێ، ئەڤ سیاهـ ڕەنگ ئەژدەهایە",
+    "kurmanji_lat": "çerx ditirsim kit şitabê, zû ecel pê dit rikabê\ncan birit me di vê ’ezabê, ev syah řeng ejdehaye",
+    "arabic": "أخشى أن يعجل الفلك، ويطأ الأجل ركابه سريعاً\nفيسلب روحنا في هذا العذاب، وهذا التنين الأسود",
+    "english": "I fear the celestial wheel will hasten, and death will quickly step into the stirrup\nRobbing our soul while in this torment, like a black-scaled dragon."
+  },
+  {
+    "stanza": 58,
+    "kurdish_ar": "چەندەکی سادق جەما بن، ئەر ببێژی جانفدا بن\nوەک مەلێ لازم تو نابن، وی ژ دل جانێ خوە دایە",
+    "kurmanji_lat": "çendekî sadiq cema bin, er bibêjî canifda bin\nwek melê lazim tu nabin, wî ji dil canê xwe daye",
+    "arabic": "مهما كان الصادقون مجمّعين، وإن قيل إنهم يضحون بأرواحهم\nفلن يكونوا حتماً كالمَلاَّ، فإنه قد بذل روحه من أعمق القلب",
+    "english": "However many sincere ones gather, though they be called self-sacrificing\nThey can never be like Melê, for he has given his very soul from the heart."
+  }
+];
