@@ -164,9 +164,15 @@ html{scrollbar-width:thin;scrollbar-color:var(--n-border-strong) transparent}
   box-shadow:inset 0 1px 0 rgba(255,255,255,.045),0 8px 24px rgba(0,0,0,.16);
 }
 .poem-picker{display:flex;align-items:center;gap:6px;min-width:0;font-size:14px;letter-spacing:-.01em;white-space:nowrap}
-.poem-choice{position:relative;display:flex;align-items:center;min-width:0}
+/* the hidden sizer carries the selected title and sets the box width, so the caret
+   and the author sit next to the current title, not the longest one in the list */
+.poem-choice{position:relative;display:inline-flex;align-items:center;min-width:0;max-width:17rem}
+.poem-sizer{
+  max-width:100%;padding:6px 22px 6px 4px;font:600 14px/1.2 var(--n-font-ui);letter-spacing:-.01em;
+  white-space:nowrap;overflow:hidden;visibility:hidden;
+}
 .poem-select{
-  appearance:none;min-width:0;max-width:17rem;border:0;border-radius:var(--n-r-xs);
+  position:absolute;inset:0;appearance:none;width:100%;min-width:0;border:0;border-radius:var(--n-r-xs);
   padding:6px 22px 6px 4px;background:transparent;color:var(--n-text-primary);
   font:600 14px/1.2 var(--n-font-ui);letter-spacing:-.01em;cursor:pointer;text-overflow:ellipsis;
 }
@@ -597,7 +603,7 @@ footer a:hover{border-bottom-color:var(--n-text-primary)}
 }
 @media(max-width:430px){
   .nav-author{display:none}
-  .poem-select{max-width:44vw}
+  .poem-choice{max-width:44vw}
   .nav-gh span{display:none}
   .nav-gh{padding:5px 9px}
   .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -656,6 +662,7 @@ footer a:hover{border-bottom-color:var(--n-text-primary)}
   <div class="poem-picker">
     <label class="poem-choice">
       <span class="sr-only">Choose a poem</span>
+      <span class="poem-sizer" id="poemSizer" aria-hidden="true">Bêyta Dilî</span>
       <select class="poem-select" id="poemSelect" aria-label="Choose a poem"></select>
       <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg>
     </label>
@@ -942,6 +949,7 @@ function applyPoemMeta(){
   const setText = (id, value)=>{ document.getElementById(id).textContent = value; };
 
   poemSelect.value = activePoem.id;
+  setText('poemSizer', activePoem.title);
   setText('navAuthor', '/ ' + activePoem.author);
   setText('navRead', POEM.length + ' stanzas · ' + lineCount + ' lines');
   setText('collectionName', activePoem.collection);
