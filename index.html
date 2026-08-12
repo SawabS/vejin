@@ -701,8 +701,7 @@ footer a:hover{border-bottom-color:var(--n-text-primary)}
 </div>
 
 <button class="dock-btn" id="dockBtn" type="button" aria-expanded="false" aria-controls="dock" title="Reading options (press O)">
-  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h7M15 7h5M4 12h9M17 12h3M4 17h4M12 17h8"/><circle cx="13" cy="7" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="10" cy="17" r="2"/></svg>
-  <span id="dockLabel">Kurmancî + English</span>
+  <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
 </button>
 
 <aside class="dock" id="dock" role="dialog" aria-label="Reading options">
@@ -1016,7 +1015,6 @@ function syncControls(){
   markFace('#arFaceTabs .tab', state.arFace);
   document.documentElement.dataset.face = state.face;
   document.documentElement.dataset.arface = state.arFace;
-  if(typeof dockLabel !== 'undefined' && dockLabel) dockLabel.textContent = dockSummary();
   document.body.dataset.cols = String(state.langs.length);
   document.documentElement.style.setProperty('--cols', state.langs.length);
 }
@@ -1216,7 +1214,6 @@ addEventListener('resize', spy);
    ============================================================ */
 const dock = document.getElementById('dock');
 const dockBtn = document.getElementById('dockBtn');
-const dockLabel = document.getElementById('dockLabel');
 
 function setDock(open){
   dock.classList.toggle('on', open);
@@ -1240,13 +1237,6 @@ addEventListener('keydown', e=>{
   if(e.key === '/'){ e.preventDefault(); setDock(true); qEl.focus(); qEl.select(); }
 });
 
-/* the pill always reads back what is on screen */
-function dockSummary(){
-  const names = state.langs.map(k=>LANGS.find(l=>l.k===k).en);
-  if(names.length === LANGS.length) return 'All four texts';
-  if(names.length <= 2) return names.join(' + ');
-  return names.length + ' texts';
-}
 
 /* ============================================================
    8. COMET CURSOR  -  compact shooting-star core and tapered ribbon
