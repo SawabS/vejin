@@ -4,63 +4,63 @@ window.VEJIN_POEMS["dilbere-iro-seher"] = [
     "stanza": 1,
     "kurdish_ar": "دلبەرێ ئیرۆ سەحەر، ئاڤێتە جەرگێ من دو دۆخ\nیەک ل سینە یەک ل دل دا، لەو ژ من تێن ئاخ و ئۆخ",
     "kurmanji_lat": "dilberê îro seḧer, avête cergê min du dox\nyek li sîne yek li dil da, lew ji min tên ax û ox",
-    "arabic": "أَلْقَتِ الْحَبِيبَةُ هَذَا الصَّبَاحَ فِي كَبِدِي جَمْرَتَيْنِ\nوَاحِدَةٌ فِي الصَّدْرِ وَأُخْرَى فِي الْقَلْبِ، فَلِذَلِكَ تَنْتَصِعُ مِنِّي الْآهَاتُ وَالزَّفَرَاتُ",
-    "english": "This morning at dawn, the beloved cast two burning coals into my liver,\nOne in my chest and one in my heart, and so groans and sighs burst from me."
+    "arabic": "أَلْقَتِ الْحَبِيبَةُ هَذَا الصَّبَاحَ فِي كَبِدِي جَمْرَتَيْنِ، وَاحِدَةٌ فِي الصَّدْرِ وَأُخْرَى فِي الْقَلْبِ، فَلِذَلِكَ تَنْبَعِثُ مِنِّي الْآهَاتُ وَالزَّفَرَاتُ.",
+    "english": "This morning at dawn, the beloved cast two burning coals into my liver, One in my chest and one in my heart, and so groans and sighs burst from me."
   },
   {
     "stanza": 2,
     "kurdish_ar": "ئاهـ و ئۆخێن من ژ دل تێن، لێ ژ بەر تیرا قزل تێن\nیان ژ کۆڤانێن د کول تێن، ژێ دزێت هەر خوون و زۆخ",
     "kurmanji_lat": "ah û oxên min ji dil tên, lê ji ber tîra qizil tên\nyan ji kovanên di kul tên, jê dizêt her xûn û zox",
-    "arabic": "آهَاتِي وَزَفَرَاتِي تَخْرُجُ مِنَ الْقَلْبِ، مَضْرُوبَةً بِسَهْمِهَا الأَحْمَرِ\nأَوْ مِنْ لَوَاعِجِ الْجِرَاحِ الَّتِي يَنْزِفُ مِنْهَا الدَّمُ وَالصَّدِيدُ دَوْماً",
-    "english": "My sighs and groans come from the heart, struck by her glowing red arrow,\nOr from deep-festering wounds from which blood and pus continually seep."
+    "arabic": "آهَاتِي وَزَفَرَاتِي تَخْرُجُ مِنَ الْقَلْبِ، مَضْرُوبَةً بِسَهْمِهَا الْأَحْمَرِ، أَوْ مِنْ لَوَاعِجِ الْجِرَاحِ الَّتِي يَنْزِفُ مِنْهَا الدَّمُ وَالصَّدِيدُ دَوْماً.",
+    "english": "My sighs and groans come from the heart, struck by her glowing red arrow, Or from deep-festering wounds from which blood and pus continually seep."
   },
   {
     "stanza": 3,
     "kurdish_ar": "خوون ژ دل جۆجۆ ڕەوان تێ، وەک عەقیق و ئەرغەوان تێ\nلێ ژ دەست سەلوا جوان تێ، ئەو شەپالا شەنگ و شۆخ",
     "kurmanji_lat": "xûn ji dil coco řewan tê, wek ’eqîq û erẍewan tê\nlê ji dest selwa cwan tê, ew şepala şeng û şox",
-    "arabic": "يَجْرِي الدَّمُ مِنَ الْقَلْبِ جَدَاوِلَ كَالْعَقِيقِ وَالأَرْجُوَانِ\nلَكِنَّهُ يَنْبُعُ مِنْ يَدِ تِلْكَ السَّرْوَةِ الْجَمِيلَةِ، تِلْكَ الرَّشِيقَةِ الْفَاتِنَةِ",
-    "english": "Blood flows from the heart in streams like carnelian and purple blossoms,\nCaused by the hand of that fair cypress, that graceful and coquettish beauty."
+    "arabic": "يَجْرِي الدَّمُ مِنَ الْقَلْبِ جَدَاوِلَ كَالْعَقِيقِ وَالْأُرْجُوَانِ، لَكِنَّهُ يَنْبُعُ مِنْ يَدِ تِلْكَ السَّرْوَةِ الْجَمِيلَةِ، تِلْكَ الرَّشِيقَةِ الْفَاتِنَةِ.",
+    "english": "Blood flows from the heart in streams like carnelian and purple blossoms, Caused by the hand of that fair cypress, that graceful and coquettish beauty."
   },
   {
     "stanza": 4,
     "kurdish_ar": "ئەو شەپالا شۆخ و شەنگە، کافرا ڕۆم و فەڕەنگە\nدامە بەر جوهتەک خەدەنگە، زالمێ کوشتم ب دۆخ",
     "kurmanji_lat": "ew şepala şox û şenge, kafra řom û feřenge\ndame ber cuhtek xedenge, zalmê kuştim bi dox",
-    "arabic": "تِلْكَ الرَّشِيقَةُ الْفَاتِنَةُ الدَّلاَلِ، الْكافِرَةُ كَبَنَاتِ الرُّومِ وَالإِفْرِنْجِ\nرَمَتْنِي بِزَوْجٍ مِنَ السِّهَامِ، فَقَتَلَتْنِي تِلْكَ الظَّالِمَةُ بِالجَمْرِ",
-    "english": "That lively and charming figure, a pagan beauty like those of Rome and Europe,\nStruck me with a pair of arrows; that cruel one has slain me with burning coals."
+    "arabic": "تِلْكَ الرَّشِيقَةُ الْفَاتِنَةُ الدَّلَالِ، الْكَافِرَةُ كَبَنَاتِ الرُّومِ وَالْإِفْرِنْجِ، رَمَتْنِي بِزَوْجٍ مِنَ السِّهَامِ، فَقَتَلَتْنِي تِلْكَ الظَّالِمَةُ بِالْجَمْرِ.",
+    "english": "That lively and charming figure, a pagan beauty like those of Rome and Europe, Struck me with a pair of arrows; that cruel one has slain me with burning coals."
   },
   {
     "stanza": 5,
     "kurdish_ar": "زالمێ کوشتم شەپالێ، نازکێ قەنجێ دەلالێ\nبوون حجابا زولف و خالێ، ئێدەک و عالا و تۆخ",
     "kurmanji_lat": "zalmê kuştim şepalê, nazkê qencê delalê\nbûn ḧicaba zulf û xalê, êdek û ’ala û tox",
-    "arabic": "قَتَلَتْنِي تِلْكَ الظَّالِمَةُ الرَّشِيقَةُ، الرَّقِيقَةُ الْحَسَنَةُ الدَّلاَلِ\nوَصَارَتْ ضَفَائِرُهَا وَشَامَتُهَا حِجَاباً وَأَعْلاَماً وَبَيَارِقَ",
-    "english": "That cruel, graceful one has slain me—the tender, fair, and beloved lady;\nHer tresses and beauty mark have become a veil, standard, and banner."
+    "arabic": "قَتَلَتْنِي تِلْكَ الظَّالِمَةُ الرَّشِيقَةُ، الرَّقِيقَةُ الْحَسَنَةُ الدَّلَالِ، وَصَارَتْ ضَفَائِرُهَا وَشَامَتُهَا حِجَاباً وَأَعْلَاماً وَبَيَارِقَ.",
+    "english": "That cruel, graceful one has slain me—the tender, fair, and beloved lady; Her tresses and beauty mark have become a veil, standard, and banner."
   },
   {
     "stanza": 6,
     "kurdish_ar": "نەترک و تایێن ب ڕیشی، ئێ د زێڕن پێڤە ویشی\nمن دو فێرس دین د بیشی، مروەت و ئنساف یۆخ!",
     "kurmanji_lat": "netirk û tayên bi řîşî, ê di zêřn pêve wîşî\nmin du fêrs dîn di bîşî, mirwet û insaf yox!",
-    "arabic": "الْقَلاَئِدُ وَالْخُيُوطُ الْمُزَيَّنَةُ بِالشَّرَّابَاتِ الَّتِي تُحِيطُ بِهَا حَلَقَاتُ الذَّهَبِ\nرَأَيْتُ فِي الْغَابَةِ فَارِسَيْنِ، لاَ مُرُوءَةَ لَدَيْهِمَا وَلاَ إِنْصَافَ!",
-    "english": "The golden ornaments and fringed strands with golden clusters hanging on them;\nI saw two horsemen in the thicket, but alas, they have neither mercy nor justice!"
+    "arabic": "الْقَلَائِدُ وَالْخُيُوطُ الْمُزَيَّنَةُ بِالشَّرَّابَاتِ الَّتِي تُحِيطُ بِهَا حَلَقَاتُ الذَّهَبِ، رَأَيْتُ فِي الْغَابَةِ فَارِسَيْنِ، لَا مُرُوءَةَ لَدَيْهِمَا وَلَا إِنْصَافَ!",
+    "english": "The golden ornaments and fringed strands with golden clusters hanging on them; I saw two horsemen in the thicket, but alas, they have neither mercy nor justice!"
   },
   {
     "stanza": 7,
     "kurdish_ar": "لەو هەڕفتم ئەز ژ مەیلێ، شوبهەتی سەهل و سوهەیلێ\nموحبەت و عشقا د لەیلێ، ئەز کرم یەکسەر پلۆخ",
     "kurmanji_lat": "lew heřiftim ez ji meylê, şubhetî sehil û suheylê\nmuḧbet û ’işqa di leylê, ez kirim yekser pilox",
-    "arabic": "فَلِذلِكَ انْهَرْتُ مِنَ الشَّوْقِ، كَسَهْلٍ يَهْوِي تَحْتَ سُهَيْلٍ\nوَمَحَبَّةُ لَيْلَى وَعِشْقُهَا جَعَلاَنِي مَسْحُوقاً بِالْكُليَّةِ",
-    "english": "So I collapsed from longing, like a plain beneath Canopus;\nThe love and passion for Layla have crushed me completely."
+    "arabic": "فَلِذَلِكَ انْهَرْتُ مِنَ الشَّوْقِ، كَسَهْلٍ يَهْوِي تَحْتَ سُهَيْلٍ، وَمَحَبَّةُ لَيْلَى وَعِشْقُهَا جَعَلَانِي مَسْحُوقاً بِالْكُلِّيَّةِ.",
+    "english": "So I collapsed from longing, like a plain beneath Canopus; The love and passion for Layla have crushed me completely."
   },
   {
     "stanza": 8,
     "kurdish_ar": "دەست نەهێلم ئەز ژ دینێ، شوبهی فەرهاد و شرینێ\nوەر ژ بەر عشق و ئەڤینێ، من د ڕێ چت ئەڤ کلۆخ",
     "kurmanji_lat": "dest nehêlim ez ji dînê, şubhî ferhad û şirînê\nwer ji ber ’işq û evînê, min di řê çit ev kilox",
-    "arabic": "لَنْ أَتَخَلَّى عَنْ هَذَا الدِّينِ (مَذْهَبِ الْعِشْقِ)، كَفَرْهَادَ وَشِيرِينَ\nفَلْيَذْهَبْ هَذَا الْجَسَدُ (الْجُلْمُودُ) فِدَاءً لِلْعِشْقِ وَالْمَحَبَّةِ فِي الطَّرِيقِ",
-    "english": "I shall not abandon the faith of love, like Farhad and Shirin;\nLet this body of mine be sacrificed on the path for the sake of love."
+    "arabic": "لَنْ أَتَخَلَّى عَنْ هَذَا الدِّينِ، كَفَرْهَادَ وَشِيرِينَ، فَلْيَذْهَبْ هَذَا الْجَسَدُ فِدَاءً لِلْعِشْقِ وَالْمَحَبَّةِ فِي الطَّرِيقِ.",
+    "english": "I shall not abandon the faith of love, like Farhad and Shirin; Let this body of mine be sacrificed on the path for the sake of love."
   },
   {
     "stanza": 9,
     "kurdish_ar": "سوحبەتا چەرخ و سەما تێ، وەک مەلێ سەد موبتەلا تێ\nزەمزەم و ئاڤا حەیاتێ، موشتەری سەد شەیخ و شۆخ",
     "kurmanji_lat": "suḧbeta çerx û sema tê, wek melê sed mubtela tê\nzemzem û ava ḧeyatê, muşterî sed şeyx û şox",
-    "arabic": "تَأْتِي حَلَقَةُ الذِّكْرِ وَالدَّوَرَانِ الـرُّوحِيِّ، وَيَأْتِي مِثْلُ الْمَلاَّ مِئَةُ مُبْتَلًى\nفَزَمْزَمُ وَمَاءُ الْحَيَاةِ يَشْتَرِيهِمَا مِئَةُ شَيْخٍ وَفَاتِنٍ",
-    "english": "The gathering of the celestial dance arrives, and a hundred afflicted souls like Melê come;\nThe water of Zamzam and the elixir of life are sought by a hundred sheikhs and beauties."
+    "arabic": "تَأْتِي حَلَقَةُ الذِّكْرِ وَالدَّوَرَانِ الرُّوحِيِّ، وَيَأْتِي مِثْلُ الْمُلَّا مِئَةُ مُبْتَلًى، فَزَمْزَمُ وَمَاءُ الْحَيَاةِ يَشْتَرِيهِمَا مِئَةُ شَيْخٍ وَفَاتِنٍ.",
+    "english": "The gathering of the celestial dance arrives, and a hundred afflicted souls like Melê come; The water of Zamzam and the elixir of life are sought by a hundred sheikhs and beauties."
   }
 ];
